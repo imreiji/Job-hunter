@@ -1,0 +1,32 @@
+# Which job boards to poll. Every entry is a public, no-auth ATS endpoint.
+# To add a company, find its careers page: URLs like boards.greenhouse.io/<slug>,
+# jobs.lever.co/<slug> or jobs.ashbyhq.com/<slug> give you the type and slug.
+sources:
+  - {type: greenhouse, slug: spacex, company: SpaceX}
+  - {type: greenhouse, slug: relativity, company: Relativity Space}
+  - {type: greenhouse, slug: rocketlab, company: Rocket Lab}
+  - {type: greenhouse, slug: astranis, company: Astranis}
+  - {type: greenhouse, slug: heartaerospace, company: Heart Aerospace}
+  - {type: lever, slug: merlinlabs, company: Merlin Labs}
+  - {type: lever, slug: shieldai, company: Shield AI}
+  - {type: lever, slug: hermeus, company: Hermeus}
+  - {type: ashby, slug: skydio, company: Skydio}
+  # Federal jobs (FAA, NTSB, Air Force civilian...). Needs USAJOBS_API_KEY and
+  # USAJOBS_EMAIL env vars (free key: https://developer.usajobs.gov/apirequest/).
+  # Skipped automatically when those are not set.
+  - {type: usajobs, keyword: aviation, company: USAJOBS}
+
+# Filters applied before anything is sent to DeepSeek. Matching is
+# case-insensitive substring. An empty include list means "everything".
+filters:
+  include_title_keywords: []      # e.g. [pilot, avionics, "flight test", mechanic, A&P, dispatcher]
+  exclude_title_keywords: [intern, internship, co-op, externship]
+  include_locations: []           # e.g. [remote, california, "united states"]
+
+matching:
+  model: deepseek-chat
+  # Caps API spend per run. Jobs over the cap stay "pending" and are
+  # evaluated on later runs.
+  max_evaluations_per_run: 40
+  # Characters of the job description sent to the model.
+  max_description_chars: 12000

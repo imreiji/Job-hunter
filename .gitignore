@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+_site/
+# Your real profile stays local; CI reads it from the CANDIDATE_PROFILE secret.
+profile.md
+.env

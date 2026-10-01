@@ -61,10 +61,15 @@ Air Canada (incl. Rouge, Cargo, ground handling), Jazz, Voyageur, WestJet / Enco
 PAL / Air Borealis / Provincial, Pacific Coastal, Harbour Air, KF Aerospace, Perimeter / Bearskin,
 Calm Air, Keewatin Air, Canadian North, Air North, Cargojet, Morningstar, Rise Air, Air Tindi,
 Central Mountain Air, Wasaya, Conair, Canadian Helicopters, Custom Helicopters, Carson Air,
-Kenn Borek, and ground handlers Swissport, Menzies and GAT.
+Kenn Borek.
 
-Aggregators cover the rest (Flair, Air Inuit, Ornge, Skyservice, Air Creebec, Propair, SkyCare...).
-Flair, Summit, Skyservice and Air Creebec block automated access to their own careers pages.
+Ground side: Swissport, Menzies, GAT, Alliance Ground (AGI), FedEx, UPS and DHL (cargo ramp / gateways),
+Integrated Deicing Services / Inland and Aeromag (de-icing, into-plane fuel), Chartright and Execaire
+(FBO line service), and airside jobs at the Toronto Pearson (GTAA), Vancouver, Calgary, Edmonton and
+Winnipeg airport authorities.
+
+Aggregators cover the rest (Air Inuit, Ornge, Skyservice, Million Air, EFC, Air Creebec, Propair, SkyCare...).
+Summit, Skyservice, Air Creebec, Aéroports de Montréal and Ledcor block automated access to their careers pages.
 
 ## Adding companies
 
@@ -78,5 +83,5 @@ Look at the company's careers page URL:
 | more Job Bank / LinkedIn / Eluta coverage | add search terms under that source's `searches` |
 
 Other supported board types (copy an existing entry in `config.yaml` as a template):
-`dayforce`, `ukg`, `adp`, `taleo`, `phenom`, `jibe`, `smartrecruiters`, `bamboohr`, `rippling`,
-`squarespace`, `rss`. Add `aliases:` when an operator posts under another name on aggregators.
+`dayforce`, `ukg`, `adp`, `workday`, `taleo`, `phenom`, `jibe`, `paradox`, `successfactors`, `radancy`,
+`smartrecruiters`, `bamboohr`, `rippling`, `squarespace`, `rss`. Add `aliases:` when an operator posts under another name on aggregators.

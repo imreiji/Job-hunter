@@ -42,23 +42,26 @@ def _place(*parts: str | None) -> str:
     return ", ".join(p.strip() for p in parts if p and p.strip())
 
 
-# --- Phenom (Air Canada) --------------------------------------------------------------------
+# --- Phenom (Air Canada, UPS, DHL) ---------------------------------------------------------
 
 def fetch_phenom(source: dict) -> list[dict]:
     host = source["host"]
-    base = {"lang": source.get("lang", "en_ca"), "deviceType": "desktop", "country": "ca", "siteType": "external"}
+    base = {"lang": source.get("lang", "en_ca"), "deviceType": "desktop", "country": source.get("site_country", "ca"),
+            "siteType": "external"}
+    # Job pages live at /{site country}/{language}/job/{jobId}, e.g. /ca/en/job/39852.
+    prefix = f"https://{host}/{base['country']}/{base['lang'].split('_')[0]}/job"
     jobs, start = [], 0
     while True:
         body = {**base, "pageName": "search-results", "ddoKey": "refineSearch", "from": start, "size": 50,
                 "jobs": True, "counts": True, "all_fields": ["category", "country", "state", "city", "type"],
-                "pageId": "page20", "keywords": "", "global": True, "locationData": {},
-                "selected_fields": {"country": [source.get("phenom_country", "CANADA")]}}
+                "pageId": "page20", "keywords": source.get("keywords", ""), "global": True, "locationData": {},
+                "selected_fields": source.get("selected_fields", {})}
         data = _post(f"https://{host}/widgets", body).json()["refineSearch"]
         page = data["data"]["jobs"]
         for j in page:
             seq = j["jobSeqNo"]
             job = _job(source, seq, j.get("title"), _place(j.get("city", "").title(), j.get("state", "").title()),
-                       f"https://{host}/ca/en/job/{j.get('jobId', seq)}", "", j.get("postedDate"))
+                       f"{prefix}/{j.get('jobId', seq)}", "", j.get("postedDate"))
             job["country"] = country_code(j.get("country"))
             job["fetch_description"] = lambda seq=seq: html_to_text(_post(
                 f"https://{host}/widgets", {**base, "pageName": "job", "ddoKey": "jobDetail", "jobSeqNo": seq}
@@ -67,6 +70,156 @@ def fetch_phenom(source: dict) -> list[dict]:
         start += len(page)
         if not page or start >= data["totalHits"]:
             return jobs
+
+
+def jsonld_description(url: str) -> str:
+    """Description from a page's schema.org JobPosting JSON-LD (FedEx, YVR, many career sites)."""
+    page = _get(url).text
+    for block in re.findall(r'<script[^>]*application/ld\+json[^>]*>(.*?)</script>', page, re.S):
+        try:
+            data = json.loads(block)
+        except ValueError:
+            continue
+        for item in data if isinstance(data, list) else [data]:
+            if isinstance(item, dict) and item.get("@type") == "JobPosting":
+                return html_to_text(item.get("description"))
+    return ""
+
+
+# --- Workday (Integrated Deicing Services / Inland, Alliance Ground) ------------------------
+
+def fetch_workday(source: dict) -> list[dict]:
+    host, tenant, site = source["host"], source["tenant"], source["site"]
+    api = f"https://{host}/wday/cxs/{tenant}/{site}"
+    body = {"appliedFacets": source.get("facets", {}), "limit": 20, "offset": 0,
+            "searchText": source.get("search", "")}
+    jobs = []
+    while True:
+        data = _post(f"{api}/jobs", body).json()
+        for p in data.get("jobPostings", []):
+            path = p["externalPath"]
+            job = _job(source, (p.get("bulletFields") or [path.rsplit("_", 1)[-1]])[0], p.get("title"),
+                       p.get("locationsText", ""), f"https://{host}/{site}{path}", "")
+            job["fetch_description"] = lambda path=path: html_to_text(
+                _get(f"{api}{path}").json()["jobPostingInfo"].get("jobDescription"))
+            jobs.append(job)
+        body["offset"] += 20
+        if not data.get("jobPostings") or body["offset"] >= data.get("total", 0):
+            return jobs
+
+
+# --- FedEx career site (Paradox) ------------------------------------------------------------
+
+def _preload_state(page: str) -> dict:
+    marker = "window.__PRELOAD_STATE__ ="
+    start = page.index(marker) + len(marker)
+    return json.JSONDecoder().raw_decode(page[start:].lstrip())[0]
+
+
+def _python_literal(value):
+    """Paradox returns some nested fields as Python-repr strings: "[{'city': 'Calgary', ...}]"."""
+    if isinstance(value, str) and value[:1] in "[{":
+        import ast
+        try:
+            return ast.literal_eval(value)
+        except (ValueError, SyntaxError):
+            return []
+    return value or []
+
+
+def fetch_paradox(source: dict) -> list[dict]:
+    host = source["host"]
+    jobs, seen, page = [], set(), 1
+    while True:
+        state = _preload_state(_get(f"https://{host}/jobs/page/{page}", params=source.get("params", {})).text)
+        search = state["jobSearch"]
+        for j in search["jobs"]:
+            if j["reference"] in seen:
+                continue
+            seen.add(j["reference"])
+            loc = (_python_literal(j.get("locations")) or [{}])[0]
+            url = f"https://{host}/{j['originalURL'].lstrip('/')}"
+            job = _job(source, j["reference"], j.get("title"), _place(loc.get("city"), loc.get("stateAbbr")), url, "")
+            job["country"] = country_code(loc.get("countryAbbr") or loc.get("country"))
+            job["fetch_description"] = lambda url=url: jsonld_description(url)
+            jobs.append(job)
+        if not search["jobs"] or page * 25 >= search.get("totalJob", 0):
+            return jobs
+        page += 1
+
+
+# --- SuccessFactors career site HTML (Innotech-Execaire FBO) --------------------------------
+
+def fetch_successfactors(source: dict) -> list[dict]:
+    base = source["url"].rstrip("/")  # e.g. https://careers.impgroup.com/Innotech-Execaire
+    origin = re.match(r"https://[^/]+", base).group(0)
+    jobs, start = [], 0
+    while True:
+        page = _get(f"{base}/search/", params={"q": "", "locale": "en_US", "startrow": start}).text
+        rows = re.findall(r'<tr class="data-row">(.*?)</tr>', page, re.S)
+        for row in rows:
+            link = re.search(r'href="([^"]+/(\d+)/)"[^>]*class="jobTitle-link">(.*?)</a>', row, re.S)
+            if not link:
+                continue
+            path, job_id, title = link.groups()
+            location = html_to_text((re.search(r'class="jobLocation">(.*?)</span>', row, re.S) or [None, ""])[1])
+            url = f"{origin}{path}"
+            job = _job(source, job_id, html_to_text(title), re.sub(r",\s*CA$", "", location), url, "")
+            job["country"] = "CA" if location.endswith(", CA") else ("US" if location.endswith(", US") else None)
+            job["fetch_description"] = lambda url=url: _first_html(
+                _get(url).text, r'<span class="jobdescription">(.*?)</span>\s*</div>') or jsonld_description(url)
+            jobs.append(job)
+        total = re.search(r"Results <b>[^<]*</b> of <b>(\d+)</b>", page)
+        start += len(rows)
+        if not rows or not total or start >= int(total.group(1)):
+            return jobs
+
+
+def _first_html(page: str, pattern: str) -> str:
+    m = re.search(pattern, page, re.S)
+    return html_to_text(m.group(1)) if m else ""
+
+
+# --- Radancy / TalentBrew (Vancouver Airport Authority) -------------------------------------
+
+def fetch_radancy(source: dict) -> list[dict]:
+    host = source["host"]
+    params = {"ActiveFacetID": 0, "CurrentPage": 1, "RecordsPerPage": 100, "Keywords": "", "Location": "",
+              "SearchResultsModuleName": "Search Results", "SearchFiltersModuleName": "Search Filters",
+              "SortCriteria": 0, "SortDirection": 0, "SearchType": 5}
+    html = _get(f"https://{host}/search-jobs/results", params=params,
+                headers={"X-Requested-With": "XMLHttpRequest"}).json()["results"]
+    jobs, seen = [], set()
+    for path, job_id, body in re.findall(r'href="(/job/[^"]+)" data-job-id="(\d+)">(.*?)</a>', html, re.S):
+        if job_id in seen:
+            continue
+        seen.add(job_id)
+        url = f"https://{host}{path}"
+        job = _job(source, job_id, _first_html(body, r"<h2>(.*?)</h2>"),
+                   _first_html(body, r'class="job-location">(.*?)</span>'), url, "")
+        job["fetch_description"] = lambda url=url: jsonld_description(url)
+        jobs.append(job)
+    return jobs
+
+
+# --- Aeromag (de-icing; WordPress page listing positions per airport) -----------------------
+
+def fetch_aeromag(source: dict) -> list[dict]:
+    base = source.get("url", "https://aeromag.ca/en/careers/")
+    page = _get(base).text
+    jobs, seen = [], set()
+    for href, airport, title in re.findall(r'href="([^"]*\?airport=([A-Z]{3})[^"]*)"[^>]*>(.*?)</a>', page, re.S):
+        if not airport.startswith("Y") or href in seen:  # Canadian airport codes start with Y
+            continue
+        seen.add(href)
+        url = href if href.startswith("http") else base + href
+        job = _job(source, f"{airport}-{href.split('?')[0].strip('/')}", html_to_text(title), airport, url.replace(" ", "%20"), "")
+        job["country"] = "CA"
+        job["fetch_description"] = lambda url=url: _first_html(re.sub(
+            r"<(script|style|nav|header|footer)\b.*?</\1>", "", _get(url.replace(" ", "%20")).text, flags=re.S),
+            r"<main.*?>(.*?)</main>").removeprefix("Back").strip()
+        jobs.append(job)
+    return jobs
 
 
 # --- Taleo career section REST (Jazz) -------------------------------------------------------
@@ -358,6 +511,11 @@ def fetch_rss(source: dict) -> list[dict]:
 
 FETCHERS = {
     "phenom": fetch_phenom,
+    "workday": fetch_workday,
+    "paradox": fetch_paradox,
+    "successfactors": fetch_successfactors,
+    "radancy": fetch_radancy,
+    "aeromag": fetch_aeromag,
     "taleo": fetch_taleo,
     "ukg": fetch_ukg,
     "adp": fetch_adp,

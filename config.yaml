@@ -35,8 +35,24 @@ sources:
   - {type: squarespace, slug: cma, company: Central Mountain Air, site: "https://www.flycma.com", collection: job-postings, country: CA}
   - {type: rss, slug: wasaya, company: Wasaya Airways, url: "https://wasaya.com/feed/?post_type=career", country: CA}
 
-  # ---- Aggregators: catch operators with no pollable board (Air Inuit, Ornge, Flair via
-  # GAT, Skyservice, Sunwest, Chrono, Pascan...).
+  # ---- Ground handling, cargo ramp, de-icing, fuel, FBO line service, airport authorities
+  - {type: paradox, slug: fedex, company: FedEx Canada, aliases: [Federal Express Canada], host: careers.fedex.com, params: {"filter[country]": Canada}}
+  - {type: phenom, slug: ups, company: UPS Canada, aliases: [UPS, United Parcel Service Canada], host: www.jobs-ups.com, lang: en_ca, site_country: ca}
+  - {type: phenom, slug: dhl, company: DHL Express Canada, aliases: [DHL Express], host: careers.dhl.com, lang: en_amer, site_country: amer, selected_fields: {country: [Canada]}}
+  - {type: workday, slug: inland, company: Integrated Deicing Services, aliases: [Inland Technologies, Inland Group], host: inlandgroup.wd10.myworkdayjobs.com, tenant: inlandgroup, site: inlandgroup, facets: {locationCountry: [a30a87ed25634629aa6c3958aa2b91ea]}, country: CA}
+  - {type: workday, slug: agi, company: Alliance Ground International, host: allianceground.wd1.myworkdayjobs.com, tenant: allianceground, site: AGI_Careers, facets: {Country: [a30a87ed25634629aa6c3958aa2b91ea]}, country: CA}
+  - {type: aeromag, slug: aeromag, company: Aeromag}
+  - {type: adp, slug: flair, company: Flair Airlines, cid: b969f000-deee-43ae-b41e-ea6f47ea7487, ccid: "19000101_000001", country: CA}
+  - {type: adp, slug: chartright, company: Chartright Air Group, cid: 7ea870be-b6a1-44b8-ad4c-1e7250f907d6, ccid: "19000101_000001", country: CA}
+  - {type: successfactors, slug: execaire, company: Execaire Aviation, aliases: [Innotech-Execaire, IMP Group], url: "https://careers.impgroup.com/Innotech-Execaire"}
+  - {type: ukg, slug: gtaa, company: Toronto Pearson (GTAA), aliases: [Greater Toronto Airports Authority], host: recruiting.ultipro.ca, tenant: GRE5001GRAT, board: f3ff6021-0c43-4d9f-a20d-4f8139a89507, country: CA}
+  - {type: radancy, slug: yvr, company: Vancouver Airport Authority, host: careers.yvr.ca, country: CA}
+  - {type: dayforce, slug: yyc, company: Calgary Airport Authority, namespace: yyc, boards: [CANDIDATEPORTAL]}
+  - {type: dayforce, slug: yeg, company: Edmonton Airports, namespace: hrconnect, boards: [CANDIDATEPORTAL]}
+  - {type: dayforce, slug: ywg, company: Winnipeg Airports Authority, namespace: waainc, boards: [CANDIDATEPORTAL]}
+
+  # ---- Aggregators: catch employers with no pollable board (Air Inuit, Ornge, Skyservice,
+  # Million Air, EFC, Sunwest, Chrono, Pascan...).
   # Government of Canada Job Bank: aggregates postings from many boards, including
   # small operators with no careers API. Each search reads the newest ~25 results.
   - type: jobbank
@@ -118,6 +134,12 @@ filters:
     - crew chief
     - warehouse agent
     - de-ic
+    - deic
+    - apron
+    - airside
+    - airfield
+    - gateway
+    - dangerous goods
     # French titles
     - premier officier
     - commandant de bord

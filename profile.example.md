@@ -5,10 +5,10 @@ contents into the `CANDIDATE_PROFILE` repository secret for CI runs.
 The more concrete this is, the better the matching.
 
 ## Target roles
-- e.g. First Officer (regional/Part 135), Flight Test Engineer, Avionics Technician
+- e.g. First Officer (703/704/705 operator), Flight Dispatcher, Ramp Agent
 
 ## Certificates & ratings
-- e.g. Commercial Pilot, ASEL/AMEL, Instrument; CFI/CFII; A&P; FCC GROL
+- e.g. Transport Canada CPL (A), multi-engine, Group 1 IFR, night, float; ROC-A radio licence
 
 ## Flight experience
 - Total time: 
@@ -18,7 +18,7 @@ The more concrete this is, the better the matching.
 - Type ratings: 
 
 ## Medical
-- e.g. FAA First Class, valid until 2027-05
+- e.g. Transport Canada Category 1, valid until 2027-05
 
 ## Education
 - e.g. B.S. Aerospace Engineering, 2023
@@ -27,10 +27,12 @@ The more concrete this is, the better the matching.
 - Role, company, dates — key responsibilities and tools
 
 ## Skills
-- e.g. MATLAB, Python, DO-178C, CATIA, ARINC 429, composite repair
+- e.g. ground support equipment, de-icing, dangerous goods training, weight & balance, French
 
 ## Work authorization & clearance
-- e.g. U.S. citizen (ITAR eligible); no active clearance, eligible to obtain
+- e.g. Canadian permanent resident; NOT authorized to work in the US
+- Transportation Security Clearance (TSC): held / eligible
+- Driver's licence: e.g. Ontario G, clean abstract
 
 ## Preferences / dealbreakers
 - Locations:

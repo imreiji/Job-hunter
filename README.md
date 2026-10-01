@@ -1,13 +1,13 @@
 # Job Hunter ✈️
 
-Polls aviation and aerospace job boards every few hours. DeepSeek screens each new posting
+Polls Canadian aviation job boards every few hours for pilot, flight dispatcher, and ramp / ground-handling roles. DeepSeek screens each new posting
 against your profile, and every posting goes on a filterable webpage hosted on GitHub Pages.
 
 ```
 GitHub Actions (cron, every 4h)
   └─ jobhunter.main
-       ├─ sources.py   fetch Greenhouse / Lever / Ashby / USAJOBS boards from config.yaml
-       ├─ filters      title/location keywords (config.yaml), so only relevant jobs cost API calls
+       ├─ sources.py   fetch Job Bank (Canada) + Greenhouse / Lever / Ashby / USAJOBS boards from config.yaml
+       ├─ filters      role keywords + `country: canada` (config.yaml), so only relevant jobs cost API calls
        ├─ matcher.py   DeepSeek → score 0-100, verdict, met / missing / dealbreakers
        ├─ data/jobs.json   history of every posting (first seen, closed, evaluation), committed back
        └─ _site/       web/index.html + jobs.json → GitHub Pages
@@ -15,16 +15,15 @@ GitHub Actions (cron, every 4h)
 
 ## Setup
 
-1. **Profile.** Copy `profile.example.md` and fill it in. Be specific about certificates, hours,
-   medical, clearance, and citizenship, because those are what aviation postings gate on.
+1. **Profile.** Copy `profile.example.md` and fill it in. Be specific about licences, hours, medical,
+   TSC / airport pass, driver's licence, and work authorization, because those are what postings gate on.
 2. **Repository secrets** (Settings → Secrets and variables → Actions):
    - `DEEPSEEK_API_KEY`: from https://platform.deepseek.com
    - `CANDIDATE_PROFILE`: the full text of your filled-in profile
    - optional `USAJOBS_API_KEY` + `USAJOBS_EMAIL` for federal jobs (FAA, NTSB, DoD civilian)
 3. **Pages:** Settings → Pages → Source: *GitHub Actions*.
-4. **Filters:** set `include_title_keywords` in `config.yaml` to your target roles. Without it,
-   every posting is evaluated (thousands at SpaceX alone), which burns through the
-   per-run cap slowly.
+4. **Filters:** `config.yaml` targets pilot / dispatcher / ramp titles located in Canada.
+   Edit `include_title_keywords`, `exclude_title_keywords`, and the Job Bank `searches` to tune.
 5. Run it from the Actions tab (*Poll jobs → Run workflow*), or wait for the schedule.
 
 > **Privacy:** on a public repo, the Pages site and `data/jobs.json` are public too, and the
@@ -60,6 +59,7 @@ Look at the company's careers page URL:
 | `boards.greenhouse.io/<slug>` or `job-boards.greenhouse.io/<slug>` | `{type: greenhouse, slug: <slug>, company: Name}` |
 | `jobs.lever.co/<slug>` | `{type: lever, slug: <slug>, company: Name}` |
 | `jobs.ashbyhq.com/<slug>` | `{type: ashby, slug: <slug>, company: Name}` |
+| anything on Job Bank | add a search term under the `jobbank` source's `searches` |
 
 Airlines and large OEMs (Boeing, Delta, United…) mostly use Workday or custom portals, which
 aren't supported yet.

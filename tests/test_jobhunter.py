@@ -65,3 +65,54 @@ def test_parse_result_normalizes_output():
 def test_parse_result_rejects_bad_output(raw):
     with pytest.raises(matcher.MatchError):
         matcher.parse_result(raw)
+
+
+JOBBANK_HTML = """<html><article id="article-50232102" class="action-buttons"><a href="/x" class="resultJobItem">
+  <h3 class="title"><span class="flag"></span>
+    <span class="noctitle"> ramp agent - air transport
+    </span></h3>
+  <ul class="list-unstyled"><li class="date">September 06, 2026</li>
+    <li class="business">Jazz Aviation LP</li>
+    <li class="location"><span class="fas fa-map-marker-alt" aria-hidden="true"></span> <span class="wb-inv">Location</span>
+        Victoria (BC)
+    </li></ul></a></article></html>"""
+
+
+class FakeResponse:
+    def __init__(self, text):
+        self.text = text
+
+    def raise_for_status(self):
+        pass
+
+
+def test_jobbank_parses_search_results_and_dedupes(monkeypatch):
+    monkeypatch.setattr(sources.http, "get", lambda *a, **kw: FakeResponse(JOBBANK_HTML))
+    jobs = sources.fetch_jobbank({"type": "jobbank", "slug": "jobbank", "company": "Job Bank",
+                                  "searches": ["ramp agent", "baggage handler"]})
+    assert len(jobs) == 1  # same posting returned by both searches
+    j = jobs[0]
+    assert (j["id"], j["company"], j["title"], j["location"]) == (
+        "jobbank:jobbank:50232102", "Jazz Aviation LP", "ramp agent - air transport", "Victoria (BC)")
+    assert j["url"].endswith("/jobposting/50232102")
+
+
+@pytest.mark.parametrize("location,expected", [
+    ("Toronto, ON", True), ("Victoria (BC)", True), ("Montréal, Québec, Canada", True),
+    ("Remote - Canada", True), ("Hawthorne, CA", False), ("Seattle, WA", False), ("", False),
+])
+def test_country_filter(location, expected):
+    assert main.passes_filters(job("a", location=location), {"country": "canada"}) is expected
+
+
+def test_merge_never_stores_run_only_fields():
+    store = {"jobs": []}
+    main.merge(store, [{**job("jobbank:jobbank:1"), "fetch_description": lambda: "x"}], set(), "t")
+    assert set(main.LOCAL_FIELDS).isdisjoint(store["jobs"][0])
+
+
+def test_prune_drops_removed_sources_and_filtered_jobs():
+    store = {"jobs": [job("greenhouse:spacex:1"), job("jobbank:jobbank:2", title="Pilot"),
+                      job("jobbank:jobbank:3", title="Cashier")]}
+    removed = main.prune(store, {"jobbank:jobbank"}, {"include_title_keywords": ["pilot"]})
+    assert removed == 2 and [j["id"] for j in store["jobs"]] == ["jobbank:jobbank:2"]

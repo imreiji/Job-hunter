@@ -8,6 +8,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import shutil
 from datetime import datetime, timezone
 from pathlib import Path
@@ -32,6 +33,14 @@ def load_profile() -> str | None:
     return path.read_text() if path.exists() else None
 
 
+PROVINCES = ("alberta|british columbia|manitoba|new brunswick|newfoundland|labrador|nova scotia|"
+             "northwest territories|nunavut|ontario|prince edward island|qu[eé]bec|saskatchewan|yukon")
+# Province names in any case, or two-letter codes in capitals ("Toronto, ON", "Victoria (BC)").
+CANADA = re.compile(rf"(?i:\bcanada\b|\b(?:{PROVINCES})\b)|\b(?:AB|BC|MB|NB|NL|NS|NT|NU|ON|PE|PEI|QC|SK|YT)\b")
+COUNTRY_PATTERNS = {"canada": CANADA}
+LOCAL_FIELDS = ("description", "fetch_description")  # used during a run, never stored
+
+
 def passes_filters(job: dict, filters: dict) -> bool:
     title, location = job["title"].lower(), job["location"].lower()
     include = [k.lower() for k in filters.get("include_title_keywords") or []]
@@ -42,6 +51,9 @@ def passes_filters(job: dict, filters: dict) -> bool:
     if any(k in title for k in exclude):
         return False
     if locations and not any(k in location for k in locations):
+        return False
+    country = filters.get("country")
+    if country and not COUNTRY_PATTERNS[country.lower()].search(job["location"]):
         return False
     return True
 
@@ -60,7 +72,7 @@ def merge(store: dict, fetched: list[dict], polled_prefixes: set[str], ts: str) 
     new = []
     for job in fetched:
         fetched_ids.add(job["id"])
-        record = {k: v for k, v in job.items() if k != "description"}
+        record = {k: v for k, v in job.items() if k not in LOCAL_FIELDS}
         if job["id"] in by_id:
             existing = by_id[job["id"]]
             existing.update(record)
@@ -80,6 +92,18 @@ def merge(store: dict, fetched: list[dict], polled_prefixes: set[str], ts: str) 
     return new
 
 
+def source_name(source: dict) -> str:
+    return f"{source['type']}:{source.get('slug') or source.get('keyword')}"
+
+
+def prune(store: dict, configured: set[str], filters: dict) -> int:
+    """Drop stored jobs whose source was removed from config or that fail the current filters."""
+    before = len(store["jobs"])
+    store["jobs"] = [j for j in store["jobs"]
+                     if j["id"].rsplit(":", 1)[0] in configured and passes_filters(j, filters)]
+    return before - len(store["jobs"])
+
+
 def needs_evaluation(job: dict, profile_hash: str) -> bool:
     ev = job.get("evaluation")
     return job.get("active") and (not ev or ev.get("profile_hash") != profile_hash)
@@ -92,9 +116,13 @@ def run(config_path: Path, do_eval: bool) -> None:
     store = load_store()
     ts = now()
 
+    removed = prune(store, {source_name(s) for s in config["sources"]}, filters)
+    if removed:
+        print(f"removed {removed} stored postings no longer covered by config.yaml")
+
     fetched, polled, descriptions = [], set(), {}
     for source in config["sources"]:
-        name = f"{source['type']}:{source.get('slug') or source.get('keyword')}"
+        name = source_name(source)
         try:
             jobs = sources.fetch(source)
         except Exception as e:  # one broken board shouldn't stop the run
@@ -122,9 +150,12 @@ def run(config_path: Path, do_eval: bool) -> None:
         queue.sort(key=lambda j: j["first_seen"], reverse=True)
         limit = int(match_cfg.get("max_evaluations_per_run", 40))
         for job in queue[:limit]:
+            posting = descriptions[job["id"]]
             try:
+                if not posting["description"] and posting.get("fetch_description"):
+                    posting["description"] = posting["fetch_description"]()
                 result = matcher.evaluate(
-                    profile, descriptions[job["id"]],
+                    profile, posting,
                     model=match_cfg.get("model", "deepseek-chat"),
                     max_chars=int(match_cfg.get("max_description_chars", 12000)),
                 )

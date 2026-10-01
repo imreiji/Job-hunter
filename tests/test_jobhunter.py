@@ -128,3 +128,37 @@ def test_merge_folds_same_posting_from_another_source():
     assert [j["id"] for j in new] == ["linkedin:linkedin:1", "eluta:eluta:y", "linkedin:linkedin:2"]
     first = next(j for j in store["jobs"] if j["id"] == "linkedin:linkedin:1")
     assert first["also_listed"] == [{"source": "eluta", "url": "https://x"}]
+
+
+def test_country_filter_prefers_structured_country():
+    f = {"country": "canada"}
+    assert main.passes_filters({**job("a", location="Thunder Bay"), "country": "CA"}, f)
+    assert not main.passes_filters({**job("a", location="Ontario, CA"), "country": "US"}, f)
+
+
+def test_job_ids_never_contain_extra_colons():
+    j = sources._job({"type": "rss", "slug": "wasaya", "company": "Wasaya"}, "https://w.com/?p=1", "t", "", "", "")
+    assert j["id"].count(":") == 2
+
+
+def test_aggregator_copies_of_directly_polled_operators_are_dropped():
+    companies = main.direct_companies([{"type": "phenom", "company": "Air Canada"},
+                                       {"type": "ukg", "company": "Canadian North"},
+                                       {"type": "jobbank", "company": "Job Bank"}])
+    agg = lambda company: {**job("eluta:eluta:1"), "company": company}
+    assert main.polled_directly(agg("Air Canada Rouge"), companies)
+    assert main.polled_directly(agg("Canadian North Inc."), companies)
+    assert not main.polled_directly(agg("Canadian Helicopters Limited"), companies)
+    assert not main.polled_directly(agg("Air Inuit"), companies)
+    assert not main.polled_directly({**job("ukg:x:1"), "company": "Air Canada"}, companies)  # direct source
+
+
+def test_posting_key_ignores_accents():
+    assert main.posting_key(job("a", "Préposé", "Québec QC")) == ("prepose", "quebec")
+
+
+def test_ats_helpers():
+    from jobhunter import ats
+    assert ats._taleo_location('["CA-QC-Montréal"]') == ("Montréal, QC", "CA")
+    assert ats.country_code("CAN") == "CA" and ats.country_code("ca") == "CA" and ats.country_code(None) is None
+    assert ats._place("Winnipeg", None, " MB ") == "Winnipeg, MB"

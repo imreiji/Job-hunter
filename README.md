@@ -6,7 +6,9 @@ against your profile, and every posting goes on a filterable webpage hosted on G
 ```
 GitHub Actions (cron, every 4h)
   └─ jobhunter.main
-       ├─ sources.py   fetch Job Bank, LinkedIn (public search), Eluta.ca + any Greenhouse / Lever / Ashby boards
+       ├─ ats.py       ~30 Canadian operators' own boards (Dayforce, UKG, ADP, Taleo, Phenom, iCIMS,
+       │               SmartRecruiters, BambooHR, Rippling, Greenhouse, RSS...)
+       ├─ sources.py   aggregators: Job Bank, LinkedIn (public search), Eluta.ca
        ├─ filters      role keywords + `country: canada` (config.yaml), so only relevant jobs cost API calls
        ├─ matcher.py   DeepSeek → score 0-100, verdict, met / missing / dealbreakers
        ├─ data/jobs.json   history of every posting (first seen, closed, evaluation), committed back
@@ -52,6 +54,18 @@ pytest
 - **Closed postings** are marked *closed* (not deleted) once their board stops listing them. A board
   that errors during a run never closes its jobs.
 
+## Sources
+
+Operators polled directly (their board is authoritative, so aggregator copies of their jobs are dropped):
+Air Canada (incl. Rouge, Cargo, ground handling), Jazz, Voyageur, WestJet / Encore, Porter, Air Transat,
+PAL / Air Borealis / Provincial, Pacific Coastal, Harbour Air, KF Aerospace, Perimeter / Bearskin,
+Calm Air, Keewatin Air, Canadian North, Air North, Cargojet, Morningstar, Rise Air, Air Tindi,
+Central Mountain Air, Wasaya, Conair, Canadian Helicopters, Custom Helicopters, Carson Air,
+Kenn Borek, and ground handlers Swissport, Menzies and GAT.
+
+Aggregators cover the rest (Flair, Air Inuit, Ornge, Skyservice, Air Creebec, Propair, SkyCare...).
+Flair, Summit, Skyservice and Air Creebec block automated access to their own careers pages.
+
 ## Adding companies
 
 Look at the company's careers page URL:
@@ -63,5 +77,6 @@ Look at the company's careers page URL:
 | `jobs.ashbyhq.com/<slug>` | `{type: ashby, slug: <slug>, company: Name}` |
 | more Job Bank / LinkedIn / Eluta coverage | add search terms under that source's `searches` |
 
-Airlines and large OEMs (Boeing, Delta, United…) mostly use Workday or custom portals, which
-aren't supported yet.
+Other supported board types (copy an existing entry in `config.yaml` as a template):
+`dayforce`, `ukg`, `adp`, `taleo`, `phenom`, `jibe`, `smartrecruiters`, `bamboohr`, `rippling`,
+`squarespace`, `rss`. Add `aliases:` when an operator posts under another name on aggregators.

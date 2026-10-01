@@ -2,6 +2,41 @@
 # To add a company, find its careers page: URLs like boards.greenhouse.io/<slug>,
 # jobs.lever.co/<slug> or jobs.ashbyhq.com/<slug> give you the type and slug.
 sources:
+  # ---- Operators' own job boards (checked first, so their link wins over aggregator copies).
+  # `aliases` are other names the operator posts under on aggregators.
+  # `country: CA` marks boards that only list Canadian jobs but don't say so per posting.
+  - {type: phenom, slug: aircanada, company: Air Canada, host: careers.aircanada.com}
+  - {type: taleo, slug: jazz, company: Jazz Aviation, host: aviationcareers.ca, portal: "101430233"}
+  - {type: ukg, slug: cargojet, company: Cargojet, host: recruiting.ultipro.ca, tenant: CAR5000CJT, board: 3bdb0a52-04dc-4fa4-91cd-d80afd88843d, country: CA}
+  - {type: ukg, slug: canadiannorth, company: Canadian North, host: recruiting.ultipro.ca, tenant: BRA50007F, board: 2ea5e84a-bfc4-4167-88ba-20d03547d410, country: CA}
+  - {type: ukg, slug: voyageur, company: Voyageur Aviation, host: recruiting.ultipro.ca, tenant: VOY5000VOYA, board: f10caa44-16c9-4114-8459-9170e6cc9b39, country: CA}
+  - {type: ukg, slug: menzies, company: Menzies Aviation, host: recruiting2.ultipro.com, tenant: MEN1002MENZI, board: c62dfe4d-64ad-4642-8cd0-17a30715a697}
+  - {type: adp, slug: pal, company: PAL Airlines, aliases: [Air Borealis, Provincial Airlines, PAL Aerospace], cid: 06351502-0666-4c6f-9a0b-165c5faeab35, ccid: "19000101_000001", country: CA}
+  - {type: adp, slug: harbourair, company: Harbour Air, cid: a6e23444-8323-4a76-810f-89467dcb07d8, ccid: "19000101_000001", country: CA}
+  - {type: adp, slug: kf, company: KF Aerospace, aliases: [Kelowna Flightcraft], cid: fff0454c-0896-41cf-9ea1-9a2682949c42, ccid: "1586553120746042_1039", country: CA}
+  - {type: dayforce, slug: westjet, company: WestJet, namespace: WestJet, boards: [CANDIDATEPORTAL]}
+  - {type: dayforce, slug: gat, company: GAT Airline Ground Support, namespace: wearegat, boards: [candidateportal]}
+  - {type: dayforce, slug: pacificcoastal, company: Pacific Coastal Airlines, namespace: pasco, boards: [PCACLIENTCAREERSSITE]}
+  - {type: dayforce, slug: perimeter, company: Perimeter Aviation, namespace: perimeteravi, boards: [All-Jobs, Pilots]}
+  - {type: dayforce, slug: calmair, company: Calm Air, namespace: calmair, boards: [CANDIDATEPORTAL]}
+  - {type: dayforce, slug: keewatin, company: Keewatin Air, namespace: keewatinair, boards: [ALLJOBS]}
+  - {type: dayforce, slug: conair, company: Conair, namespace: conair, boards: [CANDIDATEPORTAL]}
+  - {type: dayforce, slug: customheli, company: Custom Helicopters, namespace: customheli, boards: [CANDIDATEPORTAL]}
+  - {type: dayforce, slug: carsonair, company: Carson Air, namespace: carsonair, boards: [carson-cargo-opportunities, carson-medevac-opportunities]}
+  - {type: jibe, slug: porter, company: Porter Airlines, host: careers.flyporter.com}
+  - {type: jibe, slug: swissport, company: Swissport, host: careers.swissport.com, params: {country: Canada}}
+  - {type: smartrecruiters, slug: transat, company: Air Transat, company_id: TransatAT1}
+  - {type: smartrecruiters, slug: canadianhelicopters, company: Canadian Helicopters, company_id: CanadianHelicopters}
+  - {type: smartrecruiters, slug: kennborek, company: Kenn Borek Air, company_id: KennBorekAir}
+  - {type: greenhouse, slug: airnorth, company: Air North, country: CA}
+  - {type: bamboohr, slug: airtindi, company: Air Tindi, country: CA}
+  - {type: bamboohr, slug: maei, company: Morningstar Air Express, country: CA}
+  - {type: rippling, slug: riseair, company: Rise Air}
+  - {type: squarespace, slug: cma, company: Central Mountain Air, site: "https://www.flycma.com", collection: job-postings, country: CA}
+  - {type: rss, slug: wasaya, company: Wasaya Airways, url: "https://wasaya.com/feed/?post_type=career", country: CA}
+
+  # ---- Aggregators: catch operators with no pollable board (Air Inuit, Ornge, Flair via
+  # GAT, Skyservice, Sunwest, Chrono, Pascan...).
   # Government of Canada Job Bank: aggregates postings from many boards, including
   # small operators with no careers API. Each search reads the newest ~25 results.
   - type: jobbank
@@ -74,7 +109,26 @@ filters:
     - load control
     - below wing
     - cargo agent
-    - customer service agent - airport
+    - cargo handler
+    - hangar attendant
+    - refuel
+    - fueller
+    - fueler
+    - line service
+    - crew chief
+    - warehouse agent
+    - de-ic
+    # French titles
+    - premier officier
+    - commandant de bord
+    - régulateur de vol
+    - regulateur de vol
+    - répartiteur
+    - suivi de vol
+    - préposé
+    - manutentionnaire
+    - bagages
+    - aire de trafic
   exclude_title_keywords:
     - intern
     - co-op

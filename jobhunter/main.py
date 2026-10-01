@@ -10,6 +10,7 @@ import json
 import os
 import re
 import shutil
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -38,6 +39,7 @@ PROVINCES = ("alberta|british columbia|manitoba|new brunswick|newfoundland|labra
 # Province names in any case, or two-letter codes in capitals ("Toronto, ON", "Victoria (BC)").
 CANADA = re.compile(rf"(?i:\bcanada\b|\b(?:{PROVINCES})\b)|\b(?:AB|BC|MB|NB|NL|NS|NT|NU|ON|PE|PEI|QC|SK|YT)\b")
 COUNTRY_PATTERNS = {"canada": CANADA}
+COUNTRY_ISO = {"canada": "CA"}
 LOCAL_FIELDS = ("description", "fetch_description")  # used during a run, never stored
 
 
@@ -52,9 +54,13 @@ def passes_filters(job: dict, filters: dict) -> bool:
         return False
     if locations and not any(k in location for k in locations):
         return False
-    country = filters.get("country")
-    if country and not COUNTRY_PATTERNS[country.lower()].search(job["location"]):
-        return False
+    country = (filters.get("country") or "").lower()
+    if country:
+        if job.get("country"):  # structured country from the board beats parsing the location text
+            if job["country"].upper() != COUNTRY_ISO[country]:
+                return False
+        elif not COUNTRY_PATTERNS[country].search(job["location"]):
+            return False
     return True
 
 
@@ -68,8 +74,12 @@ COMPANY_NOISE = {"the", "inc", "ltd", "llc", "lp", "corp", "corporation", "limit
                  "airline", "aviation", "aerospace", "canada", "services", "international", "and", "of"}
 
 
+AGGREGATORS = {"jobbank", "linkedin", "eluta"}
+
+
 def _words(text: str) -> list[str]:
-    return re.findall(r"[a-z0-9]+", text.lower())
+    plain = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()  # Québec -> Quebec
+    return re.findall(r"[a-z0-9]+", plain.lower())
 
 
 def posting_key(job: dict) -> tuple[str, str]:
@@ -79,6 +89,27 @@ def posting_key(job: dict) -> tuple[str, str]:
 
 def company_tokens(job: dict) -> set[str]:
     return {w for w in _words(job["company"]) if len(w) > 2 and w not in COMPANY_NOISE} or set(_words(job["company"]))
+
+
+LEGAL_SUFFIXES = {"the", "inc", "ltd", "llc", "lp", "corp", "corporation", "limited", "ltee"}
+
+
+def name_tokens(company: str) -> set[str]:
+    return set(_words(company)) - LEGAL_SUFFIXES
+
+
+def direct_companies(sources_cfg: list[dict]) -> list[set[str]]:
+    return [name_tokens(name) for s in sources_cfg if s["type"] not in AGGREGATORS
+            for name in [s["company"], *s.get("aliases", [])]]
+
+
+def polled_directly(job: dict, companies: list[set[str]]) -> bool:
+    """An aggregator copy of a job from an operator whose own board we poll ("Air Canada Rouge"
+    covered by "Air Canada"). The operator's board is complete, so the copy adds nothing."""
+    if job["id"].split(":", 1)[0] not in AGGREGATORS:
+        return False
+    tokens = name_tokens(job["company"])
+    return any(c and c <= tokens for c in companies)
 
 
 def find_duplicate(job: dict, index: dict) -> dict | None:
@@ -131,11 +162,13 @@ def source_name(source: dict) -> str:
     return f"{source['type']}:{source.get('slug') or source.get('keyword')}"
 
 
-def prune(store: dict, configured: set[str], filters: dict) -> int:
-    """Drop stored jobs whose source was removed from config or that fail the current filters."""
+def prune(store: dict, configured: set[str], filters: dict, companies: list[set[str]] = ()) -> int:
+    """Drop stored jobs whose source was removed from config, that fail the current filters,
+    or whose operator is now polled directly."""
     before = len(store["jobs"])
     store["jobs"] = [j for j in store["jobs"]
-                     if j["id"].rsplit(":", 1)[0] in configured and passes_filters(j, filters)]
+                     if j["id"].rsplit(":", 1)[0] in configured and passes_filters(j, filters)
+                     and not polled_directly(j, companies)]
     return before - len(store["jobs"])
 
 
@@ -151,7 +184,8 @@ def run(config_path: Path, do_eval: bool) -> None:
     store = load_store()
     ts = now()
 
-    removed = prune(store, {source_name(s) for s in config["sources"]}, filters)
+    companies = direct_companies(config["sources"])
+    removed = prune(store, {source_name(s) for s in config["sources"]}, filters, companies)
     if removed:
         print(f"removed {removed} stored postings no longer covered by config.yaml")
 
@@ -166,7 +200,7 @@ def run(config_path: Path, do_eval: bool) -> None:
         if source["type"] == "usajobs" and not jobs and not os.environ.get("USAJOBS_API_KEY"):
             continue
         polled.add(name)
-        kept = [j for j in jobs if passes_filters(j, filters)]
+        kept = [j for j in jobs if passes_filters(j, filters) and not polled_directly(j, companies)]
         print(f"{name}: {len(jobs)} postings, {len(kept)} after filters")
         fetched.extend(kept)
         descriptions.update({j["id"]: j for j in kept})

@@ -54,7 +54,7 @@ def html_to_text(raw: str | None) -> str:
 
 def _job(source: dict, job_id, title, location, url, description, posted=None) -> dict:
     return {
-        "id": f"{source['type']}:{source.get('slug') or source.get('keyword')}:{job_id}",
+        "id": f"{source['type']}:{source.get('slug') or source.get('keyword')}:{str(job_id).replace(':', '_')}",
         "company": source["company"],
         "title": (title or "").strip(),
         "location": (location or "").strip(),
@@ -272,4 +272,11 @@ FETCHERS = {
 
 
 def fetch(source: dict) -> list[dict]:
-    return FETCHERS[source["type"]](source)
+    from .ats import FETCHERS as ATS_FETCHERS  # ats imports this module
+
+    jobs = {**FETCHERS, **ATS_FETCHERS}[source["type"]](source)
+    for job in jobs:
+        # Boards that only list jobs in one country declare it in config.yaml.
+        if not job.get("country") and source.get("country"):
+            job["country"] = source["country"]
+    return jobs

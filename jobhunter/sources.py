@@ -52,13 +52,15 @@ def html_to_text(raw: str | None) -> str:
     return re.sub(r"\n\s*\n+", "\n\n", text).strip()
 
 
-def _job(source: dict, job_id, title, location, url, description, posted=None) -> dict:
+def _job(source: dict, job_id, title, location, url, description, posted=None, apply_url=None) -> dict:
     return {
         "id": f"{source['type']}:{source.get('slug') or source.get('keyword')}:{str(job_id).replace(':', '_')}",
         "company": source["company"],
         "title": (title or "").strip(),
         "location": (location or "").strip(),
         "url": url,
+        # Straight to the application form where the board exposes one; the posting otherwise.
+        "apply_url": apply_url or url,
         "description": description,
         "posted": posted,
     }
@@ -91,7 +93,8 @@ def fetch_lever(source: dict) -> list[dict]:
             from datetime import datetime, timezone
             posted = datetime.fromtimestamp(created / 1000, tz=timezone.utc).isoformat()
         jobs.append(_job(source, j["id"], j.get("text"), (j.get("categories") or {}).get("location"),
-                         j.get("hostedUrl"), "\n\n".join(p for p in parts if p).strip(), posted))
+                         j.get("hostedUrl"), "\n\n".join(p for p in parts if p).strip(), posted,
+                         j.get("applyUrl") or f"{j.get('hostedUrl')}/apply"))
     return jobs
 
 
@@ -101,7 +104,8 @@ def fetch_ashby(source: dict) -> list[dict]:
     r.raise_for_status()
     return [
         _job(source, j["id"], j.get("title"), j.get("location"), j.get("jobUrl"),
-             j.get("descriptionPlain") or html_to_text(j.get("descriptionHtml")), j.get("publishedAt"))
+             j.get("descriptionPlain") or html_to_text(j.get("descriptionHtml")), j.get("publishedAt"),
+             j.get("applyUrl") or f"{j.get('jobUrl')}/application")
         for j in r.json().get("jobs", [])
         if j.get("isListed", True)
     ]

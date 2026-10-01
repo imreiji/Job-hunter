@@ -61,7 +61,7 @@ def fetch_phenom(source: dict) -> list[dict]:
         for j in page:
             seq = j["jobSeqNo"]
             job = _job(source, seq, j.get("title"), _place(j.get("city", "").title(), j.get("state", "").title()),
-                       f"{prefix}/{j.get('jobId', seq)}", "", j.get("postedDate"))
+                       f"{prefix}/{j.get('jobId', seq)}", "", j.get("postedDate"), j.get("applyUrl"))
             job["country"] = country_code(j.get("country"))
             job["fetch_description"] = lambda seq=seq: html_to_text(_post(
                 f"https://{host}/widgets", {**base, "pageName": "job", "ddoKey": "jobDetail", "jobSeqNo": seq}
@@ -99,7 +99,8 @@ def fetch_workday(source: dict) -> list[dict]:
         for p in data.get("jobPostings", []):
             path = p["externalPath"]
             job = _job(source, (p.get("bulletFields") or [path.rsplit("_", 1)[-1]])[0], p.get("title"),
-                       p.get("locationsText", ""), f"https://{host}/{site}{path}", "")
+                       p.get("locationsText", ""), f"https://{host}/{site}{path}", "",
+                       None, f"https://{host}/{site}{path}/apply")
             job["fetch_description"] = lambda path=path: html_to_text(
                 _get(f"{api}{path}").json()["jobPostingInfo"].get("jobDescription"))
             jobs.append(job)
@@ -139,7 +140,8 @@ def fetch_paradox(source: dict) -> list[dict]:
             seen.add(j["reference"])
             loc = (_python_literal(j.get("locations")) or [{}])[0]
             url = f"https://{host}/{j['originalURL'].lstrip('/')}"
-            job = _job(source, j["reference"], j.get("title"), _place(loc.get("city"), loc.get("stateAbbr")), url, "")
+            job = _job(source, j["reference"], j.get("title"), _place(loc.get("city"), loc.get("stateAbbr")), url, "",
+                       None, j.get("applyURL"))
             job["country"] = country_code(loc.get("countryAbbr") or loc.get("country"))
             job["fetch_description"] = lambda url=url: jsonld_description(url)
             jobs.append(job)
@@ -271,7 +273,8 @@ def fetch_taleo(source: dict) -> list[dict]:
             location, country = _taleo_location(raw_location)
             no = r["contestNo"]
             job = _job(source, no, title, location,
-                       f"https://{host}/careersection/{section}/jobdetail.ftl?job={no}&lang=en", "", posted)
+                       f"https://{host}/careersection/{section}/jobdetail.ftl?job={no}&lang=en", "", posted,
+                       f"https://{host}/careersection/{section}/jobapply.ftl?job={no}&lang=en")
             job["country"] = country
             job["fetch_description"] = lambda no=no: taleo_description(host, section, no)
             jobs.append(job)
@@ -304,7 +307,8 @@ def fetch_ukg(source: dict) -> list[dict]:
             first = addresses[0] if addresses else {}
             job = _job(source, o["Id"], o.get("Title"),
                        _place(first.get("City"), (first.get("State") or {}).get("Code")),
-                       f"{board}/OpportunityDetail?opportunityId={o['Id']}", "", o.get("PostedDate"))
+                       f"{board}/OpportunityDetail?opportunityId={o['Id']}", "", o.get("PostedDate"),
+                       f"{board}/OpportunityApply?opportunityId={o['Id']}")
             countries = {country_code((a.get("Country") or {}).get("Code")) for a in addresses} - {None}
             job["country"] = "CA" if "CA" in countries else next(iter(countries), None)
             job["fetch_description"] = lambda oid=o["Id"]: ukg_description(board, oid)
@@ -381,7 +385,8 @@ def fetch_dayforce(source: dict) -> list[dict]:
                 job = _job(source, p["jobReqId"], p.get("jobTitle"),
                            _place(locs[0].get("cityName"), locs[0].get("stateCode")),
                            f"{DAYFORCE}/en-US/{ns}/{board}/jobs/{p['jobPostingId']}",
-                           html_to_text(p.get("jobDescription")), p.get("postingStartTimestampUTC"))
+                           html_to_text(p.get("jobDescription")), p.get("postingStartTimestampUTC"),
+                           f"{DAYFORCE}/en-US/{ns}/{board}/jobs/{p['jobPostingId']}/apply")
                 countries = {l.get("isoCountryCode") for l in locs} - {None}
                 job["country"] = "CA" if "CA" in countries else next(iter(countries), None)
                 jobs.append(job)
@@ -404,7 +409,7 @@ def fetch_jibe(source: dict) -> list[dict]:
                                                                         "qualifications") if j.get(k))
             job = _job(source, j["req_id"], j.get("title"), _place(j.get("city"), j.get("state")),
                        f"https://{source['host']}/jobs/{j['slug']}?lang={j.get('language', 'en-us')}",
-                       description, j.get("posted_date"))
+                       description, j.get("posted_date"), j.get("apply_url"))
             job["country"] = country_code(j.get("country_code"))
             jobs.append(job)
         if not data["jobs"] or page * 100 >= data.get("totalCount", 0):
@@ -430,7 +435,8 @@ def fetch_smartrecruiters(source: dict) -> list[dict]:
         for p in data["content"]:
             loc = p.get("location") or {}
             job = _job(source, p["id"], p.get("name"), _place(loc.get("city"), loc.get("region")),
-                       f"https://jobs.smartrecruiters.com/{company}/{p['id']}", "", p.get("releasedDate"))
+                       f"https://jobs.smartrecruiters.com/{company}/{p['id']}", "", p.get("releasedDate"),
+                       f"https://jobs.smartrecruiters.com/{company}/{p['id']}?oga=true")
             job["country"] = country_code(loc.get("country"))
             job["fetch_description"] = lambda pid=p["id"]: smartrecruiters_description(company, pid)
             jobs.append(job)
@@ -464,7 +470,8 @@ def fetch_rippling(source: dict) -> list[dict]:
         data = _get(base, params={"page": page, "pageSize": 50}).json()
         for j in data["items"]:
             loc = (j.get("locations") or [{}])[0]
-            job = _job(source, j["id"], j.get("name"), _place(loc.get("city"), loc.get("stateCode")), j.get("url"), "")
+            job = _job(source, j["id"], j.get("name"), _place(loc.get("city"), loc.get("stateCode")), j.get("url"), "",
+                       None, f"{j.get('url')}/apply")
             job["country"] = country_code(loc.get("countryCode"))
 
             def describe(jid=j["id"]):

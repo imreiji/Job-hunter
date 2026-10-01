@@ -12,6 +12,7 @@ import re
 import shutil
 import unicodedata
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 import yaml
@@ -20,6 +21,7 @@ from . import matcher, sources
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "jobs.json"
+APPLICATIONS_FILE = ROOT / "data" / "applications.json"  # written by the tracker's GitHub sync
 SITE_DIR = ROOT / "_site"
 
 
@@ -62,6 +64,52 @@ def passes_filters(job: dict, filters: dict) -> bool:
         elif not COUNTRY_PATTERNS[country].search(job["location"]):
             return False
     return True
+
+
+ROLE_KEYWORDS = [  # first match wins; "Airport Dispatch Agent" is dispatch, "Ramp Crew Chief" is ground
+    ("dispatch", ["dispatch", "flight follow", "suivi de vol", "régulateur", "regulateur", "répartiteur",
+                  "load control", "socc", "operations control"]),
+    ("pilot", ["pilot", "first officer", "captain", "commandant", "premier officier", "co-pilot"]),
+]
+
+
+def classify_role(title: str) -> str:
+    t = title.lower()
+    for role, words in ROLE_KEYWORDS:
+        if any(w in t for w in words):
+            return role
+    return "ground"
+
+
+DATE_FORMATS = ("%b %d, %Y", "%B %d, %Y", "%Y-%m-%d", "%m/%d/%Y")
+
+
+def normalize_date(value) -> str | None:
+    """Boards report posting dates in a dozen formats; store ISO dates (YYYY-MM-DD) or nothing."""
+    if not value:
+        return None
+    text = str(value).strip()
+    try:
+        return datetime.fromisoformat(text.replace("Z", "+00:00")).date().isoformat()
+    except ValueError:
+        pass
+    for fmt in DATE_FORMATS:
+        try:
+            return datetime.strptime(text, fmt).date().isoformat()
+        except ValueError:
+            pass
+    try:
+        return parsedate_to_datetime(text).date().isoformat()  # RSS pubDate
+    except (TypeError, ValueError):
+        return None
+
+
+def tracked_ids() -> set[str]:
+    """Jobs in the application tracker are kept even if they later fall outside the filters."""
+    try:
+        return {a["id"] for a in json.loads(APPLICATIONS_FILE.read_text()).get("applications", []) if a.get("id")}
+    except (OSError, ValueError, AttributeError):
+        return set()
 
 
 def load_store() -> dict:
@@ -162,13 +210,14 @@ def source_name(source: dict) -> str:
     return f"{source['type']}:{source.get('slug') or source.get('keyword')}"
 
 
-def prune(store: dict, configured: set[str], filters: dict, companies: list[set[str]] = ()) -> int:
+def prune(store: dict, configured: set[str], filters: dict, companies: list[set[str]] = (),
+          keep: set[str] = frozenset()) -> int:
     """Drop stored jobs whose source was removed from config, that fail the current filters,
-    or whose operator is now polled directly."""
+    or whose operator is now polled directly. Jobs in `keep` (tracked applications) stay."""
     before = len(store["jobs"])
     store["jobs"] = [j for j in store["jobs"]
-                     if j["id"].rsplit(":", 1)[0] in configured and passes_filters(j, filters)
-                     and not polled_directly(j, companies)]
+                     if j["id"] in keep or (j["id"].rsplit(":", 1)[0] in configured
+                                            and passes_filters(j, filters) and not polled_directly(j, companies))]
     return before - len(store["jobs"])
 
 
@@ -185,7 +234,7 @@ def run(config_path: Path, do_eval: bool) -> None:
     ts = now()
 
     companies = direct_companies(config["sources"])
-    removed = prune(store, {source_name(s) for s in config["sources"]}, filters, companies)
+    removed = prune(store, {source_name(s) for s in config["sources"]}, filters, companies, tracked_ids())
     if removed:
         print(f"removed {removed} stored postings no longer covered by config.yaml")
 
@@ -201,11 +250,18 @@ def run(config_path: Path, do_eval: bool) -> None:
             continue
         polled.add(name)
         kept = [j for j in jobs if passes_filters(j, filters) and not polled_directly(j, companies)]
+        for j in kept:
+            j["role"] = classify_role(j["title"])
+            j["posted"] = normalize_date(j.get("posted"))
         print(f"{name}: {len(jobs)} postings, {len(kept)} after filters")
         fetched.extend(kept)
         descriptions.update({j["id"]: j for j in kept})
 
     new = merge(store, fetched, polled, ts)
+    for job in store["jobs"]:  # records stored before roles / normalized dates existed
+        job.setdefault("role", classify_role(job["title"]))
+        if job.get("posted"):
+            job["posted"] = normalize_date(job["posted"])
     print(f"{len(new)} new postings")
 
     profile = load_profile()

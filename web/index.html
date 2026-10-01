@@ -6,15 +6,23 @@
 <title>Canadian Aviation Jobs</title>
 <style>
   :root {
-    --bg: #f6f7f9; --panel: #ffffff; --text: #1b1f24; --muted: #5d6673; --border: #dfe3e8;
-    --accent: #1f5fbf; --on-score: #ffffff;
+    color-scheme: light;
+    --bg: #f6f7f9; --panel: #ffffff; --text: #1b1f24; --muted: #5d6673; --border: #dfe3e8; --grid: #e8eaed;
+    --accent: #1f5fbf; --on-accent: #ffffff; --on-score: #ffffff;
     --strong: #1a7f37; --possible: #9a6700; --weak: #8c4a1f; --ineligible: #b42318; --pending: #6e7781;
+    /* chart series: pilot / dispatch / ground (validated categorical slots 1-3) */
+    --pilot: #2a78d6; --dispatch: #eb6834; --ground: #1baf7a;
+    /* application statuses */
+    --saved: #6e7781; --applied: #1f5fbf; --interview: #9a6700; --offer: #1a7f37; --rejected: #b42318; --withdrawn: #6e7781;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #0f1216; --panel: #171b21; --text: #e6e9ed; --muted: #9aa4b1; --border: #2a3039;
-      --accent: #6ea8ff; --on-score: #0f1216;
+      color-scheme: dark;
+      --bg: #0f1216; --panel: #171b21; --text: #e6e9ed; --muted: #9aa4b1; --border: #2a3039; --grid: #262b33;
+      --accent: #6ea8ff; --on-accent: #0f1216; --on-score: #0f1216;
       --strong: #4ac26b; --possible: #d4a72c; --weak: #e0823d; --ineligible: #f47067; --pending: #8b949e;
+      --pilot: #3987e5; --dispatch: #d95926; --ground: #199e70;
+      --saved: #8b949e; --applied: #6ea8ff; --interview: #d4a72c; --offer: #4ac26b; --rejected: #f47067; --withdrawn: #8b949e;
     }
   }
   * { box-sizing: border-box; }
@@ -23,22 +31,37 @@
   header, main { max-width: 1000px; margin: 0 auto; padding: 0 16px; }
   header { padding-top: 28px; }
   h1 { margin: 0 0 4px; font-size: 1.6rem; }
-  .sub { color: var(--muted); margin: 0 0 16px; }
+  h2 { font-size: 1.05rem; margin: 0 0 2px; }
+  .sub { color: var(--muted); margin: 0 0 12px; }
+  button, .btn, input, select, textarea { font: inherit; }
+  .btn { display: inline-flex; align-items: center; gap: 4px; padding: 6px 12px; border-radius: 6px;
+         border: 1px solid var(--border); background: var(--panel); color: var(--text); cursor: pointer;
+         text-decoration: none; font-size: .9rem; white-space: nowrap; }
+  .btn:hover { border-color: var(--accent); }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 600; }
+  .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--border); margin-bottom: 16px; overflow-x: auto; }
+  .tab { background: none; border: 0; border-bottom: 2px solid transparent; padding: 8px 12px; cursor: pointer;
+         color: var(--muted); font-weight: 600; white-space: nowrap; }
+  .tab[aria-selected="true"] { color: var(--text); border-bottom-color: var(--accent); }
+  .count { font-weight: 400; color: var(--muted); }
+  [hidden] { display: none !important; }
+
   .stats { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
   .stat { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px;
           cursor: pointer; user-select: none; }
   .stat b { font-size: 1.2rem; display: block; }
   .stat.on { outline: 2px solid var(--accent); }
-  .controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
-  .controls input[type=search], .controls select {
-    padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px;
-    background: var(--panel); color: var(--text); font: inherit; min-width: 0; }
+  .controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; align-items: center; }
+  .controls input[type=search], select, input[type=date], input[type=text], input[type=url], input[type=password], textarea {
+    padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px;
+    background: var(--panel); color: var(--text); min-width: 0; }
   .controls input[type=search] { flex: 1 1 220px; }
   .controls select { max-width: 240px; }
   .controls label { display: flex; align-items: center; gap: 6px; color: var(--muted); }
-  .job { background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
-         padding: 14px 16px; margin-bottom: 10px; }
-  .job.closed { opacity: .55; }
+
+  .job, .card { background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
+                padding: 14px 16px; margin-bottom: 10px; }
+  .job.closed { opacity: .6; }
   .top { display: flex; gap: 12px; align-items: flex-start; }
   .score { flex: 0 0 52px; height: 52px; border-radius: 8px; display: grid; place-items: center;
            font-weight: 700; font-size: 1.15rem; color: var(--on-score); background: var(--pending); }
@@ -47,8 +70,10 @@
   .title:hover { text-decoration: underline; }
   .meta { color: var(--muted); font-size: .9rem; overflow-wrap: anywhere; }
   .meta a { color: var(--accent); }
-  .badge { display: inline-block; font-size: .75rem; font-weight: 600; padding: 1px 8px; border-radius: 99px;
+  .badge { display: inline-block; font-size: .72rem; font-weight: 600; padding: 1px 8px; border-radius: 99px;
            border: 1px solid currentColor; margin-left: 6px; text-transform: uppercase; letter-spacing: .03em; }
+  .actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 10px; }
+  .actions select { padding: 5px 8px; font-size: .9rem; }
   .summary { margin: 8px 0 0; }
   details { margin-top: 8px; }
   summary { cursor: pointer; color: var(--accent); font-size: .9rem; }
@@ -57,102 +82,659 @@
   .cols ul { margin: 0; padding-left: 18px; }
   .empty { text-align: center; color: var(--muted); padding: 40px 0; }
   footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 24px 16px; }
+
+  /* applications */
+  .app-grid { display: grid; grid-template-columns: 1fr auto; gap: 8px 16px; align-items: start; }
+  .app-fields { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 8px; }
+  .app-fields label { font-size: .85rem; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+  .app-card textarea { width: 100%; margin-top: 8px; min-height: 56px; resize: vertical; }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: 0; }
+  .form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; }
+  .form-grid label { display: flex; flex-direction: column; gap: 2px; font-size: .85rem; color: var(--muted); }
+  .note { font-size: .85rem; color: var(--muted); }
+  .sync-ok { color: var(--strong); } .sync-err { color: var(--ineligible); }
+
+  /* toast */
+  .toast { position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%); width: min(560px, calc(100% - 32px));
+           background: var(--panel); border: 1px solid var(--accent); border-radius: 10px; padding: 12px 14px;
+           box-shadow: 0 6px 24px rgba(0,0,0,.18); z-index: 10; }
+  .toast .actions { margin-top: 8px; }
+
+  /* charts */
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin-bottom: 16px; }
+  .tile { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; }
+  .tile .label { font-size: .85rem; color: var(--muted); }
+  .tile .value { font-size: 1.6rem; font-weight: 600; line-height: 1.2; }
+  .tile .hint { font-size: .8rem; color: var(--muted); }
+  .chart-card { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px 10px;
+                margin-bottom: 16px; position: relative; }
+  .chart-head { display: flex; justify-content: space-between; gap: 8px; align-items: flex-start; flex-wrap: wrap; }
+  .chart-head .note { margin: 0; }
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: .85rem; color: var(--muted); margin: 8px 0 4px; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .key { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+  .chart { width: 100%; position: relative; }
+  .chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .chart text { fill: var(--muted); font-size: 11px; }
+  .chart .gridline { stroke: var(--grid); stroke-width: 1; }
+  .tooltip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--border);
+             border-radius: 6px; padding: 6px 10px; font-size: .82rem; box-shadow: 0 4px 14px rgba(0,0,0,.15);
+             white-space: nowrap; z-index: 5; }
+  .tooltip b { display: block; margin-bottom: 2px; }
+  .tooltip .row { display: flex; align-items: center; gap: 6px; }
+  .tooltip .row span:last-child { margin-left: auto; padding-left: 12px; font-variant-numeric: tabular-nums; }
+  table.data { width: 100%; border-collapse: collapse; font-size: .85rem; margin-top: 8px; }
+  table.data th, table.data td { text-align: left; padding: 4px 8px; border-bottom: 1px solid var(--border); }
+  table.data td.num, table.data th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .table-toggle { font-size: .85rem; }
+  .table-wrap { overflow-x: auto; }
+  @media (max-width: 560px) { .app-grid { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
 <header>
   <h1>Canadian Aviation Jobs</h1>
   <p class="sub" id="updated">Loading…</p>
-  <div class="stats" id="stats"></div>
-  <div class="controls">
-    <input type="search" id="q" placeholder="Search title, company, location…">
-    <select id="company"><option value="">All companies</option></select>
-    <select id="sort">
-      <option value="score">Best match first</option>
-      <option value="new">Newest first</option>
-    </select>
-    <label><input type="checkbox" id="closed"> Show closed</label>
-  </div>
+  <nav class="tabs" role="tablist">
+    <button class="tab" role="tab" data-tab="jobs" aria-selected="true">Jobs</button>
+    <button class="tab" role="tab" data-tab="apps" aria-selected="false">Applications <span class="count" id="app-count"></span></button>
+    <button class="tab" role="tab" data-tab="trends" aria-selected="false">Trends</button>
+  </nav>
 </header>
-<main id="list"></main>
+
+<main>
+  <!-- ======================= Jobs ======================= -->
+  <section id="tab-jobs">
+    <div class="stats" id="stats"></div>
+    <div class="controls">
+      <input type="search" id="q" placeholder="Search title, company, location…">
+      <select id="role">
+        <option value="">All roles</option><option value="pilot">Pilot</option>
+        <option value="dispatch">Dispatch</option><option value="ground">Ground / ramp</option>
+      </select>
+      <select id="company"><option value="">All companies</option></select>
+      <select id="sort">
+        <option value="score">Best match first</option>
+        <option value="new">Newest first</option>
+      </select>
+      <label><input type="checkbox" id="closed"> Show closed</label>
+      <label><input type="checkbox" id="hide-tracked"> Hide tracked</label>
+    </div>
+    <div id="list"></div>
+  </section>
+
+  <!-- ======================= Applications ======================= -->
+  <section id="tab-apps" hidden>
+    <div class="tiles" id="app-tiles"></div>
+    <div class="controls">
+      <select id="app-filter"><option value="">All statuses</option></select>
+      <button class="btn" id="add-app">+ Add application</button>
+      <button class="btn" id="export-apps">Export</button>
+      <label class="btn" style="color:var(--text)">Import<input type="file" id="import-apps" accept="application/json" hidden></label>
+      <button class="btn" id="sync-settings">Sync…</button>
+      <span class="note" id="sync-status"></span>
+    </div>
+    <form class="card" id="add-form" hidden>
+      <h2>Add an application</h2>
+      <p class="note">For jobs you found elsewhere. Jobs on the board can be tracked from their card.</p>
+      <div class="form-grid">
+        <label>Company<input type="text" name="company" required></label>
+        <label>Title<input type="text" name="title" required></label>
+        <label>Location<input type="text" name="location"></label>
+        <label>Link<input type="url" name="url" placeholder="https://"></label>
+        <label>Role<select name="role"><option value="pilot">Pilot</option><option value="dispatch">Dispatch</option><option value="ground">Ground / ramp</option></select></label>
+        <label>Status<select name="status"></select></label>
+        <label>Applied on<input type="date" name="applied_on"></label>
+      </div>
+      <div class="actions"><button class="btn primary" type="submit">Save</button><button class="btn" type="button" id="cancel-add">Cancel</button></div>
+    </form>
+    <form class="card" id="sync-form" hidden>
+      <h2>Sync across devices (optional)</h2>
+      <p class="note">Without sync, applications live only in this browser (use Export / Import to move them).
+        With sync, they are saved as a JSON file in a GitHub repository you choose, using a
+        <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a>
+        limited to that one repository with <b>Contents: Read and write</b>. Use a <b>private</b> repository if you
+        don't want your applications public. The token is stored only in this browser.</p>
+      <div class="form-grid">
+        <label>Repository (owner/name)<input type="text" name="repo" placeholder="you/job-applications" required></label>
+        <label>File path<input type="text" name="path" value="data/applications.json" required></label>
+        <label>Branch<input type="text" name="branch" placeholder="default branch"></label>
+        <label>Token<input type="password" name="token" autocomplete="off" required></label>
+      </div>
+      <div class="actions"><button class="btn primary" type="submit">Save &amp; sync</button>
+        <button class="btn" type="button" id="cancel-sync">Cancel</button>
+        <button class="btn" type="button" id="disconnect-sync">Disconnect</button></div>
+    </form>
+    <div id="app-list"></div>
+  </section>
+
+  <!-- ======================= Trends ======================= -->
+  <section id="tab-trends" hidden>
+    <div class="tiles" id="trend-tiles"></div>
+    <div class="chart-card">
+      <div class="chart-head"><div><h2>Open postings over time</h2><p class="note" id="open-note"></p></div>
+        <button class="btn table-toggle" data-table="open">Show table</button></div>
+      <div class="legend" id="open-legend"></div>
+      <div class="chart" id="open-chart"></div>
+      <div id="open-table" hidden></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-head"><div><h2>New postings per week</h2><p class="note">By the week the board first listed them</p></div>
+        <button class="btn table-toggle" data-table="weekly">Show table</button></div>
+      <div class="legend" id="weekly-legend"></div>
+      <div class="chart" id="weekly-chart"></div>
+      <div id="weekly-table" hidden></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-head"><div><h2>Most active employers</h2><p class="note">New postings in the last 30 days</p></div>
+        <button class="btn table-toggle" data-table="employers">Show table</button></div>
+      <div class="chart" id="employers-chart"></div>
+      <div id="employers-table" hidden></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-head"><div><h2>How long postings stay open</h2><p class="note">Closed postings only, from posting date (or first seen) to removal</p></div></div>
+      <div id="duration-table"></div>
+    </div>
+  </section>
+</main>
+<div class="toast" id="toast" role="dialog" aria-live="polite" hidden></div>
 <footer>Matches are generated by DeepSeek from your profile. Always read the full posting.</footer>
 
 <script>
-const VERDICTS = ["strong", "possible", "weak", "ineligible", "pending"];
+/* ---------- shared helpers ---------- */
 const $ = id => document.getElementById(id);
-const state = { jobs: [], verdict: "" };
-
-const verdictOf = j => j.evaluation ? j.evaluation.verdict : "pending";
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const SOURCE_NAMES = { jobbank: "Job Bank", linkedin: "LinkedIn", eluta: "Eluta", greenhouse: "company site",
-  lever: "company site", ashby: "company site", workday: "company site", usajobs: "USAJOBS" };
+const DAY = 86400000;
+const today = () => new Date().toISOString().slice(0, 10);
+const dayOf = s => s ? String(s).slice(0, 10) : null;
+const fmtDate = s => s ? new Date(String(s).length === 10 ? s + "T12:00:00" : s)
+  .toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" }) : "";
+const fmtShort = d => new Date(d + "T12:00:00").toLocaleDateString(undefined, { month: "short", day: "numeric" });
+const store = {
+  get(k, fallback) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : fallback; } catch { return fallback; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* private mode: in-memory only */ } },
+  del(k) { try { localStorage.removeItem(k); } catch {} },
+};
+const ROLES = [["pilot", "Pilot"], ["dispatch", "Dispatch"], ["ground", "Ground / ramp"]];
+const ROLE_LABEL = Object.fromEntries(ROLES);
+const STATUSES = [["saved", "Saved"], ["applied", "Applied"], ["interview", "Interview"],
+                  ["offer", "Offer"], ["rejected", "Rejected"], ["withdrawn", "Withdrawn"]];
+const STATUS_LABEL = Object.fromEntries(STATUSES);
+const VERDICTS = ["strong", "possible", "weak", "ineligible", "pending"];
+const SOURCE_NAMES = { jobbank: "Job Bank", linkedin: "LinkedIn", eluta: "Eluta", usajobs: "USAJOBS" };
 const sourceName = s => SOURCE_NAMES[s] || "company site";
+const verdictOf = j => j.evaluation ? j.evaluation.verdict : "pending";
+const roleOf = j => j.role || "ground";
+
+const state = { jobs: [], byId: {}, verdict: "", updated: null };
+
+/* ---------- tabs ---------- */
+function showTab(name) {
+  document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", t.dataset.tab === name));
+  ["jobs", "apps", "trends"].forEach(n => $(`tab-${n}`).hidden = n !== name);
+  store.set("tab", name);
+  if (name === "trends") renderTrends();
+  if (name === "apps") renderApps();
+}
+document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => showTab(t.dataset.tab)));
+
+/* =====================================================================
+   Application tracker: localStorage, optionally synced to a GitHub file
+   ===================================================================== */
+const tracker = {
+  apps: store.get("applications", {}),        // id -> application (deleted ones keep a tombstone)
+  list() { return Object.values(this.apps).filter(a => !a.deleted); },
+  get(id) { const a = this.apps[id]; return a && !a.deleted ? a : null; },
+  save(app) {
+    app.updated_at = new Date().toISOString();
+    this.apps[app.id] = app;
+    store.set("applications", this.apps);
+    sync.schedule();
+    $("app-count").textContent = this.list().length ? `(${this.list().length})` : "";
+  },
+  setStatus(id, status, job) {
+    let app = this.get(id);
+    if (!status) { if (app) this.save({ id, deleted: true }); return; }
+    if (!app) {
+      app = { id, company: job.company, title: job.title, location: job.location, url: job.url,
+              apply_url: job.apply_url || job.url, role: roleOf(job), notes: "", history: [] };
+    }
+    if (app.status !== status) app.history = [...(app.history || []), { status, at: new Date().toISOString() }];
+    app.status = status;
+    if (status === "applied" && !app.applied_on) app.applied_on = today();
+    this.save(app);
+  },
+  merge(remote) {  // newest edit per id wins, so two devices can both make changes
+    let changed = false;
+    for (const r of remote || []) {
+      const l = this.apps[r.id];
+      if (!l || (r.updated_at || "") > (l.updated_at || "")) { this.apps[r.id] = r; changed = true; }
+    }
+    store.set("applications", this.apps);
+    return changed;
+  },
+  file() { return { applications: Object.values(this.apps), updated: new Date().toISOString() }; },
+};
+
+const sync = {
+  cfg: store.get("sync", null), sha: null, timer: null,
+  status(text, cls = "") { $("sync-status").innerHTML = `<span class="${cls}">${esc(text)}</span>`; },
+  api(path = "") {
+    const c = this.cfg;
+    return `https://api.github.com/repos/${c.repo}/contents/${c.path.replace(/^\/+/, "")}${path}`;
+  },
+  headers() { return { Authorization: `Bearer ${this.cfg.token}`, Accept: "application/vnd.github+json" }; },
+  async pull() {
+    if (!this.cfg) { this.status("Saved in this browser only"); return; }
+    this.status("Syncing…");
+    try {
+      const r = await fetch(this.api(this.cfg.branch ? `?ref=${encodeURIComponent(this.cfg.branch)}` : ""),
+                            { headers: this.headers(), cache: "no-store" });
+      if (r.status === 404) { this.sha = null; await this.push(); return; }
+      if (!r.ok) throw new Error(`GitHub ${r.status}`);
+      const body = await r.json();
+      this.sha = body.sha;
+      const bytes = Uint8Array.from(atob(body.content.replace(/\n/g, "")), c => c.charCodeAt(0));
+      const remote = JSON.parse(new TextDecoder().decode(bytes));
+      tracker.merge(remote.applications);
+      const remoteIds = new Set((remote.applications || []).map(a => a.id + a.updated_at));
+      const localAhead = Object.values(tracker.apps).some(a => !remoteIds.has(a.id + a.updated_at));
+      if (localAhead) await this.push(); else this.status(`Synced ${new Date().toLocaleTimeString()}`, "sync-ok");
+      renderAll();
+    } catch (e) { this.status(`Sync failed: ${e.message}`, "sync-err"); }
+  },
+  async push() {
+    if (!this.cfg) return;
+    const json = JSON.stringify(tracker.file(), null, 1) + "\n";
+    const content = btoa(Array.from(new TextEncoder().encode(json), b => String.fromCharCode(b)).join(""));
+    const body = { message: "Update job applications", content, ...(this.sha ? { sha: this.sha } : {}),
+                   ...(this.cfg.branch ? { branch: this.cfg.branch } : {}) };
+    const r = await fetch(this.api(), { method: "PUT", headers: this.headers(), body: JSON.stringify(body) });
+    if (r.status === 409 || r.status === 422) { await this.pull(); return; }  // edited elsewhere: merge, retry
+    if (!r.ok) { this.status(`Sync failed: GitHub ${r.status}`, "sync-err"); return; }
+    this.sha = (await r.json()).content.sha;
+    this.status(`Synced ${new Date().toLocaleTimeString()}`, "sync-ok");
+  },
+  schedule() {
+    if (!this.cfg) return;
+    clearTimeout(this.timer);
+    this.status("Unsaved changes…");
+    this.timer = setTimeout(() => this.push().catch(e => this.status(`Sync failed: ${e.message}`, "sync-err")), 1500);
+  },
+};
+
+/* ---------- "did you apply?" prompt after following an Apply link ---------- */
+let pendingApply = null;
+function openApply(id) {
+  pendingApply = id;
+  const app = tracker.get(id);
+  if (!app) tracker.setStatus(id, "saved", state.byId[id]);
+}
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState !== "visible" || !pendingApply) return;
+  const id = pendingApply; pendingApply = null;
+  const app = tracker.get(id);
+  if (!app || ["applied", "interview", "offer"].includes(app.status)) return;
+  $("toast").innerHTML = `Did you apply to <b>${esc(app.title)}</b> at ${esc(app.company)}?
+    <div class="actions"><button class="btn primary" id="toast-yes">Yes, mark applied</button>
+    <button class="btn" id="toast-no">Not yet</button></div>`;
+  $("toast").hidden = false;
+  $("toast-yes").onclick = () => { tracker.setStatus(id, "applied"); $("toast").hidden = true; renderAll(); };
+  $("toast-no").onclick = () => { $("toast").hidden = true; renderAll(); };
+});
+
+/* =====================================================================
+   Jobs tab
+   ===================================================================== */
+const statusSelect = (id, current, cls = "") => `<select class="${cls}" data-track="${esc(id)}" aria-label="Application status">
+  <option value="">${current ? "Untrack" : "Track…"}</option>
+  ${STATUSES.map(([v, l]) => `<option value="${v}" ${current === v ? "selected" : ""}>${l}</option>`).join("")}</select>`;
 const sourcesLine = j => {
   const links = (j.also_listed || []).map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(sourceName(l.source))}</a>`);
   return `via ${esc(sourceName(j.id.split(":")[0]))}${links.length ? ` · also on ${links.join(", ")}` : ""}`;
 };
-const fmtDate = s => s ? new Date(s).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" }) : "";
 const list = (title, items) => items && items.length
   ? `<div><h4>${title}</h4><ul>${items.map(i => `<li>${esc(i)}</li>`).join("")}</ul></div>` : "";
 
-function render() {
-  const q = $("q").value.trim().toLowerCase();
-  const company = $("company").value;
-  const showClosed = $("closed").checked;
-  const visible = state.jobs.filter(j => showClosed || j.active);
-
+function renderJobs() {
+  const q = $("q").value.trim().toLowerCase(), company = $("company").value, role = $("role").value;
+  const visible = state.jobs.filter(j => ($("closed").checked || j.active) && (!role || roleOf(j) === role)
+                                         && !($("hide-tracked").checked && tracker.get(j.id)));
   const counts = Object.fromEntries(VERDICTS.map(v => [v, 0]));
   visible.forEach(j => counts[verdictOf(j)]++);
   $("stats").innerHTML = [["", "All", visible.length], ...VERDICTS.map(v => [v, v, counts[v]])]
     .map(([v, label, n]) => `<div class="stat ${state.verdict === v ? "on" : ""}" data-v="${v}"
        style="${v ? `color:var(--${v})` : ""}"><b>${n}</b>${label}</div>`).join("");
 
-  let jobs = visible.filter(j =>
-    (!state.verdict || verdictOf(j) === state.verdict) &&
-    (!company || j.company === company) &&
-    (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)));
-
+  const jobs = visible.filter(j => (!state.verdict || verdictOf(j) === state.verdict) && (!company || j.company === company)
+    && (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)));
   jobs.sort($("sort").value === "score"
     ? (a, b) => (b.evaluation?.score ?? -1) - (a.evaluation?.score ?? -1) || b.first_seen.localeCompare(a.first_seen)
     : (a, b) => b.first_seen.localeCompare(a.first_seen));
 
   $("list").innerHTML = jobs.length ? jobs.map(j => {
-    const ev = j.evaluation, v = verdictOf(j);
+    const ev = j.evaluation, v = verdictOf(j), app = tracker.get(j.id);
     return `<article class="job ${j.active ? "" : "closed"}">
       <div class="top">
         <div class="score" style="background:var(--${v})">${ev ? ev.score : "–"}</div>
         <div class="info">
           <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
           <span class="badge" style="color:var(--${v})">${v}</span>
+          ${app ? `<span class="badge" style="color:var(--${app.status})">${STATUS_LABEL[app.status]}</span>` : ""}
           ${j.active ? "" : `<span class="badge" style="color:var(--muted)">closed ${fmtDate(j.closed_at)}</span>`}
-          <div class="meta">${esc(j.company)} · ${esc(j.location || "Location n/a")} · found ${fmtDate(j.first_seen)} · ${sourcesLine(j)}</div>
+          <div class="meta">${esc(j.company)} · ${esc(j.location || "Location n/a")} · ${ROLE_LABEL[roleOf(j)]} ·
+            found ${fmtDate(j.first_seen)} · ${sourcesLine(j)}</div>
         </div>
       </div>
       ${ev ? `<p class="summary">${esc(ev.summary)}</p>
         <details><summary>Requirement breakdown</summary><div class="cols">
           ${list("Dealbreakers", ev.dealbreakers)}${list("Missing", ev.missing)}${list("You meet", ev.met)}
         </div></details>` : ""}
+      <div class="actions">
+        ${j.active ? `<a class="btn primary" href="${esc(j.apply_url || j.url)}" target="_blank" rel="noopener"
+            data-apply="${esc(j.id)}">Apply ↗</a>` : ""}
+        <a class="btn" href="${esc(j.url)}" target="_blank" rel="noopener">View posting</a>
+        ${statusSelect(j.id, app?.status)}
+      </div>
     </article>`;
   }).join("") : `<div class="empty">No postings match these filters.</div>`;
 }
 
+/* =====================================================================
+   Applications tab
+   ===================================================================== */
+function renderApps() {
+  const apps = tracker.list();
+  const counts = Object.fromEntries(STATUSES.map(([s]) => [s, 0]));
+  apps.forEach(a => counts[a.status]++);
+  const sent = apps.filter(a => a.applied_on).length;
+  const replies = apps.filter(a => ["interview", "offer"].includes(a.status)).length;
+  $("app-tiles").innerHTML = [
+    ...STATUSES.slice(0, 5).map(([s, l]) => [l, counts[s], s]),
+    ["Interview rate", sent ? `${Math.round(100 * replies / sent)}%` : "–", null, `${replies} of ${sent} applications`],
+  ].map(([label, value, s, hint]) => `<div class="tile"><div class="label">${s ? `<span class="dot" style="background:var(--${s})"></span>` : ""}${label}</div>
+     <div class="value">${value}</div>${hint ? `<div class="hint">${hint}</div>` : ""}</div>`).join("");
+
+  const filter = $("app-filter").value;
+  const shown = apps.filter(a => !filter || a.status === filter)
+    .sort((a, b) => (b.applied_on || b.updated_at || "").localeCompare(a.applied_on || a.updated_at || ""));
+  $("app-list").innerHTML = shown.length ? shown.map(a => {
+    const job = state.byId[a.id];
+    const posting = job ? (job.active ? "Posting open" : `Posting closed ${fmtDate(job.closed_at)}`) : (a.id.startsWith("manual:") ? "Added manually" : "Posting no longer tracked");
+    const waited = a.applied_on && a.status === "applied" ? Math.floor((Date.now() - new Date(a.applied_on + "T12:00:00")) / DAY) : null;
+    return `<article class="card app-card" data-app="${esc(a.id)}">
+      <div class="app-grid">
+        <div>
+          <a class="title" href="${esc(a.url || "#")}" target="_blank" rel="noopener">${esc(a.title)}</a>
+          <span class="badge" style="color:var(--${a.status})">${STATUS_LABEL[a.status]}</span>
+          <div class="meta">${esc(a.company)}${a.location ? ` · ${esc(a.location)}` : ""} · ${ROLE_LABEL[a.role] || ""} · ${posting}
+            ${waited !== null ? ` · ${waited} day${waited === 1 ? "" : "s"} since applying` : ""}</div>
+        </div>
+        <div class="actions" style="margin:0">
+          ${a.apply_url && a.status === "saved" && job?.active !== false ? `<a class="btn" href="${esc(a.apply_url)}" target="_blank" rel="noopener">Apply ↗</a>` : ""}
+          <button class="btn" data-remove="${esc(a.id)}" aria-label="Remove">Remove</button>
+        </div>
+      </div>
+      <div class="app-fields">
+        <label>Status ${statusSelect(a.id, a.status)}</label>
+        <label>Applied on <input type="date" data-field="applied_on" value="${esc(a.applied_on || "")}"></label>
+        <label>Follow up <input type="date" data-field="follow_up" value="${esc(a.follow_up || "")}"></label>
+      </div>
+      <textarea data-field="notes" placeholder="Notes: contact, interview date, references…">${esc(a.notes || "")}</textarea>
+      ${(a.history || []).length ? `<div class="note">History: ${a.history.map(h => `${STATUS_LABEL[h.status]} ${fmtDate(h.at)}`).join(" → ")}</div>` : ""}
+    </article>`;
+  }).join("") : `<div class="empty">${apps.length ? "No applications with this status." :
+      "No applications yet. Use <b>Track…</b> on a job card, click <b>Apply</b>, or add one manually."}</div>`;
+}
+
+/* =====================================================================
+   Trends tab: everything is derived from jobs.json (first_seen / closed_at)
+   ===================================================================== */
+const svgNS = "http://www.w3.org/2000/svg";
+const niceMax = v => { if (v <= 5) return 5; const p = 10 ** Math.floor(Math.log10(v)); const n = v / p;
+  return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 5 ? 5 : 10) * p; };
+const ticks = max => { const step = [1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500, 1000].find(s => max / s <= 5) || max / 5;
+  const out = []; for (let t = 0; t <= max + 1e-9; t += step) out.push(t); return out; };
+const dateRange = (from, to) => { const out = []; for (let d = new Date(from + "T12:00:00"); d <= new Date(to + "T12:00:00"); d = new Date(+d + DAY)) out.push(d.toISOString().slice(0, 10)); return out; };
+const weekStart = iso => { const d = new Date(iso + "T12:00:00"); d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return d.toISOString().slice(0, 10); };
+const median = xs => { if (!xs.length) return null; const s = [...xs].sort((a, b) => a - b), m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; };
+const daysBetween = (a, b) => { const d = Math.round((new Date(dayOf(b)) - new Date(dayOf(a))) / DAY);
+  return Number.isFinite(d) ? Math.max(0, d) : null; };
+const openDays = j => daysBetween(/^\d{4}-\d{2}-\d{2}/.test(j.posted || "") ? j.posted : j.first_seen, j.closed_at);
+
+function tooltip(chart, html, x, y) {
+  let tip = chart.querySelector(".tooltip");
+  if (!tip) { tip = document.createElement("div"); tip.className = "tooltip"; chart.appendChild(tip); }
+  if (!html) { tip.remove(); return; }
+  tip.innerHTML = html;
+  const w = chart.clientWidth, tw = tip.offsetWidth;
+  tip.style.left = `${Math.min(Math.max(0, x + 12), w - tw)}px`;
+  tip.style.top = `${Math.max(0, y - 10)}px`;
+}
+const tipRow = (color, label, value) => `<div class="row"><span class="key" style="background:${color}"></span><span>${esc(label)}</span><span>${value}</span></div>`;
+const legendHtml = items => items.map(([color, label]) => `<span><span class="key" style="background:${color}"></span>${esc(label)}</span>`).join("");
+const tableHtml = (head, rows) => `<div class="table-wrap"><table class="data"><thead><tr>${head.map((h, i) => `<th class="${i ? "num" : ""}">${esc(h)}</th>`).join("")}</tr></thead>
+  <tbody>${rows.map(r => `<tr>${r.map((c, i) => `<td class="${i ? "num" : ""}">${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+
+function lineChart(el, dates, series) {  // series: [{key,label,color,values}]
+  const W = Math.max(320, el.clientWidth || 600), H = 240, m = { t: 12, r: 104, b: 26, l: 36 };
+  const max = niceMax(Math.max(1, ...series.flatMap(s => s.values)));
+  const x = i => m.l + (dates.length < 2 ? (W - m.l - m.r) / 2 : i * (W - m.l - m.r) / (dates.length - 1));
+  const y = v => H - m.b - v / max * (H - m.t - m.b);
+  const every = Math.max(1, Math.ceil(dates.length / Math.max(2, Math.floor((W - m.l - m.r) / 70))));
+  let svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Open postings over time by role">`;
+  ticks(max).forEach(t => svg += `<line class="gridline" x1="${m.l}" x2="${W - m.r}" y1="${y(t)}" y2="${y(t)}"/><text x="${m.l - 6}" y="${y(t) + 4}" text-anchor="end">${t.toLocaleString()}</text>`);
+  dates.forEach((d, i) => { if (i % every === 0 || i === dates.length - 1) svg += `<text x="${x(i)}" y="${H - 8}" text-anchor="middle">${fmtShort(d)}</text>`; });
+  // end labels, nudged apart only enough to avoid overlap, with a leader to the line end
+  const ends = series.map(s => ({ s, y: y(s.values.at(-1)) })).sort((a, b) => a.y - b.y);
+  for (let i = 1; i < ends.length; i++) ends[i].ly = Math.max(ends[i].y, (ends[i - 1].ly ?? ends[i - 1].y) + 14);
+  ends[0] && (ends[0].ly = ends[0].y);
+  series.forEach(s => {
+    const pts = s.values.map((v, i) => `${x(i)},${y(v)}`).join(" ");
+    svg += dates.length > 1 ? `<polyline fill="none" style="stroke:${s.color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" points="${pts}"/>` : "";
+    svg += `<circle cx="${x(dates.length - 1)}" cy="${y(s.values.at(-1))}" r="4" style="fill:${s.color};stroke:var(--panel)" stroke-width="2"/>`;
+  });
+  ends.forEach(e => svg += `<line x1="${x(dates.length - 1) + 6}" x2="${W - m.r + 6}" y1="${e.y}" y2="${e.ly}" style="stroke:var(--grid)"/>
+    <text x="${W - m.r + 10}" y="${e.ly + 4}" style="fill:var(--text)">${esc(e.s.short || e.s.label)} ${e.s.values.at(-1)}</text>`);
+  svg += `<line class="cross" x1="0" x2="0" y1="${m.t}" y2="${H - m.b}" style="stroke:var(--muted)" stroke-width="1" visibility="hidden"/>
+    <rect x="${m.l}" y="0" width="${W - m.l - m.r}" height="${H}" fill="transparent" class="hit"/></svg>`;
+  el.innerHTML = svg;
+  const svgEl = el.querySelector("svg"), cross = el.querySelector(".cross");
+  const move = ev => {
+    const r = svgEl.getBoundingClientRect(), px = (ev.clientX - r.left) * W / r.width;
+    const i = Math.max(0, Math.min(dates.length - 1, Math.round((px - m.l) / ((W - m.l - m.r) / Math.max(1, dates.length - 1)))));
+    cross.setAttribute("x1", x(i)); cross.setAttribute("x2", x(i)); cross.setAttribute("visibility", "visible");
+    tooltip(el, `<b>${fmtDate(dates[i])}</b>${series.map(s => tipRow(s.color, s.label, s.values[i])).join("")}`,
+            (x(i) / W) * r.width, (ev.clientY - r.top));
+  };
+  svgEl.querySelector(".hit").addEventListener("pointermove", move);
+  svgEl.querySelector(".hit").addEventListener("pointerleave", () => { cross.setAttribute("visibility", "hidden"); tooltip(el, null); });
+}
+
+function stackedColumns(el, weeks, series) {  // series: [{label,color,values}] stacked per week
+  const W = Math.max(320, el.clientWidth || 600), H = 220, m = { t: 12, r: 8, b: 26, l: 36 };
+  const totals = weeks.map((_, i) => series.reduce((a, s) => a + s.values[i], 0));
+  const max = niceMax(Math.max(1, ...totals));
+  const band = (W - m.l - m.r) / weeks.length, bw = Math.min(24, band * .6);
+  const y = v => H - m.b - v / max * (H - m.t - m.b);
+  const every = Math.max(1, Math.ceil(weeks.length / Math.max(2, Math.floor((W - m.l - m.r) / 60))));
+  let svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="New postings per week by role">`;
+  ticks(max).forEach(t => svg += `<line class="gridline" x1="${m.l}" x2="${W - m.r}" y1="${y(t)}" y2="${y(t)}"/><text x="${m.l - 6}" y="${y(t) + 4}" text-anchor="end">${t.toLocaleString()}</text>`);
+  weeks.forEach((w, i) => {
+    const cx = m.l + band * i + band / 2;
+    let base = 0;
+    const segs = series.map(s => ({ s, v: s.values[i] })).filter(d => d.v > 0);
+    segs.forEach((d, k) => {
+      const top = k === segs.length - 1, y0 = y(base), y1 = y(base + d.v), h = Math.max(0, y0 - y1 - (k ? 2 : 0));
+      const yTop = y1, r = top ? Math.min(4, h / 2) : 0;
+      // rounded data end on the top segment only; 2px surface gap between segments
+      svg += r ? `<path style="fill:${d.s.color}" d="M${cx - bw / 2},${yTop + h} V${yTop + r} Q${cx - bw / 2},${yTop} ${cx - bw / 2 + r},${yTop} H${cx + bw / 2 - r} Q${cx + bw / 2},${yTop} ${cx + bw / 2},${yTop + r} V${yTop + h} Z"/>`
+               : `<rect style="fill:${d.s.color}" x="${cx - bw / 2}" y="${yTop}" width="${bw}" height="${h}"/>`;
+      base += d.v;
+    });
+    if (i % every === 0 || i === weeks.length - 1) svg += `<text x="${cx}" y="${H - 8}" text-anchor="middle">${fmtShort(w)}</text>`;
+    svg += `<rect x="${m.l + band * i}" y="${m.t}" width="${band}" height="${H - m.t - m.b}" fill="transparent" data-i="${i}" class="hit"/>`;
+  });
+  el.innerHTML = svg + "</svg>";
+  const svgEl = el.querySelector("svg");
+  svgEl.querySelectorAll(".hit").forEach(h => {
+    h.addEventListener("pointermove", ev => {
+      const i = +h.dataset.i, r = svgEl.getBoundingClientRect();
+      tooltip(el, `<b>Week of ${fmtDate(weeks[i])}</b>${series.map(s => tipRow(s.color, s.label, s.values[i])).join("")}
+        <div class="row"><span></span><span>Total</span><span>${totals[i]}</span></div>`, ev.clientX - r.left, ev.clientY - r.top);
+    });
+    h.addEventListener("pointerleave", () => tooltip(el, null));
+  });
+}
+
+function horizontalBars(el, rows) {  // rows: [label, value], single series
+  const W = Math.max(320, el.clientWidth || 600), rowH = 26, labelW = Math.min(220, W * .42), m = { t: 4, r: 40 };
+  const H = m.t + rows.length * rowH, max = Math.max(1, ...rows.map(r => r[1]));
+  const x = v => v / max * (W - labelW - m.r);
+  let svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Employers with the most new postings">`;
+  rows.forEach(([label, v], i) => {
+    const y0 = m.t + i * rowH, bh = 14, yb = y0 + (rowH - bh) / 2, w = Math.max(2, x(v)), r = Math.min(4, w / 2);
+    const short = label.length > 30 ? label.slice(0, 29) + "…" : label;
+    svg += `<text x="${labelW - 8}" y="${y0 + rowH / 2 + 4}" text-anchor="end" style="fill:var(--text)">${esc(short)}<title>${esc(label)}</title></text>
+      <path style="fill:var(--pilot)" d="M${labelW},${yb} H${labelW + w - r} Q${labelW + w},${yb} ${labelW + w},${yb + r} V${yb + bh - r} Q${labelW + w},${yb + bh} ${labelW + w - r},${yb + bh} H${labelW} Z"/>
+      <text x="${labelW + w + 6}" y="${y0 + rowH / 2 + 4}">${v}</text>`;
+  });
+  el.innerHTML = svg + "</svg>";
+}
+
+function renderTrends() {
+  const jobs = state.jobs;
+  if (!jobs.length) { $("trend-tiles").innerHTML = `<div class="empty">No data yet.</div>`; return; }
+  const start = jobs.map(j => dayOf(j.first_seen)).sort()[0], end = today();
+  const dates = dateRange(start, end);
+  const colors = Object.fromEntries(ROLES.map(([k]) => [k, `var(--${k})`]));
+  // open postings per day: listed on or before the day and not yet closed
+  const series = ROLES.map(([k, label]) => ({ key: k, label, short: label.split(" ")[0], color: colors[k], values: dates.map(d =>
+    jobs.filter(j => roleOf(j) === k && dayOf(j.first_seen) <= d && (!j.closed_at || dayOf(j.closed_at) > d)).length) }));
+  const weekAgo = new Date(Date.now() - 7 * DAY).toISOString(), monthAgo = new Date(Date.now() - 30 * DAY).toISOString();
+  const closed = jobs.filter(j => j.closed_at);
+  const durations = closed.map(openDays).filter(d => d !== null);
+  const strongOpen = jobs.filter(j => j.active && ["strong", "possible"].includes(verdictOf(j))).length;
+  $("trend-tiles").innerHTML = [
+    ["Open now", jobs.filter(j => j.active).length],
+    ["New in the last 7 days", jobs.filter(j => j.first_seen >= weekAgo && dayOf(j.first_seen) > start).length, "excludes the first poll"],
+    ["Closed in the last 7 days", closed.filter(j => j.closed_at >= weekAgo).length],
+    ["Median days open", median(durations) ?? "–", durations.length ? `${durations.length} closed postings` : "none closed yet"],
+    ["Open strong / possible matches", strongOpen],
+  ].map(([label, value, hint]) => `<div class="tile"><div class="label">${label}</div><div class="value">${typeof value === "number" ? value.toLocaleString() : value}</div>${hint ? `<div class="hint">${hint}</div>` : ""}</div>`).join("");
+
+  $("open-note").textContent = `Since tracking began on ${fmtDate(start)}`;
+  $("open-legend").innerHTML = legendHtml(series.map(s => [s.color, s.label]));
+  lineChart($("open-chart"), dates, series);
+  $("open-table").innerHTML = tableHtml(["Date", ...series.map(s => s.label)], dates.map((d, i) => [fmtDate(d), ...series.map(s => s.values[i])]).reverse());
+
+  const weeks = dateRange(weekStart(start), end).filter(d => weekStart(d) === d);
+  const weekly = ROLES.map(([k, label]) => ({ label, color: colors[k], values: weeks.map(w =>
+    jobs.filter(j => roleOf(j) === k && weekStart(dayOf(j.first_seen)) === w).length) }));
+  $("weekly-legend").innerHTML = legendHtml(weekly.map(s => [s.color, s.label])) +
+    `<span>First week includes every posting already open when tracking began</span>`;
+  stackedColumns($("weekly-chart"), weeks, weekly);
+  $("weekly-table").innerHTML = tableHtml(["Week of", ...weekly.map(s => s.label), "Total"],
+    weeks.map((w, i) => [fmtDate(w), ...weekly.map(s => s.values[i]), weekly.reduce((a, s) => a + s.values[i], 0)]).reverse());
+
+  const byCompany = {};
+  jobs.filter(j => j.first_seen >= monthAgo).forEach(j => byCompany[j.company] = (byCompany[j.company] || 0) + 1);
+  const top = Object.entries(byCompany).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  horizontalBars($("employers-chart"), top);
+  $("employers-table").innerHTML = tableHtml(["Employer", "New postings"], Object.entries(byCompany).sort((a, b) => b[1] - a[1]));
+
+  $("duration-table").innerHTML = closed.length ? tableHtml(["Role", "Closed postings", "Median days open", "Shortest", "Longest"],
+    ROLES.map(([k, label]) => { const d = closed.filter(j => roleOf(j) === k).map(openDays).filter(v => v !== null);
+      return [label, d.length, median(d) ?? "–", d.length ? Math.min(...d) : "–", d.length ? Math.max(...d) : "–"]; }))
+    : `<p class="note">No postings have closed yet. This fills in as boards remove listings.</p>`;
+}
+document.querySelectorAll(".table-toggle").forEach(b => b.addEventListener("click", () => {
+  const t = $(`${b.dataset.table}-table`); t.hidden = !t.hidden; b.textContent = t.hidden ? "Show table" : "Hide table";
+}));
+let resizeTimer;
+window.addEventListener("resize", () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(() => { if (!$("tab-trends").hidden) renderTrends(); }, 150); });
+
+/* ---------- wiring ---------- */
+function renderAll() {
+  $("app-count").textContent = tracker.list().length ? `(${tracker.list().length})` : "";
+  renderJobs();
+  if (!$("tab-apps").hidden) renderApps();
+}
+document.addEventListener("change", e => {
+  const id = e.target.dataset.track;
+  if (id !== undefined) {
+    const job = state.byId[id] || tracker.get(id);
+    tracker.setStatus(id, e.target.value, job);
+    renderAll();
+    return;
+  }
+  const card = e.target.closest("[data-app]"), field = e.target.dataset.field;
+  if (card && field) { const a = tracker.get(card.dataset.app); a[field] = e.target.value; tracker.save(a); }
+});
+document.addEventListener("click", e => {
+  const apply = e.target.closest("[data-apply]");
+  if (apply) openApply(apply.dataset.apply);
+  const rm = e.target.closest("[data-remove]");
+  if (rm && confirm("Remove this application from the tracker?")) { tracker.setStatus(rm.dataset.remove, ""); renderAll(); }
+});
+$("stats").addEventListener("click", e => {
+  const el = e.target.closest(".stat");
+  if (el) { state.verdict = el.dataset.v; renderJobs(); }
+});
+["q", "company", "sort", "closed", "role", "hide-tracked"].forEach(id => $(id).addEventListener("input", renderJobs));
+$("app-filter").innerHTML += STATUSES.map(([v, l]) => `<option value="${v}">${l}</option>`).join("");
+$("app-filter").addEventListener("input", renderApps);
+
+$("add-form").status.innerHTML = STATUSES.map(([v, l]) => `<option value="${v}" ${v === "applied" ? "selected" : ""}>${l}</option>`).join("");
+$("add-app").onclick = () => { $("add-form").hidden = false; $("add-form").applied_on.value = today(); $("add-form").company.focus(); };
+$("cancel-add").onclick = () => { $("add-form").hidden = true; };
+$("add-form").addEventListener("submit", e => {
+  e.preventDefault();
+  const f = Object.fromEntries(new FormData(e.target));
+  tracker.save({ id: `manual:${Date.now().toString(36)}`, company: f.company, title: f.title, location: f.location,
+    url: f.url, apply_url: f.url, role: f.role, status: f.status, applied_on: f.applied_on || null, notes: "",
+    history: [{ status: f.status, at: new Date().toISOString() }] });
+  e.target.reset(); e.target.hidden = true; renderAll(); renderApps();
+});
+$("export-apps").onclick = () => {
+  const blob = new Blob([JSON.stringify(tracker.file(), null, 1)], { type: "application/json" });
+  const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: `applications-${today()}.json` });
+  a.click(); URL.revokeObjectURL(a.href);
+};
+$("import-apps").addEventListener("change", async e => {
+  const file = e.target.files[0]; if (!file) return;
+  try { tracker.merge(JSON.parse(await file.text()).applications); sync.schedule(); renderAll(); renderApps(); }
+  catch (err) { alert(`Could not import: ${err.message}`); }
+  e.target.value = "";
+});
+$("sync-settings").onclick = () => {
+  const f = $("sync-form"), c = sync.cfg || {};
+  f.repo.value = c.repo || ""; f.path.value = c.path || "data/applications.json"; f.branch.value = c.branch || ""; f.token.value = c.token || "";
+  f.hidden = false;
+};
+$("cancel-sync").onclick = () => { $("sync-form").hidden = true; };
+$("disconnect-sync").onclick = () => { sync.cfg = null; store.del("sync"); $("sync-form").hidden = true; sync.status("Saved in this browser only"); };
+$("sync-form").addEventListener("submit", e => {
+  e.preventDefault();
+  const f = Object.fromEntries(new FormData(e.target));
+  sync.cfg = { repo: f.repo.trim(), path: f.path.trim(), branch: f.branch.trim(), token: f.token.trim() };
+  store.set("sync", sync.cfg); e.target.hidden = true; sync.sha = null; sync.pull();
+});
+
 fetch("jobs.json", { cache: "no-store" })
   .then(r => r.json())
   .then(data => {
-    state.jobs = data.jobs;
-    $("updated").textContent = `Last polled ${data.updated ? new Date(data.updated).toLocaleString() : "never"} · ${data.jobs.length} postings tracked`;
+    state.jobs = data.jobs; state.updated = data.updated;
+    state.byId = Object.fromEntries(data.jobs.map(j => [j.id, j]));
+    $("updated").textContent = `Last polled ${data.updated ? new Date(data.updated).toLocaleString() : "never"} · ${data.jobs.filter(j => j.active).length} open postings`;
     [...new Set(data.jobs.map(j => j.company))].sort()
       .forEach(c => $("company").insertAdjacentHTML("beforeend", `<option>${esc(c)}</option>`));
-    render();
+    renderAll();
+    showTab(store.get("tab", "jobs"));
   })
   .catch(e => { $("updated").textContent = `Could not load jobs.json: ${e}`; });
-
-$("stats").addEventListener("click", e => {
-  const el = e.target.closest(".stat");
-  if (el) { state.verdict = el.dataset.v; render(); }
-});
-["q", "company", "sort", "closed"].forEach(id => $(id).addEventListener("input", render));
+sync.pull();
 </script>
 </body>
 </html>

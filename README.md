@@ -32,6 +32,24 @@ GitHub Actions (cron, every 4h)
 > match summaries quote facts from your profile. Keep the repo private (Pages on a private repo
 > needs GitHub Pro), or accept that exposure.
 
+## The webpage
+
+- **Jobs:** every posting with its DeepSeek score, filterable by role (pilot / dispatch / ground),
+  company and verdict. **Apply ↗** opens the application form directly where the board exposes one
+  (Workday, Dayforce, Taleo, UKG, iCIMS, SmartRecruiters, Rippling, Lever, Ashby, FedEx, UPS…),
+  otherwise the posting. Use **Track…** to save a job to the tracker.
+- **Applications:** status (saved → applied → interview → offer / rejected / withdrawn), applied and
+  follow-up dates, notes, and a status history. Clicking Apply saves the job, and when you return to
+  the tab it asks whether you applied. Jobs found elsewhere can be added manually.
+  - Data lives in your browser (`localStorage`). **Export / Import** moves it between browsers.
+  - **Sync…** (optional) stores it as a JSON file in a GitHub repo of your choice, using a
+    fine-grained token with *Contents: read and write* on that one repo. Prefer a private repo.
+    If you sync to *this* repo at `data/applications.json`, the poller also keeps tracked jobs on
+    the board even if they later fall outside your filters.
+- **Trends:** open postings over time by role, new postings per week, most active employers
+  (30 days), and how long postings stay open. Each chart has a table view. Everything is computed
+  from `data/jobs.json`, so history starts when tracking began.
+
 ## Run locally
 
 ```bash

@@ -162,3 +162,26 @@ def test_ats_helpers():
     assert ats._taleo_location('["CA-QC-Montréal"]') == ("Montréal, QC", "CA")
     assert ats.country_code("CAN") == "CA" and ats.country_code("ca") == "CA" and ats.country_code(None) is None
     assert ats._place("Winnipeg", None, " MB ") == "Winnipeg, MB"
+
+
+@pytest.mark.parametrize("title,role", [
+    ("Airport Dispatch Agent", "dispatch"), ("Flight Follower", "dispatch"), ("SOCC - Dispatcher", "dispatch"),
+    ("Dash First Officer", "pilot"), ("Direct Entry Captain - Dash 8", "pilot"), ("Pilote d'hélicoptère", "pilot"),
+    ("Ramp Agent - YXL", "ground"), ("Aircraft Deicer (Seasonal)", "ground"), ("Ramp Crew Chief", "ground"),
+])
+def test_classify_role(title, role):
+    assert main.classify_role(title) == role
+
+
+@pytest.mark.parametrize("raw,iso", [
+    ("2026-09-28T10:00:00+00:00", "2026-09-28"), ("2026-09-25T13:17:19.837+0000", "2026-09-25"),
+    ("Sep 24, 2026", "2026-09-24"), ("Wed, 30 Sep 2026 14:00:00 +0000", "2026-09-30"),
+    ("Posted 2 Days Ago", None), (None, None), ("2026-10-01T11:14Z", "2026-10-01"),
+])
+def test_normalize_date(raw, iso):
+    assert main.normalize_date(raw) == iso
+
+
+def test_prune_keeps_tracked_jobs():
+    store = {"jobs": [job("greenhouse:gone:1")]}
+    assert main.prune(store, set(), {}, keep={"greenhouse:gone:1"}) == 0

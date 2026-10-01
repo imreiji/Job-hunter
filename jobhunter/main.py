@@ -64,16 +64,50 @@ def load_store() -> dict:
     return {"updated": None, "jobs": []}
 
 
+COMPANY_NOISE = {"the", "inc", "ltd", "llc", "lp", "corp", "corporation", "limited", "group", "air", "airlines",
+                 "airline", "aviation", "aerospace", "canada", "services", "international", "and", "of"}
+
+
+def _words(text: str) -> list[str]:
+    return re.findall(r"[a-z0-9]+", text.lower())
+
+
+def posting_key(job: dict) -> tuple[str, str]:
+    city = re.split(r"[,(]", re.sub(r"\s+[A-Z]{2}$", "", job["location"].strip()))[0]
+    return " ".join(_words(job["title"])), " ".join(_words(city))
+
+
+def company_tokens(job: dict) -> set[str]:
+    return {w for w in _words(job["company"]) if len(w) > 2 and w not in COMPANY_NOISE} or set(_words(job["company"]))
+
+
+def find_duplicate(job: dict, index: dict) -> dict | None:
+    """The same posting is often on the employer's board, LinkedIn, Eluta and Job Bank."""
+    for other in index.get(posting_key(job), []):
+        if other["id"].rsplit(":", 1)[0] != job["id"].rsplit(":", 1)[0] and company_tokens(job) & company_tokens(other):
+            return other
+    return None
+
+
 def merge(store: dict, fetched: list[dict], polled_prefixes: set[str], ts: str) -> list[dict]:
     """Upsert fetched jobs; mark stored jobs from successfully polled sources as closed if gone.
+    A posting already stored from another source is recorded under `also_listed` instead.
     Returns the list of newly seen jobs."""
     by_id = {j["id"]: j for j in store["jobs"]}
+    index: dict[tuple, list[dict]] = {}
+    for j in store["jobs"]:
+        index.setdefault(posting_key(j), []).append(j)
     fetched_ids = set()
     new = []
     for job in fetched:
         fetched_ids.add(job["id"])
         record = {k: v for k, v in job.items() if k not in LOCAL_FIELDS}
-        if job["id"] in by_id:
+        duplicate = None if job["id"] in by_id else find_duplicate(job, index)
+        if duplicate:
+            listing = {"source": job["id"].split(":", 1)[0], "url": job["url"]}
+            if listing not in duplicate.setdefault("also_listed", []):
+                duplicate["also_listed"].append(listing)
+        elif job["id"] in by_id:
             existing = by_id[job["id"]]
             existing.update(record)
             existing["last_seen"] = ts
@@ -82,6 +116,7 @@ def merge(store: dict, fetched: list[dict], polled_prefixes: set[str], ts: str) 
         else:
             record.update(first_seen=ts, last_seen=ts, active=True, evaluation=None)
             by_id[job["id"]] = record
+            index.setdefault(posting_key(record), []).append(record)
             new.append(record)
     for job in by_id.values():
         prefix = job["id"].rsplit(":", 1)[0]

@@ -6,7 +6,7 @@ against your profile, and every posting goes on a filterable webpage hosted on G
 ```
 GitHub Actions (cron, every 4h)
   └─ jobhunter.main
-       ├─ sources.py   fetch Job Bank (Canada) + Greenhouse / Lever / Ashby / USAJOBS boards from config.yaml
+       ├─ sources.py   fetch Job Bank, LinkedIn (public search), Eluta.ca + any Greenhouse / Lever / Ashby boards
        ├─ filters      role keywords + `country: canada` (config.yaml), so only relevant jobs cost API calls
        ├─ matcher.py   DeepSeek → score 0-100, verdict, met / missing / dealbreakers
        ├─ data/jobs.json   history of every posting (first seen, closed, evaluation), committed back
@@ -47,6 +47,8 @@ pytest
   *pending* until later runs.
 - **Profile changes** trigger re-evaluation automatically, because each evaluation records a hash of the
   profile.
+- **Duplicates** across sources (same title + city + overlapping company name) are folded into one
+  card with "also on" links. Order sources in `config.yaml` by preference; the first one seen wins.
 - **Closed postings** are marked *closed* (not deleted) once their board stops listing them. A board
   that errors during a run never closes its jobs.
 
@@ -59,7 +61,7 @@ Look at the company's careers page URL:
 | `boards.greenhouse.io/<slug>` or `job-boards.greenhouse.io/<slug>` | `{type: greenhouse, slug: <slug>, company: Name}` |
 | `jobs.lever.co/<slug>` | `{type: lever, slug: <slug>, company: Name}` |
 | `jobs.ashbyhq.com/<slug>` | `{type: ashby, slug: <slug>, company: Name}` |
-| anything on Job Bank | add a search term under the `jobbank` source's `searches` |
+| more Job Bank / LinkedIn / Eluta coverage | add search terms under that source's `searches` |
 
 Airlines and large OEMs (Boeing, Delta, United…) mostly use Workday or custom portals, which
 aren't supported yet.

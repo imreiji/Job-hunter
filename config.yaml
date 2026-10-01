@@ -22,6 +22,39 @@ sources:
       - ground handling agent
       - load agent
 
+  # LinkedIn's public job search (no login). 10 results per page, newest first,
+  # last 30 days. Keep this list modest: LinkedIn rate-limits heavy use.
+  - type: linkedin
+    slug: linkedin
+    company: LinkedIn
+    location: Canada
+    pages: 2
+    searches:
+      - first officer
+      - pilot
+      - flight dispatcher
+      - flight follower
+      - ramp agent
+      - ramp attendant
+      - baggage handler
+      - ground handling
+
+  # Eluta.ca crawls Canadian employers' own career sites, which surfaces
+  # postings from operators whose boards can't be polled directly.
+  - type: eluta
+    slug: eluta
+    company: Eluta
+    pages: 2
+    searches:
+      - first officer
+      - pilot
+      - flight dispatcher
+      - flight follower
+      - ramp agent
+      - ramp attendant
+      - baggage handler
+      - ground handling
+
 # Filters applied before anything is sent to DeepSeek. Keyword matching is
 # case-insensitive substring. An empty include list means "everything".
 filters:
@@ -52,6 +85,9 @@ filters:
     - rpas
     - manager
     - director
+    - système     # French "pilote de système" = IT project lead
+    - power bi
+    - ms project
   # canada = location mentions Canada, a province, or a province code (ON, BC...)
   country: canada
   include_locations: []

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Aviation Job Board</title>
+<title>Canadian Aviation Jobs</title>
 <style>
   :root {
     --bg: #f6f7f9; --panel: #ffffff; --text: #1b1f24; --muted: #5d6673; --border: #dfe3e8;
@@ -34,6 +34,7 @@
     padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px;
     background: var(--panel); color: var(--text); font: inherit; min-width: 0; }
   .controls input[type=search] { flex: 1 1 220px; }
+  .controls select { max-width: 240px; }
   .controls label { display: flex; align-items: center; gap: 6px; color: var(--muted); }
   .job { background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
          padding: 14px 16px; margin-bottom: 10px; }
@@ -45,6 +46,7 @@
   .title { font-weight: 600; font-size: 1.05rem; color: var(--text); text-decoration: none; }
   .title:hover { text-decoration: underline; }
   .meta { color: var(--muted); font-size: .9rem; overflow-wrap: anywhere; }
+  .meta a { color: var(--accent); }
   .badge { display: inline-block; font-size: .75rem; font-weight: 600; padding: 1px 8px; border-radius: 99px;
            border: 1px solid currentColor; margin-left: 6px; text-transform: uppercase; letter-spacing: .03em; }
   .summary { margin: 8px 0 0; }
@@ -59,7 +61,7 @@
 </head>
 <body>
 <header>
-  <h1>Aviation Job Board</h1>
+  <h1>Canadian Aviation Jobs</h1>
   <p class="sub" id="updated">Loading…</p>
   <div class="stats" id="stats"></div>
   <div class="controls">
@@ -83,6 +85,13 @@ const state = { jobs: [], verdict: "" };
 const verdictOf = j => j.evaluation ? j.evaluation.verdict : "pending";
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const SOURCE_NAMES = { jobbank: "Job Bank", linkedin: "LinkedIn", eluta: "Eluta", greenhouse: "company site",
+  lever: "company site", ashby: "company site", workday: "company site", usajobs: "USAJOBS" };
+const sourceName = s => SOURCE_NAMES[s] || "company site";
+const sourcesLine = j => {
+  const links = (j.also_listed || []).map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(sourceName(l.source))}</a>`);
+  return `via ${esc(sourceName(j.id.split(":")[0]))}${links.length ? ` · also on ${links.join(", ")}` : ""}`;
+};
 const fmtDate = s => s ? new Date(s).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" }) : "";
 const list = (title, items) => items && items.length
   ? `<div><h4>${title}</h4><ul>${items.map(i => `<li>${esc(i)}</li>`).join("")}</ul></div>` : "";
@@ -117,7 +126,7 @@ function render() {
           <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
           <span class="badge" style="color:var(--${v})">${v}</span>
           ${j.active ? "" : `<span class="badge" style="color:var(--muted)">closed ${fmtDate(j.closed_at)}</span>`}
-          <div class="meta">${esc(j.company)} · ${esc(j.location || "Location n/a")} · found ${fmtDate(j.first_seen)}</div>
+          <div class="meta">${esc(j.company)} · ${esc(j.location || "Location n/a")} · found ${fmtDate(j.first_seen)} · ${sourcesLine(j)}</div>
         </div>
       </div>
       ${ev ? `<p class="summary">${esc(ev.summary)}</p>

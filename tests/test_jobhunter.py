@@ -31,9 +31,9 @@ def test_merge_tracks_new_and_closed_jobs():
     store = {"jobs": [
         {**job("greenhouse:acme:1"), "first_seen": "t0", "active": True, "evaluation": {"score": 5}},
         {**job("greenhouse:acme:2"), "first_seen": "t0", "active": True},
-        {**job("lever:other:9"), "first_seen": "t0", "active": True},  # its source failed this run
+        {**job("lever:other:9", title="Dispatcher"), "first_seen": "t0", "active": True},  # source failed
     ]}
-    fetched = [job("greenhouse:acme:1"), job("greenhouse:acme:3")]
+    fetched = [job("greenhouse:acme:1"), job("greenhouse:acme:3", title="Captain")]
     new = main.merge(store, fetched, {"greenhouse:acme"}, "t1")
 
     by_id = {j["id"]: j for j in store["jobs"]}
@@ -116,3 +116,15 @@ def test_prune_drops_removed_sources_and_filtered_jobs():
                       job("jobbank:jobbank:3", title="Cashier")]}
     removed = main.prune(store, {"jobbank:jobbank"}, {"include_title_keywords": ["pilot"]})
     assert removed == 2 and [j["id"] for j in store["jobs"]] == ["jobbank:jobbank:2"]
+
+
+def test_merge_folds_same_posting_from_another_source():
+    store = {"jobs": []}
+    a = {**job("linkedin:linkedin:1", "Ramp Agent", "Moncton, New Brunswick, Canada"), "company": "Air Canada"}
+    b = {**job("eluta:eluta:x", "Ramp Agent", "Moncton NB"), "company": "Air Canada Inc."}
+    c = {**job("eluta:eluta:y", "Ramp Agent", "Moncton NB"), "company": "Swissport"}  # different employer
+    d = {**job("linkedin:linkedin:2", "Ramp Agent", "Moncton, New Brunswick, Canada"), "company": "Air Canada"}
+    new = main.merge(store, [a, b, c, d], {"linkedin:linkedin", "eluta:eluta"}, "t")
+    assert [j["id"] for j in new] == ["linkedin:linkedin:1", "eluta:eluta:y", "linkedin:linkedin:2"]
+    first = next(j for j in store["jobs"] if j["id"] == "linkedin:linkedin:1")
+    assert first["also_listed"] == [{"source": "eluta", "url": "https://x"}]

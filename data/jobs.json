@@ -1,6 +1,571 @@
 {
- "updated": "2026-10-01T15:23:11+00:00",
+ "updated": "2026-10-01T17:20:46+00:00",
  "jobs": [
+  {
+   "id": "dayforce:perimeter:357",
+   "company": "Perimeter Aviation",
+   "title": "Dangerous Goods Coordinator",
+   "location": "Winnipeg, MB",
+   "url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2393",
+   "posted": "2026-09-14T06:00:00+00:00",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "paradox:fedex:P25-377610-1",
+   "company": "FedEx Canada",
+   "title": "Ramp Handler",
+   "location": "Calgary, AB",
+   "url": "https://careers.fedex.com/ramp-handler/job/P25-377610-1",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "paradox:fedex:P25-338410-1",
+   "company": "FedEx Canada",
+   "title": "Ramp Handler",
+   "location": "Mississauga, ON",
+   "url": "https://careers.fedex.com/ramp-handler/job/P25-338410-1",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "paradox:fedex:P25-93317-11",
+   "company": "FedEx Canada",
+   "title": "Manutentionnaire de colis occasionnel/Non conducteur – Temps partiel­",
+   "location": "Saint-Laurent, QC",
+   "url": "https://careers.fedex.com/manutentionnaire-de-colis-occasionnel-non-conducteur-temps-partiel/job/P25-93317-11",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "paradox:fedex:P25-245909-7",
+   "company": "FedEx Canada",
+   "title": "Manutentionnaire de colis occasionnel/Non conducteur – Temps partiel­",
+   "location": "BAIE COMEAU, QC",
+   "url": "https://careers.fedex.com/manutentionnaire-de-colis-occasionnel-non-conducteur-temps-partiel/job/P25-245909-7",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "paradox:fedex:P25-379520-1",
+   "company": "FedEx Canada",
+   "title": "Dangerous Goods Agent",
+   "location": "LONDON, ON",
+   "url": "https://careers.fedex.com/dangerous-goods-agent/job/P25-379520-1",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "paradox:fedex:P25-368553-2",
+   "company": "FedEx Canada",
+   "title": "Ramp Agent",
+   "location": "Gloucester, ON",
+   "url": "https://careers.fedex.com/ramp-agent/job/P25-368553-2",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "paradox:fedex:P25-378092-1",
+   "company": "FedEx Canada",
+   "title": "Ramp Agent",
+   "location": "Gloucester, ON",
+   "url": "https://careers.fedex.com/ramp-agent/job/P25-378092-1",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "paradox:fedex:P25-379178-1",
+   "company": "FedEx Canada",
+   "title": "Dangerous Goods Agent-1",
+   "location": "Calgary, AB",
+   "url": "https://careers.fedex.com/dangerous-goods-agent-1/job/P25-379178-1",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "paradox:fedex:P25-366698-1",
+   "company": "FedEx Canada",
+   "title": "Ramp Handler",
+   "location": "Mirabel, QC",
+   "url": "https://careers.fedex.com/ramp-handler/job/P25-366698-1",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "paradox:fedex:P25-377588-1",
+   "company": "FedEx Canada",
+   "title": "Ramp Handler",
+   "location": "Richmond, BC",
+   "url": "https://careers.fedex.com/ramp-handler/job/P25-377588-1",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "paradox:fedex:P25-378049-1",
+   "company": "FedEx Canada",
+   "title": "Dangerous Goods Agent",
+   "location": "DELTA, BC",
+   "url": "https://careers.fedex.com/dangerous-goods-agent/job/P25-378049-1",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "paradox:fedex:P25-377587-1",
+   "company": "FedEx Canada",
+   "title": "Ramp Handler",
+   "location": "Richmond, BC",
+   "url": "https://careers.fedex.com/ramp-handler/job/P25-377587-1",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "paradox:fedex:P25-271042-3",
+   "company": "FedEx Canada",
+   "title": "Ramp Handler",
+   "location": "Mirabel, QC",
+   "url": "https://careers.fedex.com/ramp-handler/job/P25-271042-3",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "phenom:ups:UPBUPSGLOBALR26025078EXTERNALENCA",
+   "company": "UPS Canada",
+   "title": "9046N AM Gateway Sort",
+   "location": "Richmond, British Columbia",
+   "url": "https://www.jobs-ups.com/ca/en/job/R26025078",
+   "posted": "2026-07-23T00:00:00.000+0000",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "phenom:ups:UPBUPSGLOBALR26021808EXTERNALENCA",
+   "company": "UPS Canada",
+   "title": "Gateway Sunrise Int'l Ramp Agent -",
+   "location": "Calgary, Alberta",
+   "url": "https://www.jobs-ups.com/ca/en/job/R26021808",
+   "posted": "2026-09-28T00:00:00.000+0000",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "phenom:ups:UPBUPSGLOBALR26021809EXTERNALENCA",
+   "company": "UPS Canada",
+   "title": "Calgary Gateway Sunrise Package Handler",
+   "location": "Calgary, Alberta",
+   "url": "https://www.jobs-ups.com/ca/en/job/R26021809",
+   "posted": "2026-09-28T00:00:00.000+0000",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "phenom:ups:UPBUPSGLOBALR26008368EXTERNALENCA",
+   "company": "UPS Canada",
+   "title": "Gateway Int'l Ramp Agent",
+   "location": "Calgary, Alberta",
+   "url": "https://www.jobs-ups.com/ca/en/job/R26008368",
+   "posted": "2026-09-28T00:00:00.000+0000",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "phenom:ups:UPBUPSGLOBALR26034014EXTERNALENCA",
+   "company": "UPS Canada",
+   "title": "Gateway Twilight - Package Handler",
+   "location": "Calgary, Alberta",
+   "url": "https://www.jobs-ups.com/ca/en/job/R26034014",
+   "posted": "2026-09-30T00:00:00.000+0000",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "phenom:ups:UPBUPSGLOBALR26028370EXTERNALENCA",
+   "company": "UPS Canada",
+   "title": "Midnight Gateway Package Handler - Winnipeg",
+   "location": "Winnipeg, Manitoba",
+   "url": "https://www.jobs-ups.com/ca/en/job/R26028370",
+   "posted": "2026-09-29T00:00:00.000+0000",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "phenom:ups:UPBUPSGLOBALR26019917EXTERNALENCA",
+   "company": "UPS Canada",
+   "title": "Gateway Warehouse Worker",
+   "location": "Gloucester, Ontario",
+   "url": "https://www.jobs-ups.com/ca/en/job/R26019917",
+   "posted": "2026-09-11T00:00:00.000+0000",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "phenom:ups:UPBUPSGLOBALR26034414EXTERNALENCA",
+   "company": "UPS Canada",
+   "title": "Ground Handler (Ramp Agent - PM)",
+   "location": "Mount Hope, Ontario",
+   "url": "https://www.jobs-ups.com/ca/en/job/R26034414",
+   "posted": "2026-09-30T00:00:00.000+0000",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "workday:inland:JR100575",
+   "company": "Integrated Deicing Services",
+   "title": "Aircraft Deicer (Seasonal)",
+   "location": "YHZ - Halifax Stanfield Intl Airport",
+   "url": "https://inlandgroup.wd10.myworkdayjobs.com/inlandgroup/job/YHZ---Halifax-Stanfield-Intl-Airport/Aircraft-Deicer--Seasonal-_JR100575",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "workday:inland:JR100539",
+   "company": "Integrated Deicing Services",
+   "title": "Aircraft Deicer",
+   "location": "YOW - Ottawa Intl Airport",
+   "url": "https://inlandgroup.wd10.myworkdayjobs.com/inlandgroup/job/YOW---Ottawa-Intl-Airport/Aircraft-Deicer_JR100539",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "workday:inland:JR100707",
+   "company": "Integrated Deicing Services",
+   "title": "Full-Time Aircraft Fueler",
+   "location": "YOW - Ottawa Intl Airport",
+   "url": "https://inlandgroup.wd10.myworkdayjobs.com/inlandgroup/job/YOW---Ottawa-Intl-Airport/Full-Time-Aircraft-Fueler_JR100707",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "workday:agi:Regular",
+   "company": "Alliance Ground International",
+   "title": "Ground Ramp Agent",
+   "location": "Richmond, British Columbia, Canada",
+   "url": "https://allianceground.wd1.myworkdayjobs.com/AGI_Careers/job/Richmond-British-Columbia-Canada/Ground-Ramp-Agent_R-111801-1",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "aeromag:aeromag:YVR-seasonal-deicing-technician",
+   "company": "Aeromag",
+   "title": "Seasonal Deicing Technician",
+   "location": "YVR",
+   "url": "https://aeromag.ca/en/careers/seasonal-deicing-technician?airport=YVR&position=Seasonal%20Deicing%20Technician",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "aeromag:aeromag:YMX-seasonal-deicing-technician",
+   "company": "Aeromag",
+   "title": "Seasonal Deicing Technician",
+   "location": "YMX",
+   "url": "https://aeromag.ca/en/careers/seasonal-deicing-technician?airport=YMX&position=Seasonal%20Deicing%20Technician",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "aeromag:aeromag:YEG-seasonal-deicing-technician",
+   "company": "Aeromag",
+   "title": "Seasonal Deicing Technician",
+   "location": "YEG",
+   "url": "https://aeromag.ca/en/careers/seasonal-deicing-technician?airport=YEG&position=Seasonal%20Deicing%20Technician",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "aeromag:aeromag:YTZ-seasonal-deicing-technician",
+   "company": "Aeromag",
+   "title": "Seasonal Deicing Technician",
+   "location": "YTZ",
+   "url": "https://aeromag.ca/en/careers/seasonal-deicing-technician?airport=YTZ&position=Seasonal%20Deicing%20Technician",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "aeromag:aeromag:YYC-seasonal-deicing-technician",
+   "company": "Aeromag",
+   "title": "Seasonal Deicing Technician",
+   "location": "YYC",
+   "url": "https://aeromag.ca/en/careers/seasonal-deicing-technician?airport=YYC&position=Seasonal%20Deicing%20Technician",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "adp:flair:9205151940887_1",
+   "company": "Flair Airlines",
+   "title": "Pilot - First Officer",
+   "location": "Toronto, ON",
+   "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=b969f000-deee-43ae-b41e-ea6f47ea7487&ccId=19000101_000001&jobId=597309&lang=en_CA",
+   "posted": "2026-08-06T12:51:00.000-04:00",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "adp:chartright:9201294567436_1",
+   "company": "Chartright Air Group",
+   "title": "Pilot - Captain - Citation X - YYZ",
+   "location": "Mississauga, ON",
+   "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ea870be-b6a1-44b8-ad4c-1e7250f907d6&ccId=19000101_000001&jobId=612194&lang=en_CA",
+   "posted": "2026-10-01T12:35:00.000-04:00",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "adp:chartright:9201290068689_1",
+   "company": "Chartright Air Group",
+   "title": "Pilot - Captain – Challenger 650 - YYZ",
+   "location": "Mississauga, ON",
+   "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ea870be-b6a1-44b8-ad4c-1e7250f907d6&ccId=19000101_000001&jobId=611731&lang=en_CA",
+   "posted": "2026-09-18T14:51:00.000-04:00",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "adp:chartright:9201284690724_1",
+   "company": "Chartright Air Group",
+   "title": "Ramp Agent / Line Service Technician",
+   "location": "Oro Station, ON",
+   "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ea870be-b6a1-44b8-ad4c-1e7250f907d6&ccId=19000101_000001&jobId=611093&lang=en_CA",
+   "posted": "2026-09-02T14:00:00.000-04:00",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "adp:chartright:9201279038231_1",
+   "company": "Chartright Air Group",
+   "title": "Pilot - Captain – Challenger 300 – YYZ",
+   "location": "Mississauga, ON",
+   "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ea870be-b6a1-44b8-ad4c-1e7250f907d6&ccId=19000101_000001&jobId=610431&lang=en_CA",
+   "posted": "2026-08-19T09:39:00.000-04:00",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null,
+   "also_listed": [
+    {
+     "source": "eluta",
+     "url": "https://www.eluta.ca/spl/pilot-captain-%E2%80%93-challenger-300-%E2%80%93-yyz-0238af9105bc921376db71b679522868?imo=12"
+    }
+   ]
+  },
+  {
+   "id": "adp:chartright:9201277135070_1",
+   "company": "Chartright Air Group",
+   "title": "Helicopter Pilot - YHZ",
+   "location": "",
+   "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ea870be-b6a1-44b8-ad4c-1e7250f907d6&ccId=19000101_000001&jobId=610107&lang=en_CA",
+   "posted": "2026-08-13T11:40:00.000-04:00",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "adp:chartright:9201269014223_1",
+   "company": "Chartright Air Group",
+   "title": "Ramp Agent / Line Service Technician",
+   "location": "Breslau, ON",
+   "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ea870be-b6a1-44b8-ad4c-1e7250f907d6&ccId=19000101_000001&jobId=608990&lang=en_CA",
+   "posted": "2026-07-22T09:04:00.000-04:00",
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "successfactors:execaire:606368217",
+   "company": "Execaire Aviation",
+   "title": "Flight Follower",
+   "location": "Toronto, ON",
+   "url": "https://careers.impgroup.com/Innotech-Execaire/job/Toronto-Flight-Follower-ON/606368217/",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "successfactors:execaire:606158917",
+   "company": "Execaire Aviation",
+   "title": "Line Service Representative",
+   "location": "Montreal, Quebec",
+   "url": "https://careers.impgroup.com/Innotech-Execaire/job/Montreal-Line-Service-Representative-Queb/606158917/",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "successfactors:execaire:603476417",
+   "company": "Execaire Aviation",
+   "title": "First Officer- Challenger 604",
+   "location": "Calgary, AB",
+   "url": "https://careers.impgroup.com/Innotech-Execaire/job/Calgary-First-Officer-Challenger-604-AB/603476417/",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "radancy:yvr:99812216784",
+   "company": "Vancouver Airport Authority",
+   "title": "Apron Operations Coordinator",
+   "location": "Vancouver, British Columbia",
+   "url": "https://careers.yvr.ca/job/vancouver/apron-operations-coordinator/38253/99812216784",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
+  {
+   "id": "radancy:yvr:98195268176",
+   "company": "Vancouver Airport Authority",
+   "title": "Program Coordinator, Risk and Resilience (Airside)",
+   "location": "Vancouver, British Columbia",
+   "url": "https://careers.yvr.ca/job/vancouver/program-coordinator-risk-and-resilience-airside/38253/98195268176",
+   "posted": null,
+   "country": "CA",
+   "first_seen": "2026-10-01T17:20:46+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
+   "active": true,
+   "evaluation": null
+  },
   {
    "id": "phenom:aircanada:AIPACICA39852EXTERNALENCA",
    "company": "Air Canada",
@@ -10,7 +575,7 @@
    "posted": "2026-08-03T19:32:53.000+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -23,7 +588,7 @@
    "posted": "2026-08-26T18:14:05.000+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -36,7 +601,7 @@
    "posted": "2026-09-03T18:40:54.000+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -49,7 +614,7 @@
    "posted": "2026-08-20T12:37:22.000+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -62,7 +627,7 @@
    "posted": "2026-09-18T15:31:42.000+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -75,7 +640,7 @@
    "posted": "2026-09-23T14:24:00.000+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -88,7 +653,7 @@
    "posted": "2026-02-13T16:56:42.000+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -101,7 +666,7 @@
    "posted": "2026-08-03T19:34:46.000+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -114,7 +679,7 @@
    "posted": "2026-09-03T18:45:26.000+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -127,7 +692,7 @@
    "posted": "Aug 6, 2026",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -140,7 +705,7 @@
    "posted": "Jul 7, 2025",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -153,7 +718,7 @@
    "posted": "2026-09-29T17:04:00.881Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -166,7 +731,7 @@
    "posted": "2026-09-29T17:03:54.725Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -179,7 +744,7 @@
    "posted": "2026-09-29T15:34:37.076Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -192,7 +757,7 @@
    "posted": "2026-09-26T20:59:20.372Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -205,7 +770,7 @@
    "posted": "2026-09-26T20:58:50.16Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -218,7 +783,7 @@
    "posted": "2026-09-24T18:44:57.413Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -231,7 +796,7 @@
    "posted": "2026-09-24T18:44:46.879Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -244,7 +809,7 @@
    "posted": "2026-09-24T16:42:57.894Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -257,7 +822,7 @@
    "posted": "2026-09-24T14:06:22.478Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -270,7 +835,7 @@
    "posted": "2026-09-18T22:11:51.974Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -283,7 +848,7 @@
    "posted": "2026-09-17T21:17:39.07Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -296,7 +861,7 @@
    "posted": "2026-09-11T20:17:54.221Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -309,7 +874,7 @@
    "posted": "2026-09-10T20:53:16.819Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -322,7 +887,7 @@
    "posted": "2026-09-10T20:51:04.685Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -335,7 +900,7 @@
    "posted": "2026-09-10T20:47:15.317Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -348,7 +913,7 @@
    "posted": "2026-09-09T00:03:31.979Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -361,7 +926,7 @@
    "posted": "2026-09-04T17:17:59.111Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -374,7 +939,7 @@
    "posted": "2026-09-03T20:22:41.539Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -387,7 +952,7 @@
    "posted": "2026-08-27T16:42:49.399Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -400,7 +965,7 @@
    "posted": "2026-08-19T20:23:27.816Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -413,7 +978,7 @@
    "posted": "2026-07-22T19:04:31.051Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -426,7 +991,7 @@
    "posted": "2026-07-13T18:32:40.497Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -439,7 +1004,7 @@
    "posted": "2026-04-03T00:08:17.987Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -452,7 +1017,7 @@
    "posted": "2026-04-01T21:54:29.067Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -465,7 +1030,7 @@
    "posted": "2026-04-01T21:47:58.39Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -478,7 +1043,7 @@
    "posted": "2026-03-12T02:14:50.08Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -491,7 +1056,7 @@
    "posted": "2026-09-28T11:31:01.326Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -504,7 +1069,7 @@
    "posted": "2026-07-14T11:39:59.291Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -517,7 +1082,7 @@
    "posted": "2026-07-10T17:33:34.642Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -530,7 +1095,7 @@
    "posted": "2026-02-26T19:20:05.733Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -543,7 +1108,7 @@
    "posted": "2026-09-10T17:02:21.159Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -556,7 +1121,7 @@
    "posted": "2026-09-10T17:00:14.959Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -569,7 +1134,7 @@
    "posted": "2026-09-10T16:54:34.822Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -582,7 +1147,7 @@
    "posted": "2026-09-10T16:53:18.223Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -595,7 +1160,7 @@
    "posted": "2026-09-10T16:51:09.301Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -608,7 +1173,7 @@
    "posted": "2026-08-18T16:07:28.66Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -621,7 +1186,7 @@
    "posted": "2026-07-28T20:29:32.948Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -634,7 +1199,7 @@
    "posted": "2026-09-28T13:39:00.000-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -647,7 +1212,7 @@
    "posted": "2026-09-28T11:53:00.000-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -660,7 +1225,7 @@
    "posted": "2026-09-21T09:45:00.000-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -673,7 +1238,7 @@
    "posted": "2026-08-31T09:45:00.000-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -686,7 +1251,7 @@
    "posted": "2026-08-25T08:25:00.000-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -699,7 +1264,7 @@
    "posted": "2026-07-06T13:25:00.000-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -712,7 +1277,7 @@
    "posted": "2026-05-08T08:40:00.000-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -725,7 +1290,7 @@
    "posted": "2026-05-01T13:35:00.000-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -738,7 +1303,7 @@
    "posted": "2026-04-02T08:12:00.000-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -751,7 +1316,7 @@
    "posted": "2026-03-04T08:13:00.000-05:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -764,7 +1329,7 @@
    "posted": "2025-12-12T08:11:00.000-05:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -777,7 +1342,7 @@
    "posted": "2025-09-08T14:23:00.000-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -790,7 +1355,7 @@
    "posted": "2026-06-03T11:44:00.000-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -803,7 +1368,7 @@
    "posted": "2026-08-20T12:22:00.000-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -816,7 +1381,7 @@
    "posted": "2025-07-24T15:13:00.000-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -829,7 +1394,7 @@
    "posted": "2025-07-07T17:10:00.000-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -842,7 +1407,7 @@
    "posted": "2026-09-22T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -855,7 +1420,7 @@
    "posted": "2026-09-08T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -868,7 +1433,7 @@
    "posted": "2026-09-01T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -881,7 +1446,7 @@
    "posted": "2026-04-14T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -894,7 +1459,7 @@
    "posted": "2026-04-09T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -907,7 +1472,7 @@
    "posted": "2026-03-11T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -920,7 +1485,7 @@
    "posted": "2026-01-09T08:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -933,7 +1498,7 @@
    "posted": "2026-01-05T08:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -946,7 +1511,7 @@
    "posted": "2026-01-05T08:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -959,7 +1524,7 @@
    "posted": "2026-09-28T10:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -972,7 +1537,7 @@
    "posted": "2026-09-10T10:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -985,7 +1550,7 @@
    "posted": "2026-09-10T10:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -998,7 +1563,7 @@
    "posted": "2026-09-10T10:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1011,7 +1576,7 @@
    "posted": "2026-09-09T10:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1024,7 +1589,7 @@
    "posted": "2026-09-07T10:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1037,7 +1602,7 @@
    "posted": "2026-07-21T10:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1050,7 +1615,7 @@
    "posted": "2026-07-14T10:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1063,7 +1628,7 @@
    "posted": "2026-07-06T10:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1076,7 +1641,7 @@
    "posted": "2026-06-26T10:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1089,7 +1654,7 @@
    "posted": "2026-05-20T10:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1102,7 +1667,7 @@
    "posted": "2026-09-22T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1115,7 +1680,7 @@
    "posted": "2026-09-22T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1128,7 +1693,7 @@
    "posted": "2026-09-20T05:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1141,7 +1706,7 @@
    "posted": "2026-09-20T05:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1154,7 +1719,7 @@
    "posted": "2026-09-20T05:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1167,7 +1732,7 @@
    "posted": "2026-09-18T05:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1180,7 +1745,7 @@
    "posted": "2026-09-18T05:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1193,7 +1758,7 @@
    "posted": "2026-09-14T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1206,7 +1771,7 @@
    "posted": "2026-09-14T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1219,7 +1784,7 @@
    "posted": "2026-09-07T05:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1232,7 +1797,7 @@
    "posted": "2026-09-03T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1245,7 +1810,7 @@
    "posted": "2026-08-28T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1258,7 +1823,7 @@
    "posted": "2026-08-27T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1271,7 +1836,7 @@
    "posted": "2026-08-14T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1284,7 +1849,7 @@
    "posted": "2026-08-05T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1297,7 +1862,7 @@
    "posted": "2026-08-05T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1310,7 +1875,7 @@
    "posted": "2026-08-02T05:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1323,7 +1888,7 @@
    "posted": "2026-07-12T05:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1336,7 +1901,7 @@
    "posted": "2026-07-07T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1349,7 +1914,7 @@
    "posted": "2026-07-07T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1362,7 +1927,7 @@
    "posted": "2026-07-05T05:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1375,7 +1940,7 @@
    "posted": "2026-06-24T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1388,7 +1953,7 @@
    "posted": "2026-06-04T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1401,7 +1966,7 @@
    "posted": "2026-03-05T07:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1414,7 +1979,7 @@
    "posted": "2026-09-28T07:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1427,7 +1992,7 @@
    "posted": "2026-09-28T07:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1440,7 +2005,7 @@
    "posted": "2026-02-27T07:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1453,7 +2018,7 @@
    "posted": "2025-12-09T07:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1466,7 +2031,7 @@
    "posted": "2025-12-09T07:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1479,7 +2044,7 @@
    "posted": "2025-12-09T07:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1492,7 +2057,7 @@
    "posted": "2026-07-30T10:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1505,7 +2070,7 @@
    "posted": "2026-08-11T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1518,7 +2083,7 @@
    "posted": "2026-08-11T06:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1531,7 +2096,7 @@
    "posted": "2026-09-09T04:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1544,7 +2109,7 @@
    "posted": "2026-09-18T07:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1557,7 +2122,7 @@
    "posted": "2026-07-22T07:00:00+00:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1570,7 +2135,7 @@
    "posted": "2026-06-23T12:25:00+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1583,7 +2148,7 @@
    "posted": "2026-07-20T14:43:00+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1596,7 +2161,7 @@
    "posted": "2026-06-11T12:48:00+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1609,7 +2174,7 @@
    "posted": "2026-09-14T18:40:00+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1622,7 +2187,7 @@
    "posted": "2026-09-11T19:24:00+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1635,7 +2200,7 @@
    "posted": "2026-09-24T17:50:00+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1648,7 +2213,7 @@
    "posted": "2026-09-12T01:42:00+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1661,7 +2226,7 @@
    "posted": "2026-09-29T19:17:00+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1674,7 +2239,7 @@
    "posted": "2026-09-17T22:15:00+0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1687,7 +2252,7 @@
    "posted": "2026-04-17T19:51:06.739Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null,
    "also_listed": [
@@ -1706,7 +2271,7 @@
    "posted": "2026-09-25T19:18:35.133Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1719,7 +2284,7 @@
    "posted": "2026-09-25T19:12:12.507Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1732,7 +2297,7 @@
    "posted": "2026-08-11T06:50:55.486Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1745,7 +2310,7 @@
    "posted": "2026-08-06T20:11:49.418Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1758,7 +2323,7 @@
    "posted": "2026-08-04T12:49:31.107Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1771,7 +2336,7 @@
    "posted": "2026-08-04T12:48:51.876Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1784,7 +2349,7 @@
    "posted": "2026-08-04T12:48:35.873Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1797,7 +2362,7 @@
    "posted": "2026-08-04T12:45:57.852Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1810,7 +2375,7 @@
    "posted": "2026-08-04T12:45:39.921Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1823,7 +2388,7 @@
    "posted": "2026-08-04T12:36:26.571Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1836,7 +2401,7 @@
    "posted": "2026-08-04T12:36:07.339Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1849,7 +2414,7 @@
    "posted": "2026-08-04T12:19:09.978Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1862,7 +2427,7 @@
    "posted": "2026-08-04T12:18:50.957Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1875,7 +2440,7 @@
    "posted": "2026-05-20T21:22:56.220Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1888,7 +2453,7 @@
    "posted": "2026-04-30T21:50:25.657Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1901,7 +2466,7 @@
    "posted": "2024-10-31T16:21:46.299Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1914,7 +2479,7 @@
    "posted": "2024-10-31T16:20:09.550Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1927,7 +2492,7 @@
    "posted": "2024-10-30T22:31:57.347Z",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1940,7 +2505,7 @@
    "posted": "2026-09-23T16:07:06-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1953,7 +2518,7 @@
    "posted": "2026-08-11T14:00:22-04:00",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1966,7 +2531,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1979,7 +2544,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -1992,7 +2557,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2005,7 +2570,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2018,7 +2583,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2031,7 +2596,7 @@
    "posted": "Fri, 25 Sep 2026 17:42:31 +0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2044,7 +2609,7 @@
    "posted": "Thu, 27 Aug 2026 18:53:57 +0000",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2058,8 +2623,9 @@
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
    "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null
+   "active": false,
+   "evaluation": null,
+   "closed_at": "2026-10-01T17:20:46+00:00"
   },
   {
    "id": "jobbank:jobbank:50214436",
@@ -2069,7 +2635,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50214436",
    "posted": null,
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2081,7 +2647,7 @@
    "url": "https://www.linkedin.com/jobs/view/4469925665",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2093,7 +2659,7 @@
    "url": "https://www.linkedin.com/jobs/view/4436864719",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2105,7 +2671,7 @@
    "url": "https://www.linkedin.com/jobs/view/4472734612",
    "posted": "2026-09-28",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2117,7 +2683,7 @@
    "url": "https://www.linkedin.com/jobs/view/4473292843",
    "posted": "2026-09-30",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null,
    "also_listed": [
@@ -2135,7 +2701,7 @@
    "url": "https://www.linkedin.com/jobs/view/4467805333",
    "posted": "2026-09-17",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2147,31 +2713,7 @@
    "url": "https://www.linkedin.com/jobs/view/4470889058",
    "posted": "2026-09-28",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null
-  },
-  {
-   "id": "linkedin:linkedin:4449310707",
-   "company": "Execaire Aviation",
-   "title": "Line Service Technician",
-   "location": "Toronto, Ontario, Canada",
-   "url": "https://www.linkedin.com/jobs/view/4449310707",
-   "posted": "2026-09-18",
-   "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null
-  },
-  {
-   "id": "linkedin:linkedin:4467109054",
-   "company": "Execaire Aviation",
-   "title": "Line Service Representative",
-   "location": "Montreal, Quebec, Canada",
-   "url": "https://www.linkedin.com/jobs/view/4467109054",
-   "posted": "2026-09-16",
-   "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2183,7 +2725,7 @@
    "url": "https://www.eluta.ca/spl/airline-ramp-attendant-baggage-handler-48069fb1fa24b9dfaf00be1778c4acd0?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2195,7 +2737,7 @@
    "url": "https://www.eluta.ca/spl/cargo-ramp-attendant-crewman-fc70bdc7e7cec0046a5d1f3e58c6f673?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2207,7 +2749,7 @@
    "url": "https://www.eluta.ca/spl/senior-baggage-handling-system-engineer-bhs-bc2ed24860191996f844c7dc7541d90b?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2219,7 +2761,7 @@
    "url": "https://www.eluta.ca/spl/senior-baggage-handling-system-engineer-5a2ce8dbba317093c39ad8ebb82b9682?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2231,7 +2773,7 @@
    "url": "https://www.eluta.ca/spl/senior-engineer-baggage-handling-systems-c15d7b437a43c0e38d226354501a61d0?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2243,7 +2785,7 @@
    "url": "https://www.eluta.ca/spl/ground-handler-2e76f568cba7a3956ae0c75408272b57?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2255,7 +2797,7 @@
    "url": "https://www.eluta.ca/spl/ground-handler-6a941fc9edfe748dccffc1497a601d81?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2267,7 +2809,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50248342",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2279,7 +2821,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50384783",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2291,7 +2833,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50365010",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2303,7 +2845,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50348239",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2315,7 +2857,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50318491",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2327,7 +2869,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50266098",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2339,7 +2881,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50265638",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2351,7 +2893,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50122254",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2363,7 +2905,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50121374",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2375,7 +2917,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120950",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2387,7 +2929,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120944",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2399,7 +2941,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120919",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2411,7 +2953,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120746",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2423,7 +2965,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50227982",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2435,7 +2977,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50227985",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2447,7 +2989,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50215604",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2459,7 +3001,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50215689",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2471,7 +3013,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50209091",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2483,7 +3025,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50200447",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2495,7 +3037,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50000527",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2507,7 +3049,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50385664",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2519,19 +3061,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50315552",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null
-  },
-  {
-   "id": "jobbank:jobbank:50220756",
-   "company": "Execaire Aviation",
-   "title": "ramp attendant - air transport",
-   "location": "Toronto (ON)",
-   "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50220756",
-   "posted": null,
-   "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2543,27 +3073,9 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50401802",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
-  },
-  {
-   "id": "linkedin:linkedin:4427772535",
-   "company": "Execaire Aviation",
-   "title": "First Officer- Challenger 604",
-   "location": "Calgary, Alberta, Canada",
-   "url": "https://www.linkedin.com/jobs/view/4427772535",
-   "posted": "2026-09-10",
-   "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null,
-   "also_listed": [
-    {
-     "source": "eluta",
-     "url": "https://www.eluta.ca/spl/first-officer-challenger-604-89653639f16fa5c58a2996636e0ae3dc?imo=12"
-    }
-   ]
   },
   {
    "id": "linkedin:linkedin:4468326021",
@@ -2573,7 +3085,7 @@
    "url": "https://www.linkedin.com/jobs/view/4468326021",
    "posted": "2026-09-16",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null,
    "also_listed": [
@@ -2591,7 +3103,7 @@
    "url": "https://www.linkedin.com/jobs/view/4465808094",
    "posted": "2026-09-10",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2601,9 +3113,9 @@
    "title": "PC12 EMS First Officer",
    "location": "Sudbury, Ontario, Canada",
    "url": "https://www.linkedin.com/jobs/view/4465808095",
-   "posted": "2026-09-10",
+   "posted": "2026-10-01",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2615,7 +3127,7 @@
    "url": "https://www.linkedin.com/jobs/view/4469850942",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2627,7 +3139,7 @@
    "url": "https://www.linkedin.com/jobs/view/4461134067",
    "posted": "2026-09-04",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2639,7 +3151,7 @@
    "url": "https://www.linkedin.com/jobs/view/4444585865",
    "posted": "2026-09-11",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2651,7 +3163,7 @@
    "url": "https://www.linkedin.com/jobs/view/4464693468",
    "posted": "2026-09-08",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2663,7 +3175,7 @@
    "url": "https://www.linkedin.com/jobs/view/4465816058",
    "posted": "2026-09-10",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2675,7 +3187,7 @@
    "url": "https://www.linkedin.com/jobs/view/4408059133",
    "posted": "2026-09-16",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2687,39 +3199,9 @@
    "url": "https://www.linkedin.com/jobs/view/4465806102",
    "posted": "2026-09-10",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
-  },
-  {
-   "id": "linkedin:linkedin:4469284270",
-   "company": "Chartright Air Group",
-   "title": "Pilot - Captain – Challenger 650 - YYZ",
-   "location": "Mississauga, Ontario, Canada",
-   "url": "https://www.linkedin.com/jobs/view/4469284270",
-   "posted": "2026-09-19",
-   "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null
-  },
-  {
-   "id": "linkedin:linkedin:4456354973",
-   "company": "Chartright Air Group",
-   "title": "Pilot - Captain – Challenger 300 – YYZ",
-   "location": "Mississauga, Ontario, Canada",
-   "url": "https://www.linkedin.com/jobs/view/4456354973",
-   "posted": "2026-09-08",
-   "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null,
-   "also_listed": [
-    {
-     "source": "eluta",
-     "url": "https://www.eluta.ca/spl/pilot-captain-%E2%80%93-challenger-300-%E2%80%93-yyz-0238af9105bc921376db71b679522868?imo=12"
-    }
-   ]
   },
   {
    "id": "linkedin:linkedin:4468707761",
@@ -2729,7 +3211,7 @@
    "url": "https://www.linkedin.com/jobs/view/4468707761",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2741,7 +3223,7 @@
    "url": "https://www.linkedin.com/jobs/view/4411501596",
    "posted": "2026-09-22",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2753,7 +3235,7 @@
    "url": "https://www.linkedin.com/jobs/view/4372699921",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2765,7 +3247,7 @@
    "url": "https://www.linkedin.com/jobs/view/4466287825",
    "posted": "2026-09-17",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2777,27 +3259,9 @@
    "url": "https://www.linkedin.com/jobs/view/4472735436",
    "posted": "2026-09-28",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
-  },
-  {
-   "id": "linkedin:linkedin:4469478646",
-   "company": "Execaire Aviation",
-   "title": "Flight Follower",
-   "location": "Toronto, Ontario, Canada",
-   "url": "https://www.linkedin.com/jobs/view/4469478646",
-   "posted": "2026-09-23",
-   "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null,
-   "also_listed": [
-    {
-     "source": "eluta",
-     "url": "https://www.eluta.ca/spl/flight-follower-55ec6eccf66722facecb0926c13960c2?imo=12"
-    }
-   ]
   },
   {
    "id": "linkedin:linkedin:4464494874",
@@ -2807,7 +3271,7 @@
    "url": "https://www.linkedin.com/jobs/view/4464494874",
    "posted": "2026-09-08",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2819,7 +3283,7 @@
    "url": "https://www.linkedin.com/jobs/view/4461126168",
    "posted": "2026-09-04",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2831,7 +3295,7 @@
    "url": "https://www.linkedin.com/jobs/view/4411553219",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2843,31 +3307,7 @@
    "url": "https://www.linkedin.com/jobs/view/4468694657",
    "posted": "2026-09-17",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null
-  },
-  {
-   "id": "linkedin:linkedin:4470684730",
-   "company": "FedEx Canada",
-   "title": "Ramp Handler",
-   "location": "Richmond, British Columbia, Canada",
-   "url": "https://www.linkedin.com/jobs/view/4470684730",
-   "posted": "2026-09-23",
-   "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null
-  },
-  {
-   "id": "linkedin:linkedin:4470651314",
-   "company": "FedEx Canada",
-   "title": "Ramp Handler",
-   "location": "Calgary, Alberta, Canada",
-   "url": "https://www.linkedin.com/jobs/view/4470651314",
-   "posted": "2026-09-23",
-   "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2879,7 +3319,7 @@
    "url": "https://www.linkedin.com/jobs/view/4465993387",
    "posted": "2026-09-16",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null,
    "also_listed": [
@@ -2897,7 +3337,7 @@
    "url": "https://www.linkedin.com/jobs/view/4467642349",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null,
    "also_listed": [
@@ -2915,7 +3355,7 @@
    "url": "https://www.linkedin.com/jobs/view/4466356363",
    "posted": "2026-09-11",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2927,19 +3367,7 @@
    "url": "https://www.linkedin.com/jobs/view/4392477083",
    "posted": "2026-09-20",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null
-  },
-  {
-   "id": "eluta:eluta:24e065caa4d80f79f2e9d2692f048ad5",
-   "company": "IMP Group International Inc.",
-   "title": "First Officer- Challenger 604",
-   "location": "Calgary AB",
-   "url": "https://www.eluta.ca/spl/first-officer-challenger-604-24e065caa4d80f79f2e9d2692f048ad5?imo=12",
-   "posted": null,
-   "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2951,7 +3379,7 @@
    "url": "https://www.eluta.ca/spl/first-officer-challenger-650-99a81cb1ef8e41baf715cea8e472558f?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2963,7 +3391,7 @@
    "url": "https://www.eluta.ca/spl/first-officer-challenger-3500-halifax-cyhz-4677db1e46c85d14ed4754d1d284997f?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2975,19 +3403,7 @@
    "url": "https://www.eluta.ca/spl/rotor-wing-first-officer-5c3f5ee6ec1a46ce72a402916a52d08b?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null
-  },
-  {
-   "id": "eluta:eluta:128d0f72229a375904760ae9583fec15",
-   "company": "Flair Airlines Inc.",
-   "title": "Pilot - First Officer",
-   "location": "Toronto ON",
-   "url": "https://www.eluta.ca/spl/pilot-first-officer-128d0f72229a375904760ae9583fec15?imo=12",
-   "posted": null,
-   "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -2999,7 +3415,7 @@
    "url": "https://www.eluta.ca/spl/stream-1%3A-engineering-test-pilot-fixed-wing-stream-2%3A-engineering-test-pilot-rotary-wing-c8d9e011e6a6772564aac1d33084005f?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3011,7 +3427,7 @@
    "url": "https://www.eluta.ca/spl/tactical-instructor-pilot-c8569fb3c164524911e9e6d0695f6a86?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3023,7 +3439,7 @@
    "url": "https://www.eluta.ca/spl/aviation-pilot-7e9854d220e4273d27471bd00e38bfca?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3035,7 +3451,7 @@
    "url": "https://www.eluta.ca/spl/pilote-en-chef-89683d5c9a48160c7d3f4198f50b9292?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3047,7 +3463,7 @@
    "url": "https://www.eluta.ca/spl/c130j-pilot-sme-3f73004f445043976a2886f25b6dc159?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3059,7 +3475,7 @@
    "url": "https://www.eluta.ca/spl/instructor-pilot-gbts-sme-fact-caf70baa9db4895dfedb50dd55d5de62?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3071,7 +3487,7 @@
    "url": "https://www.eluta.ca/spl/sp%C3%A9cialiste-exploitation-des-services-d%E2%80%99information-a%C3%A9ronautique-pilote-non-navigant-normes-ais-c0c56df666251c752a8b714262a69754?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3083,7 +3499,7 @@
    "url": "https://www.eluta.ca/spl/aeronautical-information-operations-specialist-pilot-non-flying-ais-standards-6b5450269b48e33e01bae0afd9a8447d?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3095,7 +3511,7 @@
    "url": "https://www.eluta.ca/spl/pilot-plant-engineer-2a8649125c58ca8bac6aaaeaf44489f0?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3107,7 +3523,7 @@
    "url": "https://www.eluta.ca/spl/flight-dispatcher-certified-dd02099ca94203ae25865de62603b3fb?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3119,7 +3535,7 @@
    "url": "https://www.eluta.ca/spl/flight-dispatcher-6895e1178e1a75f361b8f6e39c16d560?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3131,7 +3547,7 @@
    "url": "https://www.eluta.ca/spl/dispatcher-7dbcd967a9e4d5a00f429cf28432d8b2?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3143,7 +3559,7 @@
    "url": "https://www.eluta.ca/spl/dispatchers-cc3f0ba8d461e9b99755607242a05665?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3155,19 +3571,7 @@
    "url": "https://www.eluta.ca/spl/flight-follower-dcb71f7ad8d70f30d9d36604ddb46c61?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null
-  },
-  {
-   "id": "eluta:eluta:548cbf77ee58340caf17c3db9a532775",
-   "company": "IMP Group International Inc.",
-   "title": "Flight Follower",
-   "location": "Toronto ON",
-   "url": "https://www.eluta.ca/spl/flight-follower-548cbf77ee58340caf17c3db9a532775?imo=12",
-   "posted": null,
-   "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3179,7 +3583,7 @@
    "url": "https://www.eluta.ca/spl/entry-level-pilot-9e5fb3b9a3f0b7ce28acf3535e804373?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3191,67 +3595,7 @@
    "url": "https://www.eluta.ca/spl/conception-d%C3%A9veloppement-et-analyse-des-lois-de-pilotage-flight-control-laws-9aad99f638f14a65f4ee50e3bb3b06d0?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null
-  },
-  {
-   "id": "eluta:eluta:4cf5e9c6e7943070d7666092d52de0ba",
-   "company": "UPS / United Parcel Service Canada Ltd.",
-   "title": "Ground Handler (Ramp Agent - PM)",
-   "location": "Mount Hope ON",
-   "url": "https://www.eluta.ca/spl/ground-handler-ramp-agent-pm-4cf5e9c6e7943070d7666092d52de0ba?imo=12",
-   "posted": null,
-   "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null
-  },
-  {
-   "id": "eluta:eluta:4f6f5cfe1218247ee83203f9a084353d",
-   "company": "UPS / United Parcel Service Canada Ltd.",
-   "title": "Gateway Sunrise Int'l Ramp Agent -",
-   "location": "Calgary AB",
-   "url": "https://www.eluta.ca/spl/gateway-sunrise-int%27l-ramp-agent-4f6f5cfe1218247ee83203f9a084353d?imo=12",
-   "posted": null,
-   "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null
-  },
-  {
-   "id": "eluta:eluta:754b9a91c143f51ce74457f3e8ed9017",
-   "company": "UPS / United Parcel Service Canada Ltd.",
-   "title": "Gateway Int'l Ramp Agent",
-   "location": "Calgary AB",
-   "url": "https://www.eluta.ca/spl/gateway-int%27l-ramp-agent-754b9a91c143f51ce74457f3e8ed9017?imo=12",
-   "posted": null,
-   "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null
-  },
-  {
-   "id": "eluta:eluta:d23ebc508df785bfd0597eb13d241dad",
-   "company": "Federal Express Canada Corporation / FedEx",
-   "title": "Ramp Agent",
-   "location": "Ottawa ON",
-   "url": "https://www.eluta.ca/spl/ramp-agent-d23ebc508df785bfd0597eb13d241dad?imo=12",
-   "posted": null,
-   "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
-   "active": true,
-   "evaluation": null
-  },
-  {
-   "id": "eluta:eluta:3f4cda23d3c360b16bb410c7f2b3ae81",
-   "company": "Federal Express Canada Corporation / FedEx",
-   "title": "Ramp Agent",
-   "location": "Ottawa ON",
-   "url": "https://www.eluta.ca/spl/ramp-agent-3f4cda23d3c360b16bb410c7f2b3ae81?imo=12",
-   "posted": null,
-   "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3263,7 +3607,7 @@
    "url": "https://www.eluta.ca/spl/ramp-agent-44e788fd9e342f6b6ae24df1363174fb?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   },
@@ -3275,7 +3619,7 @@
    "url": "https://www.eluta.ca/spl/ramp-agent-4f3dc9dc47b2395c8860cdd80f96267e?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T15:23:11+00:00",
+   "last_seen": "2026-10-01T17:20:46+00:00",
    "active": true,
    "evaluation": null
   }

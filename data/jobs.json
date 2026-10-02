@@ -1,6 +1,159 @@
 {
- "updated": "2026-10-02T05:48:07+00:00",
+ "updated": "2026-10-02T13:42:17+00:00",
  "jobs": [
+  {
+   "id": "successfactors:execaire:605461917",
+   "company": "Execaire Aviation",
+   "title": "Line Service Representative",
+   "location": "Montreal, Quebec",
+   "url": "https://careers.impgroup.com/Innotech-Execaire/job/Montreal-Line-Service-Representative-Queb/605461917/",
+   "apply_url": "https://careers.impgroup.com/Innotech-Execaire/job/Montreal-Line-Service-Representative-Queb/605461917/",
+   "posted": null,
+   "country": "CA",
+   "role": "ground",
+   "first_seen": "2026-10-02T13:42:17+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
+   "active": true,
+   "evaluation": {
+    "score": 45,
+    "verdict": "weak",
+    "summary": "This Line Service Representative role is a ground/FBO position rather than a flying job, and while your aviation background is a plus, you miss several hard requirements: you do not hold a Quebec Class 3 driver's licence, you have no aircraft refuelling experience, and you are not bilingual French/English. Your Canadian open work permit and ability to obtain a Transport Canada security clearance keep you technically eligible to apply, but the gaps are significant.",
+    "met": [
+     "High school education (IB Diploma and post-secondary coursework)",
+     "Radio Operator Certificate (Restricted Radio Operator Certificate held)",
+     "Eligible to pursue Transport Canada security clearance (MOT) as a Canadian work permit holder",
+     "Aviation background and customer-facing logistics experience",
+     "Available for flexible/24-7 shift work",
+     "Basic computer skills (Microsoft Word/Excel implied by education and logistics role)"
+    ],
+    "missing": [
+     "Driver's Licence Class 3 (Quebec) — not held",
+     "2 years' relevant experience in line service/refuelling",
+     "Aircraft refuelling experience (asset, not required)",
+     "Bilingual French/English — French not listed",
+     "Prior FBO/ground handling or de-icing experience"
+    ],
+    "dealbreakers": [
+     "No Class 3 driver's licence, which is a stated hard requirement maintained throughout employment",
+     "Not bilingual French/English in a Montreal-based customer service role"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:43:27+00:00"
+   }
+  },
+  {
+   "id": "eluta:eluta:86d027048d814f64041ded142fe037a1",
+   "company": "Anderson Air Ltd.",
+   "title": "First Officer (SIC) Falcon 7X",
+   "location": "Richmond BC",
+   "url": "https://www.eluta.ca/spl/first-officer-sic-falcon-7x-86d027048d814f64041ded142fe037a1?imo=12",
+   "apply_url": "https://www.eluta.ca/spl/first-officer-sic-falcon-7x-86d027048d814f64041ded142fe037a1?imo=12",
+   "posted": null,
+   "role": "pilot",
+   "first_seen": "2026-10-02T13:42:17+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
+   "active": true,
+   "evaluation": {
+    "score": 15,
+    "verdict": "ineligible",
+    "summary": "Jack, this Falcon 7X First Officer role is out of reach right now: it is a jet SIC position that will require a type rating and far more multi-engine/turbine time than your 269.6 total hours and 20.3 multi-engine hours, and your 0 turbine hours leave you well short of any jet FO minimum. On top of that, the posting is in Richmond BC and your Canadian Open Work Permit does not give you the citizenship or permanent residency status most Canadian 705 operators require for a security clearance, so you should treat this as ineligible and focus on Part 703 turboprop FO or dispatcher roles instead.",
+    "met": [
+     "Transport Canada Commercial Pilot Licence (Aeroplane) with multi-engine land and sea ratings",
+     "Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Transport Canada Category 1 medical, no restrictions",
+     "Restricted Radio Operator Certificate and ICAO English Level 6",
+     "ATPL theory exams (SARON/SAMRA) written",
+     "MCC simulator experience on King Air 200 (BE20)",
+     "Canadian Open Work Permit (not employer-tied)"
+    ],
+    "missing": [
+     "Falcon 7X type rating",
+     "Turbine/jet flight time (0 h actual)",
+     "Multi-engine hours sufficient for a jet SIC minimum (only 20.3 h)",
+     "Total flight time typical for a corporate jet FO (269.6 h)",
+     "Canadian citizenship or permanent residency for a Transport Canada security clearance / RAIC",
+     "Any documented right to work in the United States (not required here, but noted)",
+     "French language (not listed)"
+    ],
+    "dealbreakers": [
+     "No Falcon 7X type rating and no turbine time for a jet SIC position",
+     "Total and multi-engine hours far below any corporate jet FO minimum",
+     "Not a Canadian citizen or permanent resident, which blocks the security clearance/RAIC most 705 and corporate operators require"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:43:30+00:00"
+   }
+  },
+  {
+   "id": "eluta:eluta:ef962b6bec3cdf1b9b1c29812e04bf44",
+   "company": "Air Creebec Inc.",
+   "title": "Agent cargo/rampe - maintenance générale",
+   "location": "Moosonee ON",
+   "url": "https://www.eluta.ca/spl/agent-cargo-rampe-maintenance-g%C3%A9n%C3%A9rale-ef962b6bec3cdf1b9b1c29812e04bf44?imo=12",
+   "apply_url": "https://www.eluta.ca/spl/agent-cargo-rampe-maintenance-g%C3%A9n%C3%A9rale-ef962b6bec3cdf1b9b1c29812e04bf44?imo=12",
+   "posted": null,
+   "role": "ground",
+   "first_seen": "2026-10-02T13:42:17+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
+   "active": true,
+   "evaluation": {
+    "score": 35,
+    "verdict": "weak",
+    "summary": "This is a ramp/cargo agent role in Moosonee, Ontario, and while you have relevant physical logistics experience and Canadian work authorization, the posting explicitly requires bilingual French and English, and your profile lists no French. You also have no airside driving licence class or airport pass mentioned, and the role is a ground position rather than the flying or dispatch work you are targeting.",
+    "met": [
+     "Canadian Open Work Permit (authorized to work in Canada)",
+     "Physical capability and outdoor work tolerance (distribution/logistics experience)",
+     "English fluency (ICAO Level 6)",
+     "Safety awareness and teamwork orientation",
+     "Available immediately"
+    ],
+    "missing": [
+     "French language proficiency (posting requires bilingual French/English)",
+     "Airside driver's licence class / airside driving qualification",
+     "Transportation Security Clearance (TSC) / RAIC or airport pass eligibility",
+     "Prior ramp or aircraft ground handling experience",
+     "Knowledge of Cree culture / local context (preferred)"
+    ],
+    "dealbreakers": [
+     "Bilingual French-English requirement not met (no French listed)"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:43:33+00:00"
+   }
+  },
+  {
+   "id": "eluta:eluta:baf4197d155fbf6e97418b58b5e0cf8f",
+   "company": "Air Creebec Inc.",
+   "title": "Cargo/ramp Attendant - General Maintenance",
+   "location": "Moosonee ON",
+   "url": "https://www.eluta.ca/spl/cargo-ramp-attendant-general-maintenance-baf4197d155fbf6e97418b58b5e0cf8f?imo=12",
+   "apply_url": "https://www.eluta.ca/spl/cargo-ramp-attendant-general-maintenance-baf4197d155fbf6e97418b58b5e0cf8f?imo=12",
+   "posted": null,
+   "role": "ground",
+   "first_seen": "2026-10-02T13:42:17+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
+   "active": true,
+   "evaluation": {
+    "score": 62,
+    "verdict": "possible",
+    "summary": "You meet the core ramp-agent requirements: you have a valid driver's licence, good physical capacity, and relevant distribution/logistics experience handling and loading products. The main gap is that the posting explicitly requires bilingual French-English, and your profile lists English, Mandarin and Japanese but no French. Your Canadian open work permit also means you can work in Moosonee, so this is worth applying to if you can demonstrate any French ability.",
+    "met": [
+     "Valid driver's licence",
+     "Physical capacity for outdoor ramp work",
+     "Prior distribution/logistics experience with product handling and loading",
+     "Available now and able to work weekdays/weekends",
+     "Legally authorized to work in Canada (open work permit)"
+    ],
+    "missing": [
+     "Bilingual French-English (posting requirement; French not listed in profile)",
+     "Explicit ramp agent experience",
+     "Knowledge of Cree culture and language (asset only)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:43:34+00:00"
+   }
+  },
   {
    "id": "dayforce:pacificcoastal:805",
    "company": "Pacific Coastal Airlines",
@@ -12,7 +165,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-02T01:56:10+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -90,7 +243,7 @@
    "posted": "2026-10-01",
    "role": "ground",
    "first_seen": "2026-10-02T01:56:10+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -126,7 +279,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-02T01:56:10+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -163,7 +316,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-01T21:04:19+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -201,7 +354,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-01T21:04:19+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -237,7 +390,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-01T21:04:19+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -282,7 +435,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-01T21:04:19+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -319,7 +472,7 @@
    "posted": "2026-09-14",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 42,
@@ -359,7 +512,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -398,7 +551,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -437,7 +590,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -472,7 +625,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -509,7 +662,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -548,7 +701,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -592,7 +745,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -636,7 +789,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -674,7 +827,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -712,7 +865,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -750,7 +903,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -791,7 +944,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -828,7 +981,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -866,7 +1019,7 @@
    "posted": "2026-07-23",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -899,7 +1052,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -938,7 +1091,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -973,7 +1126,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -1012,7 +1165,7 @@
    "posted": "2026-09-30",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1046,7 +1199,7 @@
    "posted": "2026-09-29",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1097,7 +1250,7 @@
    "posted": "2026-09-30",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -1135,7 +1288,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1176,7 +1329,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1221,7 +1374,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -1269,7 +1422,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1307,7 +1460,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1344,7 +1497,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -1381,7 +1534,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -1418,7 +1571,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -1454,7 +1607,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1492,7 +1645,7 @@
    "posted": "2026-08-06",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -1534,7 +1687,7 @@
    "posted": "2026-10-01",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -1568,7 +1721,13 @@
     "evaluated_at": "2026-10-02T01:59:00+00:00"
    },
    "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ea870be-b6a1-44b8-ad4c-1e7250f907d6&ccId=19000101_000001&jobId=612194&lang=en_CA",
-   "role": "pilot"
+   "role": "pilot",
+   "also_listed": [
+    {
+     "source": "eluta",
+     "url": "https://www.eluta.ca/spl/pilot-captain-citation-x-yyz-7576ee034456ba3b4fae1a9140b29e0a?imo=12"
+    }
+   ]
   },
   {
    "id": "adp:chartright:9201290068689_1",
@@ -1579,7 +1738,7 @@
    "posted": "2026-09-18",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -1625,7 +1784,7 @@
    "posted": "2026-09-02",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -1663,7 +1822,7 @@
    "posted": "2026-08-19",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -1713,7 +1872,7 @@
    "posted": "2026-08-13",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -1757,7 +1916,7 @@
    "posted": "2026-07-22",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -1786,7 +1945,13 @@
     "evaluated_at": "2026-10-02T02:02:42+00:00"
    },
    "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ea870be-b6a1-44b8-ad4c-1e7250f907d6&ccId=19000101_000001&jobId=608990&lang=en_CA",
-   "role": "ground"
+   "role": "ground",
+   "also_listed": [
+    {
+     "source": "eluta",
+     "url": "https://www.eluta.ca/spl/ramp-agent-line-service-technician-cedb19075729abaae7ffe485e7d5839e?imo=12"
+    }
+   ]
   },
   {
    "id": "successfactors:execaire:606368217",
@@ -1797,7 +1962,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1836,7 +2001,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 42,
@@ -1877,7 +2042,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -1920,7 +2085,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -1962,7 +2127,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 38,
@@ -2008,7 +2173,7 @@
    "posted": "2026-08-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 82,
@@ -2048,7 +2213,7 @@
    "posted": "2026-08-26",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2086,7 +2251,7 @@
    "posted": "2026-09-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2124,7 +2289,7 @@
    "posted": "2026-08-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2164,7 +2329,7 @@
    "posted": "2026-09-18",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2200,7 +2365,7 @@
    "posted": "2026-09-23",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 30,
@@ -2244,7 +2409,7 @@
    "posted": "2026-02-13",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -2286,7 +2451,7 @@
    "posted": "2026-08-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2325,7 +2490,7 @@
    "posted": "2026-09-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2364,7 +2529,7 @@
    "posted": "2026-08-06",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2401,7 +2566,7 @@
    "posted": "2025-07-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 22,
@@ -2446,7 +2611,7 @@
    "posted": "2026-09-29",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -2487,7 +2652,7 @@
    "posted": "2026-09-29",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -2530,7 +2695,7 @@
    "posted": "2026-09-29",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -2569,7 +2734,7 @@
    "posted": "2026-09-26",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -2608,7 +2773,7 @@
    "posted": "2026-09-26",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2647,7 +2812,7 @@
    "posted": "2026-09-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -2687,7 +2852,7 @@
    "posted": "2026-09-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -2727,7 +2892,7 @@
    "posted": "2026-09-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -2766,7 +2931,7 @@
    "posted": "2026-09-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2804,7 +2969,7 @@
    "posted": "2026-09-18",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -2844,7 +3009,7 @@
    "posted": "2026-09-17",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2882,7 +3047,7 @@
    "posted": "2026-09-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -2921,7 +3086,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -2962,7 +3127,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -3000,7 +3165,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -3039,7 +3204,7 @@
    "posted": "2026-09-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3079,7 +3244,7 @@
    "posted": "2026-09-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3120,7 +3285,7 @@
    "posted": "2026-09-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3159,7 +3324,7 @@
    "posted": "2026-08-27",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 22,
@@ -3204,7 +3369,7 @@
    "posted": "2026-08-19",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -3250,7 +3415,7 @@
    "posted": "2026-07-22",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3288,7 +3453,7 @@
    "posted": "2026-07-13",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -3328,7 +3493,7 @@
    "posted": "2026-04-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3368,7 +3533,7 @@
    "posted": "2026-04-01",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3406,7 +3571,7 @@
    "posted": "2026-04-01",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3448,7 +3613,7 @@
    "posted": "2026-03-12",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -3487,7 +3652,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3528,7 +3693,7 @@
    "posted": "2026-07-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -3552,7 +3717,7 @@
    "posted": "2026-07-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -3598,7 +3763,7 @@
    "posted": "2026-02-26",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -3640,7 +3805,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -3676,7 +3841,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3714,7 +3879,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3754,7 +3919,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3794,7 +3959,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3834,7 +3999,7 @@
    "posted": "2026-10-01",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -3872,7 +4037,7 @@
    "posted": "2026-07-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3912,7 +4077,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3951,7 +4116,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -3991,7 +4156,7 @@
    "posted": "2026-09-21",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -4035,7 +4200,7 @@
    "posted": "2026-08-31",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -4076,7 +4241,7 @@
    "posted": "2026-08-25",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -4115,7 +4280,7 @@
    "posted": "2026-07-06",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -4160,7 +4325,7 @@
    "posted": "2026-05-08",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -4206,7 +4371,7 @@
    "posted": "2026-05-01",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -4245,7 +4410,7 @@
    "posted": "2026-04-02",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4283,7 +4448,7 @@
    "posted": "2026-03-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4319,7 +4484,7 @@
    "posted": "2025-12-12",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 3,
@@ -4363,7 +4528,7 @@
    "posted": "2025-09-08",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -4405,7 +4570,7 @@
    "posted": "2026-06-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -4444,7 +4609,7 @@
    "posted": "2026-08-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -4468,7 +4633,7 @@
    "posted": "2025-07-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -4515,7 +4680,7 @@
    "posted": "2025-07-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -4554,7 +4719,7 @@
    "posted": "2026-09-22",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -4593,7 +4758,7 @@
    "posted": "2026-09-08",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 35,
@@ -4636,7 +4801,7 @@
    "posted": "2026-09-01",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 42,
@@ -4679,7 +4844,7 @@
    "posted": "2026-04-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -4717,7 +4882,7 @@
    "posted": "2026-04-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4755,7 +4920,7 @@
    "posted": "2026-03-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -4796,9 +4961,35 @@
    "posted": "2026-01-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 22,
+    "verdict": "ineligible",
+    "summary": "This Ramp Supervisor role is in Kelowna, BC, and requires an FBI fingerprint background check, which is a US clearance you cannot obtain as a Chinese citizen without US work authorization. You also lack the required supervisory track record and ramp/airline experience, so this posting is not a viable fit despite your aviation background.",
+    "met": [
+     "Valid driver's licence (implied by profile availability)",
+     "English proficiency (ICAO Level 6)",
+     "High school diploma (IB Diploma)",
+     "Physically fit for outdoor shift work",
+     "Basic computer literacy"
+    ],
+    "missing": [
+     "Proven track record supervising a business unit",
+     "Previous ramp or airline ground operations experience",
+     "Operational planning and resource allocation experience",
+     "Working knowledge of GSE maintenance",
+     "6+ months documented Microsoft Word/Excel experience",
+     "Flexibility for variable shifts in Kelowna, BC"
+    ],
+    "dealbreakers": [
+     "FBI fingerprint background check requires US work authorization/eligibility, which the profile states you do not have",
+     "No supervisory experience in a business unit",
+     "No prior ramp or airline ground handling experience"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:43:36+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/wearegat/candidateportal/jobs/21726/apply",
    "role": "ground"
   },
@@ -4811,9 +5002,33 @@
    "posted": "2026-01-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core ramp agent requirements: you are over 18, hold a high school diploma (IB), have a valid driver's licence, and your logistics work experience plus aviation background make you a strong fit for baggage and cargo handling. The main gaps are that the posting is in Kelowna, BC while you are based in Dieppe, NB, and it does not state whether a Transportation Security Clearance or airside driver's permit is required, which you would need to confirm. Your open work permit allows you to work in Canada, so there is no work-authorization barrier.",
+    "met": [
+     "At least 18 years of age",
+     "High school diploma or equivalent (International Baccalaureate Diploma)",
+     "Valid driver's licence (per profile; driving record not stated)",
+     "Physical capability for lifting/loading baggage and working in extreme weather (implied by profile, not explicitly stated)",
+     "Flexible availability for nights, weekends, and holidays (profile says available now; shift preference not stated)",
+     "Basic computer familiarity (aviation training and logistics record-keeping)",
+     "Strong communication skills (ICAO English Level 6, multilingual)",
+     "Canadian Open Work Permit authorizes work in Canada",
+     "Relevant logistics/handling experience (Distribution & Logistics Associate)"
+    ],
+    "missing": [
+     "No explicit statement of physical agility test completion",
+     "No explicit confirmation of willingness to relocate to Kelowna, BC",
+     "No stated airside driver's permit or airport security clearance (RAIC/TSC) status",
+     "Driving record not described as clean/good"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:43:39+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/wearegat/candidateportal/jobs/21633/apply",
    "role": "ground"
   },
@@ -4826,9 +5041,34 @@
    "posted": "2026-01-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 62,
+    "verdict": "possible",
+    "summary": "You meet the core hard gates for this ramp lead role: you are over 18, hold a valid driver's licence, speak fluent English, and have hands-on loading, product handling, and client-facing logistics experience from Dai Lam Trading. The main gaps are the explicit requirement for previous ramp or airline experience and 6+ months of Microsoft Word/Excel computer experience, neither of which is documented in your profile. Your aviation licences and training are a strong asset for the 'commercial issues in aviation' and GSE knowledge requirements, so this is worth pursuing if you can evidence the computer and ramp-adjacent experience.",
+    "met": [
+     "At least 18 years of age",
+     "Valid Driver's License",
+     "Fluent English (ICAO Level 6)",
+     "High School diploma (IB Diploma)",
+     "Physical fitness for lifting, bending, pushing, pulling",
+     "Willingness to work variable shifts, weekends, holidays, and extended hours",
+     "Experience and understanding of commercial aviation issues (CPL, IFR, ATPL theory, MCC)",
+     "Working knowledge of GSE maintenance issues (aircraft systems and ground operations training)",
+     "Basic computer literacy and ability to navigate electronic devices",
+     "Order verification, product handling, loading, and client-facing logistics experience"
+    ],
+    "missing": [
+     "Previous ramp or airline experience (not documented)",
+     "6+ months computer experience with Microsoft Word and Excel (not documented)",
+     "Formal ramp lead or supervisory experience",
+     "French language (not required but not listed)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:43:41+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/wearegat/candidateportal/jobs/21579/apply",
    "role": "ground"
   },
@@ -4841,9 +5081,32 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "This is a ground-level customer service and cargo role that fits your stated interest in ramp/ground handling and your logistics experience, and you meet the core soft requirements like customer-facing work, shift flexibility, and lifting. The main gap is the security clearance: as a Chinese citizen on an open work permit you are not automatically barred, but you must be able to obtain and maintain a Transport Canada restricted area pass, which is not guaranteed and is a hard gate. Your lack of French is not required here, and your pilot licences are a bonus rather than a requirement.",
+    "met": [
+     "Customer-facing experience (Dai Lam Trading delivery and client operations)",
+     "Physical capability to lift up to 70 pounds (no restrictions noted; Category 1 medical)",
+     "Availability for irregular shifts, weekends, evenings, holidays (profile says available now)",
+     "Computer and payment terminal comfort (implied by logistics and aviation training)",
+     "Ability to work under pressure and multitask (fast-paced distribution role)",
+     "Clear communication skills (ICAO English Level 6, multilingual)",
+     "Canadian Open Work Permit allows work in BC",
+     "Safety-oriented aviation background and CARs knowledge"
+    ],
+    "missing": [
+     "Designated security clearance / RAIC not yet obtained (must be able to obtain and maintain)",
+     "No prior airline customer service or cargo agent experience",
+     "French not listed (not required, but a common asset in Canadian aviation)",
+     "No explicit experience with ground service equipment or accessibility assistance"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:43:44+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/pasco/PCACLIENTCAREERSSITE/jobs/3882/apply",
    "role": "ground"
   },
@@ -4856,9 +5119,37 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 5,
+    "verdict": "ineligible",
+    "summary": "This Saab Captain role requires a valid Canadian ATPL and 2000 hours total time with 1000 PIC, but you currently hold a Commercial Pilot Licence with only 269.6 total hours and 158.1 PIC, so you fall far short of the hard flight-hour and licence gates. You also cannot meet the requirement to travel to/from the United States without restrictions, as your profile states you are not authorized to work in the US. This posting is not a viable match at your current experience level.",
+    "met": [
+     "Valid Transport Canada Category 1 medical, no restrictions",
+     "Ability to obtain and maintain a Restricted Area Identity Card (RAIC) - no disqualifying factors noted",
+     "Valid permit to work in Canada (Open Work Permit)",
+     "Ability to lift 50 pounds unassisted - no limitation noted",
+     "Group 1 Multi-Engine Instrument Rating and multi-engine experience"
+    ],
+    "missing": [
+     "Valid Canadian ATPL (only holds CPL; ATPL theory complete but licence not issued)",
+     "2000 hours total time (has 269.6 h)",
+     "1000 hours PIC (has 158.1 h)",
+     "1000 hours relevant multi-engine/multi-crew/IFR/turbine experience in 600/702/703/704/705 operation (has 20.3 h multi-engine, 0 turbine)",
+     "No type rating on the Saab 340",
+     "Ability to travel to/from the United States without restrictions (not authorized to work in the US)"
+    ],
+    "dealbreakers": [
+     "Does not hold a valid Canadian ATPL",
+     "Total flight time 269.6 h vs. 2000 h required",
+     "PIC time 158.1 h vs. 1000 h required",
+     "Relevant multi-engine/multi-crew/IFR/turbine experience far below 1000 h",
+     "Not authorized to travel to/from the United States without restrictions"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:43:47+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/pasco/PCACLIENTCAREERSSITE/jobs/3864/apply",
    "role": "pilot"
   },
@@ -4871,9 +5162,38 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 25,
+    "verdict": "weak",
+    "summary": "You hold a CPL with a current Group 1 multi-engine IFR and a Category 1 medical, and you have Canadian work authorization, so the licence side is largely in order. However, you fall well short of the 500-hour total time minimum with only 269.6 hours, and you have no IATRA or ATPL licence issued (only ATPL exams written), which is a hard gate. You also cannot travel to/from the US without restrictions, which the posting requires.",
+    "met": [
+     "Commercial Pilot Licence (Aeroplane)",
+     "Current Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Valid Transport Canada Category 1 Medical, no restrictions",
+     "Canadian Open Work Permit (valid permit to work in Canada)",
+     "Restricted Radio Operator Certificate",
+     "ICAO English Level 6",
+     "Willing/able to travel away from home and work varying shifts",
+     "Physically able to lift 50 pounds (no restrictions noted)"
+    ],
+    "missing": [
+     "500 hours total flight time (only 269.6 h)",
+     "IATRA completed within last 18 months, or ATPL licence issued (only ATPL theory/exams done)",
+     "Type rating (none held)",
+     "Multi-crew, multi-engine, IFR and/or turbine experience in 600/702/703/704/705 or military operations (only 20.3 h multi-engine, 0 h turbine, MCC simulator only)",
+     "Ability to travel to/from the United States without restrictions (not authorized to work in the US)",
+     "Restricted Area Identity Card (RAIC) eligibility not yet demonstrated"
+    ],
+    "dealbreakers": [
+     "500 hours total time minimum not met (269.6 h)",
+     "No IATRA or ATPL licence issued",
+     "Cannot travel to/from the United States without restrictions"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:43:50+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/pasco/PCACLIENTCAREERSSITE/jobs/3858/apply",
    "role": "pilot"
   },
@@ -4886,9 +5206,39 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 8,
+    "verdict": "ineligible",
+    "summary": "This B1900 Captain role requires a valid Canadian ATPL and at least 2000 hours total time with 1000 PIC hours, and you currently hold a Commercial Pilot Licence with 269.6 total hours and 158.1 PIC hours, so you fall far short of the hard flight-hour and licence gates. You also cannot meet the requirement to travel to/from the United States without restrictions, since your profile states you are not authorized to work in the US. This posting is not a viable match at your current experience level.",
+    "met": [
+     "Valid Transport Canada Category 1 medical, no restrictions",
+     "Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Multi-engine and multi-crew simulator experience (BE20 MCC)",
+     "ICAO English Language Proficiency Level 6",
+     "Ability to obtain a Restricted Area Identity Card (no disqualifying factors stated)",
+     "Legally able to work in Canada on an open work permit",
+     "Willing and able to lift 50 pounds (no restriction stated)"
+    ],
+    "missing": [
+     "Valid Canadian ATPL (only ATPL theory/exams complete, licence not issued)",
+     "2000 hours total time (has 269.6 h)",
+     "1000 hours PIC time (has 158.1 h)",
+     "1000 hours relevant multi-engine/multi-crew/IFR/turbine experience in 600/702/703/704/705 operations",
+     "B1900 type rating (no type ratings held)",
+     "Unrestricted ability to travel to/from the United States",
+     "Turbine aircraft experience (0 h actual)"
+    ],
+    "dealbreakers": [
+     "Does not hold a valid Canadian ATPL",
+     "Total flight time 269.6 h vs. 2000 h required",
+     "PIC time 158.1 h vs. 1000 h required",
+     "Not authorized to work in or travel to the United States without restrictions"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:43:52+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/pasco/PCACLIENTCAREERSSITE/jobs/3852/apply",
    "role": "pilot"
   },
@@ -4901,9 +5251,32 @@
    "posted": "2026-09-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "This ground-based customer service, call centre, and cargo agent role is a reasonable fit for your stated interest in ramp/ground handling work, and you meet the core soft-skill and physical requirements. The main gap is that the posting requires you to obtain and maintain a designated security clearance, and as a Chinese citizen on an open work permit you would need to confirm your eligibility for an airport security pass. Your customer-facing logistics experience and ability to work irregular shifts support a solid application.",
+    "met": [
+     "Customer service experience (Distribution & Logistics Associate, client-facing delivery operations)",
+     "Ability to work under pressure and multitask in a fast-paced environment",
+     "Clear communication skills (ICAO English Level 6, fluent English)",
+     "Comfortable using computers and payment machines",
+     "Willing and able to work outdoors in inclement weather",
+     "Flexible for weekends, evenings, holidays, and irregular shifts (available now)",
+     "Capable of lifting up to 70 pounds (no restrictions noted)",
+     "Based in Canada with an open work permit, so no location or work-authorization barrier for a BC-based role"
+    ],
+    "missing": [
+     "Designated security clearance / airport pass eligibility not confirmed in profile",
+     "No prior airline call centre, reservations, or cargo handling experience",
+     "No French language listed (not required by posting, but a common asset in Canadian aviation)",
+     "No explicit experience verifying immigration documents or issuing boarding passes"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:43:55+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/pasco/PCACLIENTCAREERSSITE/jobs/3822/apply",
    "role": "ground"
   },
@@ -4916,9 +5289,32 @@
    "posted": "2026-09-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "This is a ground-based customer service, call centre, and cargo agent role rather than a pilot position, and you meet the core customer service, communication, and physical requirements. The main gap is that you are based in Dieppe, NB while the job is in Prince George, BC, and you would need to relocate and obtain the designated security clearance. Your open Canadian work permit means you are eligible to work, so this is a viable fallback if you are willing to move.",
+    "met": [
+     "Customer service experience (Distribution & Logistics Associate, client-facing delivery operations)",
+     "Clear communication skills (ICAO English Level 6, fluent in English, Mandarin, Japanese)",
+     "Comfortable using computers",
+     "Ability to work under pressure and multitask (fast-paced logistics role)",
+     "Available now and flexible for weekends, evenings, holidays, irregular shifts",
+     "Physically capable of lifting up to 70 pounds (no restrictions noted)",
+     "Canadian Open Work Permit (eligible to work in Canada)",
+     "Willing to work outdoors in inclement weather"
+    ],
+    "missing": [
+     "Based in Prince George, BC (candidate is in Dieppe, NB; relocation required)",
+     "Designated security clearance (must be able to obtain and maintain; not yet held)",
+     "Prior airline call centre or cargo agent experience",
+     "French language (not listed; not required but an asset in Canada)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:43:57+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/pasco/PCACLIENTCAREERSSITE/jobs/3812/apply",
    "role": "ground"
   },
@@ -4931,9 +5327,31 @@
    "posted": "2026-07-21",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 62,
+    "verdict": "possible",
+    "summary": "This is a ground-based customer service, call centre, and cargo role rather than a flying position, and you meet the core soft requirements: customer-facing experience, ability to work under pressure, and comfort with computers. The main gaps are physical (the posting requires lifting up to 70 lb, which your profile does not confirm) and the security clearance, which you would need to obtain and maintain. Your open work permit and lack of Canadian citizenship/PR are not disqualifying here, but you should confirm eligibility for the airport security clearance before applying.",
+    "met": [
+     "Customer service experience (Distribution & Logistics Associate, client-facing delivery operations)",
+     "Ability to work under pressure and multitask in a fast-paced environment",
+     "Clear communication skills; ICAO English Level 6 and multilingual (English, Mandarin, Japanese)",
+     "Comfortable using computers",
+     "Flexible availability implied by 'available now' and no listed scheduling constraints",
+     "Based in Canada with an open work permit (not tied to an employer)"
+    ],
+    "missing": [
+     "Explicit confirmation of ability to lift up to 70 pounds",
+     "Designated security clearance (must be obtained and maintained)",
+     "Explicit willingness to work weekends, evenings, holidays, and irregular shifts",
+     "Experience with credit/debit machines and reservation/cargo systems",
+     "French language (not required but not listed)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:00+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/pasco/PCACLIENTCAREERSSITE/jobs/3626/apply",
    "role": "ground"
   },
@@ -4946,9 +5364,33 @@
    "posted": "2026-07-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 62,
+    "verdict": "possible",
+    "summary": "This ground-based customer service, call centre, and cargo role is a reasonable fit for your ramp/ground handling target and you meet the core soft requirements like customer service, multitasking, and shift flexibility. The main gaps are physical (70 lb lifting) and the security clearance, which you should be able to obtain as a Canadian work permit holder, though it is not guaranteed. Note this is not a flying position, so your pilot licences and hours are not directly used here.",
+    "met": [
+     "Customer service experience (Distribution & Logistics Associate, client-facing delivery operations)",
+     "Ability to work under pressure and multitask in a fast-paced environment",
+     "Clear communication skills; ICAO English Level 6 and multilingual (English, Mandarin, Japanese)",
+     "Comfortable with computers and payment handling (order verification, logistics operations)",
+     "Flexible availability for weekends, evenings, holidays, and irregular shifts (available now, no listed constraints)",
+     "Based in Canada with an open work permit, so eligible to work for this employer",
+     "Able to work outdoors in inclement weather (no restrictions noted)",
+     "Professional representation to partners, vendors, and customers"
+    ],
+    "missing": [
+     "Explicit confirmation of ability to lift up to 70 pounds",
+     "Designated security clearance not yet obtained (must be able to obtain and maintain)",
+     "No prior airline call centre or cargo agent experience",
+     "No French language listed (not required but useful in Canadian aviation)",
+     "Not a Canadian citizen or permanent resident (may affect some clearance processes)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:03+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/pasco/PCACLIENTCAREERSSITE/jobs/3593/apply",
    "role": "ground"
   },
@@ -4961,9 +5403,35 @@
    "posted": "2026-07-06",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 5,
+    "verdict": "ineligible",
+    "summary": "This Saab Captain role requires a valid Canadian ATPL and 2000 hours total time with 1000 PIC, but you currently hold a Commercial Pilot Licence with only 269.6 total hours and 158.1 PIC, so you fall far short of the hard gates. You also cannot meet the US travel requirement since you are not authorized to work in or travel to the United States without restrictions. This posting is not a viable match at your current experience level.",
+    "met": [
+     "Valid Category 1 Medical Certificate",
+     "Ability to obtain and maintain a Restricted Area Identity Card (RAIC) - likely eligible as a Canadian work permit holder",
+     "Ability to lift 50 pounds unassisted",
+     "Valid permit to work in Canada (Open Work Permit)"
+    ],
+    "missing": [
+     "Valid Canadian ATPL (only holds CPL with Group 1 IFR)",
+     "2000 hours total time (has 269.6 h)",
+     "1000 hours PIC time (has 158.1 h)",
+     "1000 hours relevant multi-engine/multi-crew/IFR/turbine experience (has 20.3 h multi-engine, 0 turbine)",
+     "Ability to travel to/from the United States without restrictions (not authorized to work in US)",
+     "No type rating on Saab aircraft"
+    ],
+    "dealbreakers": [
+     "Does not hold a valid Canadian ATPL",
+     "Only 269.6 total hours vs. 2000 required",
+     "Only 158.1 PIC hours vs. 1000 required",
+     "Not authorized to travel to/from the United States without restrictions"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:05+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/pasco/PCACLIENTCAREERSSITE/jobs/3547/apply",
    "role": "pilot"
   },
@@ -4976,9 +5444,33 @@
    "posted": "2026-06-26",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "This is a ground-based customer service, call centre, and cargo agent role rather than a pilot position, and you meet the core soft requirements: customer-facing experience, ability to work under pressure, and comfort with computers. The main gaps are physical (70 lb lifting) and shift flexibility, which your profile does not confirm, plus the security clearance you would need to obtain. Your open Canadian work permit means you are eligible to work in BC, so there is no immigration barrier.",
+    "met": [
+     "Canadian Open Work Permit allows work in Canada, including BC",
+     "Customer service experience (client-facing delivery operations at Dai Lam Trading)",
+     "Comfortable using computers (aviation training, EFIS glass cockpit, online university coursework)",
+     "Clear communication skills (ICAO English Level 6, fluent in English, Mandarin, Japanese)",
+     "Ability to work in a time-sensitive, multi-tasking environment (flight training, logistics role)",
+     "Willingness to work outdoors in inclement weather (outdoor interests, ramp-adjacent target roles)",
+     "No type rating or pilot licence required for this ground role"
+    ],
+    "missing": [
+     "No confirmed ability to lift up to 70 pounds",
+     "No confirmed availability for weekends, evenings, holidays, and irregular shifts",
+     "No confirmed security clearance (must be able to obtain and maintain designated security clearance)",
+     "No prior call centre or airline customer service experience",
+     "No prior cargo handling or passenger check-in experience",
+     "French not listed (not required, but an asset in Canadian aviation)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:08+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/pasco/PCACLIENTCAREERSSITE/jobs/3523/apply",
    "role": "ground"
   },
@@ -4991,9 +5483,34 @@
    "posted": "2026-05-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core customer-service, physical, and flexibility requirements for this part-time Customer Service and Cargo Agent role, and your aviation background is a strong asset. The main open question is the designated security clearance, which requires Canadian citizenship or permanent residency for a RAIC; as a work-permit holder you may not be able to obtain it, so confirm eligibility before applying. If clearance is achievable, this is a solid fit.",
+    "met": [
+     "Customer-facing experience (distribution/logistics role with client-facing delivery operations)",
+     "Ability to work under pressure and multitask in a fast-paced environment",
+     "Clear communication skills; ICAO English Level 6 and multilingual (English, Mandarin, Japanese)",
+     "Comfortable with computers and payment handling",
+     "Available now and based in Canada with an open work permit",
+     "Physically capable of lifting up to 70 pounds (no restrictions noted)",
+     "Flexible availability for weekends, evenings, holidays and irregular shifts",
+     "Aviation knowledge and safety orientation from CPL/ATPL training"
+    ],
+    "missing": [
+     "Designated security clearance (RAIC) not yet obtained",
+     "No prior airline customer service or cargo handling experience",
+     "French not listed (asset in some Canadian customer-service roles)",
+     "No explicit experience with reservation/check-in systems"
+    ],
+    "dealbreakers": [
+     "Canadian citizenship or permanent residency may be required for the designated security clearance; candidate holds only an open work permit"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:10+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/pasco/PCACLIENTCAREERSSITE/jobs/3387/apply",
    "role": "ground"
   },
@@ -5006,9 +5523,33 @@
    "posted": "2026-09-22",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core hard requirements for this ramp role: you have a valid driver's licence, are physically able to lift up to 50 lbs, and your Canadian open work permit lets you work in Sioux Lookout. The main gap is that you must still qualify for an Airside Vehicle Operator's Permit and obtain a Transportation Security Clearance, and your profile does not confirm either. Your aviation background and prior logistics/warehouse work are strong assets, but the posting is a ground role rather than the First Officer path you are targeting.",
+    "met": [
+     "Valid driver's licence",
+     "Canadian Open Work Permit (authorized to work in Canada, not employer-tied)",
+     "Physically able to perform demanding ramp duties and lift up to 50 lbs",
+     "High school diploma or equivalent (IB Diploma, plus post-secondary)",
+     "Customer-service and fast-paced logistics experience (Dai Lam Trading)",
+     "Aviation operation experience (CPL, multi-engine IFR, seaplane, MCC)",
+     "Available now and able to work various shifts",
+     "English fluency (ICAO Level 6)"
+    ],
+    "missing": [
+     "Airside Vehicle Operator's Permit (must qualify for and obtain)",
+     "Transportation Security Clearance / applicable authorizations (must obtain and maintain)",
+     "Forklift licence or completed applicable training (asset only)",
+     "Indigenous and Cultural Awareness Training (asset only)",
+     "Previous warehouse and/or ramp experience (asset only)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:13+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2443/apply",
    "role": "ground"
   },
@@ -5021,9 +5562,34 @@
    "posted": "2026-09-22",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core hard gates for this ramp role: you hold a valid driver's licence, can pursue an Airside Vehicle Operator's Permit and security clearance, and your logistics work shows you can handle physical freight duties. The main friction is that the posting is in Sioux Lookout, Ontario, while you are based in Dieppe, New Brunswick, and your open work permit does not restrict you from relocating, so this is workable if you are willing to move. Your aviation background is a strong asset, though the job does not require pilot licences or flight hours.",
+    "met": [
+     "Valid driver's licence",
+     "Eligible to obtain Airside Vehicle Operator's Permit",
+     "Eligible for transportation security clearance (Canadian Open Work Permit, no criminal record noted)",
+     "Physically capable of lifting up to 50 lbs and performing demanding ramp tasks",
+     "Available for various shifts and fast-paced work",
+     "Previous warehouse/logistics experience (Dai Lam Trading)",
+     "Aviation operation experience and pilot training background",
+     "High school diploma and post-secondary education",
+     "Fluent English communication"
+    ],
+    "missing": [
+     "Forklift licence or completed forklift training (asset only)",
+     "Indigenous and Cultural Awareness Training (asset only)",
+     "Prior dedicated ramp agent experience (asset only)",
+     "French language (not required)",
+     "Local residency in Sioux Lookout, ON (relocation required)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:15+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2437/apply",
    "role": "ground"
   },
@@ -5036,9 +5602,37 @@
    "posted": "2026-09-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 62,
+    "verdict": "possible",
+    "summary": "You meet the core licensing gates for this Metro First Officer role — CPL, Category 1 medical, and a current Group 1 instrument rating — and your MCC simulator time and ATPL exams strengthen your application. However, your 269.6 total hours fall well short of the 1000-hour preference, and as a Chinese citizen on an open work permit you would need to confirm you can obtain the WAA RAIC clearance, which is a hard requirement. The role is worth pursuing if Perimeter hires low-time FOs, but expect the hour gap to be the main obstacle.",
+    "met": [
+     "Commercial Pilot Licence (Aeroplane, multi-engine land)",
+     "Transport Canada Category 1 medical, no restrictions",
+     "Current Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Fluent English, ICAO ELP Level 6",
+     "High school diploma / IB Diploma equivalent",
+     "Multi-crew cooperation (MCC) training on BE20 simulator",
+     "ATPL theory complete (SARON and SAMRA written)",
+     "Physically able to perform duties including lifting and outdoor work",
+     "Flexible schedule availability; based in Canada with open work permit"
+    ],
+    "missing": [
+     "1000 hours total flight time (only 269.6 h)",
+     "WAA RAIC security clearance (not yet obtained; eligibility not confirmed)",
+     "Indigenous and Cultural Awareness Training (asset, not held)",
+     "Type rating on Metro (not required but not held)",
+     "French language (not required)"
+    ],
+    "dealbreakers": [
+     "Total flight time far below the 1000-hour preferred threshold",
+     "RAIC clearance eligibility unconfirmed as a non-permanent-resident work permit holder"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:18+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2422/apply",
    "role": "pilot"
   },
@@ -5051,9 +5645,36 @@
    "posted": "2026-09-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 25,
+    "verdict": "ineligible",
+    "summary": "Jack, this Perimeter Aviation Dash First Officer role is a hard no for you right now: it requires 500 hours total flight time and you have 269.6, and it also demands either an IATRA or a full ATPL, which you don't yet hold. Your CPL, Group 1 IFR, Category 1 medical, and English fluency are all solid, but the hour and licence gates are non-negotiable, so you should focus on building time and completing your ATPL or IATRA before applying to 705 operators.",
+    "met": [
+     "Commercial Pilot Licence (CPL) - Aeroplane",
+     "Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Transport Canada Category 1 Medical, no restrictions",
+     "Fluent in English (ICAO Level 6)",
+     "High school diploma / IB Diploma equivalent",
+     "Willing and able to obtain transportation security clearances",
+     "Physically able to perform duties including lifting up to 50 lbs",
+     "Available now in Canada with an Open Work Permit"
+    ],
+    "missing": [
+     "500 hours total flight time (has 269.6 h)",
+     "IATRA or ATPL licence (ATPL theory complete but licence not issued)",
+     "Individual Aeroplane Type Rating",
+     "Indigenous and Cultural Awareness Training (asset)",
+     "French language (not required but not listed)"
+    ],
+    "dealbreakers": [
+     "500 hours total flight time requirement not met (269.6 h)",
+     "No IATRA or ATPL licence held"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:20+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2421/apply",
    "role": "pilot"
   },
@@ -5066,9 +5687,35 @@
    "posted": "2026-09-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 15,
+    "verdict": "ineligible",
+    "summary": "This Dash Captain role is a 705 Captain position requiring an ATPL and 500 hours on the DHC-8, neither of which you hold — you have a CPL with ATPL theory only and no type ratings. While your Category 1 medical, Group 1 IFR, and English fluency are solid, the licence and experience gates are non-negotiable, so you cannot be considered for this posting.",
+    "met": [
+     "Transport Canada Category 1 medical, no restrictions",
+     "Current Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Fluent in English (ICAO Level 6)",
+     "High school diploma or equivalent (IB Diploma)",
+     "Able to obtain transportation security clearances (no disqualifying factors stated)",
+     "Willing and able to work flexible schedules and travel"
+    ],
+    "missing": [
+     "Airline Transport Pilot License (ATPL) — only CPL held; ATPL theory complete but licence not issued",
+     "500 hours on DHC-8 (zero DHC-8 time; no type ratings at all)",
+     "Previous airline experience",
+     "Total flight time far below what a 705 Captain role implies (269.6 h total, 20.3 h multi-engine)",
+     "Indigenous and Cultural Awareness Training"
+    ],
+    "dealbreakers": [
+     "No ATPL — hard requirement for a 705 Captain position",
+     "No DHC-8 type rating or 500 hours on type",
+     "Insufficient total and multi-engine flight hours for a 705 Captain role"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:23+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2420/apply",
    "role": "pilot"
   },
@@ -5081,9 +5728,34 @@
    "posted": "2026-09-18",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core hard gates for this ramp role: you have a valid driver's licence, a high school diploma, and the physical capability to handle the lifting and shift demands. The main open question is whether your Canadian Open Work Permit and Chinese citizenship will allow you to obtain the required Transportation Security Clearance and Airside Vehicle Operator's Permit, which the posting lists as mandatory. Your aviation background and prior logistics work are assets that strengthen your application.",
+    "met": [
+     "Valid driver's licence",
+     "High school diploma (IB Diploma)",
+     "Physically able to lift up to 50 lbs and work outdoors in all weather",
+     "Available for various shifts and fast-paced work",
+     "Prior logistics/distribution experience (asset)",
+     "Aviation operation experience and pilot licences (asset)",
+     "Based in Canada with open work permit"
+    ],
+    "missing": [
+     "Transportation Security Clearance / RAIC eligibility not confirmed",
+     "Airside Vehicle Operator's Permit not yet obtained",
+     "Forklift licence or training not mentioned",
+     "Indigenous and Cultural Awareness Training not mentioned",
+     "French language not listed (not required but relevant in some roles)"
+    ],
+    "dealbreakers": [
+     "Transportation Security Clearance eligibility is a hard gate; as a Chinese citizen on a work permit, clearance is not guaranteed and must be verified before hire"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:25+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2414/apply",
    "role": "ground"
   },
@@ -5096,9 +5768,41 @@
    "posted": "2026-09-18",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 18,
+    "verdict": "ineligible",
+    "summary": "Jack, this Medevac Captain role at Perimeter Aviation is a hard no for you right now: it requires 1500 hours total time with 500 PIC and an ATPL, while you hold a CPL with 269.6 hours total and 158.1 PIC. Your Canadian Open Work Permit also does not satisfy the posting's requirement for Canadian citizenship or unrestricted work authorization, and you lack the ATPL licence itself. You meet the licence, medical, instrument rating, English and passport/driver basics, but the hour and licence gates are non-negotiable.",
+    "met": [
+     "Commercial Pilot Licence (Aeroplane)",
+     "Category 1 Medical, no restrictions",
+     "Current Group 1 Multi-Engine Instrument Rating",
+     "Fluent English (ICAO Level 6)",
+     "High school diploma / IB Diploma",
+     "Valid passport (implied by international travel and profile)",
+     "Valid driver licence (profile indicates availability for airside/ramp roles)",
+     "Willing and able to work flexible schedules and remote bases"
+    ],
+    "missing": [
+     "1500 hours total flight time (has 269.6 h)",
+     "500 hours PIC (has 158.1 h)",
+     "ATPL licence (only ATPL theory complete; SARON/SAMRA written)",
+     "Canadian citizenship or unrestricted Canadian work authorization (holds Open Work Permit, not citizen/PR)",
+     "Transportation Security Clearance / RAIC (not mentioned in profile)",
+     "Child Abuse Registry and Criminal Record check (not mentioned in profile)",
+     "Type rating on company aircraft (no type ratings held)",
+     "Turbine aircraft experience (0 h actual turbine time)"
+    ],
+    "dealbreakers": [
+     "1500 hours total time requirement not met",
+     "500 hours PIC requirement not met",
+     "ATPL licence requirement not met",
+     "Canadian citizenship or unrestricted work authorization requirement not met (Open Work Permit only)"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:28+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2413/apply",
    "role": "pilot"
   },
@@ -5111,9 +5815,33 @@
    "posted": "2026-09-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core hard gates for this ramp role: you have a valid driver's licence, can pursue an Airside Vehicle Operator's Permit and security clearance, and your logistics work plus aviation background make you a credible candidate. The main risks are that the posting is in Sioux Lookout, Ontario, far from your Dieppe base, and that your open work permit and Chinese citizenship may complicate the transportation security clearance, though nothing in the posting explicitly bars you. If you are willing to relocate and can clear the security screening, this is a realistic entry point into aviation ground operations.",
+    "met": [
+     "Valid driver's licence (implied by profile and target ramp roles)",
+     "Physically capable of lifting/bending up to 50 lbs (no restrictions noted)",
+     "Available now and open to shift work",
+     "Prior logistics/distribution experience involving loading, order verification and client-facing delivery",
+     "Aviation knowledge from CPL/IFR training supports airside awareness",
+     "High school diploma and post-secondary aviation education",
+     "Customer-service orientation from delivery operations"
+    ],
+    "missing": [
+     "Airside Vehicle Operator's Permit (must qualify for and obtain)",
+     "Transportation security clearance / RAIC (must obtain and maintain)",
+     "Forklift licence or completed forklift training (asset only)",
+     "Indigenous and Cultural Awareness Training (asset only)",
+     "Previous warehouse/ramp experience (asset only)",
+     "French language (not required, but not listed)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:30+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2405/apply",
    "role": "ground"
   },
@@ -5126,9 +5854,34 @@
    "posted": "2026-09-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "This Cargo Agent role at Perimeter Aviation in Sioux Lookout is a solid fit for your ground-operations interests and your Canadian work authorization, since it only requires a high school diploma, a valid driver's licence, and the ability to obtain security clearances and an AVOP. Your logistics experience at Dai Lam Trading and your aviation background are assets, but the posting does not state whether relocation to Sioux Lookout is supported, and you would need to confirm you can meet the physical lifting and shiftwork requirements. Overall this is a realistic application, though it is not a flying role.",
+    "met": [
+     "High school diploma (International Baccalaureate Diploma, Keystone Academy)",
+     "Canadian Open Work Permit authorizes work in Canada",
+     "Valid driver's licence implied by profile (not explicitly stated, but no disqualifying factor)",
+     "Physically able to perform duties (no restrictions noted)",
+     "Customer-facing logistics experience at Dai Lam Trading",
+     "Aviation industry knowledge and licence background considered an asset",
+     "English fluency for communication and documentation"
+    ],
+    "missing": [
+     "Explicit confirmation of a valid driver's licence",
+     "Airside Vehicle Operator's Permit (AVOP) - must qualify and obtain",
+     "Transportation security clearance / RAIC eligibility not yet confirmed",
+     "Forklift licence (asset only)",
+     "Amelia computer system knowledge (asset only)",
+     "Indigenous and Cultural Awareness Training (asset only)",
+     "French language (not required, but not listed)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:33+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2399/apply",
    "role": "ground"
   },
@@ -5141,9 +5894,38 @@
    "posted": "2026-09-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 35,
+    "verdict": "weak",
+    "summary": "You hold the right licence, Group 1 IFR, Category 1 medical and unrestricted Canadian work authorization, but the posting's hard 500-hour total-time minimum is well above your 269.6 hours, which is a non-negotiable gate for this First Officer role. Your lack of turbine time and no type rating also put you behind typical Medevac candidates, though your MCC simulator experience and English fluency are positives. Consider building hours toward 500+ before reapplying to Perimeter or similar 703/704 operators.",
+    "met": [
+     "Commercial Pilot Licence (Aeroplane)",
+     "Group 1 Multi-Engine Instrument Rating (current)",
+     "Transport Canada Category 1 medical, no restrictions",
+     "Fluent English (ICAO Level 6)",
+     "Canadian Open Work Permit — able to work in Canada unrestricted",
+     "Valid passport (implied by international training/travel)",
+     "High school diploma / IB Diploma",
+     "Willing and able to work flexible schedules and remote bases",
+     "Physically capable of lifting/loading duties (logistics work experience)"
+    ],
+    "missing": [
+     "500 hours total flight time (candidate has 269.6 h)",
+     "Turbine aircraft experience (0 h actual)",
+     "Type rating on company aircraft",
+     "Valid driver's licence (not stated in profile)",
+     "Transportation Security Clearance / RAIC (not stated)",
+     "Child Abuse Registry and Criminal Record check (not stated)",
+     "Indigenous and Cultural Awareness Training (asset, not held)"
+    ],
+    "dealbreakers": [
+     "500 hours total time minimum — candidate has 269.6 hours, a hard requirement not met"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:36+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2364/apply",
    "role": "pilot"
   },
@@ -5156,9 +5938,31 @@
    "posted": "2026-09-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core hard requirements for this ramp agent role: you hold a valid driver's licence, can qualify for an airside vehicle operator's permit and security clearance, and have relevant physical handling experience from your logistics role. The main uncertainty is whether your open work permit and lack of a Canadian driver's licence class confirmation satisfy Perimeter's screening, and the role is a step away from your pilot career goals. Overall a reasonable fallback application, but not a strong fit for your stated first-officer trajectory.",
+    "met": [
+     "High school diploma (IB Diploma and post-secondary coursework)",
+     "Valid driver's licence (implied by profile; not explicitly stated but typical)",
+     "Eligible to obtain airside vehicle operator's permit and transportation security clearance (Canadian open work permit, no restrictions noted)",
+     "Physically demanding work experience (distribution and logistics associate, loading/unloading)",
+     "Customer service experience (client-facing delivery operations)",
+     "Available immediately in Moncton area (willing to relocate to Thompson, MB implied by application)"
+    ],
+    "missing": [
+     "Explicit confirmation of valid driver's licence class",
+     "Forklift licence or completed training (asset only)",
+     "Previous warehouse/ramp experience (asset only)",
+     "Indigenous and Cultural Awareness Training (asset only)",
+     "French language (not required but not listed)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:38+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2359/apply",
    "role": "ground"
   },
@@ -5171,9 +5975,41 @@
    "posted": "2026-08-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 45,
+    "verdict": "weak",
+    "summary": "You have a strong aviation foundation with a Transport Canada CPL, Group 1 IFR, and ATPL exams written, but this Flight Dispatcher role has a hard gate you do not currently meet: successful completion of the Transport Canada FD Ops and FD Met exams. Your Canadian Open Work Permit allows you to work in Winnipeg, and you could likely obtain the required security clearance, but without the dispatcher exams you are not yet qualified for the position.",
+    "met": [
+     "Canadian Open Work Permit (authorized to work in Canada, not tied to an employer)",
+     "Transport Canada Category 1 medical, no restrictions",
+     "Restricted Radio Operator Certificate (relevant to the Canadian Radio License asset)",
+     "ATPL theory complete with SARON and SAMRA exams written (strong aviation knowledge base)",
+     "Commercial Pilot Licence with Group 1 IFR and multi-engine experience",
+     "ICAO English Language Proficiency Level 6",
+     "High school diploma and post-secondary aviation education in progress",
+     "Prior logistics/distribution experience with order verification and client-facing operations",
+     "Willingness to work shifts and in a fast-paced environment (implied by target roles and availability)"
+    ],
+    "missing": [
+     "Transport Canada Flight Dispatcher exams (FD Ops and FD Met) - required",
+     "Transportation Security Clearance (TSC) / RAIC - must be able to obtain and maintain",
+     "Prior experience in operations and/or flight coordination (preferred, not required)",
+     "Knowledge of airline management software and flight planning software (asset)",
+     "Experience using Microsoft Office Suite (Outlook, Excel, Word) - not explicitly stated",
+     "Ability to read and interpret aviation weather (NAV Canada) - asset, not explicitly stated",
+     "Indigenous and Cultural Awareness Training (asset)",
+     "Canadian Radio License (Aeronautical) - asset, not explicitly stated",
+     "French language (not listed, but not required for Winnipeg)"
+    ],
+    "dealbreakers": [
+     "Must have successfully completed Transport Canada FD Ops and FD Met exams - not met",
+     "Must be able to obtain and maintain transportation security clearances - not yet demonstrated"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:41+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2339/apply",
    "role": "dispatch"
   },
@@ -5186,9 +6022,32 @@
    "posted": "2026-08-27",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core hard requirements for this Baggage Agent role: you have a high school diploma, are physically able to lift and stand for shifts, and hold a Canadian Open Work Permit that lets you work in Thompson, MB. The main gap is that you have no prior warehouse or baggage handling experience and no X-ray screening training, though the posting treats both as assets or trainable in-house. Your aviation background and security-clearance eligibility make you a credible candidate, but this is a ground role well below your pilot qualifications.",
+    "met": [
+     "High school diploma / GED equivalent (IB Diploma, post-secondary coursework)",
+     "Canadian Open Work Permit authorizing work in Canada (not employer-tied)",
+     "Physically able to lift/carry up to 50 lbs and stand for extended periods",
+     "Available for various shifts and fast-paced on-time operations",
+     "Effective verbal and written communication (English fluent, ICAO Level 6)",
+     "Customer-facing experience from distribution/logistics role",
+     "Eligible to pursue Transportation Security Clearance / airport pass",
+     "Willingness to complete in-house X-ray Screening Training"
+    ],
+    "missing": [
+     "Previous warehouse operations or baggage handling experience (asset only)",
+     "Completed X-ray Screening Training (posting allows in-house enrollment)",
+     "Indigenous and Cultural Awareness Training (asset only)",
+     "French language (not required for Thompson, MB)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:44+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2333/apply",
    "role": "ground"
   },
@@ -5201,9 +6060,31 @@
    "posted": "2026-08-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "This ramp/baggage role at Perimeter Aviation in Winnipeg is a reasonable fit for your stated interest in ground handling work, and you meet the core requirements: high school diploma, physical capability, and shift availability. The main gap is the Transportation Security Clearance, which you would need to obtain and maintain, and your Chinese citizenship with a Canadian open work permit may complicate that process. Your aviation background is a strong asset, though the posting does not require pilot licences.",
+    "met": [
+     "High school diploma or equivalent (International Baccalaureate Diploma)",
+     "Physically able to perform job duties including lifting up to 50 lbs",
+     "Available for various shifts and outdoor work in all weather",
+     "Customer service and fast-paced work experience (Distribution & Logistics Associate)",
+     "Strong communication skills (English fluent, ICAO Level 6)",
+     "Attention to detail and ability to work independently and in a team",
+     "Interest in ramp/ground handling roles"
+    ],
+    "missing": [
+     "Transportation Security Clearance (TSC) / airport pass eligibility not confirmed",
+     "X-ray Screening Training (can be completed in-house per posting)",
+     "Previous warehouse or baggage handling experience (considered an asset, not required)",
+     "Indigenous and Cultural Awareness Training (considered an asset, not required)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:46+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2270/apply",
    "role": "ground"
   },
@@ -5216,9 +6097,33 @@
    "posted": "2026-08-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core hard gates for this Cargo Agent role: you have a valid driver's licence, can pursue a Transportation Security Clearance and AVOP, and your logistics and customer-facing experience at Dai Lam Trading maps well to freight handling. The main gaps are that you are not a Canadian citizen or permanent resident (though your open work permit should allow you to work in Canada) and you have no forklift licence or Amelia system experience, both of which are only assets. This is a viable ground-side role while you build flight hours, though it is not a flying position.",
+    "met": [
+     "Valid driver's licence",
+     "Eligible to obtain Transportation Security Clearance (Canadian open work permit, no criminal record indicated)",
+     "Eligible to qualify for AVOP",
+     "High school diploma / IB Diploma",
+     "Physical ability to lift up to 50 lbs and work outdoors in shiftwork",
+     "Customer service and freight/logistics experience (Dai Lam Trading)",
+     "Aviation background and knowledge of cargo/airline operations",
+     "English fluency (ICAO Level 6)"
+    ],
+    "missing": [
+     "Forklift licence (asset only)",
+     "Amelia computer system experience (asset only)",
+     "Indigenous and Cultural Awareness Training (asset only)",
+     "Canadian citizenship or permanent residency (not required for this role, but limits some aviation security roles)",
+     "French language (not required)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:49+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2238/apply",
    "role": "ground"
   },
@@ -5231,9 +6136,33 @@
    "posted": "2026-08-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core hard gates for this ramp/groomer role: you have a high school diploma, a valid driver's licence, and you're based in Canada with an open work permit, so you can pursue the required transportation security clearance. The main gaps are the forklift licence/training and no prior warehouse or ramp experience, though your logistics role and aviation background are relevant assets. The physical demands and shift flexibility are things you'd need to confirm you can meet.",
+    "met": [
+     "High school diploma (IB Diploma, Keystone Academy)",
+     "Valid driver's licence",
+     "Canadian Open Work Permit (eligible to work in Canada, not tied to an employer)",
+     "Based in Canada (Dieppe, NB) and available now",
+     "Aviation operation experience (CPL, multi-engine IFR, seaplane, MCC simulator)",
+     "Distribution/logistics experience involving loading, product handling and delivery",
+     "Physically capable of lifting/handling duties (no restrictions noted)",
+     "ICAO English Level 6 and fluent communication skills"
+    ],
+    "missing": [
+     "Forklift licence or completed applicable training",
+     "Previous warehouse/ramp experience (asset only)",
+     "Transportation Security Clearance / airport pass (must be able to obtain and maintain)",
+     "Indigenous and Cultural Awareness Training (asset only)",
+     "French language (not required, not listed)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:51+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2231/apply",
    "role": "ground"
   },
@@ -5246,9 +6175,37 @@
    "posted": "2026-08-02",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 12,
+    "verdict": "ineligible",
+    "summary": "This Dash Captain role is a hard no for you right now: it requires an ATPL and 2000 hours total time, while you hold a Commercial Pilot Licence with 269.6 hours and only ATPL theory complete. Even setting hours aside, you are not a Canadian citizen or permanent resident, which is typically required for the transportation security clearance this position demands. You should target First Officer postings at 703/704 operators where your CPL, Group 1 IFR, and multi-engine time can build toward ATPL minimums.",
+    "met": [
+     "Fluent in English (ICAO Level 6)",
+     "Transport Canada Category 1 medical, no restrictions",
+     "Current Group 1 Multi-Engine Instrument Rating",
+     "Commercial Pilot Licence with multi-engine and seaplane ratings",
+     "Willing and able to work flexible schedules and travel",
+     "Physically capable of lifting and outdoor work",
+     "High school diploma and post-secondary aviation training"
+    ],
+    "missing": [
+     "Airline Transport Pilot Licence (ATPL) - only theory complete",
+     "2000 hours total time - has 269.6 hours",
+     "500 hours on DHC-8 - no type ratings at all",
+     "Previous airline experience",
+     "Canadian citizenship or permanent residency for security clearance eligibility",
+     "Indigenous and Cultural Awareness Training"
+    ],
+    "dealbreakers": [
+     "ATPL not held (hard requirement)",
+     "2000 hours total time not met (269.6 hours)",
+     "Not a Canadian citizen or permanent resident, likely ineligible for required transportation security clearance"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:54+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2208/apply",
    "role": "pilot"
   },
@@ -5261,9 +6218,36 @@
    "posted": "2026-07-12",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 8,
+    "verdict": "ineligible",
+    "summary": "This Dash 8 Captain role at Perimeter Aviation is a hard no for you right now: it requires an ATPL with 3000 hours total time, and you hold a Commercial Pilot Licence with 269.6 hours and only ATPL theory completed. Even setting hours aside, the posting is for a 705 Captain position, which you are not yet qualified for, so you should focus on First Officer or dispatcher roles instead.",
+    "met": [
+     "Transport Canada Category 1 medical, no restrictions",
+     "Current Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Fluent in English (ICAO Level 6)",
+     "High school diploma / IB Diploma equivalent",
+     "Willing and able to obtain transportation security clearances",
+     "Physically able to perform duties including lifting up to 50 lbs",
+     "Flexible schedule and travel availability"
+    ],
+    "missing": [
+     "Airline Transport Pilot Licence (ATPL) — only ATPL theory complete, licence not held",
+     "3000 hours total time — only 269.6 hours",
+     "500 hours on DH8 (asset, not held)",
+     "Type rating on Dash 8 (not held)",
+     "Previous 705 Captain experience (none)"
+    ],
+    "dealbreakers": [
+     "ATPL licence not held",
+     "3000 hours total time requirement not met (269.6 hours)",
+     "Applying for a Captain role with no multi-crew line experience or type rating"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:56+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2125/apply",
    "role": "pilot"
   },
@@ -5276,9 +6260,33 @@
    "posted": "2026-07-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 5,
+    "verdict": "ineligible",
+    "summary": "This Crew Chief - Heavy Maintenance role requires a Transport Canada AME License with M1/M2 rating plus five years of M1 experience and two years of supervisory experience, none of which you hold. Your background is as a commercial pilot with flight dispatcher and ramp interests, not aircraft maintenance engineering, so you cannot be considered for this position. You should focus on First Officer, flight dispatcher, or ramp roles instead.",
+    "met": [
+     "Transport Canada Category 1 medical (not required here)",
+     "Willingness to obtain security clearances",
+     "Physically capable of shop work and lifting",
+     "Working knowledge of Canadian Aviation Regulations (CARs) from pilot training"
+    ],
+    "missing": [
+     "Transport Canada AME License with M1 and/or M2 rating",
+     "Minimum five years of M1 experience",
+     "Minimum two years supervisory experience",
+     "Hands-on heavy maintenance experience",
+     "Microsoft Office Suite experience (not stated)"
+    ],
+    "dealbreakers": [
+     "No Transport Canada AME License (M1/M2) — a non-negotiable certification gate",
+     "No five years of M1 maintenance experience",
+     "No two years of supervisory experience"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:44:58+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2113/apply",
    "role": "ground"
   },
@@ -5291,9 +6299,32 @@
    "posted": "2026-07-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core hard requirements for this ramp agent role: you have a valid driver's licence, a high school diploma, and you're based in Canada with an open work permit, so you can pursue the Airside Vehicle Operator's Permit and transportation security clearance. The main gaps are that the posting is in Thunder Bay, ON, far from your Dieppe, NB base, and your profile doesn't explicitly confirm forklift training or prior ramp/warehouse experience, though your logistics role is relevant. Overall this is a realistic entry-level ground-side option while you build flight hours.",
+    "met": [
+     "Valid driver's licence (implied by profile; must confirm class)",
+     "High school diploma / IB Diploma equivalent",
+     "Canadian Open Work Permit - eligible to work in Canada",
+     "Physically able to lift/bend up to 50 lbs (no restrictions noted)",
+     "Customer-service and fast-paced logistics experience (Dai Lam Trading)",
+     "Available now for shift work",
+     "Willing to obtain security clearance and AVOP"
+    ],
+    "missing": [
+     "Explicit confirmation of driver's licence class/airside eligibility",
+     "Forklift licence or completed forklift training (asset only)",
+     "Prior warehouse/ramp experience (asset only)",
+     "Indigenous and Cultural Awareness Training (asset only)",
+     "Location proximity to Thunder Bay, ON (role is not in Dieppe/Moncton)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:45:00+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2108/apply",
    "role": "ground"
   },
@@ -5306,9 +6337,39 @@
    "posted": "2026-07-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 25,
+    "verdict": "weak",
+    "summary": "Jack, this Metro Captain role is a significant stretch: it is a 703/704 captain position requiring an ATPL and 500 hours on Metros, while you hold a Commercial Pilot Licence with 269.6 total hours and no type ratings. You do meet the CPL, Category 1 medical, Group 1 IFR, English fluency, and security clearance eligibility gates, but the captain-level experience and ATPL requirements are hard gaps. Consider applying for First Officer or dispatcher roles instead.",
+    "met": [
+     "Commercial Pilot Licence (Aeroplane)",
+     "Transport Canada Category 1 medical, no restrictions",
+     "Current Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Fluent in English (ICAO Level 6)",
+     "Eligible to obtain and maintain transportation security clearances (Canadian Open Work Permit, no criminal record noted)",
+     "Physically able to perform duties including lifting up to 50 lbs (no restrictions noted)",
+     "Available for flexible schedules and extended travel",
+     "High school diploma and post-secondary aviation education"
+    ],
+    "missing": [
+     "ATPL licence (only ATPL theory complete; SARON and SAMRA written, no licence issued)",
+     "500 hours on Metros (0 hours on type)",
+     "Captain experience on 703/704 aircraft",
+     "Type rating on Metro (no type ratings held)",
+     "Total flight time well below typical captain minimums (269.6 h vs. 500+ h on type)",
+     "Multi-engine time (20.3 h) and turbine time (0 h) far below captain-level expectations",
+     "Indigenous and Cultural Awareness Training (considered an asset, not held)"
+    ],
+    "dealbreakers": [
+     "ATPL licence not held (hard requirement for captain role)",
+     "500 hours on Metros not met (0 hours)",
+     "Insufficient total and multi-engine flight hours for a 703/704 captain position"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:45:03+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2098/apply",
    "role": "pilot"
   },
@@ -5321,9 +6382,34 @@
    "posted": "2026-06-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 8,
+    "verdict": "ineligible",
+    "summary": "Jack, this Dash Captain role at Perimeter Aviation is a hard stop for you: it requires an ATPL with 500 hours on the DHC-8, and you hold a Commercial Pilot Licence with no type ratings and zero turbine time. Your Group 1 IFR, Category 1 medical, and English fluency are solid, but the licence and type-hour gates are non-negotiable. You should instead target First Officer or flight dispatcher roles that match your current qualifications.",
+    "met": [
+     "Transport Canada Category 1 medical, no restrictions",
+     "Current Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Fluent in English (ICAO Level 6)",
+     "High school diploma equivalent (International Baccalaureate Diploma)",
+     "Willing and able to work flexible schedules and travel",
+     "Physically able to perform job duties including lifting up to 50 lbs"
+    ],
+    "missing": [
+     "Airline Transport Pilot License (ATPL) - only holds CPL with ATPL theory complete",
+     "500 hours on DHC-8 - no DHC-8 type rating or time",
+     "Previous airline experience",
+     "Transportation Security Clearance (not mentioned in profile)",
+     "Indigenous and Cultural Awareness Training"
+    ],
+    "dealbreakers": [
+     "ATPL licence required - candidate holds only a Commercial Pilot Licence",
+     "500 hours on DHC-8 required - candidate has no DHC-8 type rating or turbine time"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-02T13:45:05+00:00"
+   },
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2095/apply",
    "role": "pilot"
   },
@@ -5336,7 +6422,7 @@
    "posted": "2026-06-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/2027/apply",
@@ -5351,7 +6437,7 @@
    "posted": "2026-03-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.dayforcehcm.com/en-US/perimeteravi/All-Jobs/jobs/1608/apply",
@@ -5366,7 +6452,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.dayforcehcm.com/en-US/calmair/CANDIDATEPORTAL/jobs/5760/apply",
@@ -5381,7 +6467,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.dayforcehcm.com/en-US/calmair/CANDIDATEPORTAL/jobs/5756/apply",
@@ -5396,7 +6482,7 @@
    "posted": "2026-02-27",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.dayforcehcm.com/en-US/keewatinair/ALLJOBS/jobs/211/apply",
@@ -5411,7 +6497,7 @@
    "posted": "2025-12-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.dayforcehcm.com/en-US/keewatinair/ALLJOBS/jobs/73/apply",
@@ -5426,7 +6512,7 @@
    "posted": "2025-12-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.dayforcehcm.com/en-US/keewatinair/ALLJOBS/jobs/71/apply",
@@ -5441,7 +6527,7 @@
    "posted": "2025-12-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.dayforcehcm.com/en-US/keewatinair/ALLJOBS/jobs/69/apply",
@@ -5456,7 +6542,7 @@
    "posted": "2026-07-30",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.dayforcehcm.com/en-US/conair/CANDIDATEPORTAL/jobs/828/apply",
@@ -5471,7 +6557,7 @@
    "posted": "2026-08-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.dayforcehcm.com/en-US/customheli/CANDIDATEPORTAL/jobs/20/apply",
@@ -5486,7 +6572,7 @@
    "posted": "2026-08-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.dayforcehcm.com/en-US/customheli/CANDIDATEPORTAL/jobs/15/apply",
@@ -5501,7 +6587,7 @@
    "posted": "2026-09-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.dayforcehcm.com/en-US/carsonair/carson-cargo-opportunities/jobs/530/apply",
@@ -5516,7 +6602,7 @@
    "posted": "2026-09-18",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.dayforcehcm.com/en-US/carsonair/carson-medevac-opportunities/jobs/619/apply",
@@ -5531,7 +6617,7 @@
    "posted": "2026-07-22",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.dayforcehcm.com/en-US/carsonair/carson-medevac-opportunities/jobs/458/apply",
@@ -5546,7 +6632,7 @@
    "posted": "2026-06-23",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://careers-flyporter.icims.com/jobs/5309/login",
@@ -5561,7 +6647,7 @@
    "posted": "2026-07-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://careersfr-flyporter.icims.com/jobs/5312/login",
@@ -5576,7 +6662,7 @@
    "posted": "2026-06-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://careers-flyporter.icims.com/jobs/5297/login",
@@ -5591,7 +6677,7 @@
    "posted": "2026-09-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://careers-flyporter.icims.com/jobs/5320/login",
@@ -5606,7 +6692,7 @@
    "posted": "2026-09-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://enjobs-swissportglobal.icims.com/jobs/10350/login",
@@ -5621,7 +6707,7 @@
    "posted": "2026-09-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://enjobs-swissportglobal.icims.com/jobs/10463/login",
@@ -5636,7 +6722,7 @@
    "posted": "2026-09-12",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://enjobs-swissportglobal.icims.com/jobs/10358/login",
@@ -5651,7 +6737,7 @@
    "posted": "2026-09-29",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://enjobs-swissportglobal.icims.com/jobs/10506/login",
@@ -5666,7 +6752,7 @@
    "posted": "2026-09-17",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://enjobs-swissportglobal.icims.com/jobs/10403/login",
@@ -5681,7 +6767,7 @@
    "posted": "2026-04-17",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "also_listed": [
@@ -5702,7 +6788,7 @@
    "posted": "2026-09-25",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/CanadianHelicopters/744000151923559?oga=true",
@@ -5717,7 +6803,7 @@
    "posted": "2026-09-25",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/CanadianHelicopters/744000151922209?oga=true",
@@ -5732,7 +6818,7 @@
    "posted": "2026-08-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/CanadianHelicopters/744000142798191?oga=true",
@@ -5747,7 +6833,7 @@
    "posted": "2026-08-06",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/CanadianHelicopters/744000141997579?oga=true",
@@ -5762,7 +6848,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/CanadianHelicopters/744000141486313?oga=true",
@@ -5777,7 +6863,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/CanadianHelicopters/744000141487319?oga=true",
@@ -5792,7 +6878,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/CanadianHelicopters/744000141486431?oga=true",
@@ -5807,7 +6893,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/CanadianHelicopters/744000141485554?oga=true",
@@ -5822,7 +6908,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/CanadianHelicopters/744000141482146?oga=true",
@@ -5837,7 +6923,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/CanadianHelicopters/744000141479031?oga=true",
@@ -5852,7 +6938,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/CanadianHelicopters/744000141482273?oga=true",
@@ -5867,7 +6953,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/CanadianHelicopters/744000141479329?oga=true",
@@ -5882,7 +6968,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/CanadianHelicopters/744000141478280?oga=true",
@@ -5897,7 +6983,7 @@
    "posted": "2026-05-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/KennBorekAir/744000127518389?oga=true",
@@ -5912,7 +6998,7 @@
    "posted": "2026-04-30",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/KennBorekAir/744000124031589?oga=true",
@@ -5927,7 +7013,7 @@
    "posted": "2024-10-31",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/KennBorekAir/744000023875487?oga=true",
@@ -5942,7 +7028,7 @@
    "posted": "2024-10-31",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/KennBorekAir/744000023875145?oga=true",
@@ -5957,7 +7043,7 @@
    "posted": "2024-10-30",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://jobs.smartrecruiters.com/KennBorekAir/744000023657215?oga=true",
@@ -5972,7 +7058,7 @@
    "posted": "2026-09-23",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://job-boards.greenhouse.io/airnorth/jobs/5433211008",
@@ -5987,7 +7073,7 @@
    "posted": "2026-08-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://job-boards.greenhouse.io/airnorth/jobs/5169792008",
@@ -6002,7 +7088,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://airtindi.bamboohr.com/careers/27",
@@ -6017,7 +7103,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://airtindi.bamboohr.com/careers/40",
@@ -6032,7 +7118,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://maei.bamboohr.com/careers/185",
@@ -6047,7 +7133,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://ats.rippling.com/riseair/jobs/c7bd460e-732a-4f60-a925-90f328030e14/apply",
@@ -6062,7 +7148,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.flycma.com/job-postings/aircraft-groomer-calgary-alberta-yyc-w3g2r",
@@ -6077,7 +7163,7 @@
    "posted": "2026-09-25",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://wasaya.com/career/ramp-attendant-yqt/",
@@ -6092,7 +7178,7 @@
    "posted": "2026-08-27",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://wasaya.com/career/assistant-chief-pilot-yqt/",
@@ -6121,7 +7207,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50214436",
    "posted": null,
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50214436",
@@ -6135,7 +7221,7 @@
    "url": "https://www.linkedin.com/jobs/view/4469925665",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4469925665",
@@ -6149,7 +7235,7 @@
    "url": "https://www.linkedin.com/jobs/view/4436864719",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4436864719",
@@ -6163,7 +7249,7 @@
    "url": "https://www.linkedin.com/jobs/view/4472734612",
    "posted": "2026-09-28",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4472734612",
@@ -6177,7 +7263,7 @@
    "url": "https://www.linkedin.com/jobs/view/4473292843",
    "posted": "2026-09-30",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "also_listed": [
@@ -6197,7 +7283,7 @@
    "url": "https://www.linkedin.com/jobs/view/4467805333",
    "posted": "2026-09-17",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4467805333",
@@ -6211,7 +7297,7 @@
    "url": "https://www.linkedin.com/jobs/view/4470889058",
    "posted": "2026-09-28",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4470889058",
@@ -6225,7 +7311,7 @@
    "url": "https://www.eluta.ca/spl/airline-ramp-attendant-baggage-handler-48069fb1fa24b9dfaf00be1778c4acd0?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/airline-ramp-attendant-baggage-handler-48069fb1fa24b9dfaf00be1778c4acd0?imo=12",
@@ -6239,7 +7325,7 @@
    "url": "https://www.eluta.ca/spl/cargo-ramp-attendant-crewman-fc70bdc7e7cec0046a5d1f3e58c6f673?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/cargo-ramp-attendant-crewman-fc70bdc7e7cec0046a5d1f3e58c6f673?imo=12",
@@ -6253,7 +7339,7 @@
    "url": "https://www.eluta.ca/spl/senior-baggage-handling-system-engineer-bhs-bc2ed24860191996f844c7dc7541d90b?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/senior-baggage-handling-system-engineer-bhs-bc2ed24860191996f844c7dc7541d90b?imo=12",
@@ -6267,7 +7353,7 @@
    "url": "https://www.eluta.ca/spl/senior-baggage-handling-system-engineer-5a2ce8dbba317093c39ad8ebb82b9682?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/senior-baggage-handling-system-engineer-5a2ce8dbba317093c39ad8ebb82b9682?imo=12",
@@ -6281,7 +7367,7 @@
    "url": "https://www.eluta.ca/spl/senior-engineer-baggage-handling-systems-c15d7b437a43c0e38d226354501a61d0?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/senior-engineer-baggage-handling-systems-c15d7b437a43c0e38d226354501a61d0?imo=12",
@@ -6325,7 +7411,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50248342",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50248342",
@@ -6339,7 +7425,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50384783",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50384783",
@@ -6353,7 +7439,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50365010",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50365010",
@@ -6367,7 +7453,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50348239",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50348239",
@@ -6381,7 +7467,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50318491",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50318491",
@@ -6395,7 +7481,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50266098",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50266098",
@@ -6409,7 +7495,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50265638",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50265638",
@@ -6423,7 +7509,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50122254",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50122254",
@@ -6437,7 +7523,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50121374",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50121374",
@@ -6451,7 +7537,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120950",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120950",
@@ -6465,7 +7551,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120944",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120944",
@@ -6479,7 +7565,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120919",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120919",
@@ -6493,7 +7579,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120746",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120746",
@@ -6507,7 +7593,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50227982",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50227982",
@@ -6521,7 +7607,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50227985",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50227985",
@@ -6535,7 +7621,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50215604",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50215604",
@@ -6549,7 +7635,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50215689",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50215689",
@@ -6563,7 +7649,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50209091",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50209091",
@@ -6577,7 +7663,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50200447",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50200447",
@@ -6591,7 +7677,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50000527",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50000527",
@@ -6605,7 +7691,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50385664",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50385664",
@@ -6619,7 +7705,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50315552",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50315552",
@@ -6633,7 +7719,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50401802",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50401802",
@@ -6647,7 +7733,7 @@
    "url": "https://www.linkedin.com/jobs/view/4468326021",
    "posted": "2026-09-16",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "also_listed": [
@@ -6667,7 +7753,7 @@
    "url": "https://www.linkedin.com/jobs/view/4465808094",
    "posted": "2026-10-01",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4465808094",
@@ -6681,7 +7767,7 @@
    "url": "https://www.linkedin.com/jobs/view/4465808095",
    "posted": "2026-10-01",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4465808095",
@@ -6695,7 +7781,7 @@
    "url": "https://www.linkedin.com/jobs/view/4469850942",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4469850942",
@@ -6709,7 +7795,7 @@
    "url": "https://www.linkedin.com/jobs/view/4461134067",
    "posted": "2026-09-04",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4461134067",
@@ -6723,7 +7809,7 @@
    "url": "https://www.linkedin.com/jobs/view/4444585865",
    "posted": "2026-09-11",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4444585865",
@@ -6737,7 +7823,7 @@
    "url": "https://www.linkedin.com/jobs/view/4464693468",
    "posted": "2026-09-08",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4464693468",
@@ -6751,7 +7837,7 @@
    "url": "https://www.linkedin.com/jobs/view/4465816058",
    "posted": "2026-10-01",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4465816058",
@@ -6765,7 +7851,7 @@
    "url": "https://www.linkedin.com/jobs/view/4408059133",
    "posted": "2026-09-16",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4408059133",
@@ -6779,7 +7865,7 @@
    "url": "https://www.linkedin.com/jobs/view/4465806102",
    "posted": "2026-09-10",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4465806102",
@@ -6793,7 +7879,7 @@
    "url": "https://www.linkedin.com/jobs/view/4468707761",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4468707761",
@@ -6807,7 +7893,7 @@
    "url": "https://www.linkedin.com/jobs/view/4411501596",
    "posted": "2026-09-22",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4411501596",
@@ -6821,7 +7907,7 @@
    "url": "https://www.linkedin.com/jobs/view/4372699921",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4372699921",
@@ -6835,7 +7921,7 @@
    "url": "https://www.linkedin.com/jobs/view/4466287825",
    "posted": "2026-09-17",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4466287825",
@@ -6849,7 +7935,7 @@
    "url": "https://www.linkedin.com/jobs/view/4472735436",
    "posted": "2026-09-28",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4472735436",
@@ -6878,7 +7964,7 @@
    "url": "https://www.linkedin.com/jobs/view/4461126168",
    "posted": "2026-09-04",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4461126168",
@@ -6892,7 +7978,7 @@
    "url": "https://www.linkedin.com/jobs/view/4411553219",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4411553219",
@@ -6907,10 +7993,11 @@
    "posted": "2026-09-17",
    "first_seen": "2026-10-01T15:04:27+00:00",
    "last_seen": "2026-10-02T05:48:07+00:00",
-   "active": true,
+   "active": false,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4468694657",
-   "role": "pilot"
+   "role": "pilot",
+   "closed_at": "2026-10-02T13:42:17+00:00"
   },
   {
    "id": "linkedin:linkedin:4465993387",
@@ -6921,7 +8008,7 @@
    "posted": "2026-09-16",
    "first_seen": "2026-10-01T15:04:27+00:00",
    "last_seen": "2026-10-02T05:48:07+00:00",
-   "active": true,
+   "active": false,
    "evaluation": null,
    "also_listed": [
     {
@@ -6930,7 +8017,8 @@
     }
    ],
    "apply_url": "https://www.linkedin.com/jobs/view/4465993387",
-   "role": "ground"
+   "role": "ground",
+   "closed_at": "2026-10-02T13:42:17+00:00"
   },
   {
    "id": "linkedin:linkedin:4467642349",
@@ -6940,7 +8028,7 @@
    "url": "https://www.linkedin.com/jobs/view/4467642349",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "also_listed": [
@@ -6960,7 +8048,7 @@
    "url": "https://www.linkedin.com/jobs/view/4466356363",
    "posted": "2026-09-11",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4466356363",
@@ -6974,7 +8062,7 @@
    "url": "https://www.linkedin.com/jobs/view/4392477083",
    "posted": "2026-09-20",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.linkedin.com/jobs/view/4392477083",
@@ -6988,12 +8076,11 @@
    "url": "https://www.eluta.ca/spl/first-officer-challenger-650-99a81cb1ef8e41baf715cea8e472558f?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-01T18:25:44+00:00",
-   "active": false,
+   "last_seen": "2026-10-02T13:42:17+00:00",
+   "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/first-officer-challenger-650-99a81cb1ef8e41baf715cea8e472558f?imo=12",
-   "role": "pilot",
-   "closed_at": "2026-10-01T21:04:19+00:00"
+   "role": "pilot"
   },
   {
    "id": "eluta:eluta:4677db1e46c85d14ed4754d1d284997f",
@@ -7003,7 +8090,7 @@
    "url": "https://www.eluta.ca/spl/first-officer-challenger-3500-halifax-cyhz-4677db1e46c85d14ed4754d1d284997f?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/first-officer-challenger-3500-halifax-cyhz-4677db1e46c85d14ed4754d1d284997f?imo=12",
@@ -7017,7 +8104,7 @@
    "url": "https://www.eluta.ca/spl/rotor-wing-first-officer-5c3f5ee6ec1a46ce72a402916a52d08b?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/rotor-wing-first-officer-5c3f5ee6ec1a46ce72a402916a52d08b?imo=12",
@@ -7031,7 +8118,7 @@
    "url": "https://www.eluta.ca/spl/stream-1%3A-engineering-test-pilot-fixed-wing-stream-2%3A-engineering-test-pilot-rotary-wing-c8d9e011e6a6772564aac1d33084005f?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/stream-1%3A-engineering-test-pilot-fixed-wing-stream-2%3A-engineering-test-pilot-rotary-wing-c8d9e011e6a6772564aac1d33084005f?imo=12",
@@ -7045,7 +8132,7 @@
    "url": "https://www.eluta.ca/spl/tactical-instructor-pilot-c8569fb3c164524911e9e6d0695f6a86?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/tactical-instructor-pilot-c8569fb3c164524911e9e6d0695f6a86?imo=12",
@@ -7059,7 +8146,7 @@
    "url": "https://www.eluta.ca/spl/aviation-pilot-7e9854d220e4273d27471bd00e38bfca?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/aviation-pilot-7e9854d220e4273d27471bd00e38bfca?imo=12",
@@ -7088,7 +8175,7 @@
    "url": "https://www.eluta.ca/spl/c130j-pilot-sme-3f73004f445043976a2886f25b6dc159?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/c130j-pilot-sme-3f73004f445043976a2886f25b6dc159?imo=12",
@@ -7102,7 +8189,7 @@
    "url": "https://www.eluta.ca/spl/instructor-pilot-gbts-sme-fact-caf70baa9db4895dfedb50dd55d5de62?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/instructor-pilot-gbts-sme-fact-caf70baa9db4895dfedb50dd55d5de62?imo=12",
@@ -7116,7 +8203,7 @@
    "url": "https://www.eluta.ca/spl/sp%C3%A9cialiste-exploitation-des-services-d%E2%80%99information-a%C3%A9ronautique-pilote-non-navigant-normes-ais-c0c56df666251c752a8b714262a69754?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/sp%C3%A9cialiste-exploitation-des-services-d%E2%80%99information-a%C3%A9ronautique-pilote-non-navigant-normes-ais-c0c56df666251c752a8b714262a69754?imo=12",
@@ -7130,7 +8217,7 @@
    "url": "https://www.eluta.ca/spl/aeronautical-information-operations-specialist-pilot-non-flying-ais-standards-6b5450269b48e33e01bae0afd9a8447d?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/aeronautical-information-operations-specialist-pilot-non-flying-ais-standards-6b5450269b48e33e01bae0afd9a8447d?imo=12",
@@ -7144,7 +8231,7 @@
    "url": "https://www.eluta.ca/spl/pilot-plant-engineer-2a8649125c58ca8bac6aaaeaf44489f0?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/pilot-plant-engineer-2a8649125c58ca8bac6aaaeaf44489f0?imo=12",
@@ -7158,7 +8245,7 @@
    "url": "https://www.eluta.ca/spl/flight-dispatcher-certified-dd02099ca94203ae25865de62603b3fb?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/flight-dispatcher-certified-dd02099ca94203ae25865de62603b3fb?imo=12",
@@ -7172,7 +8259,7 @@
    "url": "https://www.eluta.ca/spl/flight-dispatcher-6895e1178e1a75f361b8f6e39c16d560?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/flight-dispatcher-6895e1178e1a75f361b8f6e39c16d560?imo=12",
@@ -7186,7 +8273,7 @@
    "url": "https://www.eluta.ca/spl/dispatcher-7dbcd967a9e4d5a00f429cf28432d8b2?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/dispatcher-7dbcd967a9e4d5a00f429cf28432d8b2?imo=12",
@@ -7200,7 +8287,7 @@
    "url": "https://www.eluta.ca/spl/dispatchers-cc3f0ba8d461e9b99755607242a05665?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/dispatchers-cc3f0ba8d461e9b99755607242a05665?imo=12",
@@ -7214,7 +8301,7 @@
    "url": "https://www.eluta.ca/spl/flight-follower-dcb71f7ad8d70f30d9d36604ddb46c61?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/flight-follower-dcb71f7ad8d70f30d9d36604ddb46c61?imo=12",
@@ -7228,7 +8315,7 @@
    "url": "https://www.eluta.ca/spl/entry-level-pilot-9e5fb3b9a3f0b7ce28acf3535e804373?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/entry-level-pilot-9e5fb3b9a3f0b7ce28acf3535e804373?imo=12",
@@ -7242,7 +8329,7 @@
    "url": "https://www.eluta.ca/spl/conception-d%C3%A9veloppement-et-analyse-des-lois-de-pilotage-flight-control-laws-9aad99f638f14a65f4ee50e3bb3b06d0?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/conception-d%C3%A9veloppement-et-analyse-des-lois-de-pilotage-flight-control-laws-9aad99f638f14a65f4ee50e3bb3b06d0?imo=12",
@@ -7256,7 +8343,7 @@
    "url": "https://www.eluta.ca/spl/ramp-agent-44e788fd9e342f6b6ae24df1363174fb?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/ramp-agent-44e788fd9e342f6b6ae24df1363174fb?imo=12",
@@ -7270,7 +8357,7 @@
    "url": "https://www.eluta.ca/spl/ramp-agent-4f3dc9dc47b2395c8860cdd80f96267e?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T05:48:07+00:00",
+   "last_seen": "2026-10-02T13:42:17+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/ramp-agent-4f3dc9dc47b2395c8860cdd80f96267e?imo=12",

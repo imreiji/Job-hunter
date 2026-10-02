@@ -159,7 +159,8 @@
 <div id="app" hidden>
 <header>
   <div class="header-row"><h1>Canadian Aviation Jobs</h1><button class="btn" id="lock" hidden>Lock</button></div>
-  <p class="sub" id="updated">Loading…</p>
+  <p class="sub"><span id="updated">Loading…</span>
+    <button class="btn" id="recover-flag" hidden style="margin-left:8px;color:var(--ineligible)">Recover tracker data</button></p>
   <nav class="tabs" role="tablist">
     <button class="tab" role="tab" data-tab="jobs" aria-selected="true">Jobs</button>
     <button class="tab" role="tab" data-tab="apps" aria-selected="false">Applications <span class="count" id="app-count"></span></button>
@@ -190,6 +191,18 @@
 
   <!-- ======================= Applications ======================= -->
   <section id="tab-apps" hidden>
+    <form class="card" id="recover" hidden>
+      <h2>Tracker data from your previous password</h2>
+      <p class="note">The site password changed. Applications <span id="recover-what"></span> are still encrypted with the
+        previous password. Enter it once to re-encrypt them with the new one. Nothing is overwritten until you
+        recover or discard them.</p>
+      <div class="actions">
+        <input type="password" id="old-password" autocomplete="off" placeholder="Previous site password" required>
+        <button class="btn primary" type="submit">Recover</button>
+        <button class="btn" type="button" id="discard-old">Discard old data</button>
+      </div>
+      <p class="error" id="recover-error" hidden>That password didn't open the old data.</p>
+    </form>
     <div class="tiles" id="app-tiles"></div>
     <div class="controls">
       <select id="app-filter"><option value="">All statuses</option></select>

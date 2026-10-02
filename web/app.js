@@ -83,8 +83,16 @@ const vault = {
     if (this.plaintext) { this.data = store.get("dev-vault", this.data); }
     else {
       const blob = store.get("vault", null);
-      if (blob && blob.salt === this.salt) {
-        try { this.data = await this.decrypt(blob); } catch { /* saved under an older password: start fresh */ }
+      if (blob) {
+        try {
+          if (blob.salt !== this.salt) throw new Error("different salt");
+          this.data = await this.decrypt(blob);
+        } catch {
+          // Saved under a previous site password. Keep it aside (never overwrite) until recovered or discarded.
+          const previous = store.get("vault-previous", []);
+          if (!previous.some(p => p.ct === blob.ct)) store.set("vault-previous", [...previous, blob]);
+          store.del("vault");
+        }
       }
     }
     // migrate data saved unencrypted by earlier versions of this page, then delete it
@@ -166,7 +174,7 @@ const tracker = {
 };
 
 const sync = {
-  cfg: null, sha: null, timer: null,
+  cfg: null, sha: null, timer: null, locked: null,
   status(text, cls = "") { $("sync-status").innerHTML = `<span class="${cls}">${esc(text)}</span>`; },
   valid(c) {
     return /^[\w.-]+\/[\w.-]+$/.test(c.repo) && /^[\w.\/-]+\.json$/.test(c.path) && !c.path.split("/").includes("..")
@@ -191,8 +199,16 @@ const sync = {
       let legacyPlain = false;
       if (remote.ct) {
         if (vault.plaintext) throw new Error("file is encrypted; open the published site instead");
-        if (remote.salt !== vault.salt) throw new Error("file was encrypted for a different site password");
-        remote = await vault.decrypt(remote);
+        try {
+          if (remote.salt !== vault.salt) throw new Error("different salt");
+          remote = await vault.decrypt(remote);
+        } catch {
+          // Encrypted under a previous site password: don't push over it until it's recovered or discarded.
+          this.locked = remote;
+          this.status("Synced file uses a previous password: recover it below", "sync-err");
+          renderRecovery();
+          return;
+        }
       } else legacyPlain = true;
       tracker.merge(remote.applications);
       const remoteIds = new Set((remote.applications || []).map(a => a.id + a.updated_at));
@@ -202,7 +218,7 @@ const sync = {
     } catch (e) { this.status(`Sync failed: ${e.message}`, "sync-err"); }
   },
   async push() {
-    if (!this.cfg) return;
+    if (!this.cfg || this.locked) return;
     // the synced file is encrypted with the site key, so it is safe even in a public repo
     const payload = vault.plaintext ? tracker.file() : await vault.encrypt(tracker.file());
     const json = JSON.stringify(payload, null, 1) + "\n";
@@ -216,12 +232,67 @@ const sync = {
     this.status(`Synced ${new Date().toLocaleTimeString()}`, "sync-ok");
   },
   schedule() {
-    if (!this.cfg) return;
+    if (!this.cfg || this.locked) return;
     clearTimeout(this.timer);
     this.status("Unsaved changes…");
     this.timer = setTimeout(() => this.push().catch(e => this.status(`Sync failed: ${e.message}`, "sync-err")), 1500);
   },
 };
+
+/* ---------- recovering tracker data saved under a previous site password ---------- */
+function renderRecovery() {
+  const previous = store.get("vault-previous", []);
+  const pending = previous.length + (sync.locked ? 1 : 0);
+  $("recover").hidden = !pending || vault.plaintext;
+  $("recover-flag").hidden = $("recover").hidden;
+  $("recover-what").textContent = [previous.length ? "saved in this browser" : "", sync.locked ? "in your synced file" : ""]
+    .filter(Boolean).join(" and ");
+}
+
+async function recoverWith(password) {
+  const keys = {};  // one PBKDF2 derivation per salt/iterations pair
+  const keyFor = blob => keys[`${blob.salt}:${blob.iter}`] ??= vault.derive(password, blob.salt, blob.iter || 600000);
+  let recovered = 0;
+  const remaining = [];
+  for (const blob of store.get("vault-previous", [])) {
+    try {
+      const data = await vault.decrypt(blob, await keyFor(blob));
+      tracker.merge(Object.values(data.applications || {}));
+      if (!sync.cfg && data.sync && sync.valid(data.sync)) sync.cfg = vault.data.sync = data.sync;  // sync settings lived in there too
+      recovered++;
+    } catch { remaining.push(blob); }
+  }
+  if (remaining.length) store.set("vault-previous", remaining); else store.del("vault-previous");
+  vault.save();
+  if (sync.cfg && !sync.locked) await sync.pull();  // may find the synced file still under the old password
+  if (sync.locked) {
+    try {
+      const data = await vault.decrypt(sync.locked, await keyFor(sync.locked));
+      tracker.merge(data.applications);
+      sync.locked = null; recovered++;
+      await sync.push();  // re-encrypted with the current password
+    } catch { /* this password doesn't open the synced file */ }
+  }
+  return recovered;
+}
+
+$("recover").addEventListener("submit", async e => {
+  e.preventDefault();
+  const button = e.target.querySelector("button[type=submit]");
+  button.disabled = true; button.textContent = "Recovering…";
+  const n = await recoverWith($("old-password").value);
+  $("old-password").value = "";
+  button.disabled = false; button.textContent = "Recover";
+  $("recover-error").hidden = n > 0;
+  renderRecovery(); renderAll(); renderApps();
+});
+$("discard-old").onclick = async () => {
+  if (!confirm("Permanently discard tracker data saved under your previous password?")) return;
+  store.del("vault-previous");
+  if (sync.locked) { sync.locked = null; await sync.push(); }  // overwrite the old file with current data
+  renderRecovery();
+};
+$("recover-flag").onclick = () => showTab("apps");
 
 /* ---------- "did you apply?" prompt after following an Apply link ---------- */
 let pendingApply = null;
@@ -600,6 +671,7 @@ function start(data) {
     tracker.merge(Object.values(vault.data.applications || {}));
     sync.cfg = vault.data.sync && sync.valid(vault.data.sync) ? vault.data.sync : null;
     renderAll();
+    renderRecovery();
     showTab(store.get("tab", "jobs"));
     sync.pull();
   });

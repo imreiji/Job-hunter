@@ -76,6 +76,17 @@ GitHub Pages can't require a login, so access control is done with encryption in
 - **CI least privilege:** the job that handles scraped data and API keys can only push commits. Pages
   deployment runs in a separate job with the Pages permissions.
 
+### Changing the site password
+
+1. Update the `SITE_PASSWORD` secret, then run **Poll jobs** (or wait for the next scheduled run). Job data
+   lives unencrypted in this private repo and is simply re-encrypted with the new password.
+2. Every device is locked out, including ones set to "Remember on this device". Sign in with the new password.
+3. Your tracker data (and sync settings) were encrypted with the old password. They are kept, never overwritten,
+   and the page shows **Recover tracker data**. Enter the previous password once on each device. If you use
+   sync, the synced file is re-encrypted with the new password at the same time.
+4. Lost the old password? Choose **Discard old data**. On a synced device this overwrites the old file
+   with what the browser currently has.
+
 Residual risks worth knowing:
 - **Same-origin pages.** Pages on `<you>.github.io` share one browser origin with your other project
   sites. Stored data stays encrypted, but a script on another of your project sites could *use* a

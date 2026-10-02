@@ -20,6 +20,9 @@ GitHub Actions (cron, every 4h)
 1. **Profile.** Copy `profile.example.md` and fill it in. Be specific about licences, hours, medical,
    TSC / airport pass, driver's licence, and work authorization, because those are what postings gate on.
 2. **Repository secrets** (Settings → Secrets and variables → Actions):
+   - `SITE_PASSWORD` (**required**): the password that unlocks the site. Use a long passphrase,
+     e.g. five random words. The encrypted data is publicly downloadable, so a short password could
+     be guessed offline. The poller refuses to run with fewer than 12 characters.
    - `DEEPSEEK_API_KEY`: from https://platform.deepseek.com
    - `CANDIDATE_PROFILE`: the full text of your filled-in profile
    - optional `USAJOBS_API_KEY` + `USAJOBS_EMAIL` for federal jobs (FAA, NTSB, DoD civilian)
@@ -28,9 +31,9 @@ GitHub Actions (cron, every 4h)
    Edit `include_title_keywords`, `exclude_title_keywords`, and the Job Bank `searches` to tune.
 5. Run it from the Actions tab (*Poll jobs → Run workflow*), or wait for the schedule.
 
-> **Privacy:** on a public repo, the Pages site and `data/jobs.json` are public too, and the
-> match summaries quote facts from your profile. Keep the repo private (Pages on a private repo
-> needs GitHub Pro), or accept that exposure.
+> **Privacy:** keep this repository private: `data/jobs.json` in it is unencrypted. GitHub Pages
+> from a private repository needs a paid plan, and even then the site URL itself is public.
+> That's why the site only ever serves encrypted data (see Security below).
 
 ## The webpage
 
@@ -50,14 +53,46 @@ GitHub Actions (cron, every 4h)
   (30 days), and how long postings stay open. Each chart has a table view. Everything is computed
   from `data/jobs.json`, so history starts when tracking began.
 
+## Security
+
+GitHub Pages can't require a login, so access control is done with encryption instead of a server:
+
+- **Encrypted site.** The poller encrypts the job data with AES-256-GCM, using a key derived from
+  `SITE_PASSWORD` with PBKDF2-SHA256 (600,000 iterations), and publishes only `jobs.enc.json`. The page
+  asks for the password and decrypts in your browser. A wrong password or a tampered file fails to
+  decrypt. CI refuses to run without the secret and fails if a plaintext `jobs.json` ever lands in the
+  site build. The page markup and script are public, but contain no data.
+- **Remember on this device** keeps the derived key in IndexedDB as a non-extractable `CryptoKey`.
+  **Lock** forgets it. Changing `SITE_PASSWORD` locks every device on the next poll.
+- **Browser storage is encrypted.** Tracker data and the sync token are stored encrypted with the same
+  key. The synced `applications.json` is encrypted too, so it is safe even in a public repo.
+- **Untrusted data is escaped and validated.** Job text is scraped from the web, so everything is
+  HTML-escaped. Only `http(s)` links are allowed (in the poller and again in the page). Statuses, roles
+  and verdicts are checked against allowlists, including in imported or synced files.
+- **Content Security Policy:** only the site's own script runs, and the only outside host the page can
+  call is `api.github.com`. Links open with `noopener noreferrer`, and the page is marked `noindex`.
+- **DeepSeek** sees postings fenced as untrusted data and is told to ignore instructions inside them.
+  Its output is validated and size-limited before it's stored.
+- **CI least privilege:** the job that handles scraped data and API keys can only push commits. Pages
+  deployment runs in a separate job with the Pages permissions.
+
+Residual risks worth knowing:
+- **Same-origin pages.** Pages on `<you>.github.io` share one browser origin with your other project
+  sites. Stored data stays encrypted, but a script on another of your project sites could *use* a
+  remembered key. Use a custom domain, or skip "Remember", if you host untrusted code there.
+- **Unpinned actions.** GitHub Actions are pinned by version tag, not commit SHA.
+- **Token scope.** Give the sync token an expiry and access to one repository only.
+
 ## Run locally
 
 ```bash
 pip install -r requirements.txt
 cp profile.example.md profile.md   # then edit
 export DEEPSEEK_API_KEY=sk-...
+export SITE_PASSWORD='your site passphrase'
 python -m jobhunter.main            # or --no-eval to poll only
 python -m http.server -d _site      # open http://localhost:8000
+# for UI work without a password: python -m jobhunter.main --no-eval --allow-plaintext-site
 pytest
 ```
 

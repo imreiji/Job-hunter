@@ -52,7 +52,14 @@ def html_to_text(raw: str | None) -> str:
     return re.sub(r"\n\s*\n+", "\n\n", text).strip()
 
 
+def safe_url(url) -> str | None:
+    """Only http(s) links reach the page; a scraped "javascript:" URL would be an XSS vector."""
+    url = str(url or "").strip()
+    return url if re.match(r"https?://", url, re.I) else None
+
+
 def _job(source: dict, job_id, title, location, url, description, posted=None, apply_url=None) -> dict:
+    url, apply_url = safe_url(url), safe_url(apply_url)
     return {
         "id": f"{source['type']}:{source.get('slug') or source.get('keyword')}:{str(job_id).replace(':', '_')}",
         "company": source["company"],

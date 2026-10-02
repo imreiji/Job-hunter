@@ -17,11 +17,12 @@ from pathlib import Path
 
 import yaml
 
-from . import matcher, sources
+from . import crypto, matcher, sources
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "jobs.json"
-APPLICATIONS_FILE = ROOT / "data" / "applications.json"  # written by the tracker's GitHub sync
+APPLICATIONS_FILE = ROOT / "data" / "applications.json"  # written (encrypted) by the tracker's GitHub sync
+SALT_FILE = ROOT / "data" / "site_salt.txt"
 SITE_DIR = ROOT / "_site"
 
 
@@ -104,11 +105,22 @@ def normalize_date(value) -> str | None:
         return None
 
 
-def tracked_ids() -> set[str]:
+def site_password() -> str | None:
+    return os.environ.get("SITE_PASSWORD") or None
+
+
+def tracked_ids(password: str | None) -> set[str]:
     """Jobs in the application tracker are kept even if they later fall outside the filters."""
     try:
-        return {a["id"] for a in json.loads(APPLICATIONS_FILE.read_text()).get("applications", []) if a.get("id")}
-    except (OSError, ValueError, AttributeError):
+        data = json.loads(APPLICATIONS_FILE.read_text())
+        if crypto.is_encrypted(data):
+            if not password:
+                return set()
+            data = crypto.decrypt_json(data, password)
+        return {a["id"] for a in data.get("applications", []) if a.get("id")}
+    except (OSError, ValueError, AttributeError, TypeError) as e:
+        if not isinstance(e, FileNotFoundError):
+            print(f"! could not read {APPLICATIONS_FILE.name}: {e}")
         return set()
 
 
@@ -226,7 +238,14 @@ def needs_evaluation(job: dict, profile_hash: str) -> bool:
     return job.get("active") and (not ev or ev.get("profile_hash") != profile_hash)
 
 
-def run(config_path: Path, do_eval: bool) -> None:
+def run(config_path: Path, do_eval: bool, allow_plaintext: bool = False) -> None:
+    password = site_password()
+    if not password and not allow_plaintext:
+        raise SystemExit("SITE_PASSWORD is not set. The site is public, so job data is only published "
+                         "encrypted. Set the SITE_PASSWORD secret (or pass --allow-plaintext-site locally).")
+    if password and len(password) < crypto.MIN_PASSWORD_LENGTH:
+        raise SystemExit(f"SITE_PASSWORD must be at least {crypto.MIN_PASSWORD_LENGTH} characters; "
+                         "anyone can download the encrypted file and guess offline.")
     config = yaml.safe_load(config_path.read_text())
     filters = config.get("filters") or {}
     match_cfg = config.get("matching") or {}
@@ -234,7 +253,8 @@ def run(config_path: Path, do_eval: bool) -> None:
     ts = now()
 
     companies = direct_companies(config["sources"])
-    removed = prune(store, {source_name(s) for s in config["sources"]}, filters, companies, tracked_ids())
+    removed = prune(store, {source_name(s) for s in config["sources"]}, filters, companies,
+                    tracked_ids(password))
     if removed:
         print(f"removed {removed} stored postings no longer covered by config.yaml")
 
@@ -296,21 +316,33 @@ def run(config_path: Path, do_eval: bool) -> None:
     store["jobs"].sort(key=lambda j: j["first_seen"], reverse=True)
     DATA_FILE.parent.mkdir(exist_ok=True)
     DATA_FILE.write_text(json.dumps(store, indent=1, ensure_ascii=False) + "\n")
-    build_site()
+    build_site(store, password)
 
 
-def build_site() -> None:
-    SITE_DIR.mkdir(exist_ok=True)
-    shutil.copy(ROOT / "web" / "index.html", SITE_DIR / "index.html")
-    shutil.copy(DATA_FILE, SITE_DIR / "jobs.json")
+def build_site(store: dict, password: str | None) -> None:
+    """Static site: the page, its script, and the job data. With a password (always in CI) only
+    the encrypted jobs.enc.json is published; plaintext jobs.json is for local development."""
+    if SITE_DIR.exists():
+        shutil.rmtree(SITE_DIR)  # never leave a stale plaintext jobs.json behind
+    SITE_DIR.mkdir()
+    for name in ("index.html", "app.js"):
+        shutil.copy(ROOT / "web" / name, SITE_DIR / name)
+    if password:
+        salt = crypto.load_or_create_salt(SALT_FILE)
+        blob = crypto.encrypt_json(store, password, salt)
+        (SITE_DIR / "jobs.enc.json").write_text(json.dumps(blob))
+    else:
+        (SITE_DIR / "jobs.json").write_text(json.dumps(store, ensure_ascii=False))
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--config", type=Path, default=ROOT / "config.yaml")
     parser.add_argument("--no-eval", action="store_true", help="poll and store only; skip DeepSeek")
+    parser.add_argument("--allow-plaintext-site", action="store_true",
+                        help="local development only: build the site with unencrypted jobs.json")
     args = parser.parse_args()
-    run(args.config, do_eval=not args.no_eval)
+    run(args.config, do_eval=not args.no_eval, allow_plaintext=args.allow_plaintext_site)
 
 
 if __name__ == "__main__":

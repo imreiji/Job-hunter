@@ -1,6 +1,157 @@
 {
- "updated": "2026-10-02T20:47:54+00:00",
+ "updated": "2026-10-03T05:25:03+00:00",
  "jobs": [
+  {
+   "id": "dayforce:pacificcoastal:802",
+   "company": "Pacific Coastal Airlines",
+   "title": "Customer Service, Ramp, and Cargo Agent (Victoria) PTOC",
+   "location": "Sidney, BC",
+   "url": "https://jobs.dayforcehcm.com/en-US/pasco/PCACLIENTCAREERSSITE/jobs/3901",
+   "apply_url": "https://jobs.dayforcehcm.com/en-US/pasco/PCACLIENTCAREERSSITE/jobs/3901/apply",
+   "posted": "2026-10-02",
+   "country": "CA",
+   "role": "ground",
+   "first_seen": "2026-10-03T05:25:03+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
+   "active": true,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core requirements for this ramp/customer service role: you have a valid driver's licence, customer-facing logistics experience, and can work flexible shifts in all weather. The main gap is that you are not a Canadian citizen or permanent resident, so you would need to confirm your Open Work Permit allows this role and that you can obtain the required security clearance. Your aviation background is a strong asset but not required for this position.",
+    "met": [
+     "Valid driver's licence",
+     "Customer-facing work experience (Dai Lam Trading delivery operations)",
+     "Ability to work under pressure and multitask",
+     "Comfortable with computers and payment machines",
+     "Willing to work outdoors in inclement weather",
+     "Flexible availability for weekends, evenings, holidays",
+     "Physically capable of lifting up to 70 pounds",
+     "Aviation knowledge and safety orientation",
+     "Located in Canada with Open Work Permit"
+    ],
+    "missing": [
+     "Canadian citizenship or permanent residency (not stated as required, but may affect security clearance eligibility)",
+     "French language (not required for Victoria, BC)",
+     "Prior ramp or cargo handling experience (not explicitly required)"
+    ],
+    "dealbreakers": [
+     "Must be able to obtain and maintain designated security clearance — unclear if Open Work Permit holders are eligible; this is a potential hard gate"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:26:27+00:00"
+   }
+  },
+  {
+   "id": "phenom:ups:UPBUPSGLOBALR26035579EXTERNALENCA",
+   "company": "UPS Canada",
+   "title": "Calgary Gateway Sunrise Package Handler",
+   "location": "Calgary, Alberta",
+   "url": "https://www.jobs-ups.com/ca/en/job/R26035579",
+   "apply_url": "https://hcmportal.wd5.myworkdayjobs.com/Search/job/CA---CALGARY-INTERNATIONAL-AIRPORT-HUB-ABYYC/Calgary-Gateway-Sunrise-Package-Handler_R26035579/apply",
+   "posted": "2026-10-02",
+   "country": "CA",
+   "role": "ground",
+   "first_seen": "2026-10-03T05:25:03+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
+   "active": true,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "This is a ground-level package handler role that doesn't leverage your aviation licences, but you meet the core physical and shift requirements and hold an open Canadian work permit. The main friction is location: the job is in Calgary while you're based in Dieppe, New Brunswick, so you'd need to relocate. If you're willing to move and want immediate warehouse work, you're a viable candidate.",
+    "met": [
+     "Canadian Open Work Permit (authorized to work in Canada)",
+     "Available now",
+     "Prior distribution/logistics and product handling experience",
+     "Physically capable of lifting up to 70 lbs (no restrictions noted)",
+     "Flexible shift availability (no conflicts noted)",
+     "Fast-paced environment experience"
+    ],
+    "missing": [
+     "Warehouse experience (only preferred, not required)",
+     "Calgary, Alberta location (candidate is based in Dieppe, NB)",
+     "French language (not required for this role)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:26:29+00:00"
+   }
+  },
+  {
+   "id": "phenom:ups:UPBUPSGLOBALR26035584EXTERNALENCA",
+   "company": "UPS Canada",
+   "title": "Gateway Sunrise Int'l Ramp Agent",
+   "location": "Calgary, Alberta",
+   "url": "https://www.jobs-ups.com/ca/en/job/R26035584",
+   "apply_url": "https://hcmportal.wd5.myworkdayjobs.com/Search/job/CA---CALGARY-INTERNATIONAL-AIRPORT-HUB-ABYYC/Gateway-Sunrise-Int-l-Ramp-Agent_R26035584/apply",
+   "posted": "2026-10-02",
+   "country": "CA",
+   "role": "ground",
+   "first_seen": "2026-10-03T05:25:03+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
+   "active": true,
+   "evaluation": {
+    "score": 45,
+    "verdict": "weak",
+    "summary": "This ramp agent role is a reasonable fit for your ground-handling interests, but you fail a key hard gate: you must hold a valid Red RAIC or have been present in Canada for at least 5 years, and you are a recent arrival on an open work permit. You also lack a Class 5 driver's licence and DA/DAW endorsement, and the job is in Calgary while you are based in Dieppe, NB.",
+    "met": [
+     "Legally able to work in Canada on an open work permit",
+     "Physically capable of lifting up to 70 lbs (no restrictions noted)",
+     "Available for flexible shift work including early mornings",
+     "Prior distribution/logistics and product handling experience",
+     "Fluent English for reading and memorizing postal codes"
+    ],
+    "missing": [
+     "Valid Red RAIC (or 5 years' presence in Canada)",
+     "Class 5 driver's licence",
+     "DA or DAW endorsement",
+     "Warehouse experience (preferred)",
+     "Location: role is in Calgary, candidate is in Dieppe, NB"
+    ],
+    "dealbreakers": [
+     "RAIC / 5-year Canadian presence requirement not met",
+     "No Class 5 driver's licence"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:26:32+00:00"
+   }
+  },
+  {
+   "id": "eluta:eluta:500729d282b273a7e2ed815c819c40e1",
+   "company": "MDA Space Ltd.",
+   "title": "Remotely Piloted Aircraft Systems Platform I.T./Network Specialist",
+   "location": "Richmond BC\n\n -\n\n Work Remotely",
+   "url": "https://www.eluta.ca/spl/remotely-piloted-aircraft-systems-platform-i-t-network-specialist-500729d282b273a7e2ed815c819c40e1?imo=12",
+   "apply_url": "https://www.eluta.ca/spl/remotely-piloted-aircraft-systems-platform-i-t-network-specialist-500729d282b273a7e2ed815c819c40e1?imo=12",
+   "posted": null,
+   "role": "pilot",
+   "first_seen": "2026-10-03T05:25:03+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
+   "active": true,
+   "evaluation": {
+    "score": 8,
+    "verdict": "ineligible",
+    "summary": "This role is an IT/network specialist position for RPAS platforms, not a pilot or flight operations job, and it requires specialized computer systems and networking expertise you do not have. More critically, it is located in Richmond BC and appears tied to defence programs that typically require Canadian citizenship or permanent residency and security clearance, which you do not hold. Your pilot licences and flight hours are not relevant to this posting.",
+    "met": [
+     "Based in Canada with an open work permit",
+     "Technical aptitude from aviation training (systems, navigation, meteorology)",
+     "Fluent English"
+    ],
+    "missing": [
+     "IT/network engineering education or experience",
+     "Specialized computer systems design and maintenance skills",
+     "Canadian citizenship or permanent residency (likely required for defence-related work)",
+     "Security clearance eligibility",
+     "Relevant RPAS platform specialist experience"
+    ],
+    "dealbreakers": [
+     "Not a Canadian citizen or permanent resident, which is typically required for MDA Space defence contracts",
+     "No IT/network specialist qualifications or experience",
+     "Role is outside the candidate's target aviation roles and licence scope"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:26:34+00:00"
+   }
+  },
   {
    "id": "ukg:cargojet:f1abd387-9e82-4aed-8b72-d932f3fe4489",
    "company": "Cargojet",
@@ -12,7 +163,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-02T20:47:54+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 22,
@@ -58,7 +209,7 @@
    "country": "CA",
    "role": "dispatch",
    "first_seen": "2026-10-02T20:47:54+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -97,7 +248,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-02T14:46:54+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -132,7 +283,7 @@
    "role": "pilot",
    "first_seen": "2026-10-02T14:46:54+00:00",
    "last_seen": "2026-10-02T20:47:54+00:00",
-   "active": true,
+   "active": false,
    "evaluation": {
     "score": 25,
     "verdict": "ineligible",
@@ -159,7 +310,8 @@
     ],
     "profile_hash": "c639ef0a70bb",
     "evaluated_at": "2026-10-02T14:48:12+00:00"
-   }
+   },
+   "closed_at": "2026-10-03T05:25:03+00:00"
   },
   {
    "id": "linkedin:linkedin:4463165859",
@@ -172,7 +324,7 @@
    "role": "pilot",
    "first_seen": "2026-10-02T14:46:54+00:00",
    "last_seen": "2026-10-02T20:47:54+00:00",
-   "active": true,
+   "active": false,
    "evaluation": {
     "score": 8,
     "verdict": "ineligible",
@@ -204,7 +356,8 @@
     ],
     "profile_hash": "c639ef0a70bb",
     "evaluated_at": "2026-10-02T14:48:15+00:00"
-   }
+   },
+   "closed_at": "2026-10-03T05:25:03+00:00"
   },
   {
    "id": "linkedin:linkedin:4473701016",
@@ -217,7 +370,7 @@
    "role": "pilot",
    "first_seen": "2026-10-02T14:46:54+00:00",
    "last_seen": "2026-10-02T20:47:54+00:00",
-   "active": true,
+   "active": false,
    "evaluation": {
     "score": 15,
     "verdict": "ineligible",
@@ -244,7 +397,8 @@
     ],
     "profile_hash": "c639ef0a70bb",
     "evaluated_at": "2026-10-02T14:48:18+00:00"
-   }
+   },
+   "closed_at": "2026-10-03T05:25:03+00:00"
   },
   {
    "id": "eluta:eluta:c9887ce1a2f5e705ebd58cfbcfa701e5",
@@ -256,7 +410,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-02T14:46:54+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 18,
@@ -303,7 +457,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-02T13:42:17+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -342,7 +496,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-02T13:42:17+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -385,7 +539,7 @@
    "posted": null,
    "role": "ground",
    "first_seen": "2026-10-02T13:42:17+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 35,
@@ -422,7 +576,7 @@
    "posted": null,
    "role": "ground",
    "first_seen": "2026-10-02T13:42:17+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -456,7 +610,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-02T01:56:10+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -534,7 +688,7 @@
    "posted": "2026-10-01",
    "role": "ground",
    "first_seen": "2026-10-02T01:56:10+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -570,7 +724,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-02T01:56:10+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -607,7 +761,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-01T21:04:19+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -645,7 +799,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-01T21:04:19+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -681,7 +835,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-01T21:04:19+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -726,7 +880,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-01T21:04:19+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -763,7 +917,7 @@
    "posted": "2026-09-14",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 42,
@@ -843,7 +997,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -882,7 +1036,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -917,7 +1071,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -954,7 +1108,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -993,7 +1147,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -1037,7 +1191,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -1120,7 +1274,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -1158,7 +1312,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1196,7 +1350,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -1237,7 +1391,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1274,7 +1428,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -1312,7 +1466,7 @@
    "posted": "2026-07-23",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1346,7 +1500,7 @@
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
    "last_seen": "2026-10-02T20:47:54+00:00",
-   "active": true,
+   "active": false,
    "evaluation": {
     "score": 45,
     "verdict": "weak",
@@ -1373,7 +1527,8 @@
     "evaluated_at": "2026-10-02T01:58:15+00:00"
    },
    "apply_url": "https://hcmportal.wd5.myworkdayjobs.com/Search/job/CA---CALGARY-INTERNATIONAL-AIRPORT-HUB-ABYYC/Gateway-Sunrise-Int-l-Ramp-Agent--_R26021808/apply",
-   "role": "ground"
+   "role": "ground",
+   "closed_at": "2026-10-03T05:25:03+00:00"
   },
   {
    "id": "phenom:ups:UPBUPSGLOBALR26021809EXTERNALENCA",
@@ -1381,10 +1536,10 @@
    "title": "Calgary Gateway Sunrise Package Handler",
    "location": "Calgary, Alberta",
    "url": "https://www.jobs-ups.com/ca/en/job/R26021809",
-   "posted": "2026-09-28",
+   "posted": "2026-10-02",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1419,7 +1574,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -1458,7 +1613,7 @@
    "posted": "2026-09-30",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1492,7 +1647,7 @@
    "posted": "2026-09-29",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1543,7 +1698,7 @@
    "posted": "2026-09-30",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -1581,7 +1736,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1622,7 +1777,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1667,7 +1822,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -1715,7 +1870,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1753,7 +1908,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1790,7 +1945,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -1827,7 +1982,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -1864,7 +2019,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -1900,7 +2055,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1938,7 +2093,7 @@
    "posted": "2026-08-06",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -1980,7 +2135,7 @@
    "posted": "2026-10-01",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -2031,7 +2186,7 @@
    "posted": "2026-09-18",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -2077,7 +2232,7 @@
    "posted": "2026-09-02",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -2115,7 +2270,7 @@
    "posted": "2026-08-19",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -2165,7 +2320,7 @@
    "posted": "2026-08-13",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -2209,7 +2364,7 @@
    "posted": "2026-07-22",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -2255,7 +2410,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2294,7 +2449,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 42,
@@ -2335,7 +2490,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -2378,7 +2533,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -2420,7 +2575,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 38,
@@ -2466,7 +2621,7 @@
    "posted": "2026-08-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 82,
@@ -2506,7 +2661,7 @@
    "posted": "2026-10-02",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2544,7 +2699,7 @@
    "posted": "2026-09-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2582,7 +2737,7 @@
    "posted": "2026-08-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2622,7 +2777,7 @@
    "posted": "2026-09-18",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2658,7 +2813,7 @@
    "posted": "2026-09-23",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 30,
@@ -2702,7 +2857,7 @@
    "posted": "2026-02-13",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -2744,7 +2899,7 @@
    "posted": "2026-08-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2783,7 +2938,7 @@
    "posted": "2026-09-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2822,7 +2977,7 @@
    "posted": "2026-08-06",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2859,7 +3014,7 @@
    "posted": "2025-07-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 22,
@@ -2904,7 +3059,7 @@
    "posted": "2026-10-02",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -2945,7 +3100,7 @@
    "posted": "2026-10-02",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -2988,7 +3143,7 @@
    "posted": "2026-10-02",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -3027,7 +3182,7 @@
    "posted": "2026-09-26",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -3066,7 +3221,7 @@
    "posted": "2026-09-26",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3105,7 +3260,7 @@
    "posted": "2026-10-02",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -3145,7 +3300,7 @@
    "posted": "2026-10-02",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -3185,7 +3340,7 @@
    "posted": "2026-09-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -3224,7 +3379,7 @@
    "posted": "2026-09-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3262,7 +3417,7 @@
    "posted": "2026-09-18",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -3302,7 +3457,7 @@
    "posted": "2026-09-17",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3340,7 +3495,7 @@
    "posted": "2026-09-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -3379,7 +3534,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -3420,7 +3575,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -3458,7 +3613,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -3497,7 +3652,7 @@
    "posted": "2026-09-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3537,7 +3692,7 @@
    "posted": "2026-09-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3578,7 +3733,7 @@
    "posted": "2026-09-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3663,7 +3818,7 @@
    "posted": "2026-08-19",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -3709,7 +3864,7 @@
    "posted": "2026-07-22",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3747,7 +3902,7 @@
    "posted": "2026-07-13",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -3787,7 +3942,7 @@
    "posted": "2026-04-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3827,7 +3982,7 @@
    "posted": "2026-04-01",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3865,7 +4020,7 @@
    "posted": "2026-04-01",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3907,7 +4062,7 @@
    "posted": "2026-03-12",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -3946,7 +4101,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3987,7 +4142,7 @@
    "posted": "2026-07-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -4011,7 +4166,7 @@
    "posted": "2026-07-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -4057,7 +4212,7 @@
    "posted": "2026-02-26",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -4099,7 +4254,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -4135,7 +4290,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4173,7 +4328,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4213,7 +4368,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4253,7 +4408,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4293,7 +4448,7 @@
    "posted": "2026-10-01",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -4331,7 +4486,7 @@
    "posted": "2026-07-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4371,7 +4526,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4410,7 +4565,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -4450,7 +4605,7 @@
    "posted": "2026-09-21",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -4494,7 +4649,7 @@
    "posted": "2026-08-31",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -4535,7 +4690,7 @@
    "posted": "2026-08-25",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -4574,7 +4729,7 @@
    "posted": "2026-07-06",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -4619,7 +4774,7 @@
    "posted": "2026-05-08",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -4665,7 +4820,7 @@
    "posted": "2026-05-01",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -4704,7 +4859,7 @@
    "posted": "2026-04-02",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4742,7 +4897,7 @@
    "posted": "2026-03-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4778,7 +4933,7 @@
    "posted": "2025-12-12",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 3,
@@ -4822,7 +4977,7 @@
    "posted": "2025-09-08",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -4864,7 +5019,7 @@
    "posted": "2026-06-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -4903,7 +5058,7 @@
    "posted": "2026-08-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -4927,7 +5082,7 @@
    "posted": "2025-07-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -4974,7 +5129,7 @@
    "posted": "2025-07-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -5013,7 +5168,7 @@
    "posted": "2026-09-22",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -5052,7 +5207,7 @@
    "posted": "2026-09-08",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 35,
@@ -5095,7 +5250,7 @@
    "posted": "2026-09-01",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 42,
@@ -5138,7 +5293,7 @@
    "posted": "2026-04-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -5176,7 +5331,7 @@
    "posted": "2026-04-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -5214,7 +5369,7 @@
    "posted": "2026-03-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -5255,7 +5410,7 @@
    "posted": "2026-01-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 22,
@@ -5296,7 +5451,7 @@
    "posted": "2026-01-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -5335,7 +5490,7 @@
    "posted": "2026-01-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -5375,7 +5530,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -5413,7 +5568,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -5456,7 +5611,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -5500,7 +5655,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -5545,7 +5700,7 @@
    "posted": "2026-09-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -5583,7 +5738,7 @@
    "posted": "2026-09-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -5621,7 +5776,7 @@
    "posted": "2026-07-21",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -5658,7 +5813,7 @@
    "posted": "2026-07-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -5739,7 +5894,7 @@
    "posted": "2026-06-26",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -5778,7 +5933,7 @@
    "posted": "2026-05-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -5818,7 +5973,7 @@
    "posted": "2026-09-22",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -5857,7 +6012,7 @@
    "posted": "2026-09-22",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -5897,7 +6052,7 @@
    "posted": "2026-09-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -5940,7 +6095,7 @@
    "posted": "2026-09-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -5982,7 +6137,7 @@
    "posted": "2026-09-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -6023,7 +6178,7 @@
    "posted": "2026-09-18",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -6063,7 +6218,7 @@
    "posted": "2026-09-18",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 18,
@@ -6110,7 +6265,7 @@
    "posted": "2026-09-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -6149,7 +6304,7 @@
    "posted": "2026-09-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -6189,7 +6344,7 @@
    "posted": "2026-09-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 35,
@@ -6233,7 +6388,7 @@
    "posted": "2026-09-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -6318,7 +6473,7 @@
    "posted": "2026-08-27",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -6356,7 +6511,7 @@
    "posted": "2026-08-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -6393,7 +6548,7 @@
    "posted": "2026-08-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -6432,7 +6587,7 @@
    "posted": "2026-08-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -6471,7 +6626,7 @@
    "posted": "2026-08-02",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -6514,7 +6669,7 @@
    "posted": "2026-07-12",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -6556,7 +6711,7 @@
    "posted": "2026-07-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -6595,7 +6750,7 @@
    "posted": "2026-07-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -6633,7 +6788,7 @@
    "posted": "2026-07-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -6678,7 +6833,7 @@
    "posted": "2026-06-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -6718,7 +6873,7 @@
    "posted": "2026-06-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -6756,7 +6911,7 @@
    "posted": "2026-03-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -6793,7 +6948,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -6833,7 +6988,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -6873,7 +7028,7 @@
    "posted": "2026-02-27",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -6919,7 +7074,7 @@
    "posted": "2025-12-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -6964,7 +7119,7 @@
    "posted": "2025-12-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -7015,7 +7170,7 @@
    "posted": "2025-12-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -7059,7 +7214,7 @@
    "posted": "2026-07-30",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -7083,7 +7238,7 @@
    "posted": "2026-08-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -7130,7 +7285,7 @@
    "posted": "2026-08-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -7172,7 +7327,7 @@
    "posted": "2026-09-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -7213,7 +7368,7 @@
    "posted": "2026-09-18",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -7254,7 +7409,7 @@
    "posted": "2026-07-22",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -7298,7 +7453,7 @@
    "posted": "2026-06-23",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -7342,7 +7497,7 @@
    "posted": "2026-07-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -7386,7 +7541,7 @@
    "posted": "2026-06-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -7435,7 +7590,7 @@
    "posted": "2026-09-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -7478,7 +7633,7 @@
    "posted": "2026-09-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -7518,7 +7673,7 @@
    "posted": "2026-09-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -7555,7 +7710,7 @@
    "posted": "2026-09-12",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -7591,7 +7746,7 @@
    "posted": "2026-09-29",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -7627,7 +7782,7 @@
    "posted": "2026-09-17",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -7663,7 +7818,7 @@
    "posted": "2026-04-17",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -7711,7 +7866,7 @@
    "posted": "2026-09-25",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -7753,7 +7908,7 @@
    "posted": "2026-09-25",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -7795,7 +7950,7 @@
    "posted": "2026-08-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -7833,7 +7988,7 @@
    "posted": "2026-08-06",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -7876,7 +8031,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 3,
@@ -7922,7 +8077,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -7967,7 +8122,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -8015,7 +8170,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -8057,7 +8212,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -8096,7 +8251,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -8142,7 +8297,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -8188,7 +8343,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -8232,7 +8387,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -8278,7 +8433,7 @@
    "posted": "2026-05-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -8319,7 +8474,7 @@
    "posted": "2026-04-30",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -8356,7 +8511,7 @@
    "posted": "2024-10-31",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -8396,7 +8551,7 @@
    "posted": "2024-10-31",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -8434,7 +8589,7 @@
    "posted": "2024-10-30",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -8473,7 +8628,7 @@
    "posted": "2026-09-23",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -8509,7 +8664,7 @@
    "posted": "2026-08-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -8545,7 +8700,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -8587,7 +8742,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -8629,7 +8784,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -8673,7 +8828,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -8717,7 +8872,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -8753,7 +8908,7 @@
    "posted": "2026-09-25",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -8794,7 +8949,7 @@
    "posted": "2026-08-27",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -8852,7 +9007,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50214436",
    "posted": null,
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -8887,7 +9042,7 @@
    "url": "https://www.linkedin.com/jobs/view/4469925665",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -8933,7 +9088,7 @@
    "url": "https://www.linkedin.com/jobs/view/4436864719",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -8969,7 +9124,7 @@
    "url": "https://www.linkedin.com/jobs/view/4472734612",
    "posted": "2026-09-28",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -9012,7 +9167,7 @@
    "url": "https://www.linkedin.com/jobs/view/4473292843",
    "posted": "2026-09-30",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -9056,7 +9211,7 @@
    "url": "https://www.linkedin.com/jobs/view/4467805333",
    "posted": "2026-09-17",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -9096,7 +9251,7 @@
    "url": "https://www.linkedin.com/jobs/view/4470889058",
    "posted": "2026-09-28",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -9134,7 +9289,7 @@
    "url": "https://www.eluta.ca/spl/airline-ramp-attendant-baggage-handler-48069fb1fa24b9dfaf00be1778c4acd0?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -9170,7 +9325,7 @@
    "url": "https://www.eluta.ca/spl/cargo-ramp-attendant-crewman-fc70bdc7e7cec0046a5d1f3e58c6f673?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -9221,7 +9376,7 @@
    "url": "https://www.eluta.ca/spl/senior-baggage-handling-system-engineer-5a2ce8dbba317093c39ad8ebb82b9682?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -9258,7 +9413,7 @@
    "url": "https://www.eluta.ca/spl/senior-engineer-baggage-handling-systems-c15d7b437a43c0e38d226354501a61d0?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -9324,7 +9479,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50248342",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 82,
@@ -9362,7 +9517,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50384783",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 18,
@@ -9408,7 +9563,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50365010",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -9447,7 +9602,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50348239",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -9484,7 +9639,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50318491",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -9521,7 +9676,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50266098",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -9559,7 +9714,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50265638",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -9597,7 +9752,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50122254",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -9635,7 +9790,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50121374",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -9673,7 +9828,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120950",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -9709,7 +9864,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120944",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -9747,9 +9902,32 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120919",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 12,
+    "verdict": "ineligible",
+    "summary": "You are legally able to work in Canada on your open work permit, but this role requires a Hot Air Balloon Pilot Licence and 2-3 years of hot air ballooning experience, neither of which you hold. Your aeroplane CPL, Group 1 IFR and seaplane ratings do not transfer to this credential, so you cannot be considered for the position.",
+    "met": [
+     "Eligible to work in Canada on an open work permit (temporary resident with valid work permit)",
+     "Fluent English (ICAO Level 6)",
+     "Physically capable of outdoor, at-height, physically demanding work",
+     "Willing to work early morning, day, evening and weekend schedules",
+     "Holds a valid driver's licence"
+    ],
+    "missing": [
+     "Hot Air Balloon Pilot Licence (required credential)",
+     "2-3 years of hot air balloon piloting experience",
+     "Hot air balloon aircraft experience",
+     "Hot air ballooning guide specialization"
+    ],
+    "dealbreakers": [
+     "No Hot Air Balloon Pilot Licence",
+     "No hot air balloon flight experience or 2-3 years in the field"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:26:37+00:00"
+   },
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120919",
    "role": "pilot"
   },
@@ -9761,9 +9939,32 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120746",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 12,
+    "verdict": "ineligible",
+    "summary": "You are legally able to apply in Canada with your open work permit, but this role requires a Hot Air Balloon Pilot Licence and 2-3 years of hot air balloon experience, neither of which you hold. Your aeroplane CPL, Group 1 IFR, and seaplane rating do not transfer to balloon operations, so this is a hard credential mismatch rather than a close call.",
+    "met": [
+     "Authorized to work in Canada (open work permit, temporary resident)",
+     "Valid driver's licence implied by profile availability and logistics work",
+     "Physically capable of outdoor/heights work and heavy loads",
+     "Fluent English (ICAO Level 6)"
+    ],
+    "missing": [
+     "Hot Air Balloon Pilot Licence",
+     "2-3 years hot air balloon pilot experience",
+     "Hot air balloon aircraft experience",
+     "Hot air ballooning guide specialization",
+     "Willingness/ability to relocate to Winnipeg (profile is Dieppe, NB)"
+    ],
+    "dealbreakers": [
+     "No Hot Air Balloon Pilot Licence (required certificate)",
+     "No hot air balloon flight experience (required 2-3 years)"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:26:41+00:00"
+   },
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120746",
    "role": "pilot"
   },
@@ -9776,10 +9977,11 @@
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
    "last_seen": "2026-10-02T20:47:54+00:00",
-   "active": true,
+   "active": false,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50227982",
-   "role": "pilot"
+   "role": "pilot",
+   "closed_at": "2026-10-03T05:25:03+00:00"
   },
   {
    "id": "jobbank:jobbank:50227985",
@@ -9790,10 +9992,11 @@
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
    "last_seen": "2026-10-02T20:47:54+00:00",
-   "active": true,
+   "active": false,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50227985",
-   "role": "pilot"
+   "role": "pilot",
+   "closed_at": "2026-10-03T05:25:03+00:00"
   },
   {
    "id": "jobbank:jobbank:50215604",
@@ -9804,10 +10007,11 @@
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
    "last_seen": "2026-10-02T20:47:54+00:00",
-   "active": true,
+   "active": false,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50215604",
-   "role": "dispatch"
+   "role": "dispatch",
+   "closed_at": "2026-10-03T05:25:03+00:00"
   },
   {
    "id": "jobbank:jobbank:50215689",
@@ -9818,10 +10022,11 @@
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
    "last_seen": "2026-10-02T20:47:54+00:00",
-   "active": true,
+   "active": false,
    "evaluation": null,
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50215689",
-   "role": "ground"
+   "role": "ground",
+   "closed_at": "2026-10-03T05:25:03+00:00"
   },
   {
    "id": "jobbank:jobbank:50209091",
@@ -9831,9 +10036,31 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50209091",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core eligibility gates for this ramp agent role: you hold a valid Canadian open work permit, so you are authorized to work in Canada, and the posting only asks for a high school diploma with experience as an asset. Your logistics and product-handling experience at Dai Lam Trading plus your aviation background make you a credible applicant, though the job is in Yellowknife and requires outdoor work in cold conditions with heavy lifting up to 23 kg, which you should confirm you can handle. The main practical gap is relocation and shift/physical demands rather than any licence or clearance requirement.",
+    "met": [
+     "Authorized to work in Canada (Canadian Open Work Permit, not employer-tied)",
+     "Secondary school graduation (International Baccalaureate Diploma, 2022)",
+     "Experience is an asset only; you have distribution/logistics and product-handling experience",
+     "English fluency (ICAO Level 6)",
+     "Aviation background relevant to air transport ramp operations",
+     "Available now / can start as soon as possible"
+    ],
+    "missing": [
+     "No stated willingness or ability to relocate to Yellowknife, NT",
+     "No explicit confirmation of ability to lift up to 23 kg repeatedly",
+     "No airside driver's licence class or ramp vehicle operation experience stated",
+     "No prior ramp agent / aircraft ground handling experience",
+     "French not listed (not required for this posting)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:26:46+00:00"
+   },
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50209091",
    "role": "ground"
   },
@@ -9845,9 +10072,31 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50200447",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core eligibility gates for this ramp agent role: you hold a valid Canadian open work permit, so you are authorized to work in Canada, and the posting only asks for a high school diploma with experience as an asset. The main friction points are physical and geographic — the job is on-site in Yellowknife with heavy lifting up to 23 kg in cold outdoor conditions, and your profile does not confirm you are willing to relocate or perform that kind of physical work. Your aviation background is a strong asset for the ramp environment, but it is not a stated requirement.",
+    "met": [
+     "Authorized to work in Canada (Canadian Open Work Permit, not employer-tied)",
+     "Secondary school graduation (International Baccalaureate Diploma, 2022)",
+     "English fluency (ICAO Level 6)",
+     "Experience in a fast-paced logistics/distribution environment (Dai Lam Trading, 2026)",
+     "Familiarity with aircraft, cargo and airport operations from pilot training",
+     "Available immediately"
+    ],
+    "missing": [
+     "No confirmed willingness or ability to relocate to Yellowknife, NT",
+     "No confirmed ability to handle heavy loads up to 23 kg repeatedly",
+     "No confirmed comfort working outdoors in cold/refrigerated, noisy conditions",
+     "No airside driver's licence or ramp vehicle operation experience stated",
+     "No prior formal ramp agent / ground handling employment"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:26:50+00:00"
+   },
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50200447",
    "role": "ground"
   },
@@ -9859,9 +10108,38 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50000527",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 42,
+    "verdict": "weak",
+    "summary": "You are legally eligible to apply since you hold a Canadian open work permit, but this ramp agent role has several hard gaps: the posting's language of work is French, which you do not list, and it requires a valid driver's licence with your own vehicle, WHMIS and forklift certifications, and 1-2 years of relevant experience, none of which appear in your profile. Your aviation licences and flight hours are irrelevant to this ground-handling position, so this is a weak match at best.",
+    "met": [
+     "Eligible to work in Canada under a valid open work permit",
+     "Based in New Brunswick and open to relocation",
+     "Physically capable of outdoor, fast-paced, heavy-lifting work (up to 45 kg)",
+     "Prior logistics/distribution experience involving loading and handling goods",
+     "Available for shift, weekend, and early morning work",
+     "ICAO English Level 6"
+    ],
+    "missing": [
+     "French language proficiency (posting lists French as the language of work)",
+     "Valid driver's licence and own vehicle",
+     "WHMIS Certificate",
+     "Forklift Operator Certification",
+     "De-icing sprayer experience",
+     "1-2 years of ramp/air transport experience",
+     "Airport security clearance",
+     "Steel-toed safety boots",
+     "Secondary school graduation certificate explicitly stated (IB Diploma likely satisfies, but not confirmed as equivalent)"
+    ],
+    "dealbreakers": [
+     "No French language proficiency listed, while the posting's working language is French",
+     "No valid driver's licence or personal vehicle, both required for the role"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:26:58+00:00"
+   },
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50000527",
    "role": "ground"
   },
@@ -9873,9 +10151,29 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50385664",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core eligibility gates for this aircraft groomer role: you hold a valid Canadian open work permit, are available for shift work, and have relevant hands-on experience in product handling and loading. The main gap is that the posting asks for 7 months to less than 1 year of experience in this specific field, and your background is in distribution/logistics rather than aircraft grooming. Your aviation licences and medical are not required here but do not hurt your application.",
+    "met": [
+     "Valid Canadian work permit (temporary resident authorized to work in Canada)",
+     "Available for shift, on-call, and flexible hours",
+     "Secondary school graduation (IB Diploma exceeds requirement)",
+     "Physical handling/loading experience from distribution and logistics role",
+     "Based in Canada and able to work on site in Dorval, QC",
+     "English language proficiency (ICAO Level 6)"
+    ],
+    "missing": [
+     "7 months to less than 1 year of experience specifically as an aircraft groomer or in this field",
+     "French language proficiency (posting lists English, but Quebec location may favour bilingual)",
+     "No prior aircraft grooming or aircraft cleaning experience listed"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:04+00:00"
+   },
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50385664",
    "role": "ground"
   },
@@ -9887,9 +10185,33 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50315552",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You are eligible to apply as a temporary resident with a valid Canadian open work permit, and this aircraft groomer role is a reasonable entry point into aviation ground operations. The main gaps are the airport security clearance and enhanced reliability clearance, which you do not currently hold, plus the requirement for your own vehicle and steel-toed boots. Your logistics and product-handling experience covers the physical and fast-paced demands, so this is worth pursuing if you can obtain the clearances and transportation.",
+    "met": [
+     "Authorized to work in Canada (open work permit, temporary resident)",
+     "Physically capable of fast-paced, demanding work and lifting up to 23 kg based on distribution/logistics experience",
+     "Available for shift, on-call, early morning, evening, night, and weekend work",
+     "Fluent English with excellent oral and written communication",
+     "Client-facing delivery and order verification experience demonstrates reliability and attention to detail",
+     "No degree, certificate, or diploma required",
+     "Based in New Brunswick, within reasonable distance of Goffs, NS"
+    ],
+    "missing": [
+     "Airport security clearance (not mentioned in profile)",
+     "Enhanced reliability security clearance (not mentioned in profile)",
+     "Bondable status (not mentioned in profile)",
+     "Own vehicle and own transportation (not mentioned in profile)",
+     "Steel-toed safety boots and ear plugs (not mentioned in profile)",
+     "1 to less than 7 months of directly related aircraft grooming experience"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:07+00:00"
+   },
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50315552",
    "role": "ground"
   },
@@ -9901,9 +10223,31 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50401802",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "This baggage handler role in Montréal is a reasonable fit for your stated ramp/ground handling target, and your Canadian open work permit means you are legally able to take it. The posting is thin on stated requirements, so the main open questions are physical lifting capacity, shift availability, and whether you can relocate to or commute to Montréal. It is a step sideways from your pilot goals but a viable entry point into airport ground operations.",
+    "met": [
+     "Legally authorized to work in Canada on an open work permit",
+     "Based in Canada and available now",
+     "Prior physical, fast-paced handling and loading experience as a Distribution & Logistics Associate",
+     "Customer-facing delivery and order verification experience",
+     "Fluent English (ICAO Level 6) and fluent French-adjacent bilingual skills (Mandarin, Japanese)",
+     "Willing to work ramp/ground handling roles per stated target roles"
+    ],
+    "missing": [
+     "No confirmed ability to relocate to or commute to Montréal, QC (candidate is based in Dieppe, NB)",
+     "Posting does not state physical lifting limits; candidate profile does not document lifting capacity",
+     "Posting does not state shift schedule; candidate profile does not document shift availability",
+     "No airside driver's licence class or RAIC/airport pass mentioned in profile",
+     "No French language proficiency listed (Montréal-based role)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:14+00:00"
+   },
    "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50401802",
    "role": "ground"
   },
@@ -9915,9 +10259,40 @@
    "url": "https://www.linkedin.com/jobs/view/4468326021",
    "posted": "2026-09-16",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 8,
+    "verdict": "ineligible",
+    "summary": "Jack, this Falcon 2000 LX First Officer role is a hard no for you right now: it requires a valid Canadian ATPL, 2,000 hours total time, 100 hours jet time, and 500 hours PIC, and you hold a CPL with 269.6 hours total, 158.1 PIC, and zero turbine/jet hours. You also lack the Falcon 2000 LX type rating and international corporate flying experience, so you cannot meet the licence or hour gates. Focus on building multi-crew turbine time and completing your ATPL before applying to business aviation operators like Skyservice.",
+    "met": [
+     "Transport Canada Category 1 medical (no restrictions)",
+     "Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Commercial Pilot Licence with multi-engine and seaplane ratings",
+     "ATPL theory exams (SARON/SAMRA) written",
+     "ICAO English Language Proficiency Level 6",
+     "MCC simulator training on King Air 200 (BE20)",
+     "Willing and able to travel without restriction",
+     "Canadian Open Work Permit (not tied to an employer)"
+    ],
+    "missing": [
+     "Valid Canadian ATPL Licence (holds CPL only)",
+     "2,000 hours total flying time (has 269.6 h)",
+     "100 hours jet time (has 0 h turbine/jet)",
+     "500 hours PIC (has 158.1 h)",
+     "Falcon 2000 LX type rating",
+     "International flying experience",
+     "Proven track record as a highly experienced First Officer"
+    ],
+    "dealbreakers": [
+     "Valid Canadian ATPL Licence required",
+     "Minimum 2,000 hours total flying time required",
+     "At least 100 hours jet time required",
+     "Minimum 500 hours PIC required"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:17+00:00"
+   },
    "also_listed": [
     {
      "source": "eluta",
@@ -9935,9 +10310,18 @@
    "url": "https://www.linkedin.com/jobs/view/4465808094",
    "posted": "2026-10-01",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 30,
+    "verdict": "weak",
+    "summary": "You hold a valid Transport Canada CPL, Group 1 IFR, and Category 1 medical, but you fall well short of the 500-hour minimum flight experience with only 269.6 total hours, which is a hard gate for this role. Additionally, the posting requires unrestricted ability to travel to the USA, and your profile states you are not authorized to work in the United States, which is a significant barrier. While you meet the licensing and medical requirements, the hour shortfall and US travel restriction make this application unlikely to succeed at this time.",
+    "met": [],
+    "missing": [],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:19+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4465808094",
    "role": "pilot"
   },
@@ -9949,9 +10333,36 @@
    "url": "https://www.linkedin.com/jobs/view/4465808095",
    "posted": "2026-10-01",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 25,
+    "verdict": "ineligible",
+    "summary": "You hold a valid Transport Canada CPL, Group 1 IFR, and Category 1 medical, but you fall well short of the 500-hour minimum flight experience with only 269.6 total hours, which is a hard gate for this Ornge PC12 EMS First Officer role. Additionally, the posting requires unrestricted ability to travel to the USA, and your profile states you are not authorized to work in the United States, which is a non-negotiable barrier.",
+    "met": [
+     "Valid Transport Canada Commercial Pilot Licence (Aeroplane)",
+     "Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Valid Transport Canada Category 1 Medical, no restrictions",
+     "Ability to work in Canada (Open Work Permit)",
+     "ICAO English Language Proficiency Level 6",
+     "Willingness to work shifts and relocate (implied by availability)"
+    ],
+    "missing": [
+     "Minimum 500 hours total flight experience (only 269.6 h)",
+     "500 PIC hours preferred (only 158.1 h)",
+     "Unrestricted ability to travel to the USA (profile states not authorized to work in the US)",
+     "Canadian Passport (citizen of China, not a Canadian citizen or PR)",
+     "PC12 type rating (not required but no type ratings held)",
+     "Immunization records with required vaccinations (not mentioned)",
+     "Satisfactory criminal record search (not mentioned)"
+    ],
+    "dealbreakers": [
+     "500-hour minimum flight experience not met",
+     "No unrestricted ability to travel to the USA / not authorized to work in the US"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:21+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4465808095",
    "role": "pilot"
   },
@@ -9963,9 +10374,41 @@
    "url": "https://www.linkedin.com/jobs/view/4469850942",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 5,
+    "verdict": "ineligible",
+    "summary": "This helicopter first officer role requires a Canadian ATPL(H) with a medium multi-engine helicopter type rating, Group 4 instrument rating, night rating, and at least 2000 total hours including 1500 turbine helicopter hours — none of which you hold. You are a fixed-wing CPL(A) holder with 269.6 total hours and no helicopter time at all, so you fail the core licensing and hour gates. Additionally, the posting requires French proficiency appropriate to the role, which your profile does not list.",
+    "met": [
+     "Transport Canada Category 1 medical, no restrictions",
+     "Restricted Radio Operator Certificate",
+     "Canadian Open Work Permit (federal work authorization for Quebec public service)",
+     "ICAO English Language Proficiency Level 6",
+     "Willingness to work shift schedules (12-hour day/night rotations)"
+    ],
+    "missing": [
+     "Canadian ATPL — Helicopter (holds CPL Aeroplane only)",
+     "Medium multi-engine helicopter type rating",
+     "Group 4 instrument rating (holds Group 1 IFR, aeroplane)",
+     "Helicopter night flight qualification",
+     "2000 total flight hours (has 269.6)",
+     "1500 turbine helicopter hours (has 0 helicopter hours)",
+     "750 hours PIC (has 158.1)",
+     "300 hours as crew on multi-engine helicopter",
+     "100 hours combined IFR and night flight",
+     "French language proficiency",
+     "Bell 412 or twin-engine helicopter type experience"
+    ],
+    "dealbreakers": [
+     "No Canadian ATPL(H) licence",
+     "No helicopter category rating or type rating",
+     "Fails minimum 2000 total hours and 1500 turbine helicopter hours",
+     "No French language proficiency listed"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:23+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4469850942",
    "role": "pilot"
   },
@@ -9977,9 +10420,39 @@
    "url": "https://www.linkedin.com/jobs/view/4461134067",
    "posted": "2026-09-04",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 5,
+    "verdict": "ineligible",
+    "summary": "This STARS Grande Prairie role is a helicopter air-ambulance pilot position requiring a Commercial Rotary Wing Licence and at least 1000 helicopter hours, neither of which you hold — your licences are aeroplane (ASMEL/ASES) with only 269.6 total fixed-wing hours. The hard gates on rotary-wing licensing, helicopter time, Group 4 instrument rating, and helicopter night rating cannot be met from your current profile, so this posting is not a viable application for you.",
+    "met": [
+     "Transport Canada Category 1 medical (job requires Class 1)",
+     "Group 1 multi-engine instrument rating (exceeds the Group 4 requirement, though on aeroplanes)",
+     "IFR/multi-engine experience on PA44",
+     "Willingness to work day/night rotational schedules",
+     "Legally able to work in Canada on an open work permit"
+    ],
+    "missing": [
+     "Commercial Rotary Wing Licence (holds aeroplane CPL only)",
+     "Minimum 1000 hours helicopter experience (has 0 helicopter hours)",
+     "Helicopter Airline Transport Licence exams completed",
+     "Group 4 Instrument rating (helicopter)",
+     "Helicopter Night Rating",
+     "Airbus H145 type rating (asset)",
+     "Current aircraft captain status or 6-month captain upgrade eligibility on helicopters",
+     "Controlled Goods Security Assessment / NVG eligibility not established",
+     "Immunization records with required vaccinations not provided"
+    ],
+    "dealbreakers": [
+     "No Commercial Rotary Wing Licence — the posting explicitly requires a valid rotary-wing CPL",
+     "Zero helicopter flight time versus the 1000-hour helicopter minimum",
+     "No helicopter Group 4 instrument rating or helicopter night rating",
+     "No helicopter ATPL exams completed"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:26+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4461134067",
    "role": "pilot"
   },
@@ -9991,9 +10464,45 @@
    "url": "https://www.linkedin.com/jobs/view/4444585865",
    "posted": "2026-10-02",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 3,
+    "verdict": "ineligible",
+    "summary": "This Helicopter Pilot role at Airbus Helicopters Canada is not a fit for you: it requires a Transport Canada Commercial Helicopter Licence with IFR Group 4 and a minimum of 2,000 total helicopter hours, none of which you hold. Your experience is entirely aeroplane-based (269.6 total hours, 20.3 multi-engine), so you fail multiple non-negotiable gates. Additionally, the posting requires unhindered US work/travel eligibility, which your profile states you do not have.",
+    "met": [
+     "Transport Canada Category 1 medical, no restrictions",
+     "Commercial Pilot Licence (aeroplane) with Group 1 multi-engine IFR",
+     "ICAO English Language Proficiency Level 6",
+     "Willingness to relocate (based in Dieppe, NB; open to relocation)",
+     "Canadian Open Work Permit (legally authorized to work in Canada)"
+    ],
+    "missing": [
+     "Transport Canada Commercial Helicopter Licence (or higher)",
+     "IFR Group 4 rating",
+     "2,000 total helicopter flight hours",
+     "500 helicopter PIC hours",
+     "1,000 turbine helicopter hours",
+     "100 hours instrument flight time (IFR)",
+     "100 flight hours in the past 12 months",
+     "Multi-engine helicopter experience",
+     "Flight and ground instruction experience",
+     "Post-maintenance flight test experience",
+     "Type rating on H125/H130, H135, or H145",
+     "FAA Commercial helicopter licence (asset)",
+     "French fluency (asset)",
+     "US work authorization / unhindered US travel eligibility"
+    ],
+    "dealbreakers": [
+     "No Transport Canada Commercial Helicopter Licence",
+     "No IFR Group 4 rating",
+     "Only 269.6 total flight hours vs. 2,000 helicopter-hour minimum",
+     "Zero helicopter flight time (all experience is aeroplane)",
+     "Not authorized to work in or travel freely to the United States"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:29+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4444585865",
    "role": "pilot"
   },
@@ -10005,9 +10514,38 @@
    "url": "https://www.linkedin.com/jobs/view/4464693468",
    "posted": "2026-09-08",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 5,
+    "verdict": "ineligible",
+    "summary": "This Captain role on the Challenger 605 requires a valid Canadian ATPL, 4,000 hours total time, 500 hours jet time, and 2,000 hours PIC — you hold only a Commercial Pilot Licence with 269.6 total hours, 158.1 PIC, and zero jet time, so you fail multiple non-negotiable gates. Additionally, as a Chinese citizen on an open work permit without Canadian citizenship or permanent residency, you cannot satisfy the ATPL licence requirement or the ICAO eligibility for commercial operations. This posting is not a viable opportunity at your current experience level.",
+    "met": [
+     "Transport Canada Category 1 medical (no restrictions)",
+     "Group 1 Multi-Engine Instrument Rating",
+     "ICAO English Language Proficiency Level 6",
+     "Willing and able to travel without restriction",
+     "Based in Canada with open work permit"
+    ],
+    "missing": [
+     "Valid Canadian ATPL Licence (only holds CPL)",
+     "4,000 hours total flying time (has 269.6 h)",
+     "500 hours jet time (has 0 h)",
+     "2,000 hours PIC (has 158.1 h)",
+     "Proven track record as a highly experienced Captain",
+     "International flying experience",
+     "Canadian citizenship or permanent residency (ATPL eligibility)"
+    ],
+    "dealbreakers": [
+     "No Canadian ATPL licence",
+     "Total flight time far below 4,000-hour minimum",
+     "Zero jet time versus 500-hour requirement",
+     "PIC time far below 2,000-hour minimum",
+     "Not a Canadian citizen or permanent resident, failing ATPL/ICAO eligibility"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:32+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4464693468",
    "role": "pilot"
   },
@@ -10019,9 +10557,18 @@
    "url": "https://www.linkedin.com/jobs/view/4465816058",
    "posted": "2026-10-01",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 25,
+    "verdict": "weak",
+    "summary": "You hold a valid Transport Canada CPL, Group 1 IFR, and Category 1 medical, but you fall well short of the 500-hour minimum flight experience with only 269.6 total hours, and you lack the required unrestricted ability to travel to the USA as a Chinese citizen without US work authorization. The posting also prefers 500 PIC hours, which you are far from meeting. While your licence and medical credentials are solid, the hard hour gate and US travel requirement make this a poor fit at this time.",
+    "met": [],
+    "missing": [],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:33+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4465816058",
    "role": "pilot"
   },
@@ -10033,9 +10580,39 @@
    "url": "https://www.linkedin.com/jobs/view/4408059133",
    "posted": "2026-09-16",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 5,
+    "verdict": "ineligible",
+    "summary": "This Alpha Jet Pilot role at Top Aces is far outside your current qualifications: it requires 2000 hours PIC in fighter aircraft and 1000 hours PIC in multi-role fighter attack aircraft, which you do not have. You also lack the required Canadian security clearance (Level II) and Controlled Goods Program eligibility, and as a Chinese citizen on a work permit you would face significant barriers. This is not a viable application at this stage of your career.",
+    "met": [
+     "Transport Canada Commercial Pilot Licence with Group 1 Instrument Rating",
+     "Transport Canada Category 1 medical, no restrictions",
+     "ICAO English Language Proficiency Level 6",
+     "Available now and willing to travel/work flexible schedule"
+    ],
+    "missing": [
+     "2000 hours PIC in fighter aircraft",
+     "1000 hours PIC in multi-role fighter attack aircraft",
+     "Minimum 3 years operational experience within the last 10 years",
+     "Experience with Large Force Employment, Close Air Support, Precision Guided Munitions, Accurate Munitions and Unguided Munitions",
+     "Held an operational flying position within the last 2 years",
+     "Level II Canadian Government security clearance",
+     "Canadian Controlled Goods Program access eligibility",
+     "French language (asset only)",
+     "Qualified Fighter Weapons Instructor (asset only)",
+     "Towed Target system experience (asset only)"
+    ],
+    "dealbreakers": [
+     "Does not meet minimum 2000 hours PIC in fighter aircraft",
+     "Does not meet minimum 1000 hours PIC multi-role fighter attack aircraft",
+     "No operational fighter experience within the last 10 years",
+     "Cannot obtain Level II security clearance / Controlled Goods Program access as a Chinese citizen on a work permit"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:36+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4408059133",
    "role": "pilot"
   },
@@ -10047,9 +10624,37 @@
    "url": "https://www.linkedin.com/jobs/view/4465806102",
    "posted": "2026-10-02",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 25,
+    "verdict": "ineligible",
+    "summary": "You hold a valid Transport Canada CPL, Group 1 IFR, and Category 1 medical, but you fall well short of the required 500 hours of flight experience with only 269.6 total hours. More critically, the posting requires unrestricted ability to travel to the USA, and your profile states you are not authorized to work in the United States, which is a non-negotiable gate. This makes you ineligible for this position despite otherwise matching several qualifications.",
+    "met": [
+     "Valid Transport Canada Commercial Pilot Licence (Aeroplane)",
+     "Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Valid Transport Canada Category 1 Medical, no restrictions",
+     "Ability to work in Canada (Open Work Permit)",
+     "Willing to work various shifts including nights, weekends, and holidays",
+     "Willing to relocate within close proximity to base location"
+    ],
+    "missing": [
+     "Minimum 500 hours of flight experience (only 269.6 h total)",
+     "500 PIC hours preferred (only 158.1 h PIC)",
+     "Valid Canadian Passport (citizen of China, not Canadian)",
+     "Unrestricted ability to travel to the USA (profile states not authorized to work in the US)",
+     "PC12 type rating (no type ratings held)",
+     "Turbine aircraft experience (0 h actual turbine time)",
+     "Immunization records with required vaccinations (not mentioned in profile)",
+     "Satisfactory criminal record search (not mentioned in profile)"
+    ],
+    "dealbreakers": [
+     "Not authorized to work in the United States, failing the requirement for unrestricted ability to travel to the USA",
+     "Only 269.6 total flight hours, far below the required 500-hour minimum"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:43+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4465806102",
    "role": "pilot"
   },
@@ -10061,9 +10666,40 @@
    "url": "https://www.linkedin.com/jobs/view/4468707761",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 5,
+    "verdict": "ineligible",
+    "summary": "This Captain King Air 350 role is out of reach because it requires Canadian citizenship or permanent resident status, which you do not hold, and a Canadian ATPL with 1500 flight hours, while you hold a CPL with 269.6 hours. The bilingual French/English requirement is also unmet since French is not listed in your profile. You should focus on First Officer roles at Part 703/704 operators that accept open work permit holders and lower-hour CPL candidates.",
+    "met": [
+     "Transport Canada Category 1 medical, no restrictions",
+     "Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Commercial Pilot Licence (Aeroplane, multi-engine land and single-engine sea)",
+     "Restricted Radio Operator Certificate",
+     "ICAO English Language Proficiency Level 6",
+     "Eligible for RAIC (no disqualifying factors stated)",
+     "Multi-crew cooperation (MCC) training on BE20 simulator"
+    ],
+    "missing": [
+     "Canadian citizenship or permanent resident status",
+     "Canadian Airline Transport Pilot License (ATPL)",
+     "1500 flight hours (only 269.6 h total)",
+     "Turboprop aircraft experience (0 h turbine)",
+     "Bilingual French and English (French not listed)",
+     "King Air 350 type rating/annotation",
+     "International and US experience"
+    ],
+    "dealbreakers": [
+     "Canadian citizenship or permanent resident status required",
+     "Canadian ATPL required",
+     "1500 flight hours required",
+     "Turboprop experience required",
+     "Bilingual French/English required"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:45+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4468707761",
    "role": "pilot"
   },
@@ -10075,9 +10711,38 @@
    "url": "https://www.linkedin.com/jobs/view/4411501596",
    "posted": "2026-09-22",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 5,
+    "verdict": "ineligible",
+    "summary": "This TC Energy posting is a helicopter pilot role requiring 3000+ turbine helicopter hours and type experience on AS350B3/H125/BH206, which you do not hold — your licence is aeroplane-only with 269.6 total hours and zero turbine time. Additionally, the position is based in Bolton, Ontario and requires US/Mexico travel eligibility, which conflicts with your Canadian open work permit status and lack of US work authorization. This is not a viable application for you.",
+    "met": [
+     "Valid Transport Canada Category 1 medical (meets the Class 1 Aviation Medical requirement)",
+     "Valid Canadian Commercial Pilot Licence (aeroplane)",
+     "Restricted Radiotelephone Operator Certificate",
+     "High school diploma or equivalent (IB Diploma)",
+     "Willingness to work variable schedules and travel"
+    ],
+    "missing": [
+     "3000+ flight hours on turbine-powered helicopters (has 269.6 total aeroplane hours, 0 turbine)",
+     "Helicopter licence and helicopter type experience (AS350B3, H125, BH206 L4, BH206 Jetranger)",
+     "Recent flying in the wires training",
+     "Low-level patrol experience",
+     "Canadian citizenship or permanent residency (holds open work permit as Chinese citizen)",
+     "US work authorization / E-Verify eligibility for cross-border operations",
+     "Residence within reasonable driving time of Bolton, Ontario hangar",
+     "Valid driver's licence and abstract (not mentioned in profile)"
+    ],
+    "dealbreakers": [
+     "No helicopter licence or turbine helicopter hours — posting requires 3000 hours on turbine helicopters",
+     "No AS350B3/H125/BH206 type experience",
+     "Not a Canadian citizen or permanent resident; position requires unrestricted work authorization and international travel eligibility including USA and Mexico",
+     "No US work authorization for cross-border flying"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:48+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4411501596",
    "role": "pilot"
   },
@@ -10089,12 +10754,36 @@
    "url": "https://www.linkedin.com/jobs/view/4372699921",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T13:42:17+00:00",
-   "active": false,
-   "evaluation": null,
+   "last_seen": "2026-10-03T05:25:03+00:00",
+   "active": true,
+   "evaluation": {
+    "score": 3,
+    "verdict": "ineligible",
+    "summary": "This Airbus production test pilot role requires a CAT 2 flight test pilot rating, at least 1,500 flight test hours, and 5+ years on Part 25 aircraft — none of which you hold. With 269.6 total hours and no type ratings or flight test qualification, you fall far short of the non-negotiable gates. You should not apply to this posting; focus instead on entry-level First Officer or dispatcher roles that match your CPL/Group 1 IFR profile.",
+    "met": [
+     "Transport Canada Category 1 medical, no restrictions",
+     "Commercial Pilot Licence with Group 1 Multi-Engine Instrument Rating",
+     "ICAO English Level 6",
+     "Legally able to work in Canada on an open work permit"
+    ],
+    "missing": [
+     "CAT 2 flight test pilot rating",
+     "1,500 flight test hours",
+     "5+ years Part 25 aircraft experience",
+     "Type rating on any Part 25 aircraft",
+     "Production/acceptance flight test experience"
+    ],
+    "dealbreakers": [
+     "No CAT 2 flight test pilot qualification",
+     "Only 269.6 total flight hours vs. 1,500 flight test hours required",
+     "No Part 25 aircraft experience",
+     "No type ratings"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:50+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4372699921",
-   "role": "pilot",
-   "closed_at": "2026-10-02T14:46:54+00:00"
+   "role": "pilot"
   },
   {
    "id": "linkedin:linkedin:4466287825",
@@ -10104,9 +10793,36 @@
    "url": "https://www.linkedin.com/jobs/view/4466287825",
    "posted": "2026-09-17",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 45,
+    "verdict": "weak",
+    "summary": "You have a strong aviation foundation with a Commercial Pilot Licence, Group 1 IFR, and ATPL theory exams, but this Flight Dispatcher role has hard gates you do not currently meet. You have not written the Transport Canada FDOPS and FDMET dispatcher exams, and the posting explicitly requires bilingual French and English, which your profile does not list. Your Canadian Open Work Permit does allow you to work in Canada, so authorization is not the blocker here.",
+    "met": [
+     "Canadian Open Work Permit allows work in Canada",
+     "Transport Canada Commercial Pilot Licence with Group 1 Multi-Engine Instrument Rating",
+     "ATPL theory complete with SARON and SAMRA exams written",
+     "Restricted Radio Operator Certificate (listed as an asset)",
+     "Postsecondary education in progress (Integrated Commercial Pilot Course, B.S. Aeronautics)",
+     "Knowledge of Canadian Aviation Regulations and IFR/ATC procedures from flight training",
+     "Flexibility for rotating schedules such as 7 ON / 7 OFF and night shifts",
+     "Basic office software familiarity implied by education and logistics work"
+    ],
+    "missing": [
+     "Transport Canada FDOPS and FDMET dispatcher examinations not completed",
+     "French language proficiency not listed (posting requires bilingual French and English)",
+     "No formal Flight Dispatcher certification or licence",
+     "No prior flight dispatcher or flight follower work experience",
+     "Postsecondary diploma not yet completed (in progress)"
+    ],
+    "dealbreakers": [
+     "Has not successfully completed both Transport Canada FDOPS and FDMET examinations, which the posting lists as a requirement",
+     "Not bilingual in French and English as required by the posting"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:53+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4466287825",
    "role": "dispatch"
   },
@@ -10118,9 +10834,40 @@
    "url": "https://www.linkedin.com/jobs/view/4472735436",
    "posted": "2026-09-28",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 25,
+    "verdict": "ineligible",
+    "summary": "You are a strong fit for the Flight Follower role on skills and aviation background, but the posting has a hard gate you cannot meet: it requires Canadian citizenship or permanent resident status, and you hold only a Canadian Open Work Permit as a Chinese citizen. The role also requires bilingual spoken French and English, and your profile does not list French. Unless your immigration status changes, this position is not open to you.",
+    "met": [
+     "Based in Canada (Dieppe, NB) and available now",
+     "Transport Canada Commercial Pilot Licence with Group 1 Multi-Engine IFR and seaplane rating",
+     "ATPL theory complete (SARON and SAMRA written)",
+     "Transport Canada Category 1 medical, no restrictions",
+     "ICAO English Language Proficiency Level 6",
+     "Multi-crew cooperation (MCC) simulator training on King Air 200",
+     "Knowledge of CARs, ATC procedures, flight planning, meteorology, navigation",
+     "Prior logistics/distribution experience with tight deadlines and client-facing work",
+     "Fluent English and Mandarin; Japanese also fluent"
+    ],
+    "missing": [
+     "Canadian citizenship or permanent resident status (hard requirement)",
+     "Bilingual spoken French and English (French not listed in profile)",
+     "Flight Follower / Flight Dispatcher experience (asset only)",
+     "International flight planning and/or Medevac experience (asset only)",
+     "Flight Dispatching diploma (asset only)",
+     "Transport Canada FDOPS and FDMET exams / Flight Dispatcher certification (asset only)",
+     "FOS software knowledge (asset only)",
+     "Proficiency in Microsoft Office Suite (not stated in profile)"
+    ],
+    "dealbreakers": [
+     "Requires Canadian citizenship or permanent resident status; candidate is a Chinese citizen on an Open Work Permit",
+     "Requires bilingual spoken French and English; French is not listed in the candidate profile"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:55+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4472735436",
    "role": "dispatch"
   },
@@ -10147,9 +10894,44 @@
    "url": "https://www.linkedin.com/jobs/view/4461126168",
    "posted": "2026-09-04",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 3,
+    "verdict": "ineligible",
+    "summary": "This Chief Pilot role at STARS requires a Canadian ATPL(H) helicopter licence with a Group 4 instrument rating and thousands of hours of rotary-wing PIC time, none of which you hold. Your fixed-wing CPL with Group 1 IFR and 269.6 total hours falls far short of the hard regulatory gates (2,500 PIC rotary-wing, 500 PIC multi-engine helicopter, 300 IFR/night, 100 hours on type). You are not eligible for this position.",
+    "met": [
+     "Transport Canada Category 1 medical, no restrictions",
+     "Group 1 instrument rating (fixed-wing, not Group 4 rotary)",
+     "ICAO English Level 6",
+     "Based in Canada with an open work permit"
+    ],
+    "missing": [
+     "Canadian ATPL(H) helicopter licence",
+     "Group 4 Instrument Rating (rotary-wing)",
+     "PIC qualification on Airbus H145",
+     "Flight Instructor / Training Captain / Check Pilot designation",
+     "Transport Canada-approved CRM course",
+     "IFR EMS or rotary-wing operational experience",
+     "Mountain flying certification and NVG operational experience",
+     "2,500 hours PIC rotary-wing",
+     "250 hours PIC in previous three years",
+     "500 hours PIC multi-engine helicopter",
+     "300 hours combined IFR/night",
+     "100 hours on a STARS-operated aircraft type",
+     "Previous aviation management experience",
+     "Type ratings"
+    ],
+    "dealbreakers": [
+     "No Canadian ATPL(H) helicopter licence",
+     "No rotary-wing PIC hours (requires 2,500 PIC rotary-wing)",
+     "No multi-engine helicopter PIC time (requires 500 hours)",
+     "No H145 type qualification or rotary-wing experience",
+     "No NVG or mountain flying certification"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:27:58+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4461126168",
    "role": "pilot"
   },
@@ -10161,9 +10943,38 @@
    "url": "https://www.linkedin.com/jobs/view/4411553219",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 18,
+    "verdict": "ineligible",
+    "summary": "You fall short on several non-negotiable gates for this CAE Instructor Pilot role: you have only 269.6 total hours versus the required 500 hours on a single-pilot high-performance aeroplane, and you do not hold a Transport Canada instructor rating. Additionally, as a Chinese citizen on a Canadian open work permit without US work authorization, you cannot satisfy the ITAR re-transfer compliance requirement. This posting is not a viable application for you at this time.",
+    "met": [
+     "Transport Canada Commercial Pilot Licence (Aeroplane, multi-engine land and single-engine sea)",
+     "Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Transport Canada Category 1 medical, no restrictions",
+     "ICAO English Language Proficiency Level 6 (expert)",
+     "Multi-crew cooperation (MCC) simulator training on King Air 200 (BE20)",
+     "Based in Canada with an open work permit (no employer tie)"
+    ],
+    "missing": [
+     "Minimum 500 hours flight time on a single-pilot, high-performance aeroplane (you have 269.6 total hours, 20.3 multi-engine, 0 turbine)",
+     "Current or previously held Transport Canada instructor rating",
+     "Military or professional flying experience within the last 10 years",
+     "US ITAR re-transfer compliance / Controlled Goods security eligibility",
+     "Aircraft body weight and anthropometric limits confirmation",
+     "Aeromedical, spatial disorientation, centrifuge, escape systems, ALSE, sea survival, land survival, first aid/CPR/AED, and fire prevention training",
+     "Preferred: NFTC QFI or Grob G120TP QFI experience, military instructional or flight lead experience, RAWC OT&E course"
+    ],
+    "dealbreakers": [
+     "Insufficient flight hours: 269.6 total vs. 500-hour minimum on a single-pilot high-performance aeroplane",
+     "No Transport Canada instructor rating (current or previously held)",
+     "Cannot meet US ITAR re-transfer compliance as a Chinese citizen without US work authorization",
+     "No military or professional flying experience within the last 10 years"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:28:01+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4411553219",
    "role": "pilot"
   },
@@ -10211,9 +11022,35 @@
    "url": "https://www.linkedin.com/jobs/view/4467642349",
    "posted": "2026-09-21",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "You meet the core ground-handler requirements: you're based in Canada with an open work permit, hold a valid driver's licence, and have recent physical logistics/loading experience. The main gaps are that the posting requires a Transport Canada Restricted Area pass and a clean driver's abstract, neither of which your profile confirms, and the role is in Kelowna, BC while you're in Dieppe, NB. Nothing here is a hard disqualifier, so this is worth pursuing if you're willing to relocate and can pass the security screening.",
+    "met": [
+     "Legally authorized to work in Canada (Open Work Permit, not employer-tied)",
+     "Based in Canada (Dieppe, NB)",
+     "Physically capable of standing, lifting, bending, crouching, kneeling, pushing/pulling",
+     "Recent experience with product handling and loading (Distribution & Logistics Associate)",
+     "Client-facing, fast-paced operational experience",
+     "Fluent English (ICAO Level 6)",
+     "Willing/able to work shift work including early mornings, evenings, weekends, holidays",
+     "Comfortable working outdoors in all weather",
+     "No type ratings or aviation certificates required for this role"
+    ],
+    "missing": [
+     "Valid driver's licence with clean abstract not explicitly stated in profile",
+     "Transport Canada Restricted Area pass not yet held (must be obtained)",
+     "Criminal background check not confirmed",
+     "Steel-toe boots (green patch), reflective vest, hearing protection not confirmed",
+     "No stated willingness to relocate to Kelowna, BC",
+     "French not listed (not required for this posting)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:28:04+00:00"
+   },
    "also_listed": [
     {
      "source": "eluta",
@@ -10231,9 +11068,32 @@
    "url": "https://www.linkedin.com/jobs/view/4466356363",
    "posted": "2026-09-11",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 42,
+    "verdict": "weak",
+    "summary": "This ramp agent role at Avianor in Mirabel is a ground-handling position rather than a flying job, and it hinges on a Class D airside driver's licence and bilingual French-English communication. You hold a Canadian open work permit and are eligible to obtain the Class D licence, but your profile lists no French, which is a stated requirement, and the job is in Quebec where functional French is typically essential. Your aviation licences and hours are largely irrelevant here, so this is a weak match overall.",
+    "met": [
+     "Eligible to obtain Class D (YMX) airside driver's licence",
+     "Canadian Open Work Permit authorizing work in Canada",
+     "Available now and open to shift work",
+     "Prior logistics/handling experience (Dai Lam Trading) involving loading and product handling",
+     "Based in Canada and willing to relocate within country"
+    ],
+    "missing": [
+     "French language proficiency (posting requires bilingual French and English)",
+     "Forklift operator certification/experience",
+     "Radio communication with control tower experience",
+     "Aircraft towing/tarmac movement experience",
+     "General vehicle and equipment maintenance experience"
+    ],
+    "dealbreakers": [
+     "Bilingual French-English requirement not met (no French listed)"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:28:06+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4466356363",
    "role": "ground"
   },
@@ -10245,9 +11105,30 @@
    "url": "https://www.linkedin.com/jobs/view/4392477083",
    "posted": "2026-09-20",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 72,
+    "verdict": "possible",
+    "summary": "This Calgary ramp/baggage role is a reasonable fit for your ground-handling target and you meet the core physical and shift requirements, but the posting is in Alberta while you are based in New Brunswick, and the RAIC clearance is a hard gate you would need to obtain. Your Canadian open work permit allows you to work in Canada, so the main open questions are relocation and security clearance rather than eligibility.",
+    "met": [
+     "Canadian Open Work Permit (authorized to work in Canada, not employer-tied)",
+     "Willing and able to perform physical labour (lifting, pushing, pulling) based on logistics/loading experience",
+     "Available now for full-time work",
+     "Entry-level role matching your stated ramp/ground handling target",
+     "No prior baggage handling experience required by the posting",
+     "Strong attention to detail and procedural compliance from pilot training and logistics work"
+    ],
+    "missing": [
+     "RAIC Security Clearance (not held; would need to apply and be approved)",
+     "Technical Certificate (not listed in profile)",
+     "Located in Calgary / Alberta (candidate is based in Dieppe, New Brunswick)",
+     "Prior baggage handling or material handling equipment experience (preferred, not required)"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:28:08+00:00"
+   },
    "apply_url": "https://www.linkedin.com/jobs/view/4392477083",
    "role": "ground"
   },
@@ -10259,9 +11140,37 @@
    "url": "https://www.eluta.ca/spl/first-officer-challenger-650-99a81cb1ef8e41baf715cea8e472558f?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 25,
+    "verdict": "weak",
+    "summary": "Jack, this First Officer role on the Challenger 650 is a long shot: you hold a valid Transport Canada CPL with Group 1 IFR and a Category 1 medical, but your 269.6 total hours and 20.3 multi-engine hours fall far short of what a corporate jet operator typically requires, and you have no type rating or turbine time. The posting is also truncated, so key gates like minimum hours, type rating, and work authorization cannot be confirmed.",
+    "met": [
+     "Transport Canada Commercial Pilot Licence (Aeroplane, multi-engine land)",
+     "Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Transport Canada Category 1 medical, no restrictions",
+     "Restricted Radio Operator Certificate and ICAO English Level 6",
+     "Multi-crew cooperation (MCC) training on BE20 simulator",
+     "Based in Canada with an open work permit (not employer-tied)"
+    ],
+    "missing": [
+     "Type rating on the Challenger 650 (or any type rating)",
+     "Turbine flight time (0 h actual aircraft)",
+     "Multi-engine flight hours typical for a jet FO role (only 20.3 h)",
+     "Total flight time typical for a jet FO role (only 269.6 h)",
+     "Canadian citizenship or permanent residency (holds a work permit only)",
+     "French language proficiency (role is in Dorval QC)",
+     "Full posting details (minimum hours, licence/type requirements, shift and physical requirements) are not available"
+    ],
+    "dealbreakers": [
+     "No Challenger 650 type rating and no turbine time",
+     "Total and multi-engine hours far below typical corporate jet FO minimums",
+     "Not a Canadian citizen or permanent resident; only an open work permit"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:28:11+00:00"
+   },
    "apply_url": "https://www.eluta.ca/spl/first-officer-challenger-650-99a81cb1ef8e41baf715cea8e472558f?imo=12",
    "role": "pilot"
   },
@@ -10273,9 +11182,36 @@
    "url": "https://www.eluta.ca/spl/first-officer-challenger-3500-halifax-cyhz-4677db1e46c85d14ed4754d1d284997f?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 25,
+    "verdict": "weak",
+    "summary": "Jack, this Novajet Challenger 3500 First Officer role in Halifax is a poor fit for you right now: it is a jet type-rating position that will almost certainly require an ATPL and several hundred to thousands of hours of turbine and multi-engine time, while you hold a CPL with 269.6 total hours and zero actual turbine time. Your Canadian open work permit keeps you eligible to work in Canada, but the licence and experience gates are the real blockers here.",
+    "met": [
+     "Transport Canada Commercial Pilot Licence (Aeroplane, multi-engine land)",
+     "Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Transport Canada Category 1 medical, no restrictions",
+     "Restricted Radio Operator Certificate and ICAO English Level 6",
+     "Canadian Open Work Permit (authorized to work in Canada)",
+     "Multi-crew cooperation training (BE20 simulator) and ATPL theory complete"
+    ],
+    "missing": [
+     "Airline Transport Pilot Licence (ATPL) — only theory/exams complete, licence not held",
+     "Type rating on the Challenger 3500 (or any jet type rating)",
+     "Turbine flight time (0 h actual aircraft)",
+     "Multi-engine flight time (20.3 h, far below typical jet FO minimums)",
+     "Total flight time (269.6 h vs. typical 1,000–1,500+ h for a corporate jet FO)",
+     "Pilot-in-command time (158.1 h vs. typical 500+ h PIC minimums)",
+     "Corporate/Part 604 or 705 multi-crew line experience"
+    ],
+    "dealbreakers": [
+     "No ATPL and insufficient total/PIC/turbine/multi-engine hours for a Challenger 3500 First Officer position",
+     "No Challenger 3500 type rating"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:28:14+00:00"
+   },
    "apply_url": "https://www.eluta.ca/spl/first-officer-challenger-3500-halifax-cyhz-4677db1e46c85d14ed4754d1d284997f?imo=12",
    "role": "pilot"
   },
@@ -10287,9 +11223,36 @@
    "url": "https://www.eluta.ca/spl/rotor-wing-first-officer-5c3f5ee6ec1a46ce72a402916a52d08b?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 15,
+    "verdict": "ineligible",
+    "summary": "Jack, this Ornge Rotor Wing First Officer role is not a fit for you because it requires helicopter qualifications you do not hold — your licences are aeroplane (ASMEL/ASES) with a Group 1 instrument rating, and you have zero helicopter time. Even setting that aside, your 269.6 total hours and 20.3 multi-engine hours fall far short of what a rotor-wing air ambulance operator typically demands, and your open work permit status may also be a barrier for a safety-sensitive Canadian operation.",
+    "met": [
+     "Transport Canada Category 1 medical, no restrictions",
+     "ICAO English Language Proficiency Level 6",
+     "Group 1 Multi-Engine Instrument Rating (aeroplane)",
+     "Restricted Radio Operator Certificate",
+     "Available immediately in Canada"
+    ],
+    "missing": [
+     "Commercial Pilot Licence – Helicopter (CPL-H) or ATPL-H",
+     "Any helicopter flight time (0 hours)",
+     "Rotor-wing type rating",
+     "Night and cross-country hours typical for rotor EMS operations",
+     "Canadian citizenship or permanent residency (holds open work permit)",
+     "Turbine helicopter experience"
+    ],
+    "dealbreakers": [
+     "No helicopter licence or rating — the posting is a rotor-wing First Officer position",
+     "Zero helicopter flight hours",
+     "Total time 269.6 h and multi-engine 20.3 h, well below typical rotor EMS minimums",
+     "Not a Canadian citizen or permanent resident; open work permit may not satisfy security/clearance requirements for this operator"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:28:17+00:00"
+   },
    "apply_url": "https://www.eluta.ca/spl/rotor-wing-first-officer-5c3f5ee6ec1a46ce72a402916a52d08b?imo=12",
    "role": "pilot"
   },
@@ -10301,9 +11264,34 @@
    "url": "https://www.eluta.ca/spl/stream-1%3A-engineering-test-pilot-fixed-wing-stream-2%3A-engineering-test-pilot-rotary-wing-c8d9e011e6a6772564aac1d33084005f?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 12,
+    "verdict": "ineligible",
+    "summary": "Jack, this Transport Canada Engineering Test Pilot role is out of reach right now: it demands either a recognized test pilot course or five years as an experimental/developmental test pilot, and you have neither. On top of that, the position is in Ottawa and requires Canadian citizenship or permanent residency for a federal security clearance, which your Chinese citizenship and open work permit do not satisfy. Your 269.6 total hours and lack of type ratings also fall far short of what a flight-test role expects.",
+    "met": [
+     "Transport Canada Commercial Pilot Licence with Group 1 IFR and seaplane rating",
+     "Transport Canada Category 1 medical, no restrictions",
+     "ATPL theory exams (SARON/SAMRA) written",
+     "ICAO English Language Proficiency Level 6",
+     "Based in Canada with an open work permit"
+    ],
+    "missing": [
+     "Recognized Transport Canada test pilot course or 5 years experimental/developmental test pilot experience",
+     "Canadian citizenship or permanent residency for federal security clearance",
+     "Type ratings and high-hour flight-test background",
+     "Engineering degree or Canadian equivalency assessment for foreign credentials",
+     "Experience with civil certified transport category aircraft"
+    ],
+    "dealbreakers": [
+     "No test pilot qualification or 5 years developmental test pilot experience",
+     "Not a Canadian citizen or permanent resident; cannot obtain required federal security clearance",
+     "Only 269.6 total flight hours with no type ratings or turbine time"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:28:19+00:00"
+   },
    "apply_url": "https://www.eluta.ca/spl/stream-1%3A-engineering-test-pilot-fixed-wing-stream-2%3A-engineering-test-pilot-rotary-wing-c8d9e011e6a6772564aac1d33084005f?imo=12",
    "role": "pilot"
   },
@@ -10315,9 +11303,39 @@
    "url": "https://www.eluta.ca/spl/tactical-instructor-pilot-c8569fb3c164524911e9e6d0695f6a86?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 15,
+    "verdict": "ineligible",
+    "summary": "This Tactical Instructor - Pilot role at ITPS requires an experienced pilot, typically with an ATPL and substantial flight hours, which you do not yet hold. With only 269.6 total hours and no ATPL licence, you fall far short of the hard gates for an instructor pilot position. Additionally, your Chinese citizenship with only a Canadian open work permit may not satisfy any security or defence-related clearance requirements for a tactical flight training environment.",
+    "met": [
+     "Transport Canada Commercial Pilot Licence (Aeroplane)",
+     "Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Transport Canada Category 1 medical, no restrictions",
+     "ICAO English Language Proficiency Level 6",
+     "Multi-crew cooperation (MCC) simulator training on BE20",
+     "Based in Canada with an open work permit"
+    ],
+    "missing": [
+     "ATPL licence (only theory exams written, licence not held)",
+     "Sufficient total flight hours for an instructor pilot role (269.6 h vs. typically 1000+ h required)",
+     "Multi-engine pilot-in-command experience",
+     "Turbine aircraft experience (0 h actual)",
+     "Prior instructor rating or instructional experience",
+     "Type ratings",
+     "Transportation Security Clearance / security clearance for tactical/defence training environment",
+     "Canadian citizenship or permanent residency (holds only open work permit)"
+    ],
+    "dealbreakers": [
+     "Does not hold an ATPL licence",
+     "Total flight time of 269.6 hours is far below the experience level required for a tactical instructor pilot",
+     "No instructor rating or instructional experience",
+     "Not a Canadian citizen or permanent resident; only holds an open work permit, which may not meet security clearance requirements for a tactical/defence flight training role"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:28:22+00:00"
+   },
    "apply_url": "https://www.eluta.ca/spl/tactical-instructor-pilot-c8569fb3c164524911e9e6d0695f6a86?imo=12",
    "role": "pilot"
   },
@@ -10344,9 +11362,38 @@
    "url": "https://www.eluta.ca/spl/pilote-en-chef-89683d5c9a48160c7d3f4198f50b9292?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 8,
+    "verdict": "ineligible",
+    "summary": "This Chief Pilot role at Skyservice requires extensive command experience and typically an ATPL, which you do not hold, and your 269.6 total hours fall far short of what a supervisory chief pilot position demands. You also lack Canadian citizenship or permanent residency, which is generally required for this level of operational authority and security clearance. This posting is not a viable match for you at this stage of your career.",
+    "met": [
+     "Transport Canada Commercial Pilot Licence (Aeroplane)",
+     "Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Transport Canada Category 1 medical, no restrictions",
+     "Multi-crew cooperation (MCC) training on BE20 simulator",
+     "ICAO English Language Proficiency Level 6",
+     "Canadian Open Work Permit (authorized to work in Canada)"
+    ],
+    "missing": [
+     "ATPL licence (only ATPL theory/exams complete)",
+     "Substantial total flight hours (269.6 h vs. thousands typically required)",
+     "Pilot-in-command experience at the level expected of a chief pilot",
+     "Multi-engine and turbine aircraft time",
+     "Type ratings",
+     "Prior supervisory/command experience in Part 703/704/705 operations",
+     "Canadian citizenship or permanent residency (security clearance eligibility)",
+     "French language proficiency (role is in Quebec/Ontario bilingual environment)"
+    ],
+    "dealbreakers": [
+     "Does not hold an ATPL, which is effectively mandatory for a chief pilot role",
+     "Total flight time (269.6 h) is far below the experience required for a supervisory chief pilot position",
+     "Not a Canadian citizen or permanent resident, which typically precludes the required security clearance and operational authority"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:28:25+00:00"
+   },
    "apply_url": "https://www.eluta.ca/spl/pilote-en-chef-89683d5c9a48160c7d3f4198f50b9292?imo=12",
    "role": "pilot"
   },
@@ -10358,9 +11405,38 @@
    "url": "https://www.eluta.ca/spl/c130j-pilot-sme-3f73004f445043976a2886f25b6dc159?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 15,
+    "verdict": "ineligible",
+    "summary": "This CAE C130J Pilot SME role in Trenton is a subject-matter-expert position that expects extensive operational C130J experience, which you do not have, and it likely requires Canadian citizenship or eligibility for a Canadian Forces/ITAR-related security clearance that your Chinese citizenship and open work permit do not satisfy. Your 269.6 total hours and 0 turbine hours fall far short of what a military training SME role demands. You should focus on entry-level First Officer or flight dispatcher roles with Part 703/704 operators where your CPL, Group 1 IFR, and MCC training are competitive.",
+    "met": [
+     "Transport Canada Category 1 medical, no restrictions",
+     "Commercial Pilot Licence with multi-engine and seaplane ratings",
+     "Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Multi-Crew Cooperation (MCC) simulator training on BE20",
+     "ICAO English Language Proficiency Level 6",
+     "Canadian Open Work Permit (not employer-tied)"
+    ],
+    "missing": [
+     "Operational C130J type experience (required for SME role)",
+     "Substantial total flight hours (269.6 h vs. typically thousands expected)",
+     "Turbine aircraft time (0 h actual)",
+     "Type ratings",
+     "Canadian citizenship or permanent residency (likely required for defence/ITAR work)",
+     "Security clearance eligibility for military training programs",
+     "Instructor or SME-level operational experience"
+    ],
+    "dealbreakers": [
+     "No C130J operational experience or type rating",
+     "Insufficient flight hours for a pilot SME position",
+     "Not a Canadian citizen or permanent resident; likely ineligible for required security clearance/ITAR-controlled work",
+     "No turbine flight time"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:28:28+00:00"
+   },
    "apply_url": "https://www.eluta.ca/spl/c130j-pilot-sme-3f73004f445043976a2886f25b6dc159?imo=12",
    "role": "pilot"
   },
@@ -10372,9 +11448,40 @@
    "url": "https://www.eluta.ca/spl/instructor-pilot-gbts-sme-fact-caf70baa9db4895dfedb50dd55d5de62?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
-   "evaluation": null,
+   "evaluation": {
+    "score": 25,
+    "verdict": "weak",
+    "summary": "Jack, this CAE Instructor Pilot / GBTS SME role in Richmond BC is a poor fit for your current profile: instructor pilot positions typically require a Canadian ATPL or CPL with an instructor rating plus substantial flight hours, and you hold neither an instructor rating nor the experience level these roles demand. Your Canadian Open Work Permit does allow you to work in Canada, so you are not ineligible on authorization grounds, but the licence and hour gaps are significant. Consider building instructor qualifications and total time before targeting this type of position.",
+    "met": [
+     "Canadian Open Work Permit (authorized to work in Canada)",
+     "Transport Canada Commercial Pilot Licence (Aeroplane, multi-engine land and single-engine sea)",
+     "Group 1 Multi-Engine Instrument Rating (IFR)",
+     "Transport Canada Category 1 medical, no restrictions",
+     "Restricted Radio Operator Certificate",
+     "ICAO English Language Proficiency Level 6",
+     "Multi-crew cooperation (MCC) simulator training on King Air 200 (BE20)",
+     "ATPL theory complete (SARON and SAMRA written)",
+     "Based in Canada and available now"
+    ],
+    "missing": [
+     "Flight instructor rating (no instructor rating held)",
+     "Canadian ATPL (only ATPL theory complete, not issued)",
+     "Substantial total flight time (269.6 h vs. typical instructor/SME requirements of 500-1500+ h)",
+     "Multi-engine and turbine experience (20.3 h multi-engine, 0 h actual turbine)",
+     "Type rating on relevant aircraft (no type ratings)",
+     "Prior instructional or simulator instructor experience",
+     "French language (not listed; may be relevant in some Canadian roles)"
+    ],
+    "dealbreakers": [
+     "No flight instructor rating, which is a hard requirement for an Instructor Pilot role",
+     "Total flight time far below the minimum typically required for instructor pilot positions",
+     "No Canadian ATPL issued (only written exams completed)"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-03T05:28:32+00:00"
+   },
    "apply_url": "https://www.eluta.ca/spl/instructor-pilot-gbts-sme-fact-caf70baa9db4895dfedb50dd55d5de62?imo=12",
    "role": "pilot"
   },
@@ -10386,7 +11493,7 @@
    "url": "https://www.eluta.ca/spl/sp%C3%A9cialiste-exploitation-des-services-d%E2%80%99information-a%C3%A9ronautique-pilote-non-navigant-normes-ais-c0c56df666251c752a8b714262a69754?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/sp%C3%A9cialiste-exploitation-des-services-d%E2%80%99information-a%C3%A9ronautique-pilote-non-navigant-normes-ais-c0c56df666251c752a8b714262a69754?imo=12",
@@ -10401,10 +11508,11 @@
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
    "last_seen": "2026-10-02T20:47:54+00:00",
-   "active": true,
+   "active": false,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/aeronautical-information-operations-specialist-pilot-non-flying-ais-standards-6b5450269b48e33e01bae0afd9a8447d?imo=12",
-   "role": "pilot"
+   "role": "pilot",
+   "closed_at": "2026-10-03T05:25:03+00:00"
   },
   {
    "id": "eluta:eluta:2a8649125c58ca8bac6aaaeaf44489f0",
@@ -10429,7 +11537,7 @@
    "url": "https://www.eluta.ca/spl/flight-dispatcher-certified-dd02099ca94203ae25865de62603b3fb?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/flight-dispatcher-certified-dd02099ca94203ae25865de62603b3fb?imo=12",
@@ -10443,7 +11551,7 @@
    "url": "https://www.eluta.ca/spl/flight-dispatcher-6895e1178e1a75f361b8f6e39c16d560?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/flight-dispatcher-6895e1178e1a75f361b8f6e39c16d560?imo=12",
@@ -10457,7 +11565,7 @@
    "url": "https://www.eluta.ca/spl/dispatcher-7dbcd967a9e4d5a00f429cf28432d8b2?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/dispatcher-7dbcd967a9e4d5a00f429cf28432d8b2?imo=12",
@@ -10471,7 +11579,7 @@
    "url": "https://www.eluta.ca/spl/dispatchers-cc3f0ba8d461e9b99755607242a05665?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/dispatchers-cc3f0ba8d461e9b99755607242a05665?imo=12",
@@ -10485,7 +11593,7 @@
    "url": "https://www.eluta.ca/spl/flight-follower-dcb71f7ad8d70f30d9d36604ddb46c61?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/flight-follower-dcb71f7ad8d70f30d9d36604ddb46c61?imo=12",
@@ -10499,7 +11607,7 @@
    "url": "https://www.eluta.ca/spl/entry-level-pilot-9e5fb3b9a3f0b7ce28acf3535e804373?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/entry-level-pilot-9e5fb3b9a3f0b7ce28acf3535e804373?imo=12",
@@ -10513,7 +11621,7 @@
    "url": "https://www.eluta.ca/spl/conception-d%C3%A9veloppement-et-analyse-des-lois-de-pilotage-flight-control-laws-9aad99f638f14a65f4ee50e3bb3b06d0?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/conception-d%C3%A9veloppement-et-analyse-des-lois-de-pilotage-flight-control-laws-9aad99f638f14a65f4ee50e3bb3b06d0?imo=12",
@@ -10527,7 +11635,7 @@
    "url": "https://www.eluta.ca/spl/ramp-agent-44e788fd9e342f6b6ae24df1363174fb?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/ramp-agent-44e788fd9e342f6b6ae24df1363174fb?imo=12",
@@ -10541,7 +11649,7 @@
    "url": "https://www.eluta.ca/spl/ramp-agent-4f3dc9dc47b2395c8860cdd80f96267e?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-02T20:47:54+00:00",
+   "last_seen": "2026-10-03T05:25:03+00:00",
    "active": true,
    "evaluation": null,
    "apply_url": "https://www.eluta.ca/spl/ramp-agent-4f3dc9dc47b2395c8860cdd80f96267e?imo=12",

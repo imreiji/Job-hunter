@@ -1,6 +1,247 @@
 {
- "updated": "2026-10-23T13:32:30+00:00",
+ "updated": "2026-10-23T19:58:32+00:00",
  "jobs": [
+  {
+   "id": "ukg:canadiannorth:356b4e09-a285-45ce-8c7e-b80dfa84775c",
+   "company": "Canadian North",
+   "title": "Attendant, Ramp",
+   "location": "Iqaluit, NU",
+   "url": "https://recruiting.ultipro.ca/BRA50007F/JobBoard/2ea5e84a-bfc4-4167-88ba-20d03547d410/OpportunityDetail?opportunityId=356b4e09-a285-45ce-8c7e-b80dfa84775c",
+   "apply_url": "https://recruiting.ultipro.ca/BRA50007F/JobBoard/2ea5e84a-bfc4-4167-88ba-20d03547d410/OpportunityApply?opportunityId=356b4e09-a285-45ce-8c7e-b80dfa84775c",
+   "posted": "2026-10-23",
+   "country": "CA",
+   "role": "ground",
+   "first_seen": "2026-10-23T19:58:32+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
+   "active": true,
+   "evaluation": {
+    "score": 62,
+    "verdict": "possible",
+    "summary": "You meet the core ramp-attendant requirements: you have a high school diploma, roughly five months of warehouse/logistics experience, a valid driver's licence, and you're available for rotational shift work. The main gaps are that the posting asks for one year of warehouse/customer-service experience (you have about five months) and that you don't mention a D/A airport pass or RAIC eligibility, which are hard gates you'd need to clear. Your Canadian open work permit makes you eligible to work in Canada, so the Iqaluit rotation is feasible.",
+    "met": [
+     "High school diploma (IB Diploma, 2022)",
+     "Some warehouse/logistics experience (Distribution & Logistics Associate, Jan–May 2026)",
+     "Valid driver's licence (listed in profile)",
+     "Willing and available for rotational shift work (3 weeks on/3 off, 12-hour days)",
+     "Canadian Open Work Permit — authorized to work in Canada",
+     "Strong communication skills (ICAO English Level 6, multilingual)",
+     "Based in Canada and available now"
+    ],
+    "missing": [
+     "1 year of warehouse and/or customer service experience (profile shows ~5 months)",
+     "D/A level Airport Pass — not mentioned",
+     "Airport Restricted Area Identity Card (RAIC) eligibility — not mentioned",
+     "Forklift driving experience (preferred)",
+     "Cargo handling / load control knowledge (preferred)",
+     "Inuktitut language (preferred)",
+     "Demonstrated ability to lift 75 lbs continuously — not stated in profile"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-23T20:00:23+00:00"
+   }
+  },
+  {
+   "id": "ukg:menzies:ebdc2012-c76f-4e6f-9193-34fc411e0825",
+   "company": "Menzies Aviation",
+   "title": "Agent de Rampe - Ramp Agent |YUL| French and English Fluent",
+   "location": "Dorval, QC",
+   "url": "https://recruiting2.ultipro.com/MEN1002MENZI/JobBoard/c62dfe4d-64ad-4642-8cd0-17a30715a697/OpportunityDetail?opportunityId=ebdc2012-c76f-4e6f-9193-34fc411e0825",
+   "apply_url": "https://recruiting2.ultipro.com/MEN1002MENZI/JobBoard/c62dfe4d-64ad-4642-8cd0-17a30715a697/OpportunityApply?opportunityId=ebdc2012-c76f-4e6f-9193-34fc411e0825",
+   "posted": "2026-10-23",
+   "country": "CA",
+   "role": "ground",
+   "first_seen": "2026-10-23T19:58:32+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
+   "active": true,
+   "evaluation": {
+    "score": 62,
+    "verdict": "possible",
+    "summary": "You meet the core hard gates for this ramp agent role: you are over 18, fluent in English, hold a valid driver's licence, and your Canadian open work permit lets you work in Dorval, QC. The main gaps are that the posting requires French and English fluency (your profile lists no French) and you have not documented the DA AVOP, security clearance eligibility, or the 70 lb lifting capacity. These are arguable or obtainable, so the role is a reasonable fallback while you pursue first officer positions.",
+    "met": [
+     "At least 18 years of age",
+     "Fluent English (ICAO Level 6)",
+     "Valid driver's licence (implied by profile; good record not documented)",
+     "Canadian Open Work Permit authorizes work in Quebec",
+     "Available now and based in Canada",
+     "Prior physical/logistics work experience (Dai Lam Trading distribution and loading)",
+     "Comfortable with outdoor and variable-shift work (not explicitly stated but no conflicts)"
+    ],
+    "missing": [
+     "French language proficiency (posting title and duties require French and English fluency)",
+     "DA AVOP certification (written and practical) not documented",
+     "Security clearance / RAIC eligibility not documented",
+     "70 lb continuous lifting capability not documented",
+     "Airside driving record / AVOP driving qualification not documented",
+     "Shift flexibility for weekends and holidays not explicitly confirmed"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-23T20:00:37+00:00"
+   }
+  },
+  {
+   "id": "rippling:riseair:e33c2dfb-a934-4ca5-9275-ebff9ad03203",
+   "company": "Rise Air",
+   "title": "PC-12 Captain (Charter)",
+   "location": "La Ronge, SK",
+   "url": "https://ats.rippling.com/riseair/jobs/e33c2dfb-a934-4ca5-9275-ebff9ad03203",
+   "apply_url": "https://ats.rippling.com/riseair/jobs/e33c2dfb-a934-4ca5-9275-ebff9ad03203/apply",
+   "posted": null,
+   "country": "CA",
+   "role": "pilot",
+   "first_seen": "2026-10-23T19:58:32+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
+   "active": true,
+   "evaluation": {
+    "score": 8,
+    "verdict": "ineligible",
+    "summary": "You fall far short of the hard hour gates for this PC-12 Captain role: 269.6 total hours versus 1,500 required, 158.1 PIC versus 500, 20.3 multi-engine versus 500, and 0 turbine versus 500. You also lack the required northern flying operations knowledge and, as a Chinese citizen on an open work permit, you are not a Canadian citizen or permanent resident, which the posting prioritizes. This is a captain position requiring ATPL-level experience, so it is not a realistic fit at this stage of your career.",
+    "met": [
+     "Commercial Pilot Licence (Aeroplane, multi-engine land)",
+     "Group 1 Multi-Engine Instrument Rating",
+     "Transport Canada Category 1 medical, no restrictions",
+     "Legally entitled to work in Canada (open work permit)",
+     "Current passport (implied by international travel history; not explicitly stated)",
+     "ICAO English Level 6"
+    ],
+    "missing": [
+     "1500 hours total flight time (has 269.6)",
+     "500 PIC hours (has 158.1)",
+     "500 multi-engine hours (has 20.3)",
+     "500 turbine hours (has 0)",
+     "Demonstrated knowledge of Northern Flying Operations",
+     "ATPL licence (only ATPL theory complete)",
+     "PC-12 type rating (not required but typical for captain role)",
+     "Canadian citizenship or permanent residency (posting gives priority to citizens/PRs)",
+     "RAIC eligibility not yet demonstrated"
+    ],
+    "dealbreakers": [
+     "Total flight time 269.6 h vs 1500 h minimum",
+     "PIC 158.1 h vs 500 h minimum",
+     "Multi-engine 20.3 h vs 500 h minimum",
+     "Turbine 0 h vs 500 h minimum",
+     "No demonstrated northern flying operations experience",
+     "Not a Canadian citizen or permanent resident (priority given to citizens/PRs)"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-23T20:00:40+00:00"
+   }
+  },
+  {
+   "id": "squarespace:cma:6883c44073b13476b7f5dac0",
+   "company": "Central Mountain Air",
+   "title": "Aircraft Groomer - Calgary, Alberta (YYC)",
+   "location": "Calgary, Alberta (YYC)",
+   "url": "https://www.flycma.com/job-postings/aircraft-groomer-calgary-alberta-yyc",
+   "apply_url": "https://www.flycma.com/job-postings/aircraft-groomer-calgary-alberta-yyc",
+   "posted": null,
+   "country": "CA",
+   "role": "ground",
+   "first_seen": "2026-10-23T19:58:32+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
+   "active": true,
+   "evaluation": {
+    "score": 62,
+    "verdict": "possible",
+    "summary": "This is a ground-based Aircraft Groomer role in Calgary, not a flying position, so your licences and hours are largely irrelevant but not disqualifying. You meet the physical, independence and RAIC-eligibility requirements on paper, though your profile does not explicitly confirm the 50 lb lifting or shift/weather availability, and relocation from Dieppe to YYC plus your open work permit would need to be confirmed with the employer.",
+    "met": [
+     "Legally able to work in Canada (Open Work Permit, not employer-tied)",
+     "Based in Canada and available now",
+     "Prior hands-on product handling, loading and fast-paced operational work (Dai Lam Trading)",
+     "No licence or flight-hour requirements for this role, so your CPL/IFR/medical are not barriers",
+     "Fluent English (ICAO Level 6) for instructions and safety protocols",
+     "No security clearance held yet, but RAIC is obtainable and you have no stated disqualifiers"
+    ],
+    "missing": [
+     "Explicit confirmation of ability to stand, bend, crouch, kneel, push/pull for extended periods",
+     "Explicit confirmation of lifting up to 50 lbs",
+     "Industrial/commercial cleaning experience (listed as an asset, not required)",
+     "Willingness to work outside in adverse weather and shift availability not stated",
+     "No RAIC currently held (must obtain and retain)",
+     "Not located in Calgary; relocation required"
+    ],
+    "dealbreakers": [],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-23T20:00:43+00:00"
+   }
+  },
+  {
+   "id": "jobbank:jobbank:50565998",
+   "company": "Forest Protection Limited",
+   "title": "air pilot",
+   "location": "Lincoln (NB)",
+   "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50565998",
+   "apply_url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50565998",
+   "posted": null,
+   "role": "pilot",
+   "first_seen": "2026-10-23T19:58:32+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
+   "active": true,
+   "evaluation": {
+    "score": 30,
+    "verdict": "weak",
+    "summary": "You hold the required Commercial Pilot Licence (fixed wing) and a Category 1 medical, and your open work permit makes you eligible to apply in Canada, but this aerial-application/forest-firefighting role expects 3–5 years of pilot experience and specialized environmental/ag-operational skills that your 270-hour, entry-level logbook does not yet show. The posting also lists a valid driver's licence and extended travel/on-call availability, which you have not documented.",
+    "met": [
+     "Transport Canada Commercial Pilot Licence – Aeroplane (fixed wing)",
+     "Category 1 medical (satisfies medical exam requirement)",
+     "Canadian Open Work Permit – eligible to apply per posting's work authorization clause",
+     "Multi-engine and Group 1 IFR ratings, seaplane rating",
+     "Willing to work outdoors, shift/on-call, and travel (per target roles and availability)",
+     "Criminal record check assumed feasible (no record noted)"
+    ],
+    "missing": [
+     "3–5 years of pilot experience (profile shows ~270 h total, CPL obtained 2025)",
+     "Specialized environmental skills/knowledge (aerial survey, crop dusting/spraying, forest firefighting)",
+     "Low-level / aerial application experience and associated ratings",
+     "Valid driver's licence (not mentioned in profile)",
+     "Documented willingness/availability for extended periods away (staff accommodation)",
+     "Turbine and higher-time PIC experience typical for firefighting aircraft"
+    ],
+    "dealbreakers": [
+     "Fails the stated 3–5 years experience hard requirement",
+     "No specialized environmental/aerial application experience required by the posting"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-23T20:00:47+00:00"
+   }
+  },
+  {
+   "id": "eluta:eluta:e9d000b5e9c253308c413103cfef9094",
+   "company": "Saltworks Technologies Inc.",
+   "title": "Pilot Plant Engineer",
+   "location": "Richmond BC",
+   "url": "https://www.eluta.ca/spl/pilot-plant-engineer-e9d000b5e9c253308c413103cfef9094?imo=12",
+   "apply_url": "https://www.eluta.ca/spl/pilot-plant-engineer-e9d000b5e9c253308c413103cfef9094?imo=12",
+   "posted": null,
+   "role": "pilot",
+   "first_seen": "2026-10-23T19:58:32+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
+   "active": true,
+   "evaluation": {
+    "score": 5,
+    "verdict": "ineligible",
+    "summary": "This is a chemical/process engineering role at a water-treatment company, not a flying job — \"Pilot Plant\" refers to pilot-scale industrial plants, not aircraft. You have no engineering degree completed and no process-engineering experience, so you do not meet the core requirements. Your aviation licences and flight hours are irrelevant here.",
+    "met": [
+     "Based in Canada with an open work permit, so you could legally work in Richmond BC",
+     "Some hands-on logistics/loading experience that touches on plant operations",
+     "In-progress B.S. in Aeronautics shows technical study background"
+    ],
+    "missing": [
+     "Completed engineering degree (chemical/process/mechanical) — your B.S. is in progress and in aeronautics, not engineering",
+     "Process or pilot-plant engineering experience",
+     "Field/factory operations and plant optimization experience",
+     "Engineering design support skills",
+     "Willingness/ability to relocate to Richmond BC is not stated"
+    ],
+    "dealbreakers": [
+     "Not an engineering role — no completed engineering degree or process-engineering background",
+     "No relevant pilot-scale plant or chemical-process experience"
+    ],
+    "profile_hash": "c639ef0a70bb",
+    "evaluated_at": "2026-10-23T20:00:50+00:00"
+   }
+  },
   {
    "id": "linkedin:linkedin:4482775165",
    "company": "Starlink Aviation",
@@ -11,7 +252,7 @@
    "posted": "2026-10-22",
    "role": "ground",
    "first_seen": "2026-10-23T13:32:30+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -51,7 +292,7 @@
    "posted": "2026-10-23",
    "role": "ground",
    "first_seen": "2026-10-23T13:32:30+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -90,7 +331,7 @@
    "posted": "2026-10-23",
    "role": "ground",
    "first_seen": "2026-10-23T13:32:30+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -136,7 +377,7 @@
    "posted": "2026-10-22",
    "role": "ground",
    "first_seen": "2026-10-23T13:32:30+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -177,7 +418,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-23T13:32:30+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -212,7 +453,7 @@
    "posted": null,
    "role": "ground",
    "first_seen": "2026-10-23T13:32:30+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -249,7 +490,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-22T23:26:28+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -291,7 +532,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-22T23:26:28+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -333,7 +574,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-22T20:11:36+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -371,7 +612,7 @@
    "posted": "2026-10-22",
    "role": "pilot",
    "first_seen": "2026-10-22T20:11:36+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 3,
@@ -416,7 +657,7 @@
    "posted": null,
    "role": "ground",
    "first_seen": "2026-10-22T13:52:20+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -453,7 +694,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-21T23:26:16+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -495,7 +736,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-21T23:26:16+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -529,7 +770,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-21T23:26:16+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -564,7 +805,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-21T23:26:16+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -603,7 +844,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-21T23:26:16+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -678,7 +919,7 @@
    "posted": "2026-10-16",
    "role": "ground",
    "first_seen": "2026-10-21T23:26:16+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -721,7 +962,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-21T23:26:16+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -759,7 +1000,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-21T23:26:16+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -798,7 +1039,7 @@
    "role": "dispatch",
    "first_seen": "2026-10-21T20:13:19+00:00",
    "last_seen": "2026-10-23T13:32:30+00:00",
-   "active": true,
+   "active": false,
    "evaluation": {
     "score": 72,
     "verdict": "possible",
@@ -823,7 +1064,8 @@
     "dealbreakers": [],
     "profile_hash": "c639ef0a70bb",
     "evaluated_at": "2026-10-21T20:15:27+00:00"
-   }
+   },
+   "closed_at": "2026-10-23T19:58:32+00:00"
   },
   {
    "id": "successfactors:execaire:607228117",
@@ -836,7 +1078,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-21T20:13:19+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 42,
@@ -877,7 +1119,7 @@
    "posted": "2026-10-21",
    "role": "pilot",
    "first_seen": "2026-10-21T20:13:19+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -921,7 +1163,7 @@
    "posted": "2026-10-21",
    "role": "pilot",
    "first_seen": "2026-10-21T20:13:19+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -962,7 +1204,7 @@
    "posted": "2026-10-21",
    "role": "pilot",
    "first_seen": "2026-10-21T20:13:19+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -1008,7 +1250,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-21T13:53:51+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1048,7 +1290,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-21T13:53:51+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -1085,8 +1327,8 @@
    "posted": "2026-10-21",
    "role": "pilot",
    "first_seen": "2026-10-21T13:53:51+00:00",
-   "last_seen": "2026-10-23T04:59:51+00:00",
-   "active": false,
+   "last_seen": "2026-10-23T19:58:32+00:00",
+   "active": true,
    "evaluation": {
     "score": 8,
     "verdict": "ineligible",
@@ -1118,8 +1360,7 @@
     ],
     "profile_hash": "c639ef0a70bb",
     "evaluated_at": "2026-10-21T13:55:39+00:00"
-   },
-   "closed_at": "2026-10-23T13:32:30+00:00"
+   }
   },
   {
    "id": "linkedin:linkedin:4482008717",
@@ -1176,7 +1417,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-21T13:53:51+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 35,
@@ -1214,7 +1455,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-21T13:53:51+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -1258,7 +1499,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-21T04:57:56+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -1295,7 +1536,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-20T23:13:21+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1334,7 +1575,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-20T23:13:21+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -1373,7 +1614,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-20T23:13:21+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -1410,7 +1651,7 @@
    "posted": null,
    "role": "ground",
    "first_seen": "2026-10-20T23:13:21+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -1449,7 +1690,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-20T20:01:38+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -1486,7 +1727,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-20T13:37:23+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 42,
@@ -1530,7 +1771,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-20T13:37:23+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 35,
@@ -1576,7 +1817,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-20T13:37:23+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -1613,7 +1854,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-20T13:37:23+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 35,
@@ -1654,7 +1895,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-20T13:37:23+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 35,
@@ -1695,7 +1936,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-20T04:58:51+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 30,
@@ -1733,7 +1974,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-20T04:58:51+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 20,
@@ -1774,7 +2015,7 @@
    "country": "CA",
    "role": "pilot",
    "first_seen": "2026-10-19T21:07:44+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -1815,7 +2056,7 @@
    "country": "CA",
    "role": "dispatch",
    "first_seen": "2026-10-19T21:07:44+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -1858,7 +2099,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-19T21:07:44+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -1897,7 +2138,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-19T21:07:44+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 30,
@@ -1937,7 +2178,7 @@
    "posted": "2026-10-19",
    "role": "ground",
    "first_seen": "2026-10-19T21:07:44+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 22,
@@ -1983,7 +2224,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-19T21:07:44+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 35,
@@ -2027,7 +2268,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-19T15:41:50+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -2069,7 +2310,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-19T15:41:50+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2107,7 +2348,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-19T15:41:50+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -2398,7 +2639,7 @@
    "country": "CA",
    "role": "pilot",
    "first_seen": "2026-10-16T19:35:09+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -2439,7 +2680,7 @@
    "country": "CA",
    "role": "pilot",
    "first_seen": "2026-10-16T19:35:09+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -2480,7 +2721,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-16T19:35:09+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -2675,7 +2916,7 @@
    "posted": null,
    "role": "ground",
    "first_seen": "2026-10-16T19:35:09+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2748,7 +2989,7 @@
    "posted": null,
    "role": "ground",
    "first_seen": "2026-10-16T19:35:09+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -2831,7 +3072,7 @@
    "posted": "2026-10-16",
    "role": "ground",
    "first_seen": "2026-10-16T13:18:45+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -2913,7 +3154,7 @@
    "posted": "2026-10-16",
    "role": "ground",
    "first_seen": "2026-10-16T04:39:42+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -3033,7 +3274,7 @@
    "country": "CA",
    "role": "dispatch",
    "first_seen": "2026-10-15T23:05:51+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -3221,7 +3462,7 @@
    "country": "CA",
    "role": "dispatch",
    "first_seen": "2026-10-15T19:55:20+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 30,
@@ -3261,7 +3502,7 @@
    "country": "CA",
    "role": "pilot",
    "first_seen": "2026-10-15T19:55:20+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -3313,7 +3554,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-15T04:49:29+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 22,
@@ -3355,7 +3596,7 @@
    "country": "CA",
    "role": "pilot",
    "first_seen": "2026-10-14T23:18:13+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 22,
@@ -3437,7 +3678,7 @@
    "country": "CA",
    "role": "pilot",
    "first_seen": "2026-10-14T20:14:02+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -3484,7 +3725,7 @@
    "country": "CA",
    "role": "pilot",
    "first_seen": "2026-10-14T20:14:02+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3521,7 +3762,7 @@
    "country": "CA",
    "role": "dispatch",
    "first_seen": "2026-10-14T20:14:02+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 42,
@@ -3560,7 +3801,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-14T20:14:02+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 22,
@@ -3603,7 +3844,7 @@
    "posted": "2026-10-14",
    "role": "pilot",
    "first_seen": "2026-10-14T20:14:02+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -3679,7 +3920,7 @@
    "posted": "2026-10-13",
    "role": "pilot",
    "first_seen": "2026-10-14T05:01:08+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 38,
@@ -3723,7 +3964,7 @@
    "posted": "2026-10-13",
    "role": "ground",
    "first_seen": "2026-10-14T05:01:08+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -3767,7 +4008,7 @@
    "posted": "2026-10-13",
    "role": "ground",
    "first_seen": "2026-10-14T05:01:08+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -3810,7 +4051,7 @@
    "posted": "2026-10-13",
    "role": "ground",
    "first_seen": "2026-10-14T05:01:08+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -3846,7 +4087,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-13T23:45:03+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -3884,7 +4125,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-13T23:45:03+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4043,7 +4284,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-13T23:45:03+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4078,7 +4319,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-13T23:45:03+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -4233,7 +4474,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-13T19:20:42+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4272,7 +4513,7 @@
    "country": "CA",
    "role": "dispatch",
    "first_seen": "2026-10-13T19:20:42+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -4315,7 +4556,7 @@
    "country": "CA",
    "role": "dispatch",
    "first_seen": "2026-10-13T19:20:42+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -4446,7 +4687,7 @@
    "posted": "2026-10-13",
    "role": "ground",
    "first_seen": "2026-10-13T19:20:42+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4483,7 +4724,7 @@
    "posted": "2026-10-13",
    "role": "ground",
    "first_seen": "2026-10-13T19:20:42+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -4563,7 +4804,7 @@
    "posted": null,
    "role": "ground",
    "first_seen": "2026-10-13T19:20:42+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4680,7 +4921,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-13T11:53:10+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -4718,7 +4959,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-12T18:00:25+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -4754,7 +4995,7 @@
    "posted": "2026-10-12",
    "role": "pilot",
    "first_seen": "2026-10-12T18:00:25+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -4843,7 +5084,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-10T14:30:36+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -5017,7 +5258,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-09T20:58:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -5059,7 +5300,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-09T20:58:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -5140,7 +5381,7 @@
    "country": "CA",
    "role": "pilot",
    "first_seen": "2026-10-09T20:58:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 3,
@@ -5230,7 +5471,7 @@
    "posted": "2026-10-09",
    "role": "ground",
    "first_seen": "2026-10-09T20:58:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -5461,7 +5702,7 @@
    "posted": null,
    "role": "ground",
    "first_seen": "2026-10-09T06:17:21+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -5497,7 +5738,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-08T21:22:42+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -5574,7 +5815,7 @@
    "country": "CA",
    "role": "pilot",
    "first_seen": "2026-10-08T21:22:42+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -5665,8 +5906,8 @@
    "posted": "2026-10-08",
    "role": "dispatch",
    "first_seen": "2026-10-08T21:22:42+00:00",
-   "last_seen": "2026-10-23T04:59:51+00:00",
-   "active": false,
+   "last_seen": "2026-10-23T19:58:32+00:00",
+   "active": true,
    "evaluation": {
     "score": 30,
     "verdict": "weak",
@@ -5694,8 +5935,7 @@
     ],
     "profile_hash": "c639ef0a70bb",
     "evaluated_at": "2026-10-08T21:31:23+00:00"
-   },
-   "closed_at": "2026-10-23T13:32:30+00:00"
+   }
   },
   {
    "id": "linkedin:linkedin:4469922806",
@@ -5744,7 +5984,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-08T06:14:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -5786,7 +6026,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-08T06:14:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -5824,7 +6064,7 @@
    "posted": null,
    "role": "ground",
    "first_seen": "2026-10-08T06:14:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -5862,7 +6102,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-07T21:20:53+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -5941,7 +6181,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-07T15:36:22+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -5982,7 +6222,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-07T15:36:22+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -6296,7 +6536,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-06T01:19:40+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -6508,7 +6748,7 @@
    "posted": null,
    "role": "ground",
    "first_seen": "2026-10-05T17:12:06+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -6794,7 +7034,7 @@
    "posted": null,
    "role": "dispatch",
    "first_seen": "2026-10-03T23:08:10+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 35,
@@ -6832,7 +7072,7 @@
    "posted": null,
    "role": "ground",
    "first_seen": "2026-10-03T23:08:10+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -6870,7 +7110,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-03T05:25:03+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -6910,7 +7150,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-03T05:25:03+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -6945,7 +7185,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-03T05:25:03+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -7022,7 +7262,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-02T20:47:54+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 22,
@@ -7108,7 +7348,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-02T14:46:54+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -7142,7 +7382,7 @@
    "posted": "2026-09-30",
    "role": "pilot",
    "first_seen": "2026-10-02T14:46:54+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -7234,7 +7474,7 @@
    "posted": "2026-09-30",
    "role": "pilot",
    "first_seen": "2026-10-02T14:46:54+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -7444,7 +7684,7 @@
    "posted": null,
    "role": "ground",
    "first_seen": "2026-10-02T13:42:17+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -7478,7 +7718,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-02T01:56:10+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -7631,7 +7871,7 @@
    "country": "CA",
    "role": "ground",
    "first_seen": "2026-10-01T21:04:19+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -7706,7 +7946,7 @@
    "posted": null,
    "role": "pilot",
    "first_seen": "2026-10-01T21:04:19+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -7870,7 +8110,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -7909,7 +8149,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -7944,7 +8184,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -8150,7 +8390,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -8307,7 +8547,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -8345,7 +8585,7 @@
    "posted": "2026-07-23",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -8378,7 +8618,7 @@
    "posted": "2026-10-07",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -8417,7 +8657,7 @@
    "posted": "2026-10-07",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -8492,7 +8732,7 @@
    "posted": "2026-10-21",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -8526,7 +8766,7 @@
    "posted": "2026-10-21",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -8577,7 +8817,7 @@
    "posted": "2026-09-30",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -8615,8 +8855,8 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-22T13:52:20+00:00",
-   "active": false,
+   "last_seen": "2026-10-23T19:58:32+00:00",
+   "active": true,
    "evaluation": {
     "score": 72,
     "verdict": "possible",
@@ -8645,8 +8885,7 @@
     "evaluated_at": "2026-10-02T01:58:29+00:00"
    },
    "apply_url": "https://inlandgroup.wd10.myworkdayjobs.com/inlandgroup/job/YHZ---Halifax-Stanfield-Intl-Airport/Aircraft-Deicer--Seasonal-_JR100575/apply",
-   "role": "ground",
-   "closed_at": "2026-10-22T20:11:36+00:00"
+   "role": "ground"
   },
   {
    "id": "workday:inland:JR100539",
@@ -8657,7 +8896,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -8702,7 +8941,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -8750,7 +8989,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -8788,7 +9027,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -8825,7 +9064,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -8862,7 +9101,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -8936,7 +9175,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -9017,7 +9256,7 @@
    "posted": "2026-10-01",
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -9303,7 +9542,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -9384,7 +9623,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T17:20:46+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -9597,7 +9836,7 @@
    "posted": "2026-09-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -9635,7 +9874,7 @@
    "posted": "2026-08-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -9675,7 +9914,7 @@
    "posted": "2026-09-18",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -9756,7 +9995,7 @@
    "posted": "2026-02-13",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -9838,7 +10077,7 @@
    "posted": "2026-09-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -9915,7 +10154,7 @@
    "posted": "2025-07-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 22,
@@ -9960,7 +10199,7 @@
    "posted": "2026-10-21",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -9998,10 +10237,10 @@
    "title": "YMX - Ground Handler - FT/RPT/PT",
    "location": "Mirabel, QC",
    "url": "https://recruiting.ultipro.ca/CAR5000CJT/JobBoard/3bdb0a52-04dc-4fa4-91cd-d80afd88843d/OpportunityDetail?opportunityId=f4ef2cf0-b55f-406a-a8c2-64f0e86bed24",
-   "posted": "2026-10-21",
+   "posted": "2026-10-23",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -10044,7 +10283,7 @@
    "posted": "2026-10-21",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -10083,7 +10322,7 @@
    "posted": "2026-10-12",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -10122,7 +10361,7 @@
    "posted": "2026-10-06",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -10158,10 +10397,10 @@
    "title": "YMX - Ground Handler - FT/RPT/PT",
    "location": "Mirabel, QC",
    "url": "https://recruiting.ultipro.ca/CAR5000CJT/JobBoard/3bdb0a52-04dc-4fa4-91cd-d80afd88843d/OpportunityDetail?opportunityId=aecdaac6-d45c-46df-a9a9-f9ed0cb1e101",
-   "posted": "2026-10-21",
+   "posted": "2026-10-23",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -10201,7 +10440,7 @@
    "posted": "2026-10-21",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -10241,7 +10480,7 @@
    "posted": "2026-09-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -10280,7 +10519,7 @@
    "posted": "2026-09-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -10318,7 +10557,7 @@
    "posted": "2026-09-18",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -10358,7 +10597,7 @@
    "posted": "2026-09-17",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -10436,7 +10675,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -10477,7 +10716,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -10515,7 +10754,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -10554,7 +10793,7 @@
    "posted": "2026-09-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -10594,7 +10833,7 @@
    "posted": "2026-09-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -10635,7 +10874,7 @@
    "posted": "2026-09-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -10720,7 +10959,7 @@
    "posted": "2026-08-19",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -10766,7 +11005,7 @@
    "posted": "2026-10-15",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -10804,7 +11043,7 @@
    "posted": "2026-07-13",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -10844,7 +11083,7 @@
    "posted": "2026-04-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -10884,7 +11123,7 @@
    "posted": "2026-04-01",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -10922,7 +11161,7 @@
    "posted": "2026-04-01",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -10964,7 +11203,7 @@
    "posted": "2026-03-12",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -11045,7 +11284,7 @@
    "posted": "2026-07-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -11197,7 +11436,7 @@
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
    "last_seen": "2026-10-23T13:32:30+00:00",
-   "active": true,
+   "active": false,
    "evaluation": {
     "score": 72,
     "verdict": "possible",
@@ -11223,7 +11462,8 @@
     "evaluated_at": "2026-10-02T05:49:46+00:00"
    },
    "apply_url": "https://recruiting2.ultipro.com/MEN1002MENZI/JobBoard/c62dfe4d-64ad-4642-8cd0-17a30715a697/OpportunityApply?opportunityId=ca7e3111-46e9-4a63-a56e-0cf35470fb9e",
-   "role": "ground"
+   "role": "ground",
+   "closed_at": "2026-10-23T19:58:32+00:00"
   },
   {
    "id": "ukg:menzies:a534edc8-45cf-4ed6-838c-74f54a9e16e0",
@@ -11234,7 +11474,7 @@
    "posted": "2026-10-15",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -11356,7 +11596,7 @@
    "posted": "2026-10-19",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -11394,7 +11634,7 @@
    "posted": "2026-10-15",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -11474,7 +11714,7 @@
    "posted": "2026-09-28",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -11514,7 +11754,7 @@
    "posted": "2026-10-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -11558,7 +11798,7 @@
    "posted": "2026-08-31",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -11599,7 +11839,7 @@
    "posted": "2026-08-25",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -11638,7 +11878,7 @@
    "posted": "2026-07-06",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -11683,7 +11923,7 @@
    "posted": "2026-05-08",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -11729,7 +11969,7 @@
    "posted": "2026-05-01",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -11768,7 +12008,7 @@
    "posted": "2026-04-02",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -11806,7 +12046,7 @@
    "posted": "2026-03-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -11842,7 +12082,7 @@
    "posted": "2025-12-12",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 3,
@@ -11886,7 +12126,7 @@
    "posted": "2025-09-08",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -11928,7 +12168,7 @@
    "posted": "2026-06-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -12120,7 +12360,7 @@
    "posted": "2026-09-08",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 35,
@@ -12163,7 +12403,7 @@
    "posted": "2026-09-01",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 42,
@@ -12206,7 +12446,7 @@
    "posted": "2026-04-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -12244,7 +12484,7 @@
    "posted": "2026-04-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -12282,7 +12522,7 @@
    "posted": "2026-03-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -12323,7 +12563,7 @@
    "posted": "2026-01-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 22,
@@ -12364,7 +12604,7 @@
    "posted": "2026-01-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -12403,7 +12643,7 @@
    "posted": "2026-01-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -12482,7 +12722,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -12525,7 +12765,7 @@
    "posted": "2026-09-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -12853,7 +13093,7 @@
    "posted": "2026-05-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -12893,7 +13133,7 @@
    "posted": "2026-09-22",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -12932,7 +13172,7 @@
    "posted": "2026-09-22",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -12972,7 +13212,7 @@
    "posted": "2026-10-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -13015,7 +13255,7 @@
    "posted": "2026-10-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -13057,7 +13297,7 @@
    "posted": "2026-10-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -13098,7 +13338,7 @@
    "posted": "2026-10-18",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -13138,7 +13378,7 @@
    "posted": "2026-10-18",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 18,
@@ -13185,7 +13425,7 @@
    "posted": "2026-09-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -13224,7 +13464,7 @@
    "posted": "2026-09-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -13264,7 +13504,7 @@
    "posted": "2026-09-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 35,
@@ -13308,7 +13548,7 @@
    "posted": "2026-09-03",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -13470,7 +13710,7 @@
    "posted": "2026-08-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -13509,7 +13749,7 @@
    "posted": "2026-08-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -13548,7 +13788,7 @@
    "posted": "2026-08-02",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -13591,7 +13831,7 @@
    "posted": "2026-10-10",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -13633,7 +13873,7 @@
    "posted": "2026-07-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -13672,7 +13912,7 @@
    "posted": "2026-07-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -13710,7 +13950,7 @@
    "posted": "2026-10-07",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -13755,7 +13995,7 @@
    "posted": "2026-06-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -13795,7 +14035,7 @@
    "posted": "2026-06-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -13833,7 +14073,7 @@
    "posted": "2026-03-05",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -13952,7 +14192,7 @@
    "posted": "2026-02-27",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -13998,7 +14238,7 @@
    "posted": "2025-12-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -14043,7 +14283,7 @@
    "posted": "2025-12-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -14094,7 +14334,7 @@
    "posted": "2025-12-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -14138,7 +14378,7 @@
    "posted": "2026-07-30",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -14162,7 +14402,7 @@
    "posted": "2026-08-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -14209,7 +14449,7 @@
    "posted": "2026-08-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -14251,7 +14491,7 @@
    "posted": "2026-10-09",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -14292,7 +14532,7 @@
    "posted": "2026-09-18",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -14333,7 +14573,7 @@
    "posted": "2026-07-22",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -14377,7 +14617,7 @@
    "posted": "2026-06-23",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -14421,7 +14661,7 @@
    "posted": "2026-07-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -14465,7 +14705,7 @@
    "posted": "2026-06-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -14514,7 +14754,7 @@
    "posted": "2026-09-14",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -14598,7 +14838,7 @@
    "posted": "2026-09-24",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -14635,7 +14875,7 @@
    "posted": "2026-09-12",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 62,
@@ -14671,7 +14911,7 @@
    "posted": "2026-09-29",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 78,
@@ -14744,7 +14984,7 @@
    "posted": "2026-04-17",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -14792,7 +15032,7 @@
    "posted": "2026-09-25",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -14834,7 +15074,7 @@
    "posted": "2026-09-25",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -14876,7 +15116,7 @@
    "posted": "2026-08-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -14914,7 +15154,7 @@
    "posted": "2026-08-06",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -14957,7 +15197,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 3,
@@ -15003,7 +15243,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -15048,7 +15288,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -15096,7 +15336,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -15138,7 +15378,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -15177,7 +15417,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -15223,7 +15463,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -15269,7 +15509,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -15313,7 +15553,7 @@
    "posted": "2026-08-04",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -15359,7 +15599,7 @@
    "posted": "2026-05-20",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -15400,7 +15640,7 @@
    "posted": "2026-04-30",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -15437,7 +15677,7 @@
    "posted": "2024-10-31",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -15477,7 +15717,7 @@
    "posted": "2024-10-31",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -15515,7 +15755,7 @@
    "posted": "2024-10-30",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -15591,7 +15831,7 @@
    "posted": "2026-08-11",
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -15758,7 +15998,7 @@
    "posted": null,
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -15840,7 +16080,7 @@
    "country": "CA",
    "first_seen": "2026-10-01T15:23:11+00:00",
    "last_seen": "2026-10-23T13:32:30+00:00",
-   "active": true,
+   "active": false,
    "evaluation": {
     "score": 62,
     "verdict": "possible",
@@ -15869,7 +16109,8 @@
     "evaluated_at": "2026-10-02T20:49:49+00:00"
    },
    "apply_url": "https://wasaya.com/career/ramp-attendant-yqt/",
-   "role": "ground"
+   "role": "ground",
+   "closed_at": "2026-10-23T19:58:32+00:00"
   },
   {
    "id": "rss:wasaya:https_//wasaya.com/?post_type=career&p=13044",
@@ -15939,7 +16180,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50214436",
    "posted": null,
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -16021,8 +16262,8 @@
    "url": "https://www.linkedin.com/jobs/view/4436864719",
    "posted": "2026-10-10",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-13T02:04:55+00:00",
-   "active": false,
+   "last_seen": "2026-10-23T19:58:32+00:00",
+   "active": true,
    "evaluation": {
     "score": 5,
     "verdict": "ineligible",
@@ -16047,8 +16288,7 @@
     "evaluated_at": "2026-10-02T20:49:59+00:00"
    },
    "apply_url": "https://www.linkedin.com/jobs/view/4436864719",
-   "role": "pilot",
-   "closed_at": "2026-10-13T11:53:10+00:00"
+   "role": "pilot"
   },
   {
    "id": "linkedin:linkedin:4472734612",
@@ -16188,7 +16428,7 @@
    "url": "https://www.linkedin.com/jobs/view/4470889058",
    "posted": "2026-09-28",
    "first_seen": "2026-10-01T15:23:11+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -16315,7 +16555,7 @@
    "url": "https://www.eluta.ca/spl/senior-baggage-handling-system-engineer-5a2ce8dbba317093c39ad8ebb82b9682?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -16352,7 +16592,7 @@
    "url": "https://www.eluta.ca/spl/senior-engineer-baggage-handling-systems-c15d7b437a43c0e38d226354501a61d0?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:06:22+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -16457,7 +16697,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50384783",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 18,
@@ -16581,7 +16821,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50318491",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -16696,7 +16936,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50122254",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
@@ -16734,7 +16974,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50121374",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -16772,7 +17012,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120950",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -16808,7 +17048,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120944",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -16846,7 +17086,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120919",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -16883,7 +17123,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50120746",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -16980,7 +17220,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50209091",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -17016,7 +17256,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50200447",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 72,
@@ -17052,7 +17292,7 @@
    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50000527",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 42,
@@ -17541,7 +17781,7 @@
    "url": "https://www.linkedin.com/jobs/view/4408059133",
    "posted": "2026-10-08",
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 5,
@@ -17675,7 +17915,7 @@
    "posted": "2026-10-13",
    "first_seen": "2026-10-01T15:04:27+00:00",
    "last_seen": "2026-10-23T13:32:30+00:00",
-   "active": true,
+   "active": false,
    "evaluation": {
     "score": 5,
     "verdict": "ineligible",
@@ -17707,7 +17947,8 @@
     "evaluated_at": "2026-10-03T05:27:48+00:00"
    },
    "apply_url": "https://www.linkedin.com/jobs/view/4411501596",
-   "role": "pilot"
+   "role": "pilot",
+   "closed_at": "2026-10-23T19:58:32+00:00"
   },
   {
    "id": "linkedin:linkedin:4372699921",
@@ -18142,7 +18383,7 @@
    "url": "https://www.eluta.ca/spl/first-officer-challenger-650-99a81cb1ef8e41baf715cea8e472558f?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 25,
@@ -18274,7 +18515,7 @@
    "url": "https://www.eluta.ca/spl/stream-1%3A-engineering-test-pilot-fixed-wing-stream-2%3A-engineering-test-pilot-rotary-wing-c8d9e011e6a6772564aac1d33084005f?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 12,
@@ -18313,7 +18554,7 @@
    "url": "https://www.eluta.ca/spl/tactical-instructor-pilot-c8569fb3c164524911e9e6d0695f6a86?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 15,
@@ -18649,7 +18890,7 @@
    "url": "https://www.eluta.ca/spl/flight-dispatcher-6895e1178e1a75f361b8f6e39c16d560?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 45,
@@ -18689,7 +18930,7 @@
    "url": "https://www.eluta.ca/spl/dispatcher-7dbcd967a9e4d5a00f429cf28432d8b2?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 35,
@@ -18727,7 +18968,7 @@
    "url": "https://www.eluta.ca/spl/dispatchers-cc3f0ba8d461e9b99755607242a05665?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 35,
@@ -18848,7 +19089,7 @@
    "url": "https://www.eluta.ca/spl/conception-d%C3%A9veloppement-et-analyse-des-lois-de-pilotage-flight-control-laws-9aad99f638f14a65f4ee50e3bb3b06d0?imo=12",
    "posted": null,
    "first_seen": "2026-10-01T15:04:27+00:00",
-   "last_seen": "2026-10-23T13:32:30+00:00",
+   "last_seen": "2026-10-23T19:58:32+00:00",
    "active": true,
    "evaluation": {
     "score": 8,
